@@ -1,0 +1,1 @@
+# [jQuery Effects - Sliding](https://www.w3schools.com/jquery/jquery_slide.asp)

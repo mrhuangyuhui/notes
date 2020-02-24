@@ -1,0 +1,6 @@
+# `groups`
+
+```bash
+$ groups
+admin
+```

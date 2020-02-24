@@ -1,0 +1,1 @@
+# [jQuery - Get Content and Attributes](https://www.w3schools.com/jquery/jquery_dom_get.asp)

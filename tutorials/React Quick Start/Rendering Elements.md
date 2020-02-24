@@ -1,0 +1,31 @@
+# [Rendering Elements](https://reactjs.org/docs/rendering-elements.html)
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        function tick() {
+            const element = (
+                <div>
+                    <h1>Hello, world!</h1>
+                    <h2>It is {new Date().toLocaleTimeString()}.</h2>
+                </div>
+            )
+            ReactDOM.render(
+                element,
+                document.getElementById('root')
+            )
+        }
+        setInterval(tick, 1000)
+    </script>
+</body>
+</html>
+```
