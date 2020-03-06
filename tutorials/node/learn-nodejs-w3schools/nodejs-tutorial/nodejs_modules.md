@@ -1,12 +1,14 @@
 # [Node.js Modules](https://www.w3schools.com/nodejs/nodejs_modules.asp)
 
-`myfirstmodule.js`
+`myapp/myfirstmodule.js`
 
 ```js
 exports.myDateTime = function () {
     return Date();
 }
 ```
+
+`myapp/server.js`
 
 ```js
 var http = require('http');
