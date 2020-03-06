@@ -12,6 +12,10 @@
 
 [Node.js with Docker](https://www.jetbrains.com/help/webstorm/node-with-docker.html)
 
+[Testing RESTful web services](https://www.jetbrains.com/help/webstorm/testing-restful-web-services.html)
+
+[HTTP client in WebStorm code editor](https://www.jetbrains.com/help/webstorm/http-client-in-product-code-editor.html)
+
 ## Debug
 
 ![image](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/webstorm-docker-debug.png)
