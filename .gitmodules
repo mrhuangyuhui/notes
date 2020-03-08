@@ -1,3 +1,6 @@
 [submodule "tutorials/js/javascript-tutorial"]
 	path = tutorials/js/javascript-tutorial
 	url = git@gitee.com:mrhuangyuhui/javascript-tutorial.git
+[submodule "guides/php/laravel-docs"]
+	path = guides/php/laravel-docs
+	url = git@gitee.com:mrhuangyuhui/laravel-docs.git
