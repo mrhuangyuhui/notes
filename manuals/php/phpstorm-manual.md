@@ -14,7 +14,7 @@
 
 ## Debug
 
-> 提示：在 Homestead 下 Debug，请参考 [Homestead 笔记安装 Xdebug 模块](manuals/php/laravel/homestead.md)。
+> 提示：在 Homestead 下 Debug，请参考 [Homestead 笔记安装 Xdebug 模块](/manuals/php/laravel/homestead.md)。
 
 ![imaeg](https://gitee.com/mrhuangyuhui/images/raw/master/phpstorm/phpstorm-debug-1.png)
 
