@@ -14,7 +14,11 @@
 
 ## Debug
 
-> 注意：在 Homestead 下 Debug，请参考 Homestead 笔记安装 Xdebug 模块。
+> 提示：在 Homestead 下 Debug，请参考 [Homestead 笔记安装 Xdebug 模块](manuals/php/laravel/homestead.md)。
+
+![imaeg](https://gitee.com/mrhuangyuhui/images/raw/master/phpstorm/phpstorm-debug-1.png)
+
+![image](https://gitee.com/mrhuangyuhui/images/raw/master/phpstorm/phpstorm-debug-2.png)
 
 [Zero-Configuration Debugging](https://www.jetbrains.com/help/phpstorm/zero-configuration-debugging.html)
 
