@@ -4,3 +4,6 @@
 [submodule "guides/php/laravel-docs"]
 	path = guides/php/laravel-docs
 	url = git@gitee.com:mrhuangyuhui/laravel-docs.git
+[submodule "images"]
+	path = images
+	url = git@gitee.com:mrhuangyuhui/images.git
