@@ -14,3 +14,7 @@
 	path = codes/php
 	url = git@gitee.com:mrhuangyuhui/php.git
 	ignore = dirty
+[submodule "others/homestead"]
+	path = others/homestead
+	url = git@gitee.com:mrhuangyuhui/homestead.git
+	ignore = dirty
