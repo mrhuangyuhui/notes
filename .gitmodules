@@ -13,3 +13,4 @@
 [submodule "codes/php"]
 	path = codes/php
 	url = git@gitee.com:mrhuangyuhui/php.git
+	ignore = dirty
