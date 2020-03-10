@@ -20,6 +20,8 @@
 
 ![image](https://gitee.com/mrhuangyuhui/images/raw/master/phpstorm/phpstorm-debug-2.png)
 
+![image](https://gitee.com/mrhuangyuhui/images/raw/master/php/php-debug-xdebug-helper.jpg)
+
 [Zero-Configuration Debugging](https://www.jetbrains.com/help/phpstorm/zero-configuration-debugging.html)
 
 [Debugging with PhpStorm: Ultimate Guide](https://www.jetbrains.com/help/phpstorm/debugging-with-phpstorm-ultimate-guide.html)
