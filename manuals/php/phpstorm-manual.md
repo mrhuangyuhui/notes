@@ -72,6 +72,8 @@
 
 ## Test
 
+![image](https://gitee.com/mrhuangyuhui/images/raw/master/phpstorm/phpstorm-test.jpg)
+
 [Test Frameworks](https://www.jetbrains.com/help/phpstorm/php-test-frameworks.html)
 
 [Testing with PHPUnit](https://www.jetbrains.com/help/phpstorm/using-phpunit-framework.html)
