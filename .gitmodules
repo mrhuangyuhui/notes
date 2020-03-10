@@ -10,3 +10,6 @@
 [submodule "ide/phpstorm"]
 	path = ide/phpstorm
 	url = git@gitee.com:mrhuangyuhui/phpstorm.git
+[submodule "codes/php"]
+	path = codes/php
+	url = git@gitee.com:mrhuangyuhui/php.git
