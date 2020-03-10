@@ -62,6 +62,10 @@
 
 ## Vagrant
 
+![image](https://gitee.com/mrhuangyuhui/images/raw/master/phpstorm/phpstorm-vagrant-1.jpg)
+
+![image](https://gitee.com/mrhuangyuhui/images/raw/master/phpstorm/phpstorm-vagrant-2.jpg)
+
 <https://www.jetbrains.com/help/phpstorm/vagrant.html>
 
 <https://www.jetbrains.com/help/phpstorm/vagrant-support.html>
