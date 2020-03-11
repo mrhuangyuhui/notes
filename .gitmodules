@@ -18,3 +18,6 @@
 	path = others/homestead
 	url = git@gitee.com:mrhuangyuhui/homestead.git
 	ignore = dirty
+[submodule "codes/swift"]
+	path = codes/swift
+	url = git@gitee.com:mrhuangyuhui/swift.git
