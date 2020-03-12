@@ -21,3 +21,6 @@
 [submodule "codes/swift"]
 	path = codes/swift
 	url = git@gitee.com:mrhuangyuhui/swift.git
+[submodule "codes/js"]
+	path = codes/js
+	url = git@gitee.com:mrhuangyuhui/js.git
