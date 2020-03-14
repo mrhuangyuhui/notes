@@ -1,8 +1,8 @@
 # JavaScript Manual
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
+<https://developer.mozilla.org/en-US/docs/Web/JavaScript>
 
-https://www.w3schools.com/js/
+<https://www.w3schools.com/js/>
 
 https://unpkg.com/
 
@@ -39,3 +39,7 @@ http://ejs.co/
 ## Blogs
 
 http://www.ruanyifeng.com/blog/javascript/
+
+## Tools
+
+<https://github.com/jsdoc/jsdoc>
