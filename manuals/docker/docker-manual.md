@@ -16,6 +16,8 @@
 
 <https://www.linode.com/docs/applications/containers/docker-commands-quick-reference-cheat-sheet/>
 
+[Docker 国内仓库和镜像](https://www.cnblogs.com/wushuaishuai/p/9984228.html)
+
 ## [Install](https://docs.docker.com/v17.09/engine/installation/)
 
 ### Ubuntu
