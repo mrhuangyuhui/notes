@@ -18,17 +18,19 @@
 
 [Docker 国内仓库和镜像](https://www.cnblogs.com/wushuaishuai/p/9984228.html)
 
-## [Install](https://docs.docker.com/v17.09/engine/installation/)
+## [Install](https://docs.docker.com/install/)
 
 ### Ubuntu
 
 [Get Docker Engine - Community for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
+<https://asciinema.org/a/310570>
+
 ### Mac
 
-[Install Docker for Mac](https://docs.docker.com/v17.09/docker-for-mac/install/)
+[Install Docker Desktop on Mac](https://docs.docker.com/docker-for-mac/install/)
 
-[Docker for Mac release notes](https://docs.docker.com/v17.09/docker-for-mac/release-notes/)
+[Docker for Mac release notes](https://docs.docker.com/docker-for-mac/release-notes/)
 
 [Docker Desktop for Mac](https://docs.docker.com/docker-for-mac/)
 
@@ -514,15 +516,21 @@ docker stop 1023600572fd
 docker tag --help
 ```
 
-## Docs
+## Dockerfile
 
-<https://docs.docker.com/network/>
+[Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
 
-<https://docs.docker.com/network/bridge/>
+## Docker Compose
+
+[Docker Compose](./docker-compose.md)
 
 ## References
 
 <https://docs.docker.com/reference/>
+
+[Docker CLI(docker)](https://docs.docker.com/engine/reference/commandline/docker/)
+
+[Docker Compose CLI reference](https://docs.docker.com/compose/reference/overview/)
 
 [Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
 
@@ -531,6 +539,10 @@ docker tag --help
 [Develop with Docker](https://docs.docker.com/develop/)
 
 [Docker development best practices](https://docs.docker.com/develop/dev-best-practices/)
+
+[Configure networking](https://docs.docker.com/network/)
+
+[Use bridge networks](https://docs.docker.com/network/bridge/)
 
 <https://12factor.net/>
 
