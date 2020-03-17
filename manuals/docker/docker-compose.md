@@ -24,7 +24,7 @@ docker-compose --version
 
 ## Commands
 
-[Compose command-line reference](https://docs.docker.com/compose/reference/)
+[Docker Compose CLI reference](https://docs.docker.com/compose/reference/overview/)
 
 查看帮助
 
@@ -74,8 +74,16 @@ docker-compose start
 docker-compose stop
 ```
 
-## Refrences
+## References
 
-[Compose command-line reference](https://docs.docker.com/compose/reference/)
+[Docker Compose CLI reference](https://docs.docker.com/compose/reference/overview/)
 
 [Compose file reference](https://docs.docker.com/compose/compose-file/)
+
+## Examples
+
+<https://docs.docker.com/compose/django/>
+
+<https://docs.docker.com/compose/rails/>
+
+<https://docs.docker.com/compose/wordpress/>
