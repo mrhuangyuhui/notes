@@ -103,9 +103,11 @@ sudo ssserver -d stop
 ||sourcegraph.com
 ||amazonaws.com
 ||phpunit.de
-||hub.docker.com
+||docker.com
 ||raywenderlich.com
 ||okex.com
 ||swift.org
 ||developer.mozilla.org
+||asciinema.org
+||outlook.live.com
 ```
