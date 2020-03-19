@@ -130,7 +130,7 @@ express --view=pug myapp
 
 ## [Middlewares](http://expressjs.com/en/resources/middleware.html)
 
-### [serve-static](http://expressjs.com/en/resources/middleware/serve-static.html)
+[Express middleware](http://expressjs.com/en/resources/middleware.html)
 
 ## Tutorials
 
