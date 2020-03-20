@@ -1,5 +1,15 @@
 # Express Manual
 
+- [Express Manual](#express-manual)
+  - [Install](#install)
+    - [Express Generator](#express-generator)
+  - [Commands](#commands)
+  - [References](#references)
+  - [Middlewares](#middlewares)
+  - [Tutorials](#tutorials)
+  - [Examples](#examples)
+  - [Misc](#misc)
+
 <http://expressjs.com/>
 
 <http://expressjs.com/zh-cn/>
@@ -8,13 +18,19 @@
 
 <https://github.com/expressjs/express/>
 
-<https://gitee.com/mrhuangyuhui/express>
-
 <https://github.com/expressjs/generator>
 
 <https://github.com/expressjs/expressjs.com>
 
-## [Installation](https://expressjs.com/en/starter/installing.html)
+<https://sourcegraph.com/github.com/expressjs/expressjs.com>
+
+<https://sourcegraph.com/github.com/expressjs/express>
+
+<https://gitee.com/mrhuangyuhui/express>
+
+## Install
+
+<https://expressjs.com/en/starter/installing.html>
 
 > 注意：
 >
@@ -64,7 +80,9 @@ nodemon app.js # 自动监控文件变更并重启服务
 curl localhost:3000
 ```
 
-### [Express Generator](https://expressjs.com/en/starter/generator.html)
+### Express Generator
+
+<https://expressjs.com/en/starter/generator.html>
 
 > 使用脚手架创建 Express 项目
 
@@ -128,7 +146,7 @@ express --view=pug myapp
 
 [Serving static files in Express](http://expressjs.com/en/starter/static-files.html)
 
-## [Middlewares](http://expressjs.com/en/resources/middleware.html)
+## Middlewares
 
 [Express middleware](http://expressjs.com/en/resources/middleware.html)
 
@@ -143,3 +161,11 @@ express --view=pug myapp
 <https://github.com/vuejs/vue-router/blob/dev/examples/server.js>
 
 <https://github.com/bailicangdu/node-elm>
+
+## Misc
+
+Chrome Search Engine
+
+```
+https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/expressjs/express%24+%s&patternType=literal
+```
