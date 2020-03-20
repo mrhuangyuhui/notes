@@ -321,7 +321,9 @@ Examples:
 docker logs MyWordPress
 ```
 
-### [`docker network`](https://docs.docker.com/engine/reference/commandline/network/)
+### `docker network`
+
+<https://docs.docker.com/engine/reference/commandline/network/>
 
 ```bash
 docker network --help
