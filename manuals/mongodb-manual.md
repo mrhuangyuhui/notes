@@ -15,6 +15,8 @@
 
 <https://docs.mongodb.com/>
 
+<https://docs.mongodb.com/guides/>
+
 <https://docs.mongodb.com/manual/>
 
 <https://docs.mongodb.com/manual/reference/configuration-options/>
