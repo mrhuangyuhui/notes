@@ -1,6 +1,6 @@
 # 《MongoDB 入门经典》学习笔记
 
-## 开发环境
+## 环境参数
 
 [MongoDB 2.4.8](http://downloads.mongodb.org/osx/mongodb-osx-x86_64-2.4.8.tgz)
 

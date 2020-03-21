@@ -6,7 +6,7 @@
     - [Mac](#mac)
   - [Commands](#commands)
     - [`mongod`](#mongod)
-    - [`mongo`](#mongo)
+    - [MongoDB shell](#mongodb-shell)
   - [References](#references)
   - [Clients](#clients)
   - [GUI](#gui)
@@ -56,7 +56,7 @@ echo 'export PATH=${PATH}:${MONGODB_HOME}/bin' >> ~/.bash_profile
 mkdir -p ~/mongodb/data/db
 ```
 
-五、启动服务器
+五、启动服务端
 
 ```bash
 mongod --dbpath ~/mongodb/data/db
@@ -65,40 +65,65 @@ mongod --dbpath ~/mongodb/data/db
 六、验证启动结果
 
 ```bash
-# 启动 Mongo Shell 并连接服务器
+# 启动 Mongo shell 并连接服务器
 mongo --host 127.0.0.1:27017
 ```
 
-七、关闭服务器
+> Web 控制台 <http://localhost:28017/>
+
+七、关闭服务端
 
 ```bash
-# 在 Mongo Shell 中关闭服务器
+# 在 Mongo shell 中关闭服务端
 > use admin
-switched to db admin
 > db.shutdownServer()
-server should be down...
 ```
 
 ## Commands
 
 ### `mongod`
 
+查看帮助
+
+```bash
+mongod -h
+mongod --help
+```
+
+查看版本
+
+```bash
+mongod --version
+```
+
 启动服务端
 
 ```bash
+# 指定数据目录
 mongod --dbpath ~/mongodb/data/db
 ```
 
-### `mongo`
+关闭服务端
+
+```bash
+# 在 Mongo shell 中关闭服务端
+> use admin
+> db.shutdownServer()
+```
+
+### MongoDB shell
 
 启动客户端
 
 ```bash
-# 启动
-$ mongo --host 127.0.0.1:27017
-MongoDB shell version v3.4.6
-connecting to: mongodb://127.0.0.1:27017/
-MongoDB server version: 3.4.6
+mongo --host 127.0.0.1:27017
+```
+
+MongoDB shell 命令
+
+```bash
+# 查看帮助
+> help
 
 # 退出
 > quit()
