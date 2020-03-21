@@ -29,11 +29,16 @@
 
 <https://hub.docker.com/_/mongo>
 
+> 环境配置可参考 [Mac](#mac)
+
 ### Mac
 
 <https://docs.mongodb.com/master/tutorial/install-mongodb-on-os-x/>
 
-一、下载：[最新版本](https://www.mongodb.com/download-center#production) [历史版本](https://www.mongodb.org/dl/osx)
+一、下载
+
+- [最新版本](https://www.mongodb.com/download-center#production)
+- [历史版本](https://www.mongodb.org/dl/osx)
 
 二、解压
 
@@ -41,6 +46,7 @@
 
 ```bash
 echo 'export MONGODB_HOME=~/mongodb/current' >> ~/.bash_profile
+
 echo 'export PATH=${PATH}:${MONGODB_HOME}/bin' >> ~/.bash_profile
 ```
 
@@ -77,13 +83,15 @@ server should be down...
 
 ### `mongod`
 
-启动服务器
+启动服务端
 
 ```bash
 mongod --dbpath ~/mongodb/data/db
 ```
 
 ### `mongo`
+
+启动客户端
 
 ```bash
 # 启动
