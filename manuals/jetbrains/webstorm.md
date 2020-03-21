@@ -1,5 +1,11 @@
 # WebStorm
 
+- [WebStorm](#webstorm)
+  - [Docker](#docker)
+  - [Debug](#debug)
+  - [Test](#test)
+    - [Mocha](#mocha)
+
 <https://www.jetbrains.com/help/webstorm/meet-webstorm.html>
 
 [Node.js Interpreters Dialog](https://www.jetbrains.com/help/webstorm/node-js-interpreters.html)
@@ -12,16 +18,28 @@
 
 ## [Docker](https://www.jetbrains.com/help/webstorm/docker.html)
 
-![image](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/webstorm-docker-1.jpg)
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/webstorm-docker-1.jpg)
 
-![image](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/webstorm-docker-2.jpg)
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/webstorm-docker-2.jpg)
 
-![image](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/webstorm-docker-3.jpg)
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/webstorm-docker-3.jpg)
 
-![image](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/webstorm-docker-4.jpg)
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/webstorm-docker-4.jpg)
 
 [Quick Tour of WebStorm and Docker](https://blog.jetbrains.com/webstorm/2017/04/quick-tour-of-webstorm-and-docker/)
 
 [Node.js with Docker](https://www.jetbrains.com/help/webstorm/node-with-docker.html)
 
 ## Debug
+
+## Test
+
+### Mocha
+
+<https://mochajs.org/#jetbrains>
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/mocha/webstorm-mocha-1.jpg)
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/mocha/webstorm-mocha-2.jpg)
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/mocha/webstorm-mocha-3.jpg)
