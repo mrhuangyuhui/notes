@@ -1,4 +1,12 @@
+<!-- omit in toc -->
 # Docker Compose
+
+- [Install](#install)
+- [Commands](#commands)
+  - [`docker-compose run`](#docker-compose-run)
+  - [`docker-compose up`](#docker-compose-up)
+- [References](#references)
+- [Examples](#examples)
 
 <https://docs.docker.com/compose/>
 
@@ -36,13 +44,17 @@ docker-compose --help
 docker-compose up --help
 ```
 
-### [`docker-compose run`](https://docs.docker.com/compose/reference/run/)
+### `docker-compose run`
+
+<https://docs.docker.com/compose/reference/run/>
 
 ```bash
 docker-compose run --help
 ```
 
-### [`docker-compose up`](https://docs.docker.com/compose/reference/up/)
+### `docker-compose up`
+
+<https://docs.docker.com/compose/reference/up/>
 
 查看帮助
 
