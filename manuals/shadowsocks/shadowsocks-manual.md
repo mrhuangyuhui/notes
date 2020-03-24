@@ -1,4 +1,17 @@
+<!-- omit in toc -->
 # Shadowsocks Manual
+
+- [Install](#install)
+  - [Ubuntu](#ubuntu)
+  - [CentOS](#centos)
+  - [Auto Install Shadowsocks Server for CentOS/Debian/Ubuntu](#auto-install-shadowsocks-server-for-centosdebianubuntu)
+- [Commands](#commands)
+- [Clients](#clients)
+  - [macOS](#macos)
+  - [Windows](#windows)
+  - [Linux](#linux)
+  - [Android](#android)
+- [User Rules For PAC](#user-rules-for-pac)
 
 <https://shadowsocks.org/>
 
@@ -10,7 +23,9 @@ GFWList <https://github.com/gfwlist/gfwlist>
 
 User Rules <https://adblockplus.org/en/filter-cheatsheet>
 
-## [Installation](https://github.com/shadowsocks/shadowsocks/tree/master#install)
+## Install
+
+<https://github.com/shadowsocks/shadowsocks/tree/master#install>
 
 ### Ubuntu
 
