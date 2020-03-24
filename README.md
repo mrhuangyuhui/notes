@@ -1,16 +1,16 @@
+<!-- omit in toc -->
 # Notes
 
-- [Notes](#notes)
-  - [阅读源码](#%e9%98%85%e8%af%bb%e6%ba%90%e7%a0%81)
-    - [Objective-C](#objective-c)
-    - [PHP](#php)
-  - [在线教程](#%e5%9c%a8%e7%ba%bf%e6%95%99%e7%a8%8b)
-  - [API](#api)
-  - [GitHub](#github)
-  - [开发工具](#%e5%bc%80%e5%8f%91%e5%b7%a5%e5%85%b7)
-  - [网络](#%e7%bd%91%e7%bb%9c)
-  - [软件下载](#%e8%bd%af%e4%bb%b6%e4%b8%8b%e8%bd%bd)
-  - [其他](#%e5%85%b6%e4%bb%96)
+- [阅读源码](#%e9%98%85%e8%af%bb%e6%ba%90%e7%a0%81)
+  - [Objective-C](#objective-c)
+  - [PHP](#php)
+- [在线教程](#%e5%9c%a8%e7%ba%bf%e6%95%99%e7%a8%8b)
+- [API](#api)
+- [GitHub](#github)
+- [开发工具](#%e5%bc%80%e5%8f%91%e5%b7%a5%e5%85%b7)
+- [网络](#%e7%bd%91%e7%bb%9c)
+- [软件下载](#%e8%bd%af%e4%bb%b6%e4%b8%8b%e8%bd%bd)
+- [其他](#%e5%85%b6%e4%bb%96)
 
 同步到 GitHub
 
