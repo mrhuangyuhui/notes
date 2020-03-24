@@ -1,10 +1,10 @@
+<!-- omit in toc -->
 # WebStorm
 
-- [WebStorm](#webstorm)
-  - [Docker](#docker)
-  - [Debug](#debug)
-  - [Test](#test)
-    - [Mocha](#mocha)
+- [Docker](#docker)
+- [Debug](#debug)
+- [Test](#test)
+  - [Mocha](#mocha)
 
 <https://www.jetbrains.com/help/webstorm/meet-webstorm.html>
 
