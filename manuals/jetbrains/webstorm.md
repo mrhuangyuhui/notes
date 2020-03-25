@@ -5,6 +5,7 @@
 - [Debug](#debug)
 - [Test](#test)
   - [Mocha](#mocha)
+- [HTTP Client](#http-client)
 
 <https://www.jetbrains.com/help/webstorm/meet-webstorm.html>
 
@@ -43,3 +44,9 @@
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/mocha/webstorm-mocha-2.jpg)
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/mocha/webstorm-mocha-3.jpg)
+
+## HTTP Client
+
+[Exploring the HTTP request in Editor syntax](https://www.jetbrains.com/help/webstorm/exploring-http-syntax.html)
+
+[HTTP Response handling API reference](https://www.jetbrains.com/help/webstorm/http-response-handling-api-reference.html)
