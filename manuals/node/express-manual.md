@@ -1,15 +1,15 @@
+<!-- omit in toc -->
 # Express Manual
 
-- [Express Manual](#express-manual)
-  - [Install](#install)
-    - [Express Generator](#express-generator)
-  - [Commands](#commands)
-  - [References](#references)
-  - [Middlewares](#middlewares)
-  - [Tutorials](#tutorials)
-  - [Examples](#examples)
-  - [Test](#test)
-  - [Misc](#misc)
+- [Install](#install)
+  - [Express Generator](#express-generator)
+- [Commands](#commands)
+- [References](#references)
+- [Middlewares](#middlewares)
+- [Tutorials](#tutorials)
+- [Examples](#examples)
+- [Test](#test)
+- [Misc](#misc)
 
 <http://expressjs.com/>
 

@@ -1,4 +1,18 @@
+<!-- omit in toc -->
 # NPM Manual
+
+- [Install](#install)
+- [Registry](#registry)
+- [Commands](#commands)
+  - [`npm install`](#npm-install)
+  - [`init`](#init)
+  - [`ls`](#ls)
+  - [`npm run`](#npm-run)
+- [Files](#files)
+  - [`package.json`](#packagejson)
+  - [`npmrc`](#npmrc)
+- [References](#references)
+- [Tutorials](#tutorials)
 
 <https://www.npmjs.com/>
 
@@ -10,7 +24,9 @@
 
 <https://npm.runkit.com/>
 
-## [Installation](https://www.npmjs.com/get-npm)
+## Install
+
+<https://www.npmjs.com/get-npm>
 
 `npm` is distributed with Node.js- which means that when you download Node.js, you automatically get `npm` installed on your computer.
 
