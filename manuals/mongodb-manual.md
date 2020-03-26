@@ -138,6 +138,8 @@ mongod --dbpath ~/mongodb/data/db
 
 ### `mongo`
 
+<https://docs.mongodb.com/manual/reference/mongo-shell/>
+
 启动客户端
 
 ```bash
@@ -163,9 +165,9 @@ test
 # 列出全部数据库
 > show dbs
 
-# 切换数据库
-> use test
-switched to db test
+# 切换数据库，如果数据库不存在，则创建新的。
+# 新创建的数据库由于没有数据，执行 `show dbs` 时不会列出。
+> use newDB
 
 # 列出全部集合
 > show collections
@@ -180,6 +182,10 @@ switched to db test
 
 <https://docs.mongodb.com/manual/reference/>
 
+[The `mongo` Shell](https://docs.mongodb.com/manual/mongo/)
+
+[`mongo` Shell Quick Reference](https://docs.mongodb.com/manual/reference/mongo-shell/)
+
 ## Drivers
 
 <https://docs.mongodb.com/manual/applications/drivers/>
@@ -190,11 +196,11 @@ switched to db test
 
 ## GUI
 
-<https://hub.docker.com/_/mongo-express>
+[MongoDB Compass](https://docs.mongodb.com/compass/current/)
 
 [Robo 3T](https://robomongo.org/)
 
-[MongoDB Compass](https://www.mongodb.com/download-center#compass)
+<https://hub.docker.com/_/mongo-express>
 
 ## Books
 
