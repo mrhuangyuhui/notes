@@ -31,7 +31,7 @@
 
 <https://gitee.com/mrhuangyuhui/express>
 
-[Express 源码阅读笔记](/codes/js/express-notes.md)
+[Express 源码阅读笔记](https://gitee.com/mrhuangyuhui/js/blob/feature/2020-03-12/express-notes.md)
 
 ## Install
 
