@@ -1,15 +1,18 @@
+<!-- omit in toc -->
 # MongoDB Manual
 
-- [MongoDB Manual](#mongodb-manual)
-  - [Install](#install)
-    - [Docker](#docker)
-    - [Mac](#mac)
-  - [Commands](#commands)
-    - [`mongod`](#mongod)
-    - [MongoDB shell](#mongodb-shell)
-  - [References](#references)
-  - [Clients](#clients)
-  - [GUI](#gui)
+- [Install](#install)
+  - [Docker](#docker)
+  - [Mac](#mac)
+- [Configs](#configs)
+- [Commands](#commands)
+  - [`mongod`](#mongod)
+  - [MongoDB shell](#mongodb-shell)
+- [References](#references)
+- [Drivers](#drivers)
+- [Clients](#clients)
+- [GUI](#gui)
+- [Books](#books)
 
 <https://www.mongodb.com/>
 
@@ -19,10 +22,6 @@
 
 <https://docs.mongodb.com/manual/>
 
-<https://docs.mongodb.com/manual/reference/configuration-options/>
-
-<https://docs.mongodb.com/manual/applications/drivers/>
-
 ## Install
 
 <https://docs.mongodb.com/master/administration/install-community/>
@@ -30,6 +29,10 @@
 ### Docker
 
 <https://hub.docker.com/_/mongo>
+
+```bash
+docker pull mongo:4.2.3-bionic
+```
 
 > 环境配置可参考 [Mac](#mac)
 
@@ -80,6 +83,10 @@ mongo --host 127.0.0.1:27017
 > use admin
 > db.shutdownServer()
 ```
+
+## Configs
+
+<https://docs.mongodb.com/manual/reference/configuration-options/>
 
 ## Commands
 
@@ -159,6 +166,10 @@ switched to db test
 
 <https://docs.mongodb.com/manual/reference/>
 
+## Drivers
+
+<https://docs.mongodb.com/manual/applications/drivers/>
+
 ## Clients
 
 <https://www.npmjs.com/package/mongodb>
@@ -170,3 +181,7 @@ switched to db test
 [Robo 3T](https://robomongo.org/)
 
 [MongoDB Compass](https://www.mongodb.com/download-center#compass)
+
+## Books
+
+[MongoDB 入门经典](https://mrhuangyuhui.gitee.io/books/UyE8mC.html)（[学习笔记](/books/mongodb/mongodb-24h/README.md)）
