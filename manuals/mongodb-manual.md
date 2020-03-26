@@ -112,14 +112,10 @@ mongo --host 127.0.0.1:27017
 
 ### `mongod`
 
-查看帮助
-
 ```bash
 mongod -h
 mongod --help
 ```
-
-查看版本
 
 ```bash
 mongod --version
@@ -166,8 +162,6 @@ test
 
 # 列出全部数据库
 > show dbs
-admin  0.000GB
-local  0.000GB
 
 # 切换数据库
 > use test
