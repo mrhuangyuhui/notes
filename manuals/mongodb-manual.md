@@ -7,7 +7,7 @@
 - [Configs](#configs)
 - [Commands](#commands)
   - [`mongod`](#mongod)
-  - [MongoDB shell](#mongodb-shell)
+  - [`mongo`](#mongo)
 - [References](#references)
 - [Drivers](#drivers)
 - [Clients](#clients)
@@ -32,6 +32,26 @@
 
 ```bash
 docker pull mongo:4.2.3-bionic
+```
+
+Server
+
+```bash
+docker run -d --network mongo-network --name mongo-server \
+  -e MONGO_INITDB_ROOT_USERNAME=mongoadmin \
+  -e MONGO_INITDB_ROOT_PASSWORD=secret \
+  mongo:4.2.3-bionic
+```
+
+Client
+
+```bash
+docker run -it --rm --network mongo-network mongo:4.2.3-bionic \
+  mongo --host mongo-server \
+    -u mongoadmin \
+    -p secret \
+    --authenticationDatabase admin \
+    test
 ```
 
 > 环境配置可参考 [Mac](#mac)
@@ -120,7 +140,7 @@ mongod --dbpath ~/mongodb/data/db
 > db.shutdownServer()
 ```
 
-### MongoDB shell
+### `mongo`
 
 启动客户端
 
