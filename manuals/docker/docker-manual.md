@@ -1,50 +1,51 @@
+<!-- omit in toc -->
 # Docker Manual
 
-- [Docker Manual](#docker-manual)
-  - [Install](#install)
-    - [Ubuntu](#ubuntu)
-    - [Mac](#mac)
-  - [Commands](#commands)
-    - [`docker attach`](#docker-attach)
-    - [`docker build`](#docker-build)
-    - [`docker commit`](#docker-commit)
-    - [`docker container`](#docker-container)
-      - [`docker container cp`](#docker-container-cp)
-    - [`docker create`](#docker-create)
-    - [`docker exec`](#docker-exec)
-    - [`docker inspect`](#docker-inspect)
-    - [`docker logs`](#docker-logs)
-    - [`docker network`](#docker-network)
-      - [`docker network connect`](#docker-network-connect)
-      - [`docker network create`](#docker-network-create)
-      - [`docker network disconnect`](#docker-network-disconnect)
-      - [`docker network inspect`](#docker-network-inspect)
-      - [`docker network rm`](#docker-network-rm)
-    - [`docker port`](#docker-port)
-    - [`docker ps`](#docker-ps)
-    - [`docker pull`](#docker-pull)
-    - [`docker push`](#docker-push)
-    - [`docker rm`](#docker-rm)
-    - [`docker run`](#docker-run)
-      - [Examples](#examples)
-    - [`docker service`](#docker-service)
-      - [`docker service ps`](#docker-service-ps)
-    - [`docker start`](#docker-start)
-    - [`docker stop`](#docker-stop)
-    - [`docker tag`](#docker-tag)
-  - [Dockerfile](#dockerfile)
-  - [Docker Compose](#docker-compose)
-  - [References](#references)
-  - [Guides](#guides)
-    - [Configs](#configs)
-    - [Dockerfiles](#dockerfiles)
-    - [Secrets](#secrets)
-    - [Volumes](#volumes)
-  - [Tutorials](#tutorials)
-    - [Network](#network)
-  - [Samples](#samples)
-  - [Images](#images)
-  - [GUI](#gui)
+- [Install](#install)
+  - [Ubuntu](#ubuntu)
+  - [Mac](#mac)
+- [Mirrors](#mirrors)
+- [Commands](#commands)
+  - [`docker attach`](#docker-attach)
+  - [`docker build`](#docker-build)
+  - [`docker commit`](#docker-commit)
+  - [`docker container`](#docker-container)
+    - [`docker container cp`](#docker-container-cp)
+  - [`docker create`](#docker-create)
+  - [`docker exec`](#docker-exec)
+  - [`docker inspect`](#docker-inspect)
+  - [`docker logs`](#docker-logs)
+  - [`docker network`](#docker-network)
+    - [`docker network connect`](#docker-network-connect)
+    - [`docker network create`](#docker-network-create)
+    - [`docker network disconnect`](#docker-network-disconnect)
+    - [`docker network inspect`](#docker-network-inspect)
+    - [`docker network rm`](#docker-network-rm)
+  - [`docker port`](#docker-port)
+  - [`docker ps`](#docker-ps)
+  - [`docker pull`](#docker-pull)
+  - [`docker push`](#docker-push)
+  - [`docker rm`](#docker-rm)
+  - [`docker run`](#docker-run)
+    - [Examples](#examples)
+  - [`docker service`](#docker-service)
+    - [`docker service ps`](#docker-service-ps)
+  - [`docker start`](#docker-start)
+  - [`docker stop`](#docker-stop)
+  - [`docker tag`](#docker-tag)
+- [Dockerfile](#dockerfile)
+- [Docker Compose](#docker-compose)
+- [References](#references)
+- [Guides](#guides)
+  - [Configs](#configs)
+  - [Dockerfiles](#dockerfiles)
+  - [Secrets](#secrets)
+  - [Volumes](#volumes)
+- [Tutorials](#tutorials)
+  - [Network](#network)
+- [Samples](#samples)
+- [Images](#images)
+- [GUI](#gui)
 
 <https://www.docker.com/>
 
@@ -61,8 +62,6 @@
 <https://github.com/wsargent/docker-cheat-sheet>
 
 <https://www.linode.com/docs/applications/containers/docker-commands-quick-reference-cheat-sheet/>
-
-[Docker 国内仓库和镜像](https://www.cnblogs.com/wushuaishuai/p/9984228.html)
 
 ## Install
 
@@ -91,6 +90,12 @@ ubuntu$sudo chmod a+rw /var/run/docker.sock
 # 重启 docker 服务
 ubuntu$sudo systemctl restart docker
 ```
+
+## Mirrors
+
+[Docker 国内仓库和镜像](https://www.cnblogs.com/wushuaishuai/p/9984228.html)
+
+网易 <http://hub-mirror.c.163.com>
 
 ## Commands
 
