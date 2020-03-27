@@ -12,8 +12,10 @@
   - [Role Management Commands](#role-management-commands)
 - [References](#references)
 - [Drivers](#drivers)
-- [Clients](#clients)
 - [GUI](#gui)
+  - [MongoDB Compass](#mongodb-compass)
+  - [Robo 3T](#robo-3t)
+  - [mongo-express](#mongo-express)
 - [Books](#books)
 - [Misc](#misc)
 
@@ -28,6 +30,8 @@
 <https://github.com/mongodb/mongo>
 
 <https://github.com/mongodb/docs>
+
+<https://github.com/mongodb-js/compass/>
 
 ## Install
 
@@ -213,15 +217,23 @@ test
 
 <https://docs.mongodb.com/manual/applications/drivers/>
 
-## Clients
-
-<https://www.npmjs.com/package/mongodb>
+<<https://www.npmjs.com/package/mongodb>>
 
 ## GUI
 
-[MongoDB Compass](https://docs.mongodb.com/compass/current/)
+### MongoDB Compass
+
+<https://docs.mongodb.com/compass/current/>
+
+[Download and Install Compass](https://docs.mongodb.com/compass/current/install/)
+
+[Connect to MongoDB](https://docs.mongodb.com/compass/current/connect/)
+
+### Robo 3T
 
 [Robo 3T](https://robomongo.org/)
+
+### mongo-express
 
 <https://hub.docker.com/_/mongo-express>
 
