@@ -1,0 +1,1 @@
+# [jQuery - Remove Elements](https://www.w3schools.com/jquery/jquery_dom_remove.asp)

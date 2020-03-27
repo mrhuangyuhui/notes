@@ -1,0 +1,1 @@
+# [jQuery Effects - Fading](https://www.w3schools.com/jquery/jquery_fade.asp)
