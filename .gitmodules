@@ -40,3 +40,7 @@
 	path = codes/objc
 	url = git@gitee.com:mrhuangyuhui/objc.git
 	ignore = dirty
+[submodule "docs"]
+	path = docs
+	url = git@gitee.com:mrhuangyuhui/docs.git
+	ignore = dirty
