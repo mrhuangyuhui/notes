@@ -13,14 +13,19 @@
 - [Clients](#clients)
 - [GUI](#gui)
 - [Books](#books)
+- [Misc](#misc)
 
 <https://www.mongodb.com/>
 
 <https://docs.mongodb.com/>
 
+<https://docs.mongodb.com/manual/>
+
 <https://docs.mongodb.com/guides/>
 
-<https://docs.mongodb.com/manual/>
+<https://github.com/mongodb/mongo>
+
+<https://github.com/mongodb/docs>
 
 ## Install
 
@@ -205,3 +210,9 @@ test
 ## Books
 
 [MongoDB 入门经典](https://mrhuangyuhui.gitee.io/books/UyE8mC.html)（[学习笔记](/books/mongodb/mongodb-24h/README.md)）
+
+## Misc
+
+<http://docs.mongodb.com/v4.2/manual.tar.gz>
+
+<http://docs.mongodb.com/v4.2/MongoDB-manual.epub>
