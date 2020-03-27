@@ -8,6 +8,8 @@
 - [Commands](#commands)
   - [`mongod`](#mongod)
   - [`mongo`](#mongo)
+  - [User Management Commands](#user-management-commands)
+  - [Role Management Commands](#role-management-commands)
 - [References](#references)
 - [Drivers](#drivers)
 - [Clients](#clients)
@@ -67,8 +69,11 @@ docker run -it --rm --network mongo-network mongo:4.2.3-bionic \
 
 一、下载
 
-- [最新版本](https://www.mongodb.com/download-center#production)
-- [历史版本](https://www.mongodb.org/dl/osx)
+<https://www.mongodb.com/download-center/community>
+
+<https://fastdl.mongodb.org/osx/mongodb-macos-x86_64-4.2.5.tgz>
+
+老版本 <https://www.mongodb.org/dl/osx>
 
 二、解压
 
@@ -180,6 +185,16 @@ test
 # 列出数据库用户
 > show users
 ```
+
+### User Management Commands
+
+<https://docs.mongodb.com/manual/reference/command/nav-user-management/>
+
+<https://docs.mongodb.com/manual/reference/command/nav-user-management/index.html>
+
+### Role Management Commands
+
+<https://docs.mongodb.com/manual/reference/command/nav-role-management/>
 
 ## References
 
