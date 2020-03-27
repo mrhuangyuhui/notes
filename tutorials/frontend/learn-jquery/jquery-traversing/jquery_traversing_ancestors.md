@@ -1,0 +1,1 @@
+# [jQuery Traversing - Ancestors](https://www.w3schools.com/jquery/jquery_traversing_ancestors.asp)

@@ -1,0 +1,41 @@
+[submodule "tutorials/js/javascript-tutorial"]
+	path = tutorials/js/javascript-tutorial
+	url = git@gitee.com:mrhuangyuhui/javascript-tutorial.git
+[submodule "guides/php/laravel-docs"]
+	path = guides/php/laravel-docs
+	url = git@gitee.com:mrhuangyuhui/laravel-docs.git
+[submodule "images"]
+	path = images
+	url = git@gitee.com:mrhuangyuhui/images.git
+[submodule "ide/phpstorm"]
+	path = ide/phpstorm
+	url = git@gitee.com:mrhuangyuhui/phpstorm.git
+[submodule "codes/php"]
+	path = codes/php
+	url = git@gitee.com:mrhuangyuhui/php.git
+	ignore = dirty
+[submodule "others/homestead"]
+	path = others/homestead
+	url = git@gitee.com:mrhuangyuhui/homestead.git
+	ignore = dirty
+[submodule "codes/swift"]
+	path = codes/swift
+	url = git@gitee.com:mrhuangyuhui/swift.git
+[submodule "codes/js"]
+	path = codes/js
+	url = git@gitee.com:mrhuangyuhui/js.git
+[submodule "bookmarks"]
+	path = bookmarks
+	url = git@gitee.com:mrhuangyuhui/bookmarks.git
+[submodule "guides/node/express/expressjs.com"]
+	path = guides/node/express/expressjs.com
+	url = git@gitee.com:mrhuangyuhui/expressjs.com.git
+	ignore = dirty
+[submodule "tutorials/js/node/express/N-blog"]
+	path = tutorials/js/node/express/N-blog
+	url = git@gitee.com:mrhuangyuhui/N-blog.git
+	ignore = dirty
+[submodule "codes/objc"]
+	path = codes/objc
+	url = git@gitee.com:mrhuangyuhui/objc.git
+	ignore = dirty

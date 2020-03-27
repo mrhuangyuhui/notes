@@ -1,39 +1,95 @@
-# notes
+<!-- omit in toc -->
+# Notes
 
-#### 介绍
-{**以下是码云平台说明，您可以替换此简介**
-码云是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+- [阅读源码](#%e9%98%85%e8%af%bb%e6%ba%90%e7%a0%81)
+  - [Objective-C](#objective-c)
+  - [PHP](#php)
+- [在线教程](#%e5%9c%a8%e7%ba%bf%e6%95%99%e7%a8%8b)
+- [API](#api)
+- [GitHub](#github)
+- [开发工具](#%e5%bc%80%e5%8f%91%e5%b7%a5%e5%85%b7)
+- [网络](#%e7%bd%91%e7%bb%9c)
+- [软件下载](#%e8%bd%af%e4%bb%b6%e4%b8%8b%e8%bd%bd)
+- [其他](#%e5%85%b6%e4%bb%96)
 
-#### 软件架构
-软件架构说明
+同步到 GitHub
 
+```bash
+git push https://github.com/mrhuangyuhui/notes.git
+```
 
-#### 安装教程
+## 阅读源码
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### Objective-C
 
-#### 使用说明
+<https://github.com/CoderMJLee/MJExtension>
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+<https://github.com/ibireme/YYKit>
 
-#### 参与贡献
+### PHP
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+<https://github.com/laravel/laravel>
 
+<https://github.com/laravel/framework>
 
-#### 码云特技
+## 在线教程
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+[笨鸟码书](https://flapybooks.com/)
+
+[Tutorialspoint](https://www.tutorialspoint.com/)
+
+[Learn X in Y minutes](https://learnxinyminutes.com/)
+
+[Cocoa Dev Central](http://cocoadevcentral.com/)
+
+[raywenderlich.com](https://www.raywenderlich.com/)
+
+[GeeksforGeeks](https://www.geeksforgeeks.org/)
+
+<https://github.com/EbookFoundation/free-programming-books>
+
+## API
+
+[DevDocs API Documentation](https://devdocs.io/)
+
+## GitHub
+
+<https://github.com/topics/awesome-list>
+
+<https://github.com/topics/snippets-collection>
+
+<https://github.com/topics/snippets>
+
+<https://github.com/topics/learning-resources>
+
+<https://github.com/xitu/gold-miner>
+
+## 开发工具
+
+内网穿透 [NATAPP](https://natapp.cn/)
+
+接口文档 <[YApi](https://yapi.ymfe.org/)>
+
+可视化程序执行过程 <http://www.pythontutor.com/visualize.html>
+
+录制终端执行 <https://asciinema.org/>
+
+开发环境 <https://bitnami.com/>
+
+代码格式化/验证 <https://codebeautify.org/>
+
+## 网络
+
+<https://www.getpostman.com/>
+
+<https://docs.postman-echo.com/>
+
+## 软件下载
+
+<https://xclient.info/>
+
+## 其他
+
+[Project Euler](https://projecteuler.net/)
+
+[腾讯质量开放平台](https://wetest.qq.com/)

@@ -1,0 +1,3 @@
+# Python - Try...Except
+
+[Python Try Except](https://www.w3schools.com/python/python_try_except.asp)

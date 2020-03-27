@@ -1,0 +1,1 @@
+# [jQuery Effects - Hide and Show](https://www.w3schools.com/jquery/jquery_hide_show.asp)

@@ -1,0 +1,1 @@
+# [jQuery Syntax](https://www.w3schools.com/jquery/jquery_syntax.asp)
