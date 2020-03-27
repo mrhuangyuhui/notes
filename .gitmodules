@@ -24,6 +24,7 @@
 [submodule "codes/js"]
 	path = codes/js
 	url = git@gitee.com:mrhuangyuhui/js.git
+	ignore = dirty
 [submodule "bookmarks"]
 	path = bookmarks
 	url = git@gitee.com:mrhuangyuhui/bookmarks.git
