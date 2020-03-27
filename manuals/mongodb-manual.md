@@ -8,6 +8,7 @@
 - [Commands](#commands)
   - [`mongod`](#mongod)
   - [`mongo`](#mongo)
+    - [User Management Methods](#user-management-methods)
   - [User Management Commands](#user-management-commands)
   - [Role Management Commands](#role-management-commands)
 - [References](#references)
@@ -193,11 +194,15 @@ test
 > show users
 ```
 
+#### User Management Methods
+
+<https://docs.mongodb.com/manual/reference/method/js-user-management/>
+
+[`db.createUser()`](https://docs.mongodb.com/manual/reference/method/db.createUser/)
+
 ### User Management Commands
 
 <https://docs.mongodb.com/manual/reference/command/nav-user-management/>
-
-<https://docs.mongodb.com/manual/reference/command/nav-user-management/index.html>
 
 ### Role Management Commands
 
