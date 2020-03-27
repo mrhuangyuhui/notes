@@ -38,7 +38,7 @@
 <https://hub.docker.com/_/mongo>
 
 ```bash
-docker pull mongo:4.2.3-bionic
+docker pull mongo:4.2.5-bionic
 ```
 
 Server
@@ -47,13 +47,13 @@ Server
 docker run -d --network mongo-network --name mongo-server \
   -e MONGO_INITDB_ROOT_USERNAME=mongoadmin \
   -e MONGO_INITDB_ROOT_PASSWORD=secret \
-  mongo:4.2.3-bionic
+  mongo:4.2.5-bionic
 ```
 
 Client
 
 ```bash
-docker run -it --rm --network mongo-network mongo:4.2.3-bionic \
+docker run -it --rm --network mongo-network mongo:4.2.5-bionic \
   mongo --host mongo-server \
     -u mongoadmin \
     -p secret \
@@ -67,7 +67,7 @@ docker run -it --rm --network mongo-network mongo:4.2.3-bionic \
 
 <https://docs.mongodb.com/master/tutorial/install-mongodb-on-os-x/>
 
-一、下载
+- 下载
 
 <https://www.mongodb.com/download-center/community>
 
@@ -75,38 +75,41 @@ docker run -it --rm --network mongo-network mongo:4.2.3-bionic \
 
 老版本 <https://www.mongodb.org/dl/osx>
 
-二、解压
+下载到目录 `~/mongodb`
 
-三、配置环境变量
+- 解压
+
+- 配置 `PATH`
 
 ```bash
+ln -s ~/mongodb/mongodb-macos-x86_64-4.2.5/ current
+
 echo 'export MONGODB_HOME=~/mongodb/current' >> ~/.bash_profile
 
 echo 'export PATH=${PATH}:${MONGODB_HOME}/bin' >> ~/.bash_profile
 ```
 
-四、创建数据目录
+- 创建数据目录
 
 ```bash
 mkdir -p ~/mongodb/data/db
 ```
 
-五、启动服务端
+- 启动服务端
 
 ```bash
 mongod --dbpath ~/mongodb/data/db
 ```
 
-六、验证启动结果
+- 启动客户端
 
 ```bash
-# 启动 Mongo shell 并连接服务器
 mongo --host 127.0.0.1:27017
 ```
 
 > Web 控制台 <http://localhost:28017/>
 
-七、关闭服务端
+- 关闭服务端
 
 ```bash
 # 在 Mongo shell 中关闭服务端
