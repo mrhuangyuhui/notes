@@ -27,9 +27,11 @@ mongo --host 127.0.0.1:27017
 
 ## 配套代码
 
-<http://www.informit.com/store/nosql-with-mongodb-in-24-hours-sams-teach-yourself-9780672337130>
+<https://gitee.com/mrhuangyuhui/mongodb-24h>
 
-<https://gitee.com/mrhuangyuhui/mongodb/tree/master/mongodb-24h>
+```bash
+git clone git@gitee.com:mrhuangyuhui/mongodb-24h.git
+```
 
 ## 电子书
 
