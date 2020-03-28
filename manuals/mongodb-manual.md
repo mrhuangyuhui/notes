@@ -7,10 +7,11 @@
 - [Configs](#configs)
 - [Commands](#commands)
   - [`mongod`](#mongod)
-  - [`mongo` Shell Methods](#mongo-shell-methods)
-    - [User Management Methods](#user-management-methods)
-  - [User Management Commands](#user-management-commands)
-  - [Role Management Commands](#role-management-commands)
+  - [`mongo` Shell](#mongo-shell)
+- [`mongo` Shell Methods](#mongo-shell-methods)
+  - [Connection Methods](#connection-methods)
+  - [Database Methods](#database-methods)
+  - [User Management Methods](#user-management-methods)
 - [References](#references)
 - [Drivers](#drivers)
 - [GUI](#gui)
@@ -156,7 +157,7 @@ mongod --dbpath ~/mongodb/data/db
 > db.shutdownServer()
 ```
 
-### `mongo` Shell Methods
+### `mongo` Shell
 
 <https://docs.mongodb.com/manual/reference/mongo-shell/>
 
@@ -196,7 +197,19 @@ test
 > show users
 ```
 
-#### User Management Methods
+## `mongo` Shell Methods
+
+<<https://docs.mongodb.com/manual/reference/method/>>
+
+### Connection Methods
+
+<https://docs.mongodb.com/manual/reference/method/js-connection/>
+
+### Database Methods
+
+<https://docs.mongodb.com/manual/reference/method/js-database/>
+
+### User Management Methods
 
 <https://docs.mongodb.com/manual/reference/method/js-user-management/>
 
@@ -209,14 +222,6 @@ test
 [`db.dropUser()`](https://docs.mongodb.com/manual/reference/method/db.dropUser/)
 
 [`db.dropAllUsers()`](https://docs.mongodb.com/manual/reference/method/db.dropAllUsers/)
-
-### User Management Commands
-
-<https://docs.mongodb.com/manual/reference/command/nav-user-management/>
-
-### Role Management Commands
-
-<https://docs.mongodb.com/manual/reference/command/nav-role-management/>
 
 ## References
 
