@@ -35,4 +35,4 @@ git clone git@gitee.com:mrhuangyuhui/mongodb-24h.git
 
 ## 电子书
 
-<https://mrhuangyuhui.gitee.io/books/rTSFcF.html>
+<https://mrhuangyuhui.gitee.io/books/UyE8mC.html>
