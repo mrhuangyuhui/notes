@@ -167,34 +167,52 @@ mongod --dbpath ~/mongodb/data/db
 mongo --host 127.0.0.1:27017
 ```
 
-MongoDB shell 命令
-
-```bash
+```
 # 查看帮助
 > help
 
 # 退出
-> quit()
-
-# 查看帮助
-> db.help()
+> exit
 
 # 查看当前数据库
 > db
-test
+
+# 切换数据库，如果不存在，则创建新的。
+# 新创建的数据库由于没有数据，执行 `show dbs` 时不会列出。
+> use newDB
 
 # 列出全部数据库
 > show dbs
-
-# 切换数据库，如果数据库不存在，则创建新的。
-# 新创建的数据库由于没有数据，执行 `show dbs` 时不会列出。
-> use newDB
 
 # 列出全部集合
 > show collections
 
 # 列出数据库用户
 > show users
+```
+
+```
+> help
+  db.help()                    help on db methods
+  db.mycoll.help()             help on collection methods
+  help admin                   administrative help
+  help connect                 connecting to a db help
+  show dbs                     show database names
+  show collections             show collections in current database
+  show users                   show users in current database
+  use <db_name>                set current database
+  db.foo.find()                list objects in collection foo
+  db.foo.find( { a : 1 } )     list objects in foo where a == 1
+  exit                         quit the mongo shell
+```
+
+```
+> help admin
+  ls([path])                      list files
+  pwd()                           returns current directory
+  cat(fname)                      returns contents of text file as a string
+  removeFile(f)                   delete a file or directory
+  load(jsfilename)                load and execute a .js file
 ```
 
 ## `mongo` Shell Methods

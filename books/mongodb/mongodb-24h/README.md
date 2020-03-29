@@ -16,10 +16,10 @@
 
 ```bash
 # 创建数据目录
-mkdir -p /Users/yuhuihuang/mongodb/data/db/mongodb-24h
+mkdir -p ~/mongodb/data/db
 
 # 启动服务端
-mongod --dbpath /Users/yuhuihuang/mongodb/data/db/mongodb-24h
+mongod --dbpath ~/mongodb/data/db
 
 # 启动客户端
 mongo --host 127.0.0.1:27017
