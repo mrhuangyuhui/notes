@@ -12,6 +12,7 @@
   - [Connection Methods](#connection-methods)
   - [Database Methods](#database-methods)
   - [Collection Methods](#collection-methods)
+  - [Cursor Methods](#cursor-methods)
   - [User Management Methods](#user-management-methods)
 - [References](#references)
 - [Drivers](#drivers)
@@ -247,6 +248,20 @@ mongo --host 127.0.0.1:27017
 <https://docs.mongodb.com/manual/reference/method/js-collection/>
 
 [`db.collection.drop()`](https://docs.mongodb.com/manual/reference/method/db.collection.drop/#db.collection.drop)
+
+[`db.collection.find()`](https://docs.mongodb.com/manual/reference/method/db.collection.find/#db.collection.find)
+
+[`db.collection.findOne()`](https://docs.mongodb.com/manual/reference/method/db.collection.findOne/#db.collection.findOne)
+
+### Cursor Methods
+
+<https://docs.mongodb.com/manual/reference/method/js-cursor/>
+
+[`cursor.limit()`](https://docs.mongodb.com/manual/reference/method/cursor.limit/#cursor.limit)
+
+[`cursor.forEach()`](https://docs.mongodb.com/manual/reference/method/cursor.forEach/#cursor.forEach)
+
+[`cursor.map()`](https://docs.mongodb.com/manual/reference/method/cursor.map/#cursor.map)
 
 ### User Management Methods
 

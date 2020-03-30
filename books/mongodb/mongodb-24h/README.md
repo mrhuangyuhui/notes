@@ -25,6 +25,13 @@ mongod --dbpath ~/mongodb/data/db
 mongo --host 127.0.0.1:27017
 ```
 
+加载测试数据
+
+```bash
+# 注意：第 2 行的变量名错误！
+> load('/Users/yuhuihuang/repos/notes/books/mongodb/mongodb-24h/codes/hour05/generate_words.js')
+```
+
 ## 配套代码
 
 <https://gitee.com/mrhuangyuhui/mongodb-24h>
