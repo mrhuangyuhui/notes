@@ -11,6 +11,7 @@
 - [`mongo` Shell Methods](#mongo-shell-methods)
   - [Connection Methods](#connection-methods)
   - [Database Methods](#database-methods)
+  - [Collection Methods](#collection-methods)
   - [User Management Methods](#user-management-methods)
 - [References](#references)
 - [Drivers](#drivers)
@@ -226,6 +227,14 @@ mongo --host 127.0.0.1:27017
 ### Database Methods
 
 <https://docs.mongodb.com/manual/reference/method/js-database/>
+
+[`db.createCollection()`](https://docs.mongodb.com/manual/reference/method/db.createCollection/)
+
+[`db.getCollectionNames()`](https://docs.mongodb.com/manual/reference/method/db.getCollectionNames/)
+
+### Collection Methods
+
+<https://docs.mongodb.com/manual/reference/method/js-collection/>
 
 ### User Management Methods
 
