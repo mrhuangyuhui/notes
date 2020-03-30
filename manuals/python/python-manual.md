@@ -1,4 +1,18 @@
+<!-- omit in toc -->
 # Python Manual
+
+- [Install](#install)
+  - [Docker](#docker)
+  - [CentOS](#centos)
+  - [Using pyenv (Recommended)](#using-pyenv-recommended)
+  - [Source code](#source-code)
+  - [Windows](#windows)
+- [Mirrors](#mirrors)
+- [Cmds](#cmds)
+- [Refs](#refs)
+  - [Python 3](#python-3)
+- [Tutorials](#tutorials)
+- [Related Practices](#related-practices)
 
 <https://www.python.org>
 
@@ -60,6 +74,10 @@ $ python3 -V
 ```
 
 ### Windows
+
+## Mirrors
+
+配置国内镜像，参考笔记 [PIP Manual](/manuals/python/pip-manual.md#mirrors)
 
 ## Cmds
 

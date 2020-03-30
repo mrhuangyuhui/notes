@@ -1,10 +1,20 @@
+<!-- omit in toc -->
 # PIP Manual
 
-https://pip.pypa.io/en/stable/
+- [Install](#install)
+  - [`get-pip.py`](#get-pippy)
+  - [Package Managers](#package-managers)
+- [Mirrors](#mirrors)
+- [Cmds](#cmds)
+- [Quickstart](#quickstart)
+- [User Guide](#user-guide)
+- [Reference Guide](#reference-guide)
 
-https://github.com/pypa/pip
+<https://pip.pypa.io/en/stable/>
 
-https://pypi.python.org/pypi/pip
+<https://github.com/pypa/pip>
+
+<https://pypi.python.org/pypi/pip>
 
 [Installing packages using `pip` and virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
@@ -18,17 +28,6 @@ python setup.py install
 ```
 
 ## [Install](https://pip.pypa.io/en/stable/installing/)
-
-配置镜像
-
-`~/.pip/pip.conf`
-
-```bash
-[global]
-index-url = https://pypi.tuna.tsinghua.edu.cn/simple
-[install]
-trusted-host = https://pypi.tuna.tsinghua.edu.cn
-```
 
 ### `get-pip.py`
 
@@ -49,6 +48,19 @@ sudo apt-get install python-pip
 
 ```bash
 pip install -U pip
+```
+
+## Mirrors
+
+配置国内镜像
+
+`~/.pip/pip.conf`
+
+```bash
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+[install]
+trusted-host = https://pypi.tuna.tsinghua.edu.cn
 ```
 
 ## Cmds
