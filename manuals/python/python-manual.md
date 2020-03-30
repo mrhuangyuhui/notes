@@ -10,6 +10,14 @@ https://github.com/python/cpython
 
 ## Install
 
+### Docker
+
+<https://hub.docker.com/_/python>
+
+```bash
+docker pull python:2.7.17-alpine3.11
+```
+
 ### CentOS
 
 Prerequisites(CentOS 7)
