@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  web:
+    image: nginx:1.16.1-alpine
+    volumes:
+      - ./conf.d/:/etc/nginx/conf.d/
+      - ./html/www/:/usr/share/nginx/html/www/
+    ports:
+      - "80:80"
