@@ -1,4 +1,17 @@
+<!-- omit in toc -->
 # Nginx Manual
+
+- [Install](#install)
+  - [Docker](#docker)
+  - [CentOS](#centos)
+  - [Debian/Ubuntu](#debianubuntu)
+  - [Building nginx from Sources](#building-nginx-from-sources)
+- [Commands](#commands)
+- [Directories & Files](#directories--files)
+- [Configuration](#configuration)
+- [References](#references)
+- [Tutorials](#tutorials)
+- [PHP](#php)
 
 <http://nginx.org/>
 
@@ -8,11 +21,19 @@
 
 <https://www.nginx.com/>
 
-## Installation
+## Install
+
+<http://nginx.org/en/download.html>
 
 <http://nginx.org/en/docs/install.html>
 
 <http://nginx.org/en/linux_packages.html>
+
+### Docker
+
+```bash
+docker pull nginx:1.16.1-alpine
+```
 
 ### CentOS
 
