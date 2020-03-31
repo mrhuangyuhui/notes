@@ -221,6 +221,16 @@ mongo --host 127.0.0.1:27017
 
 <https://docs.mongodb.com/manual/reference/method/>
 
+部署本地文档服务器
+
+下载文档 <http://docs.mongodb.com/v4.2/manual.tar.gz>
+
+```bash
+cd mongodb-manual-v4.2/html/
+
+docker run --name mongodb-docs -v `pwd`:/usr/share/nginx/html:ro -p 80:80 -d nginx:1.16.1-alpine
+```
+
 ### Connection Methods
 
 <https://docs.mongodb.com/manual/reference/method/js-connection/>
