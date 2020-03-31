@@ -38,10 +38,6 @@
 	path = docs
 	url = git@gitee.com:mrhuangyuhui/docs.git
 	ignore = dirty
-[submodule "books/mongodb/mongodb-24h/codes"]
-	path = books/mongodb/mongodb-24h/codes
-	url = git@gitee.com:mrhuangyuhui/mongodb-24h.git
-	ignore = dirty
 [submodule "tutorials/mongodb/mongodb-24h/codes"]
 	path = tutorials/mongodb/mongodb-24h/codes
 	url = git@gitee.com:mrhuangyuhui/mongodb-24h.git
