@@ -351,7 +351,7 @@ services:
 
 ## Books
 
-[MongoDB 入门经典](https://mrhuangyuhui.gitee.io/books/UyE8mC.html)（[学习笔记](/books/mongodb/mongodb-24h/README.md)）
+[MongoDB 入门经典](https://mrhuangyuhui.gitee.io/books/UyE8mC.html)（[学习笔记](/tutorials/mongodb/mongodb-24h/README.md)）
 
 ## Misc
 
