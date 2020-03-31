@@ -4,6 +4,7 @@
 [submodule "images"]
 	path = images
 	url = git@gitee.com:mrhuangyuhui/images.git
+	ignore = dirty
 [submodule "ide/phpstorm"]
 	path = ide/phpstorm
 	url = git@gitee.com:mrhuangyuhui/phpstorm.git
