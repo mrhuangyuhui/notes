@@ -6,6 +6,8 @@
 
 <https://www.typescriptlang.org/>
 
+<https://github.com/topics/typescript>
+
 ## Install
 
 ```bash
