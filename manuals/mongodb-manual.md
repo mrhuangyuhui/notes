@@ -221,16 +221,6 @@ mongo --host 127.0.0.1:27017
 
 <https://docs.mongodb.com/manual/reference/method/>
 
-部署本地文档服务器
-
-下载文档 <http://docs.mongodb.com/v4.2/manual.tar.gz>
-
-```bash
-cd mongodb-manual-v4.2/html/
-
-docker run --name mongodb-docs -v `pwd`:/usr/share/nginx/html:ro -p 80:80 -d nginx:1.16.1-alpine
-```
-
 ### Connection Methods
 
 <https://docs.mongodb.com/manual/reference/method/js-connection/>
@@ -296,6 +286,42 @@ docker run --name mongodb-docs -v `pwd`:/usr/share/nginx/html:ro -p 80:80 -d ngi
 [The `mongo` Shell](https://docs.mongodb.com/manual/mongo/)
 
 [`mongo` Shell Quick Reference](https://docs.mongodb.com/manual/reference/mongo-shell/)
+
+<!-- omit in toc -->
+### 部署本地站点
+
+下载文档 <http://docs.mongodb.com/v4.2/manual.tar.gz>
+
+- 使用 `docker run`
+
+```bash
+cd mongodb-manual-v4.2
+
+docker run --name mongodb-docs -v `pwd`/html:/usr/share/nginx/html:ro -p 80:80 -d nginx:1.16.1-alpine
+```
+
+- 使用 `docker-compose`
+
+```bash
+cd mongodb-manual-v4.2
+
+docker-compose up
+```
+
+`docker-compose.yml`
+
+```yml
+version: "3.7"
+services:
+  web:
+    image: nginx:1.16.1-alpine
+    volumes:
+      - ./html/:/usr/share/nginx/html/
+    ports:
+      - "80:80"
+```
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/mongodb/mongodb-docs-docker.jpg)
 
 ## Drivers
 
