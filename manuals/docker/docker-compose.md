@@ -6,6 +6,8 @@
   - [`docker-compose run`](#docker-compose-run)
   - [`docker-compose up`](#docker-compose-up)
 - [References](#references)
+  - [Docker Compose CLI reference](#docker-compose-cli-reference)
+  - [Compose file reference](#compose-file-reference)
 - [Examples](#examples)
 
 <https://docs.docker.com/compose/>
@@ -88,9 +90,13 @@ docker-compose stop
 
 ## References
 
-[Docker Compose CLI reference](https://docs.docker.com/compose/reference/overview/)
+### Docker Compose CLI reference
 
-[Compose file reference](https://docs.docker.com/compose/compose-file/)
+<https://docs.docker.com/compose/reference/overview/>
+
+### Compose file reference
+
+<https://docs.docker.com/compose/compose-file/>
 
 ## Examples
 
@@ -99,3 +105,5 @@ docker-compose stop
 <https://docs.docker.com/compose/rails/>
 
 <https://docs.docker.com/compose/wordpress/>
+
+[Deploying an app to a Swarm](https://github.com/docker/labs/blob/master/beginner/chapters/votingapp.md)

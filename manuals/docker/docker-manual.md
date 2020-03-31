@@ -27,7 +27,6 @@
   - [`docker push`](#docker-push)
   - [`docker rm`](#docker-rm)
   - [`docker run`](#docker-run)
-    - [Examples](#examples)
   - [`docker service`](#docker-service)
     - [`docker service ps`](#docker-service-ps)
   - [`docker start`](#docker-start)
@@ -43,7 +42,7 @@
   - [Volumes](#volumes)
 - [Tutorials](#tutorials)
   - [Network](#network)
-- [Samples](#samples)
+- [Examples](#examples)
 - [Images](#images)
 - [GUI](#gui)
 
@@ -460,7 +459,7 @@ docker run --help
 
 > 注意：官方已不推荐使用 [--link](https://docs.docker.com/network/links/) 链接两个容器
 
-#### Examples
+Examples
 
 - 循序渐进学 Docker
 
@@ -581,7 +580,7 @@ docker tag --help
 
 ## Docker Compose
 
-[Docker Compose](./docker-compose.md)
+[Docker Compose](docker-compose.md)
 
 ## References
 
@@ -629,9 +628,9 @@ docker tag --help
 
 ## Tutorials
 
-<https://docs.docker.com/get-started/>
+[Docker Tutorials and Labs](https://github.com/docker/labs)
 
-<https://github.com/docker/labs>
+<https://docs.docker.com/get-started/>
 
 <https://github.com/play-with-docker/play-with-docker>
 
@@ -651,9 +650,11 @@ docker tag --help
 
 [Overlay networking tutorial](https://docs.docker.com/network/network-tutorial-overlay/)
 
-## Samples
+## Examples
 
 <https://docs.docker.com/samples/>
+
+[Docker for beginners](https://github.com/docker/labs/tree/master/beginner)
 
 ## Images
 
