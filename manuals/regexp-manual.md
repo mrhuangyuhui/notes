@@ -4,6 +4,8 @@
 <!-- #regexp-ref -->
 ## References
 
+[Regular Expressions Cheat Sheet - Kapeli](https://kapeli.com/cheat_sheets/Regular_Expressions.docset/Contents/Resources/Documents/index)
+
 [![鸟哥的 Linux 私房菜](https://gitee.com/mrhuangyuhui/images/raw/master/regexp/regexp-vbird-1.jpg)](http://linux.vbird.org/linux_basic/0330regularex.php)
 
 [![鸟哥的 Linux 私房菜](https://gitee.com/mrhuangyuhui/images/raw/master/regexp/regexp-vbird-2.png)](http://linux.vbird.org/linux_basic/0330regularex.php)
