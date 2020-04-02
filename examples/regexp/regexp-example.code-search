@@ -1,0 +1,9 @@
+# Query: #regexp-example
+
+2 results - 2 files
+
+tutorials/linux/linux-vbird-basic/ch11.md:
+  76: <!-- #regexp-example #grep-example -->
+
+tutorials/shell/Shell_从入门到精通/第 11 章 文本处理利器 awk 命令.md:
+  141: <!-- #regexp-example -->
