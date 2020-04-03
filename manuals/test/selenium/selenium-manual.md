@@ -2,6 +2,7 @@
 # Selenium Manual
 
 - [Install](#install)
+- [Selenium IDE](#selenium-ide)
 - [References](#references)
   - [Python](#python)
 - [Tutorials](#tutorials)
@@ -13,6 +14,8 @@
 <https://github.com/SeleniumHQ/selenium>
 
 ## Install
+
+<https://www.selenium.dev/downloads/>
 
 下载并安装驱动 [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/)
 
@@ -28,6 +31,10 @@ pip install -U selenium
 # Mac 设置 PATH
 echo 'export PATH=${PATH}:~/chromedriver/current' >> ~/.bash_profile
 ```
+
+## Selenium IDE
+
+[Selenium IDE](selenium-ide.md)
 
 ## References
 
