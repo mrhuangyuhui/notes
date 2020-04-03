@@ -37,8 +37,8 @@
 <!-- #regexp-tool -->
 ## Tools
 
-<https://www.regexpal.com/>
-
 <https://regex101.com/>
+
+<https://www.regexpal.com/>
 
 <https://regexr.com/>
