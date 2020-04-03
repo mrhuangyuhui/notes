@@ -13,8 +13,28 @@
 
 <https://www.selenium.dev/selenium-ide/docs/en/introduction/command-line-runner>
 
-安装 Node 请参考 [Node Manual](/manuals/node/node-manual.md#nvm)
+安装 Node（详情请参考 [Node Manual](/manuals/node/node-manual.md#nvm)）
+
+```bash
+# 使用 Node 多版本管理工具 NVM 进行安装
+nvm install 10.19.0
+
+# 指定 Node 版本
+nvm use 10.19.0
+```
+
+安装 Command-line Runner
 
 ```bash
 npm install -g selenium-side-runner
+```
+
+安装浏览器驱动
+
+```bash
+# Chrome（注意：如果安装失败，请使用 VPN）
+npm install -g chromedriver
+
+# Firefox
+npm install -g geckodriver
 ```
