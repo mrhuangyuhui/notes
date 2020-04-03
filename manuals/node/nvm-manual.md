@@ -1,4 +1,13 @@
+<!-- omit in toc -->
 # NVM Manual
+
+- [Install](#install)
+- [Commands](#commands)
+  - [`nvm ls-remote`](#nvm-ls-remote)
+  - [`nvm install`](#nvm-install)
+  - [`nvm list`](#nvm-list)
+  - [`nvm use`](#nvm-use)
+  - [`nvm current`](#nvm-current)
 
 <https://github.com/creationix/nvm>
 
@@ -20,6 +29,7 @@ command -v nvm
 
 > which should output 'nvm' if the installation was successful. Please note that `which nvm` will not work, since `nvm` is a sourced shell function, not an executable binary.
 
+<!-- #nvm-command -->
 ## Commands
 
 查看帮助
@@ -28,6 +38,8 @@ command -v nvm
 nvm
 nvm --help
 ```
+
+### `nvm ls-remote`
 
 列出可安装的版本
 
@@ -46,6 +58,8 @@ nvm ls-remote 8.9
 nvm ls-remote 8.9 --lts
 ```
 
+### `nvm install`
+
 To download, compile, and install the latest release of node, do this:
 
 ```bash
@@ -58,17 +72,23 @@ To install a specific version of node:
 nvm install 6.14.4 # or 10.10.0, 8.9.1, etc
 ```
 
+### `nvm list`
+
 列出已安装的版本
 
 ```bash
 nvm list
 ```
 
+### `nvm use`
+
 使用指定版本
 
 ```bash
 nvm use 8.9.1
 ```
+
+### `nvm current`
 
 查看当前使用版本
 
