@@ -1,4 +1,5 @@
-# 《Selenium 2 自动化测试实战---基于 Python 语言》学习笔记
+<!-- #selenium-tutorial -->
+# 《Selenium 2 自动化测试实战：基于 Python 语言》学习笔记
 
 ## 配套代码
 

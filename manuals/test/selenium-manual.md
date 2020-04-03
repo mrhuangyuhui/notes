@@ -1,4 +1,10 @@
+<!-- omit in toc -->
 # Selenium Manual
+
+- [Install](#install)
+- [References](#references)
+  - [Python](#python)
+- [Tutorials](#tutorials)
 
 <https://www.seleniumhq.org/>
 
@@ -6,7 +12,7 @@
 
 <https://github.com/SeleniumHQ/selenium>
 
-## Installation
+## Install
 
 下载并安装驱动 [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/)
 
@@ -33,3 +39,10 @@ echo 'export PATH=${PATH}:~/chromedriver/current' >> ~/.bash_profile
 
 - [General Index](https://seleniumhq.github.io/selenium/docs/api/py/genindex.html)
 - [Module Index](https://seleniumhq.github.io/selenium/docs/api/py/py-modindex.html)
+
+<!-- #selenium-tutorial -->
+## Tutorials
+
+[Selenium 2 自动化测试实战：基于 Python 语言](/tutorials/selenium/selenium2-python/README.md)
+
+[Selenium Tutorial](/tutorials/selenium/selenium-tutorial/README.md)
