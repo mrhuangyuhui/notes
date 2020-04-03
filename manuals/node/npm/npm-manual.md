@@ -2,7 +2,7 @@
 # NPM Manual
 
 - [Install](#install)
-- [Registry](#registry)
+- [Mirrors](#mirrors)
 - [Commands](#commands)
   - [`npm install`](#npm-install)
   - [`init`](#init)
@@ -36,7 +36,7 @@
 npm install npm@latest -g
 ```
 
-## Registry
+## Mirrors
 
 [CNPM](https://npm.taobao.org/)
 
