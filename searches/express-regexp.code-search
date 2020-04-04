@@ -1,0 +1,7 @@
+# Query: ^<!--.*#express-regexp.*-->$
+# Flags: RegExp
+
+1 result - 1 file
+
+manuals/node/express-manual.md:
+  179: <!-- #express-regexp #regexp-express -->

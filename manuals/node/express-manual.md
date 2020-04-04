@@ -176,6 +176,7 @@ express --view=pug myapp
 
 ## Tools
 
+<!-- #express-regexp #regexp-express -->
 [Express Route Tester](http://forbeslindesay.github.io/express-route-tester/)
 
 ## Misc
