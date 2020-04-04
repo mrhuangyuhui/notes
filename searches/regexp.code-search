@@ -1,0 +1,32 @@
+# Query: ^<!--.*regexp.*-->$
+# Flags: RegExp IgnoreExcludeSettings
+
+14 results - 7 files
+
+README.md:
+  97: <!-- #regexp-tool -->
+
+manuals/regexp-manual.md:
+  1: <!-- #regexp -->
+  9: <!-- #regexp-ref -->
+  26: <!-- #regexp-tutorial -->
+  37: <!-- #regexp-tool -->
+
+manuals/node/express-manual.md:
+  179: <!-- #express-regexp #regexp-express -->
+
+snippets/js/js-regexp.md:
+  1: <!-- #js-regexp -->
+
+tutorials/js/js-regexp.md:
+  1: <!-- #js-regexp #regexp-js -->
+
+tutorials/linux/linux-vbird-basic/ch11.md:
+  1: <!-- #regexp -->
+  25: <!-- #regexp-ref -->
+  76: <!-- #regexp-example #grep-example -->
+  327: <!-- #regexp-ref -->
+  384: <!-- #regexp-ref -->
+
+tutorials/shell/Shell_从入门到精通/第 11 章 文本处理利器 awk 命令.md:
+  141: <!-- #regexp-example -->
