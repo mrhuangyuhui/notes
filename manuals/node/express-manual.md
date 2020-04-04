@@ -1,3 +1,4 @@
+<!-- #express-manual -->
 <!-- omit in toc -->
 # Express Manual
 
@@ -174,9 +175,10 @@ express --view=pug myapp
 
 <https://mochajs.org/>
 
+<!-- #express-tool -->
 ## Tools
 
-<!-- #express-regexp #regexp-express -->
+<!-- #express-regexp -->
 [Express Route Tester](http://forbeslindesay.github.io/express-route-tester/)
 
 ## Misc

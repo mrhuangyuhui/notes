@@ -1,0 +1,13 @@
+# Query: ^<!--.*express.*-->$
+# Flags: RegExp
+# Excluding: docs/expressjs.com/
+
+4 results - 2 files
+
+codes/js/express-notes.md:
+  1: <!-- #express-code -->
+
+manuals/node/express-manual.md:
+  1: <!-- #express-manual -->
+  178: <!-- #express-tool -->
+  181: <!-- #express-regexp -->

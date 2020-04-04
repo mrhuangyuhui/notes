@@ -1,3 +1,4 @@
+<!-- #node-manual -->
 <!-- omit in toc -->
 # Node Manual
 
@@ -27,6 +28,7 @@
 
 [Dockerizing a Node.js web app](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
 
+<!-- #node-install -->
 ## Install
 
 [Downloads](https://nodejs.org/en/download/)
@@ -35,10 +37,12 @@
 
 [Previous Releases](https://nodejs.org/en/download/releases/)
 
+<!-- #node-docker -->
 ### Docker
 
 <https://hub.docker.com/_/node/>
 
+<!-- #node-nvm -->
 ### NVM
 
 Node 版本管理工具，本地安装推荐这种方式。
@@ -121,12 +125,14 @@ echo 'export PATH=${PATH}:~/node/current/bin' >> ~/.bash_profile
 node -v
 ```
 
+<!-- #node-ref -->
 ## References
 
 [Node API](https://nodejs.org/dist/latest-v8.x/docs/api/)
 
 [Node.js Built-in Modules](https://www.w3schools.com/nodejs/ref_modules.asp)
 
+<!-- #node-tutorial -->
 ## Tutorials
 
 [Learn Node.js (tutorialspoint)](https://www.tutorialspoint.com/nodejs/index.htm)
@@ -137,6 +143,7 @@ node -v
 
 <https://mochajs.org/>
 
+<!-- #node-tool -->
 ## Tools
 
 <https://runkit.com/>

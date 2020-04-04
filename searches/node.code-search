@@ -1,0 +1,16 @@
+# Query: ^<!--.*node.*-->$
+# Flags: RegExp
+
+8 results - 2 files
+
+manuals/node/node-manual.md:
+  1: <!-- #node-manual -->
+  31: <!-- #node-install -->
+  40: <!-- #node-docker -->
+  45: <!-- #node-nvm -->
+  128: <!-- #node-ref -->
+  135: <!-- #node-tutorial -->
+  146: <!-- #node-tool -->
+
+manuals/node/README.md:
+  1: <!-- #node -->
