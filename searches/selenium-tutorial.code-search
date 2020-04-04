@@ -2,8 +2,8 @@
 
 3 results - 3 files
 
-manuals/test/selenium-manual.md:
-  43: <!-- #selenium-tutorial -->
+manuals/test/selenium/selenium-manual.md:
+  50: <!-- #selenium-tutorial -->
 
 tutorials/selenium/selenium-tutorial/README.md:
   1: <!-- #selenium-tutorial -->

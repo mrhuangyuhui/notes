@@ -3,7 +3,7 @@
 4 results - 2 files
 
 manuals/regexp-manual.md:
-  4: <!-- #regexp-ref -->
+  9: <!-- #regexp-ref -->
 
 tutorials/linux/linux-vbird-basic/ch11.md:
   25: <!-- #regexp-ref -->

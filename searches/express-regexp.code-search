@@ -1,5 +1,4 @@
-# Query: ^<!--.*#express-regexp.*-->$
-# Flags: RegExp
+# Query: #express-regexp
 
 1 result - 1 file
 
