@@ -1,4 +1,24 @@
+<!-- omit in toc -->
 # Git Manual
+
+- [Installation](#installation)
+  - [YUM](#yum)
+  - [Source](#source)
+  - [Windows](#windows)
+- [Commands](#commands)
+  - [`clone`](#clone)
+  - [`config`](#config)
+  - [`pull`](#pull)
+  - [`checkout`](#checkout)
+  - [`brance`](#brance)
+  - [`git log`](#git-log)
+  - [`git reset`](#git-reset)
+  - [`ssh-keygen`](#ssh-keygen)
+  - [`submodule`](#submodule)
+- [References](#references)
+  - [Cheat-sheets](#cheat-sheets)
+- [Tutorials](#tutorials)
+- [Servers](#servers)
 
 <https://git-scm.com/>
 
@@ -56,8 +76,7 @@ make install install-doc install-html install-info
 
 <https://git-scm.com/download/win>
 
-
-
+<!-- #git-cmd -->
 ## Commands
 
 快速帮助
@@ -153,8 +172,12 @@ git help reset
 git submodule add https://github.com/chaconinc/DbConnector
 ```
 
-## [References](https://git-scm.com/docs)
+<!-- #git-ref -->
+## References
 
+<https://git-scm.com/docs>
+
+<!-- #git-cheat -->
 ### Cheat-sheets
 
 <https://www.git-tower.com/blog/git-cheat-sheet-cn/>
