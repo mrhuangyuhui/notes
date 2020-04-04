@@ -1,4 +1,4 @@
-<!-- #regexp-js -->
+<!-- #js-regexp #regexp-js -->
 # JavaScript - RegExp
 
 [Regular expressions - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)

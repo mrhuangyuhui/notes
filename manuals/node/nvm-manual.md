@@ -29,7 +29,7 @@ command -v nvm
 
 > which should output 'nvm' if the installation was successful. Please note that `which nvm` will not work, since `nvm` is a sourced shell function, not an executable binary.
 
-<!-- #nvm-command -->
+<!-- #nvm-cmd -->
 ## Commands
 
 查看帮助
