@@ -1,0 +1,22 @@
+# Query: ^<!--.*mongodb.*-->$
+# Flags: RegExp
+
+12 results - 3 files
+
+manuals/mongodb-manual.md:
+  1: <!-- #mongodb -->
+  41: <!-- #mongodb-install -->
+  46: <!-- #mongodb-docker -->
+  131: <!-- #mongodb-config -->
+  138: <!-- #mongodb-cmd -->
+  167: <!-- #mongodb-shell -->
+  226: <!-- #mongodb-shell -->
+  287: <!-- #mongodb-ref -->
+  298: <!-- #mongodb-docker -->
+  341: <!-- #mongodb-tool #mongodb-gui -->
+
+tutorials/mongodb/mongodb-24h/README.md:
+  1: <!-- #mongodb-tutorial -->
+
+tutorials/mongodb/mongodb-24h/codes/README.md:
+  1: <!-- #mongodb-code -->

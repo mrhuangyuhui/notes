@@ -1,3 +1,4 @@
+<!-- #mongodb -->
 <!-- omit in toc -->
 # MongoDB Manual
 
@@ -37,10 +38,12 @@
 
 <https://github.com/mongodb-js/compass/>
 
+<!-- #mongodb-install -->
 ## Install
 
 <https://docs.mongodb.com/master/administration/install-community/>
 
+<!-- #mongodb-docker -->
 ### Docker
 
 <https://hub.docker.com/_/mongo>
@@ -125,12 +128,14 @@ mongo --host 127.0.0.1:27017
 > db.shutdownServer()
 ```
 
+<!-- #mongodb-config -->
 ## Configs
 
 [Configuration File Options](https://docs.mongodb.com/manual/reference/configuration-options/)
 
 [Configuration File Settings and Command-Line Options Mapping](https://docs.mongodb.com/manual/reference/configuration-file-settings-command-line-options-mapping/)
 
+<!-- #mongodb-cmd -->
 ## Commands
 
 ### `mongod`
@@ -159,6 +164,7 @@ mongod --dbpath ~/mongodb/data/db
 > db.shutdownServer()
 ```
 
+<!-- #mongodb-shell -->
 ### `mongo` Shell
 
 <https://docs.mongodb.com/manual/reference/mongo-shell/>
@@ -217,6 +223,7 @@ mongo --host 127.0.0.1:27017
   load(jsfilename)                load and execute a .js file
 ```
 
+<!-- #mongodb-shell -->
 ## `mongo` Shell Methods
 
 <https://docs.mongodb.com/manual/reference/method/>
@@ -277,6 +284,7 @@ mongo --host 127.0.0.1:27017
 
 [`db.dropAllUsers()`](https://docs.mongodb.com/manual/reference/method/db.dropAllUsers/#db.dropAllUsers)
 
+<!-- #mongodb-ref -->
 ## References
 
 <https://docs.mongodb.com/manual/>
@@ -287,6 +295,7 @@ mongo --host 127.0.0.1:27017
 
 [`mongo` Shell Quick Reference](https://docs.mongodb.com/manual/reference/mongo-shell/)
 
+<!-- #mongodb-docker -->
 <!-- omit in toc -->
 ### 部署本地站点
 
@@ -329,6 +338,7 @@ services:
 
 <<https://www.npmjs.com/package/mongodb>>
 
+<!-- #mongodb-tool #mongodb-gui -->
 ## GUI
 
 ### MongoDB Compass
