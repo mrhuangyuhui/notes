@@ -1,0 +1,11 @@
+# Query: ^<!--.*mongodb-shell.*-->$
+# Flags: RegExp
+
+3 results - 2 files
+
+manuals/mongodb/mongo-shell-methods.md:
+  1: <!-- #mongodb-ref #mongodb-shell -->
+
+manuals/mongodb/mongodb-manual.md:
+  163: <!-- #mongodb-shell -->
+  229: <!-- #mongodb-shell -->
