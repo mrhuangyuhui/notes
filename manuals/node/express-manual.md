@@ -1,4 +1,3 @@
-<!-- #express-manual -->
 <!-- omit in toc -->
 # Express Manual
 
@@ -6,6 +5,7 @@
   - [Express Generator](#express-generator)
 - [Commands](#commands)
 - [References](#references)
+- [Routing](#routing)
 - [Middlewares](#middlewares)
 - [Tutorials](#tutorials)
 - [Examples](#examples)
@@ -117,6 +117,7 @@ DEBUG=myapp:* npm start
 curl localhost:3000
 ```
 
+<!-- #express-cmd -->
 ## Commands
 
 查看帮助
@@ -141,6 +142,7 @@ express --no-view myapp
 express --view=pug myapp
 ```
 
+<!-- #express-ref -->
 ## References
 
 [4.x API](http://expressjs.com/en/4x/api.html)
@@ -153,16 +155,24 @@ express --view=pug myapp
 
 [Serving static files in Express](http://expressjs.com/en/starter/static-files.html)
 
+<!-- #express-route -->
+## Routing
+
+[Routing](http://expressjs.com/en/guide/routing.html)
+
+<!-- #express-middleware -->
 ## Middlewares
 
 [Express middleware](http://expressjs.com/en/resources/middleware.html)
 
+<!-- #express-tutorial -->
 ## Tutorials
 
 <http://expressjs.com/en/starter/installing.html>
 
 [Learn ExpressJS](https://www.tutorialspoint.com/expressjs/index.htm)
 
+<!-- #express-example -->
 ## Examples
 
 <https://github.com/vuejs/vue-router/blob/dev/examples/server.js>

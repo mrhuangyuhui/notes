@@ -2,12 +2,20 @@
 # Flags: RegExp
 # Excluding: docs/expressjs.com/
 
-4 results - 2 files
+10 results - 3 files
 
-codes/js/express-notes.md:
+codes/js/express.md:
   1: <!-- #express-code -->
 
+codes/js-codes/path-to-regexp.md:
+  1: <!-- #express-route #js-regexp #regexp-js  -->
+
 manuals/node/express-manual.md:
-  1: <!-- #express-manual -->
-  178: <!-- #express-tool -->
-  181: <!-- #express-regexp -->
+  120: <!-- #express-cmd -->
+  145: <!-- #express-ref -->
+  158: <!-- #express-route -->
+  163: <!-- #express-middleware -->
+  168: <!-- #express-tutorial -->
+  175: <!-- #express-example -->
+  188: <!-- #express-tool -->
+  191: <!-- #express-regexp -->
