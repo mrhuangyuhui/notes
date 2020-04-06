@@ -1,6 +1,7 @@
 <!-- omit in toc -->
 # Selenium Manual
 
+- [The Internet](#the-internet)
 - [Install](#install)
 - [Selenium IDE](#selenium-ide)
 - [References](#references)
@@ -12,6 +13,16 @@
 <https://www.seleniumhq.org/docs/>
 
 <https://github.com/SeleniumHQ/selenium>
+
+## The Internet
+
+测试网站
+
+<http://the-internet.herokuapp.com/>
+
+<https://github.com/tourdedave/the-internet>
+
+<https://hub.docker.com/r/gprestes/the-internet/>
 
 ## Install
 
@@ -53,3 +64,5 @@ echo 'export PATH=${PATH}:~/chromedriver/current' >> ~/.bash_profile
 [Selenium 2 自动化测试实战：基于 Python 语言](/tutorials/selenium/selenium2-python/README.md)
 
 [Selenium Tutorial](/tutorials/selenium/selenium-tutorial/README.md)
+
+<http://elementalselenium.com/tips>

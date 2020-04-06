@@ -1,5 +1,10 @@
 <!-- #selenium-ide -->
+<!-- omit in toc -->
 # Selenium IDE
+
+- [Command-line Runner](#command-line-runner)
+- [References](#references)
+  - [Control Flow](#control-flow)
 
 <https://www.selenium.dev/selenium-ide/>
 
@@ -47,16 +52,24 @@ npm install -g chromedriver
 npm install -g geckodriver
 ```
 
-## Control Flow
-
-<https://www.selenium.dev/selenium-ide/docs/en/introduction/control-flow>
-
 ## References
 
 <https://www.selenium.dev/selenium-ide/docs/en/api/commands>
 
-### Commands
+### Control Flow
+
+<https://www.selenium.dev/selenium-ide/docs/en/introduction/control-flow>
 
 [`times`](https://www.selenium.dev/selenium-ide/docs/en/api/commands#times)
 
 [![img](https://www.selenium.dev/selenium-ide/img/docs/control-flow/times.png)](https://www.selenium.dev/selenium-ide/docs/en/introduction/control-flow#times-selenium-ide-docs-en-api-commands-times)
+
+[`do`](https://www.selenium.dev/selenium-ide/docs/en/api/commands#do)
+
+[`repeat if`](https://www.selenium.dev/selenium-ide/docs/en/api/commands#repeat-if)
+
+[![img](https://www.selenium.dev/selenium-ide/img/docs/control-flow/do.png)](https://www.selenium.dev/selenium-ide/docs/en/introduction/control-flow#do-selenium-ide-docs-en-api-commands-do)
+
+[`while`](https://www.selenium.dev/selenium-ide/docs/en/api/commands#while)
+
+[![img](https://www.selenium.dev/selenium-ide/img/docs/control-flow/while.png)](https://www.selenium.dev/selenium-ide/docs/en/introduction/control-flow#while-selenium-ide-docs-en-api-commands-while)
