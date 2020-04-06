@@ -3,6 +3,8 @@
 
 <https://www.selenium.dev/selenium-ide/>
 
+<https://github.com/seleniumhq/selenium-ide>
+
 [Chrome Extension](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd)
 
 [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/)
@@ -44,3 +46,17 @@ npm install -g chromedriver
 ```bash
 npm install -g geckodriver
 ```
+
+## Control Flow
+
+<https://www.selenium.dev/selenium-ide/docs/en/introduction/control-flow>
+
+## References
+
+<https://www.selenium.dev/selenium-ide/docs/en/api/commands>
+
+### Commands
+
+[`times`](https://www.selenium.dev/selenium-ide/docs/en/api/commands#times)
+
+[![img](https://www.selenium.dev/selenium-ide/img/docs/control-flow/times.png)](https://www.selenium.dev/selenium-ide/docs/en/introduction/control-flow#times-selenium-ide-docs-en-api-commands-times)
