@@ -112,7 +112,9 @@ npm init -y
 
 [Using a `package.json`](https://docs.npmjs.com/getting-started/using-a-package.json)
 
-### [`ls`](https://docs.npmjs.com/cli/ls)
+### `ls`
+
+<https://docs.npmjs.com/cli/ls>
 
 列出已安装的包，该命令可以查看包的版本信息。
 

@@ -5,6 +5,7 @@
 - [Commands](#commands)
   - [`nvm ls-remote`](#nvm-ls-remote)
   - [`nvm install`](#nvm-install)
+  - [`nvm uninstall`](#nvm-uninstall)
   - [`nvm list`](#nvm-list)
   - [`nvm use`](#nvm-use)
   - [`nvm current`](#nvm-current)
@@ -70,6 +71,12 @@ To install a specific version of node:
 
 ```bash
 nvm install 6.14.4 # or 10.10.0, 8.9.1, etc
+```
+
+### `nvm uninstall`
+
+```bash
+nvm uninstall 10.19.0
 ```
 
 ### `nvm list`
