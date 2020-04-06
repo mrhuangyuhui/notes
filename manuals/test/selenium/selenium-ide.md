@@ -31,10 +31,16 @@ npm install -g selenium-side-runner
 
 安装浏览器驱动
 
-```bash
-# Chrome（注意：如果安装失败，请使用 VPN）
-npm install -g chromedriver
+- [Chrome](http://chromedriver.chromium.org/)
 
-# Firefox
+> 提示：以下方法如果安装失败，请直接[下载安装](/manuals/test/chromedriver.md#install)。
+
+```bash
+npm install -g chromedriver
+```
+
+- [Firefox](https://github.com/mozilla/geckodriver)
+
+```bash
 npm install -g geckodriver
 ```
