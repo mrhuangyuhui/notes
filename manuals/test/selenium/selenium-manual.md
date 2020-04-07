@@ -6,8 +6,10 @@
   - [WebDriver binaries](#webdriver-binaries)
   - [Selenium libraries](#selenium-libraries)
 - [Ruby](#ruby)
+  - [Ruby Library](#ruby-library)
   - [Ruby API](#ruby-api)
 - [Python](#python)
+  - [Python Library](#python-library)
   - [Python API](#python-api)
 - [References](#references)
 - [Selenium IDE](#selenium-ide)
@@ -51,14 +53,16 @@
 
 <https://www.selenium.dev/documentation/en/selenium_installation/installing_selenium_libraries/>
 
-[Ruby library](#ruby)
+[Ruby library](#ruby-library)
 
-[Python library](#python)
+[Python library](#python-library)
 
 <!-- #selenium-ruby -->
 ## Ruby
 
 <https://github.com/SeleniumHQ/selenium/tree/master/rb>
+
+### Ruby Library
 
 > 提示：因网络问题，需要配置国内 Gem 源，请查看笔记 [Gem Manual](/manuals/ruby/gem-manual.md#mirrors)。
 
@@ -80,6 +84,8 @@ gem install selenium-webdriver
 ## Python
 
 <https://github.com/SeleniumHQ/selenium/tree/master/py>
+
+### Python Library
 
 ```bash
 pip install -U selenium
