@@ -1,4 +1,20 @@
+<!-- omit in toc -->
 # Ruby Manual
+
+- [Install](#install)
+  - [`ruby-install`](#ruby-install)
+  - [Docker](#docker)
+  - [CentOS](#centos)
+  - [APT](#apt)
+  - [YUM](#yum)
+  - [RVM](#rvm)
+  - [Others](#others)
+  - [Version Management](#version-management)
+  - [Source](#source)
+- [Reference](#reference)
+- [Documentation](#documentation)
+- [RubyGems](#rubygems)
+- [Tutorials](#tutorials)
 
 <https://www.ruby-lang.org/>
 
@@ -14,19 +30,10 @@ RubyGems 国内镜像 <https://gems.ruby-china.com/>
 
 <https://github.com/fastlane/fastlane>
 
-## Reference
+<!-- #ruby-install -->
+## Install
 
-http://ruby-doc.org/core-2.4.2/
-
-http://ruby-doc.org/stdlib-2.4.2/
-
-https://rubydocs.org/
-
-http://docs.rubydocs.org/ruby-2-4-2/
-
-<https://devdocs.io/ruby~2.6/>
-
-## [Install](https://www.ruby-lang.org/zh_cn/documentation/installation/)
+<https://www.ruby-lang.org/zh_cn/documentation/installation/>
 
 <https://www.ruby-lang.org/zh_cn/downloads/>
 
@@ -103,6 +110,18 @@ apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadlin
 make
 sudo make install
 ```
+
+## Reference
+
+http://ruby-doc.org/core-2.4.2/
+
+http://ruby-doc.org/stdlib-2.4.2/
+
+https://rubydocs.org/
+
+http://docs.rubydocs.org/ruby-2-4-2/
+
+<https://devdocs.io/ruby~2.6/>
 
 ## Documentation
 

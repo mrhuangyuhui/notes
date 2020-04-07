@@ -1,4 +1,11 @@
+<!-- omit in toc -->
 # RVM Manual
+
+- [Install](#install)
+  - [CentOS](#centos)
+- [Commands](#commands)
+  - [`rvm install`](#rvm-install)
+  - [`rvm list`](#rvm-list)
 
 <http://rvm.io/>
 
@@ -28,7 +35,11 @@ http://rvm.io/rvm/best-practices
 Myths
 http://rvm.io/rvm/myths
 
-## [Install](http://rvm.io/rvm/install)
+## Install
+
+<http://rvm.io/rvm/install>
+
+### CentOS
 
 ```bash
 ## CentOS 7.3
@@ -53,18 +64,29 @@ which ruby
 
 ## Commands
 
-查看帮助
+```bash
+rvm list rubies
+
+rvm list default
+```
 
 ```bash
 rvm
 rvm -h
 rvm --help
 rvm help
-# 查看指定命令的帮助
 rvm help install
 ```
 
 ### `rvm install`
+
+<https://rvm.io/rubies/installing/>
+
+<https://rvm.io/rubies/upgrading>
+
+```bash
+rvm help install
+```
 
 列出所有可安装的版本
 
@@ -72,39 +94,50 @@ rvm help install
 rvm list known
 ```
 
-更新RVM
-$ rvm get stable
+```bash
+rvm install 1.9.3
+```
+
+更新 RVM
+
+```bash
+rvm get stable
+```
 
 安装Ruby的依赖环境
-$ rvm requirements
 
-Installing Rubies
-http://rvm.io/rubies/installing
+```bash
+rvm requirements
+```
 
-Upgrading Rubies
-http://rvm.io/rubies/upgrading
+### `rvm list`
 
-安装Ruby
-$ rvm install 1.9.3
+<https://rvm.io/rubies/list>
 
-Listing RVM installed rubies
-http://rvm.io/rubies/list
-
-列出已安装的Ruby
-$ rvm list
+```bash
+rvm list
+```
 
 Setting the default Ruby
 http://rvm.io/rubies/default
 
+<https://rvm.io/rubies/list>
+
 设置Ruby版本
+```bash
 # 切换版本
 $ rvm use 2.4
+```
 
+```bash
 # 切换版本并设置为默认
 $ rvm --default use 2.1.1
+```
 
+```bash
 # 使用系统预装版本
 $ rvm use system
+```
 
 Removing Rubies
 http://rvm.io/rubies/removing
@@ -112,5 +145,7 @@ http://rvm.io/rubies/removing
 Uninstalling Rubies
 http://rvm.io/rubies/uninstalling
 
+```bash
 卸载Ruby
 $ rvm uninstall 2.0.0
+```
