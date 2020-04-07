@@ -3,8 +3,6 @@
 
 - [Codes](#codes)
   - [C](#c)
-  - [JavaScript](#javascript)
-  - [Objective-C](#objective-c)
   - [PHP](#php)
 - [Tutorials](#tutorials)
 - [API](#api)
@@ -29,16 +27,9 @@ git push https://github.com/mrhuangyuhui/notes.git
 
 - [ ] [nginx](https://github.com/nginx/nginx)
 
-### JavaScript
+[JavaScript 开源代码](https://gitee.com/mrhuangyuhui/js-codes)
 
-<https://gitee.com/mrhuangyuhui/js>
-
-- [x] [express](https://gitee.com/mrhuangyuhui/express)
-
-### Objective-C
-
-- [x] [YYKit](https://github.com/ibireme/YYKit)
-- [ ] [MJExtension](https://github.com/CoderMJLee/MJExtension)
+[Objective-C 开源代码](https://gitee.com/mrhuangyuhui/objc-codes)
 
 ### PHP
 

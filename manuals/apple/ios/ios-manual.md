@@ -1,4 +1,13 @@
+<!-- omit in toc -->
 # iOS Manual
+
+- [UIUE](#uiue)
+- [Docs](#docs)
+  - [UIKit](#uikit)
+    - [Images and PDF](#images-and-pdf)
+- [Examples](#examples)
+- [Tools](#tools)
+- [Tutorials](#tutorials)
 
 <https://developer.apple.com/documentation/>
 
@@ -32,6 +41,9 @@
 
 <https://revealapp.com/>
 
+<!-- #ios-tutorial -->
 ## Tutorials
+
+<https://github.com/vsouza/awesome-ios>
 
 <https://www.raywenderlich.com/ios>
