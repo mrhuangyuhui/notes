@@ -1,10 +1,14 @@
+<!-- omit in toc -->
 # CocoaPods Manual
+
+- [Install](#install)
+- [Commands](#commands)
 
 <https://cocoapods.org/>
 
 <https://github.com/CocoaPods/CocoaPods>
 
-> 注意：遇到问题请看 <https://guides.cocoapods.org/using/troubleshooting>
+> 提示：遇到问题请看 <https://guides.cocoapods.org/using/troubleshooting>
 
 ## Install
 
@@ -14,7 +18,7 @@
 sudo gem install cocoapods
 ```
 
-遇到 Ruby 或 Gem 的问题执行以下命令安装
+> 提示：安装过程中遇到 Ruby 或 Gem 的错误，尝试以下命令。
 
 ```bash
 sudo gem update --system
@@ -25,24 +29,19 @@ sudo gem install cocoapods -n /usr/local/bin
 
 ## Commands
 
-查看帮助
-
 ```bash
 pod --help
-```
-
-查看版本
-
-```bash
 pod --version
 ```
 
+初始化 `Podfile` 文件
+
 ```bash
-# 生成 Podfile 文件
 pod init
 ```
 
+安装依赖库
+
 ```bash
-# 安装依赖库
 pod install
 ```
