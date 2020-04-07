@@ -1,0 +1,7 @@
+# Query: ^<!--.*selenium-python.*-->$
+# Flags: RegExp
+
+1 result - 1 file
+
+manuals/test/selenium/selenium-manual.md:
+  79: <!-- #selenium-python -->

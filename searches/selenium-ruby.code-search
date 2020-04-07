@@ -1,0 +1,7 @@
+# Query: ^<!--.*selenium-ruby.*-->$
+# Flags: RegExp
+
+1 result - 1 file
+
+manuals/test/selenium/selenium-manual.md:
+  58: <!-- #selenium-ruby -->

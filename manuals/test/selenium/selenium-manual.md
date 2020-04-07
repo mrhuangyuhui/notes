@@ -5,11 +5,12 @@
 - [Install](#install)
   - [WebDriver binaries](#webdriver-binaries)
   - [Selenium libraries](#selenium-libraries)
-    - [Ruby](#ruby)
-    - [Python](#python)
-- [Selenium IDE](#selenium-ide)
+- [Ruby](#ruby)
+  - [Ruby API](#ruby-api)
+- [Python](#python)
+  - [Python API](#python-api)
 - [References](#references)
-  - [Python](#python-1)
+- [Selenium IDE](#selenium-ide)
 - [Tutorials](#tutorials)
 
 <https://www.selenium.dev/>
@@ -50,48 +51,62 @@
 
 <https://www.selenium.dev/documentation/en/selenium_installation/installing_selenium_libraries/>
 
+[Ruby library](#ruby)
+
+[Python library](#python)
+
 <!-- #selenium-ruby -->
-#### Ruby
+## Ruby
 
-<https://www.selenium.dev/selenium/docs/api/rb/>
-
-<https://www.selenium.dev/selenium/docs/api/rb/index.html>
+<https://github.com/SeleniumHQ/selenium/tree/master/rb>
 
 > 提示：因网络问题，需要配置国内 Gem 源，请查看笔记 [Gem Manual](/manuals/ruby/gem-manual.md#mirrors)。
+
+<http://rubygems.org/gems/selenium-webdriver>
 
 ```bash
 gem install selenium-webdriver
 ```
 
-#### Python
+### Ruby API
 
-安装 Selenium 的 Python 包
+<https://www.selenium.dev/selenium/docs/api/rb/>
+
+<https://www.selenium.dev/selenium/docs/api/rb/method_list.html>
+
+<http://seleniumhq.github.io/selenium/docs/api/rb/index.html>
+
+<!-- #selenium-python -->
+## Python
+
+<https://github.com/SeleniumHQ/selenium/tree/master/py>
 
 ```bash
 pip install -U selenium
 ```
 
-配置环境变量
+### Python API
 
-```bash
-# Mac 设置 PATH
-echo 'export PATH=${PATH}:~/chromedriver/current' >> ~/.bash_profile
-```
+<https://www.selenium.dev/selenium/docs/api/py/index.html>
+
+<https://www.selenium.dev/selenium/docs/api/py/genindex.html>
+
+<https://www.selenium.dev/selenium/docs/api/py/py-modindex.html>
+
+<https://seleniumhq.github.io/selenium/docs/api/py/api.html>
+
+<https://pypi.org/project/selenium/>
+
+<!-- #selenium-ref -->
+## References
+
+[Ruby API](#ruby-api)
+
+[Python API](#python-api)
 
 ## Selenium IDE
 
 [Selenium IDE](selenium-ide.md)
-
-## References
-
-### [Python](http://seleniumhq.github.io/selenium/docs/api/py/index.html)
-
-[PyPI](https://pypi.org/project/selenium/)
-
-[API](https://seleniumhq.github.io/selenium/docs/api/py/api.html)
-
-- [General Index](https://seleniumhq.github.io/selenium/docs/api/py/genindex.html)
-- [Module Index](https://seleniumhq.github.io/selenium/docs/api/py/py-modindex.html)
 
 <!-- #selenium-tutorial -->
 ## Tutorials
