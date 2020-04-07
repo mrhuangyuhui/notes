@@ -53,6 +53,10 @@
 <!-- #selenium-ruby -->
 #### Ruby
 
+<https://www.selenium.dev/selenium/docs/api/rb/>
+
+<https://www.selenium.dev/selenium/docs/api/rb/index.html>
+
 > 提示：因网络问题，需要配置国内 Gem 源，请查看笔记 [Gem Manual](/manuals/ruby/gem-manual.md#mirrors)。
 
 ```bash

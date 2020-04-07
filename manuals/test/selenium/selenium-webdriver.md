@@ -14,3 +14,7 @@
 ### Chrome
 
 [ChromeDriver](/manuals/test/chromedriver.md#install)
+
+## Browser manipulation
+
+<https://www.selenium.dev/documentation/en/webdriver/browser_manipulation/>
