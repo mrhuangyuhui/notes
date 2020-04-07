@@ -7,9 +7,11 @@
 
 <http://chromedriver.chromium.org/>
 
+## Install
+
 <http://chromedriver.chromium.org/downloads>
 
-## Install
+<https://chromedriver.storage.googleapis.com/index.html>
 
 ### Mac
 
@@ -27,7 +29,7 @@ $ tree
 |____current
 ```
 
-设置符号链接
+创建符号链接
 
 ```bash
 cd ~/chromedriver
@@ -35,9 +37,14 @@ cd ~/chromedriver
 ln -s chromedriver_mac64_80.0.3987.106 current
 ```
 
-配置环境变量
+配置 `PATH`
 
 ```bash
-# 设置 PATH
 echo 'export PATH=${PATH}:~/chromedriver/current' >> ~/.bash_profile
+```
+
+检查安装结果
+
+```bash
+chromedriver
 ```
