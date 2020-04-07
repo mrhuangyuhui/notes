@@ -15,24 +15,14 @@
 
 ### Mac
 
-下载并解压 [ChromeDriver 80.0.3987.106](https://chromedriver.storage.googleapis.com/index.html?path=80.0.3987.106/) 到目录 `~/chromedriver`
+> 注意：因为二进制文件的名称是 `chromedriver`，所以主目录命名为 `chromedriver_home`，不然，两者名称一样，在 Ruby 环境下可能会出现 `not a file` 的错误！！！
 
-`~/chromedriver` 的目录结构
-
-```bash
-cd ~/chromedriver
-
-$ tree
-.
-|____chromedriver_mac64_80.0.3987.106
-| |____chromedriver
-|____current
-```
+下载并解压 [ChromeDriver 80.0.3987.106](https://chromedriver.storage.googleapis.com/index.html?path=80.0.3987.106/) 到目录 `~/chromedriver_home`
 
 创建符号链接
 
 ```bash
-cd ~/chromedriver
+cd ~/chromedriver_home
 
 ln -s chromedriver_mac64_80.0.3987.106 current
 ```
@@ -40,7 +30,7 @@ ln -s chromedriver_mac64_80.0.3987.106 current
 配置 `PATH`
 
 ```bash
-echo 'export PATH=${PATH}:~/chromedriver/current' >> ~/.bash_profile
+echo 'export PATH=${PATH}:~/chromedriver_home/current' >> ~/.bash_profile
 ```
 
 检查安装结果
