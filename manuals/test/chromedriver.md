@@ -1,4 +1,4 @@
-<!-- #selenium -->
+<!-- #selenium-chrome -->
 <!-- omit in toc -->
 # ChromeDriver
 

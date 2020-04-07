@@ -50,6 +50,7 @@
 
 <https://www.selenium.dev/documentation/en/selenium_installation/installing_selenium_libraries/>
 
+<!-- #selenium-ruby -->
 #### Ruby
 
 > 提示：因网络问题，需要配置国内 Gem 源，请查看笔记 [Gem Manual](/manuals/ruby/gem-manual.md#mirrors)。

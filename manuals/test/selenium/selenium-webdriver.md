@@ -10,6 +10,7 @@
 
 <https://www.selenium.dev/documentation/en/webdriver/driver_requirements/>
 
+<!-- #selenium-chrome -->
 ### Chrome
 
 [ChromeDriver](/manuals/test/chromedriver.md#install)
