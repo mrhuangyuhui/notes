@@ -184,6 +184,13 @@ $ gem fetch malice
 $ gem unpack malice-13.gem
 ```
 
+<!-- #ruby-tutorial -->
 ## Tutorials
 
-<https://www.rubyguides.com/ruby-tutorial/>
+[Ruby 基础教程（第 4 版）](/tutorials/ruby/ruby-programming-4/README.md)
+
+[“笨办法”学 Ruby（第 3 版）](/tutorials/ruby/learn-ruby-the-hard-way-3/README.md)
+
+[The Definitive Ruby Tutorial For Complete Beginners](https://www.rubyguides.com/ruby-tutorial/)
+
+[Learn Ruby](https://www.tutorialspoint.com/ruby/index.htm)
