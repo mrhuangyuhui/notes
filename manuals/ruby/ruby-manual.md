@@ -43,6 +43,7 @@ RubyGems 国内镜像 <https://gems.ruby-china.com/>
 
 参考笔记 `ruby-install.md`
 
+<!-- #ruby-docker -->
 ### Docker
 
 <https://hub.docker.com/_/ruby>

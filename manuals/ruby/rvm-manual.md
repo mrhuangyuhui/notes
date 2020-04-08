@@ -1,3 +1,4 @@
+<!-- #ruby-install -->
 <!-- omit in toc -->
 # RVM Manual
 
@@ -6,6 +7,7 @@
 - [Commands](#commands)
   - [`rvm install`](#rvm-install)
   - [`rvm list`](#rvm-list)
+  - [`rvm use`](#rvm-use)
 
 <http://rvm.io/>
 
@@ -88,12 +90,6 @@ rvm help install
 rvm help install
 ```
 
-列出所有可安装的版本
-
-```bash
-rvm list known
-```
-
 ```bash
 rvm install 1.9.3
 ```
@@ -115,13 +111,31 @@ rvm requirements
 <https://rvm.io/rubies/list>
 
 ```bash
-rvm list
+rvm help list
+```
+
+To list all *known* RVM installable Rubies
+
+```bash
+rvm list known
+```
+
+To list all installed rubies
+
+```bash
+rvm list rubies
+```
+
+To list the default ruby
+
+```bash
+rvm list default
 ```
 
 Setting the default Ruby
 http://rvm.io/rubies/default
 
-<https://rvm.io/rubies/list>
+### `rvm use`
 
 设置Ruby版本
 ```bash

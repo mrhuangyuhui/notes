@@ -1,3 +1,4 @@
+<!-- #ruby-install -->
 # `ruby-install`
 
 <https://github.com/postmodern/ruby-install>
@@ -45,6 +46,8 @@ make install
 # 检查安装结果
 ruby-install
 ```
+
+### Mac
 
 ## Commands
 
