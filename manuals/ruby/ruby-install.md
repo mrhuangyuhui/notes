@@ -1,5 +1,12 @@
 <!-- #ruby-install -->
+<!-- omit in toc -->
 # `ruby-install`
+
+- [Install](#install)
+  - [CentOS](#centos)
+  - [Ubuntu](#ubuntu)
+  - [Mac](#mac)
+- [Commands](#commands)
 
 <https://github.com/postmodern/ruby-install>
 

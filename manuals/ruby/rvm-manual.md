@@ -4,6 +4,8 @@
 
 - [Install](#install)
   - [CentOS](#centos)
+  - [Mac](#mac)
+- [Uninstall](#uninstall)
 - [Commands](#commands)
   - [`rvm install`](#rvm-install)
   - [`rvm list`](#rvm-list)
@@ -11,13 +13,10 @@
 
 <http://rvm.io/>
 
-https://github.com/rvm/rvm
+<https://github.com/rvm/rvm>
 
 The Basics of RVM
 http://rvm.io/rvm/basics
-
-Installing RVM
-http://rvm.io/rvm/install
 
 Upgrading RVM
 http://rvm.io/rvm/upgrading
@@ -37,6 +36,7 @@ http://rvm.io/rvm/best-practices
 Myths
 http://rvm.io/rvm/myths
 
+<!-- #rvm-install -->
 ## Install
 
 <http://rvm.io/rvm/install>
@@ -64,13 +64,19 @@ ruby -v
 which ruby
 ```
 
-## Commands
+### Mac
 
 ```bash
-rvm list rubies
-
-rvm list default
+curl -sSL https://get.rvm.io | bash
 ```
+
+## Uninstall
+
+```bash
+rvm implode
+```
+
+## Commands
 
 ```bash
 rvm
@@ -91,7 +97,7 @@ rvm help install
 ```
 
 ```bash
-rvm install 1.9.3
+rvm install 2.1
 ```
 
 更新 RVM

@@ -2,12 +2,13 @@
 # Ruby Manual
 
 - [Install](#install)
-  - [`ruby-install`](#ruby-install)
   - [Docker](#docker)
+  - [RVM](#rvm)
+  - [ruby-install](#ruby-install)
+  - [Mac](#mac)
   - [CentOS](#centos)
   - [APT](#apt)
   - [YUM](#yum)
-  - [RVM](#rvm)
   - [Others](#others)
   - [Version Management](#version-management)
   - [Source](#source)
@@ -39,16 +40,24 @@ RubyGems 国内镜像 <https://gems.ruby-china.com/>
 
 <https://www.ruby-lang.org/zh_cn/downloads/>
 
-### `ruby-install`
-
-参考笔记 `ruby-install.md`
-
 <!-- #ruby-docker -->
 ### Docker
 
 <https://hub.docker.com/_/ruby>
 
 <https://bitnami.com/stack/ruby/containers>
+
+### RVM
+
+参考笔记 [RVM Manual](rvm-manual.md)
+
+### ruby-install
+
+参考笔记 [ruby-install](ruby-install.md)
+
+### Mac
+
+> 注意：千万不要删除操作系统自带的 Ruby，可能许多地方依赖！！！
 
 ### CentOS
 
@@ -61,10 +70,6 @@ apt-get install ruby-full
 ```bash
 yum install ruby
 ```
-
-### RVM
-
-http://rvm.io/
 
 ### Others
 
