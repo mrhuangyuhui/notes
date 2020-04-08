@@ -1,6 +1,5 @@
 # 习题 6 字符串和文本
 
-```ruby
 types_of_people = 10
 x = "There are #{types_of_people} types of people."
 puts x
@@ -20,10 +19,11 @@ puts joke_evaluation
 w = "This is the left side of..."
 e = "a string with a right side."
 puts w + e
-```
 
-输出结果：
-```
+=begin
+
+```bash
+$ ruby example06.rb 
 There are 10 types of people.
 Those who know binary and those who don't.
 I said: 'There are 10 types of people.'.
@@ -31,3 +31,5 @@ I also said: 'Those who know binary and those who don't.'.
 Isn't that joke so funny?! false
 This is the left side of...a string with a right side.
 ```
+
+=end

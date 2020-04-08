@@ -11,7 +11,9 @@
   - [Others](#others)
   - [Version Management](#version-management)
   - [Source](#source)
-- [Reference](#reference)
+- [Commands](#commands)
+  - [`irb`](#irb)
+- [References](#references)
 - [Documentation](#documentation)
 - [RubyGems](#rubygems)
 - [Tutorials](#tutorials)
@@ -111,7 +113,25 @@ make
 sudo make install
 ```
 
-## Reference
+<!-- #ruby-cmd -->
+## Commands
+
+### `irb`
+
+Ruby 交互式终端
+
+```bash
+irb -h
+irb --help
+```
+
+启动
+
+```bash
+irb
+```
+
+## References
 
 http://ruby-doc.org/core-2.4.2/
 

@@ -1,0 +1,13 @@
+# Query: ^<!--.*ruby-tutorial.*-->$
+# Flags: RegExp
+
+3 results - 3 files
+
+manuals/ruby/ruby-manual.md:
+  187: <!-- #ruby-tutorial -->
+
+tutorials/ruby/learn-ruby-the-hard-way-3/README.md:
+  1: <!-- #ruby-tutorial -->
+
+tutorials/ruby/ruby-programming-4/README.md:
+  1: <!-- #ruby-tutorial -->

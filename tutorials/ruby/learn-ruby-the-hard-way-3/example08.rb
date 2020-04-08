@@ -1,5 +1,7 @@
 # 习题 8 打印，打印
-```ruby
+
+# 格式化字符串，用 `%{}` 和 `#{}` 都可以，当需要给多个值指定同一格式，用 `%{}` 更好用。
+
 formatter = "%{first} %{second} %{third} %{fourth}"
 
 puts formatter % {first: 1, second: 2, third: 3, fourth: 4}
@@ -14,10 +16,11 @@ puts formatter % {
     third: "But it didn't sing.",
     fourth: "So I said goodnight."
 }
-```
 
-输出结果：
-```
+=begin
+
+```bash
+$ ruby example08.rb 
 1 2 3 4
 one two three four
 true false true false
@@ -25,5 +28,4 @@ true false true false
 I had this thing. That you could type up right. But it didn't sing. So I said goodnight.
 ```
 
-**格式化字符串，用 `%{}` 和 `#{}` 都可以，当需要给多个值指定同一格式，用 `%{}` 更好用。**
-
+=end
