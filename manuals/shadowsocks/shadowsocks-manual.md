@@ -11,6 +11,7 @@
   - [Windows](#windows)
   - [Linux](#linux)
   - [Android](#android)
+- [Configs](#configs)
 - [User Rules For PAC](#user-rules-for-pac)
 
 <https://shadowsocks.org/>
@@ -90,6 +91,25 @@ sudo ssserver -d stop
 ### Android
 
 [Shadowsocks for Android](https://github.com/shadowsocks/shadowsocks-android/releases)
+
+## Configs
+
+配置终端的网络代理
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/shadowsocks/shadowsocks-terminal-1.png)
+
+拷贝以下命令设置环境变量
+
+```bash
+# 注意：以下环境变量是临时的，如果想持久有效，可写入 Bash 配置文件 ~/.bash_profile。
+export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;
+```
+
+验证配置结果
+
+```bash
+curl -I https://www.facebook.com/
+```
 
 ## User Rules For PAC
 
