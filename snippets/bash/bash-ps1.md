@@ -4,7 +4,7 @@
 Mac
 
 ```bash
-echo 'PS1="mac:\W hyh\$ "' >> ~/.bash_profile
+echo 'PS1="mac10.15:\W hyh\$ "' >> ~/.bash_profile
 
 source ~/.bash_profile
 ```
