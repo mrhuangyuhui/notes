@@ -1,0 +1,7 @@
+# Query: ^<!--.*ruby-example.*-->$
+# Flags: RegExp
+
+1 result - 1 file
+
+tutorials/ruby/learn-ruby-the-hard-way-3/README.md:
+  1: <!-- #ruby-tutorial #ruby-example -->

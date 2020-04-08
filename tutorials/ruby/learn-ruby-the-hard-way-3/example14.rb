@@ -1,8 +1,5 @@
 # 习题 14 提示和传递
 
-```ruby
-# ex14.rb
-
 user_name = ARGV.first
 prompt = '> '
 
@@ -22,11 +19,11 @@ Alright, so you said #{likes} about liking me.
 You live in #{lives}. Not sure where that is.
 And you have a #{computer} computer. Nice.
 """
-```
 
-输出结果：
-```
-$ ruby ex14.rb Zed
+=begin
+
+```bash
+$ ruby example14.rb Zed
 Hi Zed.
 I'd like to ask you a few questions.
 Do you like me Zed?
@@ -42,6 +39,6 @@ You live in San Francisco. Not sure where that is.
 And you have a Tandy computer. Nice.
 ```
 
-## API
-
 http://ruby-doc.org/core-2.4.2/doc/globals_rdoc.html#$stdin
+
+=end
