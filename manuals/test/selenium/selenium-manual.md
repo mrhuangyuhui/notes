@@ -11,6 +11,7 @@
 - [Python](#python)
   - [Python Library](#python-library)
   - [Python API](#python-api)
+- [Docker](#docker)
 - [References](#references)
 - [Selenium IDE](#selenium-ide)
 - [Tutorials](#tutorials)
@@ -102,6 +103,10 @@ pip install -U selenium
 <https://seleniumhq.github.io/selenium/docs/api/py/api.html>
 
 <https://pypi.org/project/selenium/>
+
+## Docker
+
+<https://hub.docker.com/u/selenium>
 
 <!-- #selenium-ref -->
 ## References
