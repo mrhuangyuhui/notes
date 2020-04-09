@@ -1,0 +1,7 @@
+# Query: ^<!--.*ruby-env.*-->$
+# Flags: RegExp
+
+1 result - 1 file
+
+manuals/ruby/rvm-manual.md:
+  177: <!-- #ruby-env -->

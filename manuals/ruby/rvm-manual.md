@@ -7,9 +7,22 @@
   - [Mac](#mac)
 - [Uninstall](#uninstall)
 - [Commands](#commands)
-  - [`rvm install`](#rvm-install)
-  - [`rvm list`](#rvm-list)
-  - [`rvm use`](#rvm-use)
+  - [ruby installation](#ruby-installation)
+    - [`rvm install`](#rvm-install)
+    - [`rvm list`](#rvm-list)
+    - [`rvm remove`](#rvm-remove)
+    - [`rvm requirements`](#rvm-requirements)
+    - [`rvm uninstall`](#rvm-uninstall)
+  - [running different ruby versions](#running-different-ruby-versions)
+    - [`rvm current`](#rvm-current)
+    - [`rvm gemdir`](#rvm-gemdir)
+    - [`rvm use`](#rvm-use)
+  - [managing gemsets](#managing-gemsets)
+    - [`rvm gemset`](#rvm-gemset)
+  - [rvm configuration](#rvm-configuration)
+  - [rvm maintenance](#rvm-maintenance)
+    - [`rvm get`](#rvm-get)
+- [Gemsets](#gemsets)
 
 <http://rvm.io/>
 
@@ -86,7 +99,9 @@ rvm help
 rvm help install
 ```
 
-### `rvm install`
+### ruby installation
+
+#### `rvm install`
 
 <https://rvm.io/rubies/installing/>
 
@@ -98,24 +113,11 @@ rvm help install
 
 ```bash
 rvm install 2.1
-rvm install 2.0.0
 ```
 
 > 提示：在 Mac 上安装时，如果出现 `There was an error while trying to resolve rubygems version for 'latest'.` 的提示，可忽略!
 
-更新 RVM
-
-```bash
-rvm get stable
-```
-
-安装Ruby的依赖环境
-
-```bash
-rvm requirements
-```
-
-### `rvm list`
+#### `rvm list`
 
 <https://rvm.io/rubies/list>
 
@@ -141,34 +143,85 @@ To list the default ruby
 rvm list default
 ```
 
-Setting the default Ruby
-http://rvm.io/rubies/default
+#### `rvm remove`
 
-### `rvm use`
+<http://rvm.io/rubies/removing>
 
-设置Ruby版本
+remove ruby and downloaded sources
+
+#### `rvm requirements`
+
+installs dependencies for building ruby
+
+#### `rvm uninstall`
+
+uninstall ruby, keeping it's sources.
+
+<http://rvm.io/rubies/uninstalling>
+
+### running different ruby versions
+
+#### `rvm current`
+
+print current ruby version and name of used gemsets
+
 ```bash
-# 切换版本
-$ rvm use 2.4
+$ rvm current
+ruby-2.6.3
 ```
 
+#### `rvm gemdir`
+
+display path to current gem directory (`$GEM_HOME`)
+
 ```bash
-# 切换版本并设置为默认
-$ rvm --default use 2.1.1
+$ rvm gemdir
+/home/ubuntu/.rvm/gems/ruby-2.6.3
 ```
 
+#### `rvm use`
+
+切换版本
+
 ```bash
-# 使用系统预装版本
-$ rvm use system
+rvm use 2.4
 ```
 
-Removing Rubies
-http://rvm.io/rubies/removing
+切换版本并设置为默认
 
-Uninstalling Rubies
-http://rvm.io/rubies/uninstalling
+<http://rvm.io/rubies/default>
 
 ```bash
-卸载Ruby
-$ rvm uninstall 2.0.0
+rvm --default use 2.1.1
+```
+
+使用系统预装版本
+
+```bash
+rvm use system
+```
+
+### managing gemsets
+
+#### `rvm gemset`
+
+### rvm configuration
+
+### rvm maintenance
+
+#### `rvm get`
+
+upgrades RVM to latest head, stable or branched version
+
+```bash
+rvm get stable
+```
+
+<!-- #ruby-env -->
+## Gemsets
+
+<https://rvm.io/gemsets>
+
+```bash
+rvm help gemset
 ```
