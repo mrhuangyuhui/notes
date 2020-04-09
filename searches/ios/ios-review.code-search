@@ -1,0 +1,7 @@
+# Query: ^<!--.*ios-review.*-->$
+# Flags: RegExp
+
+1 result - 1 file
+
+manuals/apple/ios/ios-review.md:
+  1: <!-- #ios-review -->
