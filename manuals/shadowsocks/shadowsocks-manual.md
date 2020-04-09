@@ -146,4 +146,5 @@ curl -I https://www.facebook.com/
 ||asciinema.org
 ||outlook.live.com
 ||brew.sh
+||amazon.com
 ```
