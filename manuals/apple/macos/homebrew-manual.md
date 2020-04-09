@@ -9,7 +9,9 @@
   - [`brew install`](#brew-install)
   - [`brew list`](#brew-list)
   - [`brew update`](#brew-update)
-- [Packages](#packages)
+  - [`brew cat`](#brew-cat)
+- [Formulae](#formulae)
+- [Guides](#guides)
 
 <https://brew.sh/>
 
@@ -17,11 +19,7 @@
 
 <https://formulae.brew.sh/>
 
-<https://docs.brew.sh/FAQ>
-
 <https://github.com/Homebrew>
-
-<https://github.com/Homebrew/homebrew-core>
 
 ## Install
 
@@ -112,12 +110,42 @@ List all installed formulae.
 
 ### `brew update`
 
+<https://docs.brew.sh/Manpage#update-up-options>
+
+Fetch the newest version of Homebrew and all formulae from GitHub using `git` and perform any necessary migrations.
+
 ```bash
 brew help update
 ```
 
+更新
+
 > 提示：如果该命令执行失败，可尝试先卸载 Homebrew 再重装！！！
 
-## Packages
+### `brew cat`
+
+<https://docs.brew.sh/Manpage#cat-formula>
+
+查看 Formula 的源码，也就是安装某个软件的 Ruby 脚本。
+
+```bash
+brew cat wget
+```
+
+## Formulae
 
 <https://formulae.brew.sh/>
+
+> 提示：Homebrew 中的 Formula 不是软件，而是安装软件的 Ruby 脚本，例如 <https://github.com/Homebrew/homebrew-core/blob/master/Formula/wget.rb>
+
+## Guides
+
+<https://docs.brew.sh/>
+
+[Frequently Asked Questions](https://docs.brew.sh/FAQ)
+
+[Tips and Tricks](https://docs.brew.sh/Tips-N'-Tricks)
+
+[Ruby Gems, Python Eggs and Perl Modules](https://docs.brew.sh/Gems,-Eggs-and-Perl-Modules)
+
+[Python](https://docs.brew.sh/Homebrew-and-Python)
