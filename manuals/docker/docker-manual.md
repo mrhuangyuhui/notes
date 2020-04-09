@@ -70,9 +70,7 @@
 
 [Get Docker Engine - Community for Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
-<script id="asciicast-310570" src="https://asciinema.org/a/310570.js" async></script>
-
-<iframe src="https://baidu.com" width="700px" height="500px" frameborder="0" scrolling="no"> </iframe>
+<https://asciinema.org/a/310570>
 
 ### Mac
 
