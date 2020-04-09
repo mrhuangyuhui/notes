@@ -4,14 +4,12 @@
 - [Install](#install)
   - [Docker](#docker)
   - [RVM](#rvm)
-  - [ruby-install](#ruby-install)
   - [Mac](#mac)
   - [CentOS](#centos)
-  - [APT](#apt)
-  - [YUM](#yum)
-  - [Others](#others)
-  - [Version Management](#version-management)
+  - [Ubuntu](#ubuntu)
+  - [ruby-install](#ruby-install)
   - [Source](#source)
+- [Version Management](#version-management)
 - [Commands](#commands)
   - [`irb`](#irb)
 - [References](#references)
@@ -40,6 +38,8 @@ RubyGems 国内镜像 <https://gems.ruby-china.com/>
 
 <https://www.ruby-lang.org/zh_cn/downloads/>
 
+> 提示：本地安装推荐使用 [RVM](#rvm)
+
 <!-- #ruby-docker -->
 ### Docker
 
@@ -51,43 +51,37 @@ RubyGems 国内镜像 <https://gems.ruby-china.com/>
 
 参考笔记 [RVM Manual](rvm-manual.md)
 
+### Mac
+
+> 提示：推荐使用 [RVM](#rvm)，另外，千万不要删除操作系统预装的 Ruby，许多软件需要用到！！！
+
+### CentOS
+
+> 提示：推荐使用 [RVM](#rvm)
+
+<https://www.ruby-lang.org/en/documentation/installation/#yum>
+
+```bash
+sudo yum install ruby
+```
+
+### Ubuntu
+
+> 提示：推荐使用 [RVM](#rvm)
+
+<https://www.ruby-lang.org/en/documentation/installation/#apt>
+
+```bash
+sudo apt-get install ruby-full
+```
+
 ### ruby-install
 
 参考笔记 [ruby-install](ruby-install.md)
 
-### Mac
+### Source
 
-> 注意：千万不要删除操作系统自带的 Ruby，可能许多地方依赖！！！
-
-### CentOS
-
-### APT
-```bash
-apt-get install ruby-full
-```
-
-### YUM
-```bash
-yum install ruby
-```
-
-### Others
-
-ruby-install
-https://github.com/postmodern/ruby-install
-
-ruby-build
-https://github.com/rbenv/ruby-build
-
-### Version Management
-
-chruby
-https://github.com/postmodern/chruby
-
-rbenv
-https://github.com/rbenv/rbenv
-
-### [Source](https://www.ruby-lang.org/zh_cn/documentation/installation/#building-from-source)
+<https://www.ruby-lang.org/zh_cn/documentation/installation/#building-from-source>
 
 [下载 Ruby](https://www.ruby-lang.org/zh_cn/downloads/)
 
@@ -118,6 +112,12 @@ apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadlin
 make
 sudo make install
 ```
+
+## Version Management
+
+[chruby](https://github.com/postmodern/chruby)
+
+[rbenv](https://github.com/rbenv/rbenv)
 
 <!-- #ruby-cmd -->
 ## Commands

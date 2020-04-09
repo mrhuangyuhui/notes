@@ -98,7 +98,10 @@ rvm help install
 
 ```bash
 rvm install 2.1
+rvm install 2.0.0
 ```
+
+> 提示：在 Mac 上安装时，如果出现 `There was an error while trying to resolve rubygems version for 'latest'.` 的提示，可忽略!
 
 更新 RVM
 
