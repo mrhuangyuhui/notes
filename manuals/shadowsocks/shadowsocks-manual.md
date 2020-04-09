@@ -145,4 +145,5 @@ curl -I https://www.facebook.com/
 ||developer.mozilla.org
 ||asciinema.org
 ||outlook.live.com
+||brew.sh
 ```
