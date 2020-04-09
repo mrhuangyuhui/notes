@@ -9,6 +9,8 @@
 
 [Solve-App-Store-Review-Problem](https://github.com/wg689/Solve-App-Store-Review-Problem)
 
+[Network conditions](https://developer.apple.com/library/archive/technotes/tn2431/_index.html#//apple_ref/doc/uid/DTS40017497-CH1-NET)
+
 <!-- #ios-ipv6 -->
 ## IPv6
 
