@@ -22,6 +22,7 @@
   - [rvm configuration](#rvm-configuration)
   - [rvm maintenance](#rvm-maintenance)
     - [`rvm get`](#rvm-get)
+    - [`rvm reset`](#rvm-reset)
 - [Gemsets](#gemsets)
 
 <http://rvm.io/>
@@ -187,18 +188,34 @@ $ rvm gemdir
 rvm use 2.4
 ```
 
-切换版本并设置为默认
-
-<http://rvm.io/rubies/default>
+切换版本 + 设置默认版本 <http://rvm.io/rubies/default>
 
 ```bash
 rvm --default use 2.1.1
 ```
 
-使用系统预装版本
+设置默认版本
+
+```bash
+rvm alias create default 2.1.1
+```
+
+切换为默认版本
+
+```bash
+rvm use default
+```
+
+切换为系统版本
 
 ```bash
 rvm use system
+```
+
+切换为系统版本 + 设置系统版本为默认版本
+
+```bash
+rvm reset
 ```
 
 ### managing gemsets
@@ -215,6 +232,14 @@ upgrades RVM to latest head, stable or branched version
 
 ```bash
 rvm get stable
+```
+
+#### `rvm reset`
+
+切换为系统版本 + 设置系统版本为默认版本
+
+```bash
+rvm reset
 ```
 
 <!-- #ruby-env -->
