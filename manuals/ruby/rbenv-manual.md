@@ -2,13 +2,17 @@
 
 <https://github.com/rbenv/rbenv>
 
-## [Install](https://github.com/rbenv/rbenv#installation)
+## Install
+
+<https://github.com/rbenv/rbenv#installation>
+
+### CentOS
 
 ```bash
 yum group install -y 'Development Tools'
 ```
 
-Mac
+### Mac
 
 ```bash
 brew install rbenv

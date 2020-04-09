@@ -115,9 +115,11 @@ sudo make install
 
 ## Version Management
 
+<https://rvm.io/gemsets>
+
 [chruby](https://github.com/postmodern/chruby)
 
-[rbenv](https://github.com/rbenv/rbenv)
+[rbenv](rbenv-manual.md)
 
 <!-- #ruby-cmd -->
 ## Commands
