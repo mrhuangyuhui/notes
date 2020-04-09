@@ -20,6 +20,7 @@
   - [managing gemsets](#managing-gemsets)
     - [`rvm gemset`](#rvm-gemset)
   - [rvm configuration](#rvm-configuration)
+    - [`rvm alias`](#rvm-alias)
   - [rvm maintenance](#rvm-maintenance)
     - [`rvm get`](#rvm-get)
     - [`rvm reset`](#rvm-reset)
@@ -223,6 +224,37 @@ rvm reset
 #### `rvm gemset`
 
 ### rvm configuration
+
+#### `rvm alias`
+
+define aliases for `rvm use`
+
+<https://rvm.io/rubies/alias/>
+
+```bash
+rvm help alias
+```
+
+创建别名
+
+```bash
+# 设置默认版本
+rvm alias create default 2.1.1
+# 使用默认版本 2.1.1
+rvm use default
+```
+
+列出所有别名
+
+```bash
+rvm alias list
+```
+
+删除别名
+
+```bash
+rvm alias delete dotnet
+```
 
 ### rvm maintenance
 
