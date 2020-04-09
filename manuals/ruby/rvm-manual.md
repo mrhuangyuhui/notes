@@ -27,6 +27,7 @@
     - [`rvm reset`](#rvm-reset)
 - [Gemsets](#gemsets)
   - [`rvm gemset create`](#rvm-gemset-create)
+  - [`rvm gemset use`](#rvm-gemset-use)
   - [`rvm gemset list`](#rvm-gemset-list)
   - [`rvm gemset name`](#rvm-gemset-name)
   - [`rvm gemset delete`](#rvm-gemset-delete)
@@ -323,6 +324,14 @@ rvm use 2.1.1@rails410
 rvm @global do gem install rails -v 4.1.0
 ```
 
+使用当前 Ruby 版本默认的 Gemset，忽略所有配置。
+
+<https://rvm.io/gemsets/ignoring>
+
+```bash
+rvm use 1.9.3@my_project --ignore-gemsets
+```
+
 ### `rvm gemset create`
 
 <https://rvm.io/gemsets/creating>
@@ -356,6 +365,40 @@ rvm use 2.1.1@teddy --create
 
 ```bash
 rvm_gemset_create_on_use_flag=1
+```
+
+### `rvm gemset use`
+
+<https://rvm.io/gemsets/using>
+
+切换到指定 Gemset
+
+```bash
+rvm 2.1.1
+# 创建 Gemset
+rvm gemset create teddy
+# 切换到指定 Gemset
+rvm gemset use teddy
+```
+
+切换 Ruby 版本 + 指定 Gemset 并设置为默认
+
+```bash
+rvm use 2.1.1@teddy --default
+```
+
+切换到默认 Gemset
+
+```bash
+rvm gemset use default
+# 或
+rvm use @default
+```
+
+切换 Ruby 版本的同时指定 Gemset
+
+```bash
+rvm use 2.1.1@teddy
 ```
 
 ### `rvm gemset list`
