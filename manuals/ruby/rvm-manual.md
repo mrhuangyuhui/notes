@@ -15,6 +15,7 @@
     - [`rvm uninstall`](#rvm-uninstall)
   - [running different ruby versions](#running-different-ruby-versions)
     - [`rvm current`](#rvm-current)
+  - [`rvm do`](#rvm-do)
     - [`rvm gemdir`](#rvm-gemdir)
     - [`rvm use`](#rvm-use)
   - [managing gemsets](#managing-gemsets)
@@ -25,6 +26,10 @@
     - [`rvm get`](#rvm-get)
     - [`rvm reset`](#rvm-reset)
 - [Gemsets](#gemsets)
+  - [`rvm gemset create`](#rvm-gemset-create)
+  - [`rvm gemset list`](#rvm-gemset-list)
+  - [`rvm gemset name`](#rvm-gemset-name)
+  - [`rvm gemset delete`](#rvm-gemset-delete)
 
 <http://rvm.io/>
 
@@ -172,6 +177,18 @@ $ rvm current
 ruby-2.6.3
 ```
 
+### `rvm do`
+
+在多版本的 Ruby 环境上执行命令
+
+```bash
+rvm help do
+```
+
+```bash
+rvm all do ruby -v
+```
+
 #### `rvm gemdir`
 
 display path to current gem directory (`$GEM_HOME`)
@@ -186,7 +203,11 @@ $ rvm gemdir
 切换版本
 
 ```bash
+rvm 2.4
 rvm use 2.4
+# 切换版本并指定 Gemset
+rvm 2.1.1@rails410
+rvm use 2.1.1@rails410
 ```
 
 切换版本 + 设置默认版本 <http://rvm.io/rubies/default>
@@ -222,6 +243,12 @@ rvm reset
 ### managing gemsets
 
 #### `rvm gemset`
+
+[manage gemsets](#gemsets)
+
+```bash
+rvm help gemset
+```
 
 ### rvm configuration
 
@@ -281,4 +308,91 @@ rvm reset
 
 ```bash
 rvm help gemset
+```
+
+切换 Ruby 版本并指定 Gemset
+
+```bash
+rvm 2.1.1@rails410
+rvm use 2.1.1@rails410
+```
+
+安装 Gem 到当前 Ruby 版本的全局 Gemset <https://rvm.io/gemsets/global>
+
+```bash
+rvm @global do gem install rails -v 4.1.0
+```
+
+### `rvm gemset create`
+
+<https://rvm.io/gemsets/creating>
+
+创建 Gemset
+
+```bash
+$ rvm 2.1.1
+$ rvm gemset create teddy
+Gemset 'teddy' created.
+```
+
+同时创建多个 Gemset
+
+```bash
+$ rvm 2.1.1
+$ rvm gemset create teddy rosie
+Gemset 'teddy' created.
+Gemset 'rosie' created.
+```
+
+切换 Ruby+Gemset 版本的同时创建 Gemset
+
+```bash
+rvm use 2.1.1@teddy --create
+```
+
+设置默认在切换 Ruby+Gemset 版本的同时创建 Gemset
+
+`~/.rvmrc` 或 `/etc/rvmrc`
+
+```bash
+rvm_gemset_create_on_use_flag=1
+```
+
+### `rvm gemset list`
+
+<https://rvm.io/gemsets/listing>
+
+列出当前 Ruby 版本的所有 Gemset
+
+```bash
+rvm gemset list
+```
+
+列出所有 Ruby 版本的所有 Gemset
+
+```bash
+rvm gemset list_all
+```
+
+### `rvm gemset name`
+
+查看当前 Gemset 的名称
+
+```bash
+rvm gemset name
+```
+
+查看当前 Gemset 的所在目录
+
+```bash
+$ rvm gemdir
+/Users/rys/.rvm/gems/2.1.1@teddy
+```
+
+### `rvm gemset delete`
+
+删除 Gemset
+
+```bash
+rvm gemset delete rails410
 ```
