@@ -5,6 +5,7 @@
   - [Mac](#mac)
   - [Docker](#docker)
 - [Commands](#commands)
+- [Mirrors](#mirrors)
 
 <https://cocoapods.org/>
 
@@ -18,7 +19,7 @@
 
 ### Mac
 
-安装 Ruby 请参考笔记 [Ruby Manual](/manuals/ruby/ruby-manual.md)
+安装 Ruby 请参考笔记 [RVM Manual](/manuals/ruby/rvm-manual.md)
 
 ```bash
 sudo gem install cocoapods
@@ -37,6 +38,14 @@ sudo gem install cocoapods -n /usr/local/bin
 
 <https://hub.docker.com/r/gaetan/cocoapods>
 
+```bash
+docker run -it --rm -v `pwd`:/usr/src/myapp -w /usr/src/myapp cocoapods pod init
+```
+
+```bash
+docker run -it --rm -v `pwd`:/usr/src/myapp -w /usr/src/myapp cocoapods pod install
+```
+
 ## Commands
 
 ```bash
@@ -54,4 +63,30 @@ pod init
 
 ```bash
 pod install
+```
+
+## Mirrors
+
+<https://mirror.tuna.tsinghua.edu.cn/help/CocoaPods/>
+
+对于旧版的 CocoaPods 可以使用如下方法使用 tuna 的镜像：
+
+```bash
+pod repo remove master
+pod repo add master https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git
+pod repo update
+```
+
+新版的 CocoaPods 不允许用 `pod repo add` 直接添加 master 库了，但是依然可以：
+
+```bash
+cd ~/.cocoapods/repos
+pod repo remove master
+git clone https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git master
+```
+
+最后进入自己的工程，在自己工程的 `Podfile` 第一行加上：
+
+```bash
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
 ```
