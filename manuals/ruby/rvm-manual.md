@@ -27,6 +27,7 @@
     - [`rvm reset`](#rvm-reset)
   - [information and documentation](#information-and-documentation)
     - [`rvm info`](#rvm-info)
+- [Project Workflow](#project-workflow)
 - [Gemsets](#gemsets)
   - [`rvm gemset create`](#rvm-gemset-create)
   - [`rvm gemset use`](#rvm-gemset-use)
@@ -47,11 +48,7 @@
 <!-- #rvm-example -->
 [Examples of using RVM](http://rvm.io/workflow/examples)
 
-[Cheat Sheet](http://cheat.errtheblog.com/s/rvm)
-
-[RVM CLI Usage](http://rvm.io/rvm/cli)
-
-[RVM Best Practices](http://rvm.io/rvm/best-practices)
+[RVM Cheat Sheet](http://cheat.errtheblog.com/s/rvm)
 
 [Myths](http://rvm.io/rvm/myths)
 
@@ -97,6 +94,8 @@ rvm implode
 
 <!-- #rvm-cmd #rvm-example -->
 ## Commands
+
+<http://rvm.io/rvm/cli>
 
 ```bash
 rvm
@@ -317,6 +316,25 @@ rvm help info
 
 ```bash
 rvm info
+```
+
+<!-- #ruby-env -->
+## Project Workflow
+
+[RVM Best Practices](http://rvm.io/rvm/best-practices)
+
+[Typical RVM Project Workflow](https://rvm.io/workflow/projects)
+
+<https://rvm.io/workflow/rvmrc>
+
+<https://github.com/rvm/rvm/tree/master/examples>
+
+```bash
+cd myapp
+# 配置项目使用的 Ruby 版本和 Gemset，创建文件 .rvmrc。
+rvm --create use 2.7.1@myapp --rvmrc
+# 验证配置文件
+rvm rvmrc trust .rvmrc
 ```
 
 <!-- #ruby-env -->
