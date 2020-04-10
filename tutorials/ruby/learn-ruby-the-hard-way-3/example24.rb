@@ -1,8 +1,5 @@
 # 习题 24 更多练习
 
-```ruby
-# ex24.rb
-
 puts "Let's practice everything."
 puts "You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs."
 
@@ -34,11 +31,11 @@ beans, jars, creates = secret_formula(start_point)
 
 puts "With a starting point of: #{start_point}"
 puts "We'd have #{beans} beans, #{jars} jars, and #{creates} creates."
-```
 
-结果：
+=begin
+
 ```bash
-$ ruby ex24.rb
+$ ruby example24.rb
 Let's practice everything.
 You'd need to know 'bout escapes with \ that do 
  newlines and    tabs.
@@ -56,3 +53,5 @@ This should be five: 5
 With a starting point of: 10000
 We'd have 5000000 beans, 5000 jars, and 50 creates.
 ```
+
+=end

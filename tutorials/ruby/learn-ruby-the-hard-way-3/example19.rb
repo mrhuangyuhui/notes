@@ -1,7 +1,6 @@
 # 习题 19 函数和变量
 
-```
-# ex19.rb
+# #ruby-function
 
 def cheese_and_crackers(cheese_count, boxes_of_crackers)
     puts "You have #{cheese_count} cheeses!"
@@ -24,11 +23,11 @@ cheese_and_crackers(10 + 20, 5 + 6)
 
 puts "And we can combine the two, variables and math:"
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
-```
 
-结果：
+=begin
+
 ```bash
-$ ruby ex19.rb
+$ ruby example19.rb
 We can just give the function numbers directly!
 You have 20 cheeses!
 You have 30 boxes of crackers!
@@ -51,3 +50,4 @@ Man that's enough for a party!
 Get a blanket.
 ```
 
+=end

@@ -1,7 +1,6 @@
 # 习题 21 函数可以返回某些东西
 
-```ruby
-# ex21.rb
+# #ruby-function
 
 def add(a, b)
     puts "ADDING #{a} + #{b}"
@@ -37,11 +36,11 @@ puts "Here is a puzzle."
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 puts "That becomes: #{what}. Can you do it by hand?"
-```
 
-结果：
+=begin
+
 ```bash
-$ ruby ex21.rb
+$ ruby example21.rb
 Let's do some math with just functions!
 ADDING 30 + 5
 SUBTRACTING 78 - 4
@@ -56,3 +55,4 @@ ADDING 35 + -4426
 That becomes: -4391. Can you do it by hand?
 ```
 
+=end

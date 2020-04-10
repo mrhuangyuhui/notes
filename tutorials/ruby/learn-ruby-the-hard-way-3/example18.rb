@@ -1,7 +1,6 @@
 # 习题 18 命名、变量、代码和函数
 
-```ruby
-# ex18.rb
+# #ruby-function
 
 def print_two(*args)
     arg1, arg2 = args
@@ -24,13 +23,15 @@ print_two("Zed", "Shaw")
 print_two_again("Zed", "Shaw")
 print_one("First!")
 print_none()
-```
 
-结果：
+=begin
+
 ```bash
-$ ruby ex18.rb
+$ ruby example18.rb
 arg1: Zed, arg2: Shaw
 arg1: Zed, arg2: Shaw
 arg1: First!
 I got nothin'.
 ```
+
+=end

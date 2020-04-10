@@ -1,6 +1,7 @@
 # 习题 17 更多文件操作
 
-```ruby
+# #ruby-file #ruby-io
+
 from_file, to_file = ARGV
 
 puts "Copying from #{from_file} to #{to_file}"
@@ -21,16 +22,11 @@ puts "Alright, all done."
 
 out_file.close
 in_file.close
-```
 
-`input.txt`
-```
-This is a test file.
-```
+=begin
 
-输出结果：
-```
-$ ruby example.rb input.txt output.txt
+```bash
+$ ruby example17.rb input.txt output.txt
 Copying from input.txt to output.txt
 The input file is 20 bytes long
 Does the output file exist? false
@@ -39,9 +35,9 @@ Ready, hit RETURN to continue, CTRL-C to abort.
 Alright, all done.
 ```
 
-`output.txt`
-```
+```bash
+$ cat output.txt 
 This is a test file.
 ```
 
-# 复习到这！
+=end

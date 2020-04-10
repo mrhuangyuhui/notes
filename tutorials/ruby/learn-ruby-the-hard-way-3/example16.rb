@@ -1,6 +1,7 @@
 # 习题 16 读写文件
 
-```ruby
+# #ruby-file #ruby-io
+
 filename = ARGV.first
 
 puts "We're going to erase #{filename}."
@@ -37,11 +38,11 @@ target.write("\n")
 
 puts "And finally, we close it."
 target.close()
-```
 
-输出结果：
-```
-$ ruby example.rb sample.txt
+=begin
+
+```bash
+$ ruby example16.rb sample.txt
 We're going to erase test.txt.
 If you don't want that, hit CTRL-C (^C).
 If you do want that, hit RETURN.
@@ -56,11 +57,11 @@ I'm going to write these to the file.
 And finally, we close it.
 ```
 
-`sample.txt`
-```
+```bash
+$ cat sample.txt 
 I am the first line.
 I am the second line.
 I am the third line.
 ```
 
-
+=end
