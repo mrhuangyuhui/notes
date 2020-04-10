@@ -1,0 +1,39 @@
+# Query: useradd
+# Flags: CaseSensitive WordMatch RegExp
+# Excluding: docs
+
+20 results - 7 files
+
+commands/useradd.md:
+  1: # useradd
+  4: useradd
+  5: useradd -h
+  6: useradd --help
+  12: useradd huangyh
+
+manuals/postgresql-manual.md:
+  47: $ sudo useradd tiger
+  88: $ useradd elephant
+
+manuals/apple/cocoapods/docker-cocoapods/Dockerfile:
+  5: RUN useradd cocoapods \
+
+others/homestead/scripts/features/minio.sh:
+  16: sudo useradd -r minio-user -s /sbin/nologin
+
+tutorials/linux/linux-vbird-basic/ch13.md:
+  69: ### 13.2.1 新增與移除使用者： useradd, 相關設定檔, passwd, usermod, userdel
+  71: - **`useradd`**
+  76: $ useradd vbird1
+  94: $ useradd -u 1500 -g users vbird2
+  106: $ useradd -r vbird3
+  117: 查看 `useradd` 的默认配置
+  120: $ useradd -D
+  130: $ grep -v '^$' /etc/default/useradd | grep -v '^#'
+  250: $ useradd agetest
+
+tutorials/linux/oldboy-linux/ch03.md:
+  21: [root@www ~]# useradd oldboy
+
+tutorials/linux/oldboy-linux/ch08.md:
+  54: useradd nginx -s /sbin/nologin -M
