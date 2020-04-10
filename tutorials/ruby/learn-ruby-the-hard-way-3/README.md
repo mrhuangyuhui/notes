@@ -1,7 +1,7 @@
 <!-- #ruby-tutorial #ruby-example -->
 # 《“笨办法”学 Ruby（第 3 版）》学习笔记
 
-## 环境部署
+## 环境搭建
 
 <!-- #ruby-docker #docker-example -->
 ### Docker
@@ -22,9 +22,19 @@ docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp ruby:2.1-alpine /
 docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp ruby:2.1-alpine irb
 ```
 
-### Mac
+<!-- #rvm-example -->
+### RVM
 
-[安装 Ruby](/manuals/ruby/ruby-manual.md#install)
+安装和使用 RVM 请参考笔记 [RVM Manual](/manuals/ruby/rvm-manual.md)
+
+```bash
+# 安装 Ruby 2.1
+rvm install 2.1
+# 创建项目的 Ruby 环境配置文件
+rvm --rvmrc use 2.1
+# 验证配置文件
+rvm rvmrc trust .rvmrc
+```
 
 运行代码
 
