@@ -36,7 +36,12 @@ sudo gem install cocoapods -n /usr/local/bin
 
 ### Docker
 
-<https://hub.docker.com/r/gaetan/cocoapods>
+[docker-cocoapods](docker-cocoapods/Dockerfile)
+
+```bash
+cd docker-cocoapods
+docker build -t cocoapods .
+```
 
 ```bash
 docker run -it --rm -v `pwd`:/usr/src/myapp -w /usr/src/myapp cocoapods pod init
