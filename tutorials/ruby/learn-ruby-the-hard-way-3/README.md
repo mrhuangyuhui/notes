@@ -1,12 +1,17 @@
 <!-- #ruby-tutorial #ruby-example -->
+<!-- omit in toc -->
 # 《“笨办法”学 Ruby（第 3 版）》学习笔记
+
+- [环境搭建](#%e7%8e%af%e5%a2%83%e6%90%ad%e5%bb%ba)
+  - [Docker](#docker)
+  - [RVM](#rvm)
 
 ## 环境搭建
 
 <!-- #ruby-docker #docker-example -->
 ### Docker
 
-推荐使用 Docker
+> 推荐使用 Docker
 
 ```bash
 # 拉取镜像
@@ -25,7 +30,7 @@ docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp ruby:2.1-alpine i
 <!-- #rvm-example -->
 ### RVM
 
-安装和使用 RVM 请参考笔记 [RVM Manual](/manuals/ruby/rvm-manual.md)
+> 本地安装推荐使用 RVM，详情请参考笔记 [RVM Manual](/manuals/ruby/rvm-manual.md)。
 
 ```bash
 # 安装 Ruby 2.1
