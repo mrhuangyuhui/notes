@@ -25,6 +25,8 @@
   - [rvm maintenance](#rvm-maintenance)
     - [`rvm get`](#rvm-get)
     - [`rvm reset`](#rvm-reset)
+  - [information and documentation](#information-and-documentation)
+    - [`rvm info`](#rvm-info)
 - [Gemsets](#gemsets)
   - [`rvm gemset create`](#rvm-gemset-create)
   - [`rvm gemset use`](#rvm-gemset-use)
@@ -36,26 +38,22 @@
 
 <https://github.com/rvm/rvm>
 
-The Basics of RVM
-http://rvm.io/rvm/basics
+<https://github.com/rvm/rvm-site>
 
-Upgrading RVM
-http://rvm.io/rvm/upgrading
+[The Basics of RVM](http://rvm.io/rvm/basics)
 
-Examples of using RVM
-http://rvm.io/workflow/examples
+[Upgrading RVM](http://rvm.io/rvm/upgrading)
 
-Cheat Sheet
-http://cheat.errtheblog.com/s/rvm
+<!-- #rvm-example -->
+[Examples of using RVM](http://rvm.io/workflow/examples)
 
-RVM CLI Usage
-http://rvm.io/rvm/cli
+[Cheat Sheet](http://cheat.errtheblog.com/s/rvm)
 
-RVM Best Practices
-http://rvm.io/rvm/best-practices
+[RVM CLI Usage](http://rvm.io/rvm/cli)
 
-Myths
-http://rvm.io/rvm/myths
+[RVM Best Practices](http://rvm.io/rvm/best-practices)
+
+[Myths](http://rvm.io/rvm/myths)
 
 <!-- #rvm-install -->
 ## Install
@@ -97,6 +95,7 @@ curl -sSL https://get.rvm.io | bash
 rvm implode
 ```
 
+<!-- #rvm-cmd #rvm-example -->
 ## Commands
 
 ```bash
@@ -114,6 +113,8 @@ rvm help install
 <https://rvm.io/rubies/installing/>
 
 <https://rvm.io/rubies/upgrading>
+
+[Examples of using RVM](http://rvm.io/workflow/examples)
 
 ```bash
 rvm help install
@@ -300,6 +301,22 @@ rvm get stable
 
 ```bash
 rvm reset
+```
+
+### information and documentation
+
+#### `rvm info`
+
+<https://rvm.io/rubies/info>
+
+打印当前 Ruby 的详细信息
+
+```bash
+rvm help info
+```
+
+```bash
+rvm info
 ```
 
 <!-- #ruby-env -->
