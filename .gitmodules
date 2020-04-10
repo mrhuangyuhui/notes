@@ -42,3 +42,7 @@
 	path = codes/objc-codes
 	url = git@gitee.com:mrhuangyuhui/objc-codes.git
 	ignore = dirty
+[submodule "codes/php-codes"]
+	path = codes/php-codes
+	url = git@gitee.com:mrhuangyuhui/php-codes.git
+	ignore = dirty
