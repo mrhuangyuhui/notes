@@ -662,6 +662,7 @@ docker tag --help
 
 [Official Images](https://hub.docker.com/search?image_filter=official&type=image)
 
+<!-- #docker-gui -->
 ## GUI
 
 <https://kitematic.com/>（已停更）
