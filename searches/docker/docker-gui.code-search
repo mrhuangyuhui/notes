@@ -1,0 +1,7 @@
+# Query: ^<!--.*docker-gui.*-->$
+# Flags: RegExp
+
+1 result - 1 file
+
+manuals/docker/docker-manual.md:
+  665: <!-- #docker-gui -->
