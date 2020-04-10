@@ -2,6 +2,8 @@
 # CocoaPods Manual
 
 - [Install](#install)
+  - [Mac](#mac)
+  - [Docker](#docker)
 - [Commands](#commands)
 
 <https://cocoapods.org/>
@@ -13,6 +15,10 @@
 ## Install
 
 <https://guides.cocoapods.org/using/getting-started.html>
+
+### Mac
+
+安装 Ruby 请参考笔记 [Ruby Manual](/manuals/ruby/ruby-manual.md)
 
 ```bash
 sudo gem install cocoapods
@@ -26,6 +32,10 @@ sudo gem install cocoapods -n /usr/local/bin
 ```
 
 桌面客户端 <https://cocoapods.org/app>
+
+### Docker
+
+<https://hub.docker.com/r/gaetan/cocoapods>
 
 ## Commands
 

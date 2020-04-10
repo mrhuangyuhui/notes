@@ -449,7 +449,9 @@ docker rm `docker ps -a -q`
 docker rm -f `docker ps -a -q`
 ```
 
-### [`docker run`](https://docs.docker.com/engine/reference/commandline/run/)
+### `docker run`
+
+<https://docs.docker.com/engine/reference/commandline/run/>
 
 [Docker run reference](https://docs.docker.com/engine/reference/run/)
 
@@ -457,7 +459,7 @@ docker rm -f `docker ps -a -q`
 docker run --help
 ```
 
-> 注意：官方已不推荐使用 [--link](https://docs.docker.com/network/links/) 链接两个容器
+> 注意：官方已不推荐使用 [--link](https://docs.docker.com/network/links/) 连接两个容器
 
 Examples
 

@@ -5,6 +5,7 @@
   - [C](#c)
   - [PHP](#php)
 - [Tutorials](#tutorials)
+- [Mirrors](#mirrors)
 - [API](#api)
 - [GitHub](#github)
 - [Tools](#tools)
@@ -52,6 +53,10 @@ git push https://github.com/mrhuangyuhui/notes.git
 [GeeksforGeeks](https://www.geeksforgeeks.org/)
 
 <https://github.com/EbookFoundation/free-programming-books>
+
+## Mirrors
+
+[清华大学开源软件镜像站](https://mirror.tuna.tsinghua.edu.cn/)
 
 ## API
 

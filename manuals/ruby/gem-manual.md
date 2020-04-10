@@ -10,6 +10,7 @@
 
 <https://guides.rubygems.org/>
 
+<!-- #gem-mirror -->
 ## Mirrors
 
 配置 RubyGems 国内镜像 <https://gems.ruby-china.com/>
