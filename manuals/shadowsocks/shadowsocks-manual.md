@@ -97,7 +97,7 @@ sudo ssserver -d stop
 
 ### Terminal Proxy
 
-如果使用的客户端是 Mac 的 ShadowsocksX-NG，参考以下截图拷贝相关终端命令。
+如果使用的客户端是 Mac 的 ShadowsocksX-NG，可拷贝相关终端命令，参考以下截图。
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/shadowsocks/shadowsocks-terminal-1.png)
 
