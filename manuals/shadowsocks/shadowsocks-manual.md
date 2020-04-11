@@ -12,6 +12,7 @@
   - [Linux](#linux)
   - [Android](#android)
 - [Configs](#configs)
+  - [Terminal Proxy](#terminal-proxy)
 - [User Rules For PAC](#user-rules-for-pac)
 
 <https://shadowsocks.org/>
@@ -94,20 +95,66 @@ sudo ssserver -d stop
 
 ## Configs
 
-配置终端的网络代理
+### Terminal Proxy
+
+如果使用的客户端是 Mac 的 ShadowsocksX-NG，参考以下截图拷贝相关终端命令。
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/shadowsocks/shadowsocks-terminal-1.png)
 
-拷贝以下命令设置环境变量
+```bash
+# 拷贝出来的终端命令
+export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;
+```
+
+如果使用的是 PandaVPN，可在设置中查看代理端口号，参考以下截图。
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/pandavpn/pandavpn-proxy-1.png)
+
+- **方法一：临时设置环境变量**
 
 ```bash
-# 注意：以下环境变量是临时的，如果想持久有效，可写入 Bash 配置文件 ~/.bash_profile。
+# 注意：以下环境变量是临时的，退出或重开终端窗口设置立即失效！！！
 export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;
+```
+
+- **方法二：写入到 Shell 配置文件**
+
+```bash
+## Mac/Bash
+
+# 提示：不同的 Shell 配置文件不一样，此处以 Bash 为例。
+
+# 注意：修改重要配置文件前一定要先备份！！！
+cp ~/.bash_profile ~/.bash_profile.`date +%Y-%m-%d-%H-%M-%S`
+
+# “追加”写入到配置文件 ~/.bash_profile
+cat >> ~/.bash_profile << EOF
+## Shadowsocks Proxy
+alias proxy="export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;"
+alias unproxy="unset http_proxy https_proxy"
+## End
+EOF
+
+# 在当前终端窗口使配置生效
+source ~/.bash_profile
+# 或者另外打开一个终端窗口使配置生效
+```
+
+打开和关闭代理
+
+> 注意：打开和关闭代理只在当前 Shell 窗口有效！！！
+
+```bash
+# 需要在终端使用代理时输入命令 proxy
+proxy
+# 需要在终端关闭代理时输入命令 unproxy
+unproxy
 ```
 
 验证配置结果
 
 ```bash
+# 返回状态码应该是 200
 curl -I https://www.facebook.com/
 ```
 
