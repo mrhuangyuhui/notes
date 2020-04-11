@@ -1,0 +1,7 @@
+# Query: ^<!--.*ruby-ref.*-->$
+# Flags: RegExp
+
+1 result - 1 file
+
+manuals/ruby/ruby-manual.md:
+  141: <!-- #ruby-ref -->

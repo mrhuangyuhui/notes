@@ -56,4 +56,4 @@ irb
 
 ## API 文档
 
-<http://docs.rubydocs.org/ruby-2-0-0-rc2/>
+<https://rubydocs.org/d/ruby-2-0-0-p648/>

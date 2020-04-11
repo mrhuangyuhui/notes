@@ -138,14 +138,14 @@ irb --help
 ```bash
 irb
 ```
-
+<!-- #ruby-ref -->
 ## References
+
+<https://rubydocs.org/>
 
 http://ruby-doc.org/core-2.4.2/
 
 http://ruby-doc.org/stdlib-2.4.2/
-
-https://rubydocs.org/
 
 http://docs.rubydocs.org/ruby-2-4-2/
 

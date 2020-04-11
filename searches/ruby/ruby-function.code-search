@@ -1,0 +1,7 @@
+# Query: ^<!--.*ruby-function.*-->$
+# Flags: RegExp
+
+1 result - 1 file
+
+tutorials/ruby/ruby-programming-4/ch07.md:
+  1: <!-- #ruby-method #ruby-function -->
