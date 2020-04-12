@@ -1,0 +1,100 @@
+# Query: (cmd-)?cron(tab)?
+# Flags: WordMatch RegExp
+# Including: *.md
+# Excluding: ./docs
+
+122 results - 9 files
+
+commands/cron.md:
+  1: # cron
+  4: systemctl status cron
+  8: man crontab
+
+manuals/linux/Anacron Manual.md:
+  1: # Anacron Manual
+
+manuals/linux/yum/yum-packages.md:
+  71: Name        : cronie
+  72: Summary     : Cron daemon for executing programs at set times
+  73: URL         : https://fedorahosted.org/cronie
+  74: Description : Cronie contains the standard UNIX daemon crond that runs specified programs at
+  75:             : scheduled times and related tools. It is a fork of the original vixie-cron and
+
+snippets/linux/linux-at-crontab.md:
+  1: # Linux - AT & CRONTAB
+  5: - [第十五章、例行性工作排程（`crontab`）](https://gitee.com/mrhuangyuhui/notes/blob/master/tutorials/linux/linux-vbird-basic/ch15.md)
+
+tutorials/linux/linux-vbird-basic/ch15.md:
+    1: <!-- #cmd-cron -->
+    3: # 第十五章、例行性工作排程（`crontab`）
+   13:   - [15.3.2 系統的設定檔：`/etc/crontab`, `/etc/cron.d/*`](#1532-%e7%b3%bb%e7%b5%b1%e7%9a%84%e8%a8%ad%e5%ae%9a%e6%aa%94etccrontab-etccrond)
+   26: - `crontab`：`crontab` 這個指令所設定的工作將會循環的一直進行下去！可循環的時間為分鐘、小時、每週、每月或每年等。`crontab` 除了可以使用指令執行外，亦可編輯 `/etc/crontab` 來支援。至於讓 `crontab` 可以生效的服務則是 `crond` 這個服務喔！
+  148: 相對於 `at` 是僅執行一次的工作，循環執行的例行性工作排程則是由 `cron` (`crond`) 這個系統服務來控制的。剛剛談過 Linux 系統上面原本就有非常多的例行性工作，因此這個系統服務是預設啟動的。另外，由於使用者自己也可以進行例行性工作排程，所以囉，Linux 也提供使用者控制例行性工作排程的指令 (`crontab`)。
+  157: 使用者想要建立循環型工作排程時，使用的是 `crontab` 這個指令啦～不過，為了安全性的問題，與 `at` 同樣的，我們可以限制使用 `crontab` 的使用者帳號喔！使用的限制資料有：
+  159: - `/etc/cron.allow`：將可以使用 `crontab` 的帳號寫入其中，若不在這個檔案內的使用者則不可使用 `crontab`；
+  160: - `/etc/cron.deny`：將不可以使用 `crontab` 的帳號寫入其中，若未記錄到這個檔案當中的使用者，就可以使用 `crontab`。
+  162: 當使用者使用 `crontab` 這個指令來建立工作排程之後，該項工作就會被紀錄到 `/var/spool/cron/` 裡面去了，而且是以帳號來作為判別的喔！舉例來說，dmtsai 使用 `crontab` 後，他的工作會被紀錄到 `/var/spool/cron/dmtsai` 裡頭去！但請注意，不要使用 `vi` 直接編輯該檔案，因為可能由於輸入語法錯誤，會導致無法執行 `cron` 喔！另外，`cron` 執行的每一項工作都會被紀錄到 `/var/log/cron` 這個登錄檔中，所以囉，如果你的 Linux 不知道有否被植入木馬時，也可以搜尋一下 `/var/log/cron` 這個登錄檔呢！
+  165: crontab -h
+  166: man crontab
+  170: [root@study ~]$ crontab [-u username] [-l|-e|-r]
+  172: -u 只有 root 才能進行這個任務，亦即幫其他使用者建立/移除 crontab 工作排程；
+  173: -e 編輯 crontab 的工作內容；
+  174: -l 查閱 crontab 的工作內容；
+  175: -r 移除所有的 crontab 的工作內容，若僅要移除一項，請用 -e 去編輯。
+  178: [dmtsai@study ~]$ crontab -e
+  185: # 查閱 crontab 的工作內容
+  186: [dmtsai@study ~]$ crontab -l
+  192: # 注意，若僅想要移除一項工作而已的話，必須要用 crontab -e 去編輯～
+  193: # 如果想要全部的工作都移除，才使用 crontab -r 喔！
+  194: [dmtsai@study ~]$ crontab -r
+  195: [dmtsai@study ~]$ crontab -l
+  196: no crontab for dmtsai
+  199: ### 15.3.2 系統的設定檔：`/etc/crontab`, `/etc/cron.d/*`
+  201: 這個 `crontab -e` 是針對使用者的 `cron` 來設計的，如果是『系統的例行性任務』時，該怎麼辦呢？是否還是需要以 `crontab -e` 來管理你的例行性工作排程呢？當然不需要，你只要編輯 `/etc/crontab` 這個檔案就可以啦！有一點需要特別注意喔！那就是 `crontab -e` 這個 `crontab` 其實是 `/usr/bin/crontab` 這個執行檔，但是 `/etc/crontab` 可是一個『純文字檔』喔！你可以 root 的身份編輯一下這個檔案哩！
+  204: $ ll /etc/ | grep cron
+  206: drwxr-xr-x.  2 root root       21 Jan  8 16:28 cron.d
+  207: drwxr-xr-x.  2 root root       42 Jan  8 16:29 cron.daily
+  208: -rw-------.  1 root root        0 Aug  3  2017 cron.deny
+  209: drwxr-xr-x.  2 root root       22 Jan  8 16:28 cron.hourly
+  210: drwxr-xr-x.  2 root root        6 Jun  9  2014 cron.monthly
+  211: -rw-r--r--.  1 root root      451 Jun  9  2014 crontab
+  212: drwxr-xr-x.  2 root root        6 Jun  9  2014 cron.weekly
+  216: $ cat /etc/crontab
+  237: - `/etc/crontab`
+  238: - `/etc/cron.d/*`
+  239: - `/var/spool/cron/*`
+  241: 這三個地方中，跟系統的運作比較有關係的兩個設定檔是放在 `/etc/crontab` 檔案內以及 `/etc/cron.d/*` 目錄內的檔案，另外一個是跟用戶自己的工作比較有關的設定檔，就是放在 `/var/spool/cron/` 裡面的檔案群。
+  243: > 注意：放在 `/etc/cron.hourly/` 的檔案，必須是能被直接執行的指令腳本，而不是分、時、日、月、周的設定值喔！注意注意！
+  247: - 個人化的行為使用 `crontab -e`：如果你是依據個人需求來建立的例行工作排程，建議直接使用 `crontab -e` 來建立你的工作排程較佳！這樣也能保障你的指令行為不會被大家看到 (`/etc/crontab` 是大家都能讀取的權限喔！)；
+  248: - 系統維護管理使用 `vim /etc/crontab`：如果你這個例行工作排程是系統的重要工作，為了讓自己管理方便，同時容易追蹤，建議直接寫入 `/etc/crontab` 較佳；
+  249: - 自己開發軟體使用 `vim /etc/cron.d/newfile`：如果你是想要自己開發軟體，那當然最好就是使用全新的設定檔，並且放置於 `/etc/cron.d/` 目錄內即可；
+  250: - 固定每小時、每日、每週、每天執行的特別工作：如果與系統維護有關，還是建議放置到 `/etc/crontab` 中來集中管理較好。如果想要偷懶，或者是一定要在某個週期內進行的任務，也可以放置到上面談到的幾個目錄中，直接寫入指令即可！
+  260: `anacron` 並不是用來取代 `crontab` 的，`anacron` 存在的目的就在於我們上頭提到的，在處理非 24 小時一直啟動的 Linux 系統的 `crontab` 的執行！以及因為某些原因導致的超過時間而沒有被執行的排程工作。
+  264: 由於 `anacron` 預設會以一天、七天、一個月為期去偵測系統未進行的 `crontab` 任務，因此對於某些特殊的使用環境非常有幫助。舉例來說，如果你的 Linux 主機是放在公司給同仁使用的，因為週末假日大家都不在所以也沒有必要開啟，因此你的 Linux 是週末都會關機兩天的。但是 `crontab` 大多在每天的凌晨以及週日的早上進行各項任務，偏偏你又關機了，此時系統很多 `crontab` 的任務就無法進行。`anacron` 剛好可以解決這個問題！
+  266: 那麼 `anacron` 又是怎麼知道我們的系統啥時關機的呢？這就得要使用 `anacron` 讀取的時間記錄檔 (timestamps) 了！`anacron` 會去分析現在的時間與時間記錄檔所記載的上次執行 `anacron` 的時間，兩者比較後若發現有差異，那就是在某些時刻沒有進行 `crontab` 囉！此時 `anacron` 就會開始執行未進行的 `crontab` 任務了！
+  270: `anacron` 其實是一支程式並非一個服務！這支程式在 CentOS 當中已經進入 `crontab` 的排程喔！同時 `anacron` 會每個小時被主動執行一次喔（`/etc/cron.hourly/0anacron`）！
+  277: $ ll /etc/cron.hourly/
+  284: - `crond` 會主動去讀取 `/etc/crontab`，`/var/spool/cron/*`，`/etc/cron.d/*` 等設定檔，並依據『分、時、日、月、周』的時間設定去各項工作排程；
+  285: - 根據 `/etc/cron.d/0hourly` 的設定，主動去 `/etc/cron.hourly/` 目錄下，執行所有在該目錄下的執行檔；
+  286: - 因為 `/etc/cron.hourly/0anacron` 這個指令檔的緣故，主動的每小時執行 `anacron` ，並呼叫 `/etc/anacrontab` 的設定檔；
+  287: - 根據 `/etc/anacrontab` 的設定，依據每天、每週、每月去分析 `/etc/cron.daily/`，`/etc/cron.weekly/`，`/etc/cron.monthly/` 內的執行檔，以進行固定週期需要執行的指令。
+  289: 也就是說，如果你每個週日的需要執行的動作是放置於 `/etc/crontab` 的話，那麼該動作只要過期了就過期了，並不會被抓回來重新執行。但如果是放置在 `/etc/cron.weekly/` 目錄下，那麼該工作就會定期，幾乎一定會在一週內執行一次～如果你關機超過一週，那麼一開機後的數個小時內，該工作就會主動的被執行喔！ 真的嗎？對啦！因為 `/etc/anacrontab` 的定義啦！
+
+tutorials/linux/linux-vbird-basic/ch16.md:
+  217: ps aux | egrep '(cron|rsyslog)'
+
+tutorials/linux/linux-vbird-basic/ch18.md:
+   20: - `/var/log/cron`：例行性工作排程 `crontab` 有沒有實際被進行？進行過程有沒有發生錯誤？`/etc/crontab` 是否撰寫正確？都可以在這個登錄檔內查詢。
+   52: - 啟動此事件的服務名稱 (如 `systemd`, `CROND` 等) 或指令與函式名稱 (如 `su`, `login`..)；
+  177: /var/log/cron
+  245: # 範例三：只找出 crond.service 的資料，同時只列出最新的 10 筆即可。
+  246: [root@study ~]$ journalctl _SYSTEMD_UNIT=crond.service -n 10
+  301: /etc/cron.daily/0logwatch
+  306: [root@study ~]$ /etc/cron.daily/0logwatch
+
+tutorials/shell/Shell_从入门到精通/第 11 章 文本处理利器 awk 命令.md:
+  78: root      1069  0.0  0.1 126232  1636 ?        Ss   11:47   0:00 /usr/sbin/crond -n
+  84: root      1207  0.0  0.1 125332  1076 ?        Ss   12:01   0:00 /usr/sbin/anacron -s
+
+tutorials/spring/javaee-spring-boot/ch03.md:
+  197:     @Scheduled(cron = "0 8 15 ? * *")
