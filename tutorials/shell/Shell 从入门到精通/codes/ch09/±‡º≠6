@@ -1,0 +1,5 @@
+01   #! /bin/bash
+02   
+03   #×Ô¶¨ÒåÒ³Ã¼
+04   str=`pr -h "List of Countries" -a -f -4 demo4.txt`
+05   echo "$str"

@@ -1,0 +1,11 @@
+total 36
+-rwxr-xr-x 1 root root  83 Apr 14 16:31 ex14-1a.sh
+-rwxr-xr-x 1 root root  87 Apr 14 18:50 ex14-1b.sh
+-rwxr-xr-x 1 root root  90 Apr 14 18:58 ex14-1.sh
+-rwxr-xr-x 1 root root 112 Apr 14 19:28 ex14-2.sh
+-rwxr-xr-x 1 root root 115 Apr 14 22:51 ex14-3.sh
+-rwxr-xr-x 1 root root 104 Apr 16 00:09 ex14-4.sh
+-rwxr-xr-x 1 root root 162 Apr 16 23:57 ex14-5.sh
+-rwxr-xr-x 1 root root 143 Apr 17 00:01 ex14-6.sh
+-rwxr-xr-x 1 root root  83 Apr 19 01:14 ex14-7.sh
+-rw-r--r-- 1 root root   0 Apr 19 01:14 list.txt
