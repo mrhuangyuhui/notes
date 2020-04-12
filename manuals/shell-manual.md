@@ -1,4 +1,9 @@
-# Shell Practice
+<!-- omit in toc -->
+# Shell Manual
+
+- [Snippets](#snippets)
+- [Samples](#samples)
+- [Tutorials](#tutorials)
 
 [Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html)
 
@@ -35,3 +40,7 @@ https://github.com/teddysun/shadowsocks_install
 https://github.com/iuscommunity/automation-examples/blob/bash/enable-ius.sh
 
 http://svn.apache.org/repos/asf/subversion/trunk/get-deps.sh
+
+## Tutorials
+
+[Shell 从入门到精通](/tutorials/shell/Shell%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/README.md)
