@@ -2,6 +2,7 @@
 # Composer Manual
 
 - [Install](#install)
+- [Docker](#docker)
 - [Mirrors](#mirrors)
   - [Aliyun](#aliyun)
   - [Packagist](#packagist)
@@ -28,6 +29,28 @@ php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 
 composer --version
+```
+
+## Docker
+
+<https://hub.docker.com/_/composer>
+
+<https://github.com/composer/docker>
+
+```bash
+docker pull composer:1.10.4
+```
+
+启动交互容器
+
+```bash
+docker run -it --rm --volume `pwd`:/app composer:1.10.4 /bin/sh
+```
+
+安装项目依赖
+
+```bash
+docker run -it --rm --volume `pwd`:/app composer:1.10.4 install
 ```
 
 <!-- #composer-mirror -->
