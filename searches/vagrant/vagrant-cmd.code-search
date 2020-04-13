@@ -1,0 +1,7 @@
+# Query: ^<!--.*vagrant-cmd.*-->$
+# Flags: RegExp
+
+1 result - 1 file
+
+manuals/laravel/homestead-manual.md:
+  25: <!-- #vagrant-cmd -->

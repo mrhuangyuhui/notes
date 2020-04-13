@@ -1,4 +1,19 @@
+<!-- omit in toc -->
 # Vagrant Manual
+
+- [Install](#install)
+  - [CentOS](#centos)
+  - [Ubuntu](#ubuntu)
+- [Quickstart](#quickstart)
+- [Commands](#commands)
+  - [`vagrant global-status`](#vagrant-global-status)
+  - [`vagrant box`](#vagrant-box)
+    - [`vagrant box remove`](#vagrant-box-remove)
+  - [`vagrant up`](#vagrant-up)
+  - [`vagrant reload`](#vagrant-reload)
+  - [`vagrant destroy`](#vagrant-destroy)
+  - [`vagrant ssh`](#vagrant-ssh)
+- [Configs](#configs)
 
 <https://www.vagrantup.com/>
 
@@ -68,6 +83,7 @@ vagrant destroy
 vagrant global-status
 ```
 
+<!-- #vagrant-cmd -->
 ## Commands
 
 查看帮助
@@ -123,6 +139,14 @@ vagrant global-status
 ```bash
 # 安装 Box
 vagrant box add hashicorp/precise64
+```
+
+### `vagrant global-status`
+
+列出所有虚拟机的状态
+
+```bash
+vagrant global-status
 ```
 
 ### `vagrant box`
@@ -182,6 +206,22 @@ vagrant reload --help
 
 ```bash
 vagrant reload --provision
+```
+
+### `vagrant destroy`
+
+销毁虚拟机
+
+```bash
+vagrant destroy 5eda868
+```
+
+### `vagrant ssh`
+
+登录虚拟机
+
+```bash
+vagrant ssh 6b5a146
 ```
 
 ## Configs
