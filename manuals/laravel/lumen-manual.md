@@ -130,3 +130,9 @@ QUEUE_CONNECTION=sync
 - 验证安装结果
 
 在浏览器打开 <http://blog.test/>
+
+## References
+
+<https://lumen.laravel.com/docs/5.8>
+
+[Routing](https://lumen.laravel.com/docs/5.8/routing)
