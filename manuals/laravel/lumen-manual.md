@@ -2,13 +2,36 @@
 
 <https://lumen.laravel.com/>
 
-<https://github.com/laravel/lumen>
-
 <https://packagist.org/packages/laravel/lumen>
 
 <https://lumen.laravel.com/docs/5.8>
 
+<https://github.com/laravel/lumen>
+
+<https://github.com/laravel/lumen-framework>
+
+<https://gitee.com/mrhuangyuhui/lumen>
+
+<https://gitee.com/mrhuangyuhui/lumen-framework>
+
 ## Install
+
+### Docker
+
+> 提示：以下命令只用来创建项目，开发环境仍然使用 [Homestead](#homestead)。
+
+```bash
+# 启动交互容器
+docker run -it --rm --volume `pwd`:/app composer:1.10.4 /bin/sh
+
+# 配置阿里云镜像
+composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
+
+# 创建项目
+composer create-project --prefer-dist laravel/lumen blog 5.8.8
+```
+
+### Homestead
 
 - 配置 Homestead
 
