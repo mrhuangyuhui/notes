@@ -86,6 +86,35 @@ vagrant global-status
 <!-- #vagrant-cmd -->
 ## Commands
 
+```bash
+# 启动/重启虚拟机
+vagrant up
+
+# 登录虚拟机
+vagrant ssh
+
+# 查看虚拟机状态
+vagrant status
+
+# 关闭虚拟机
+vagrant halt
+
+# 暂停虚拟机
+vagrant suspend
+
+# 关闭并重置虚拟机
+vagrant destroy
+
+# 查看所有虚拟机的状态
+vagrant global-status
+```
+
+重载虚拟机配置
+
+```bash
+vagrant reload --provision
+```
+
 查看帮助
 
 ```bash
@@ -113,27 +142,6 @@ cd vagrant_getting_started
 
 # 初始化环境
 vagrant init hashicorp/precise64
-
-# 启动/重启虚拟机
-vagrant up
-
-# 登录虚拟机
-vagrant ssh
-
-# 查看虚拟机状态
-vagrant status
-
-# 关闭虚拟机
-vagrant halt
-
-# 暂停虚拟机
-vagrant suspend
-
-# 关闭并重置虚拟机
-vagrant destroy
-
-# 查看所有虚拟机的状态
-vagrant global-status
 ```
 
 ```bash
