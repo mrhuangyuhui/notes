@@ -1,4 +1,8 @@
+<!-- omit in toc -->
 # Homestead Manual
+
+- [Install](#install)
+- [Debug](#debug)
 
 <https://laravel.com/docs/5.8/homestead>
 
@@ -8,7 +12,9 @@
 
 <https://gitee.com/mrhuangyuhui/summerblue-homestead>
 
-## [Install](https://laravel.com/docs/5.8/homestead#installation-and-setup)
+## Install
+
+<https://laravel.com/docs/5.8/homestead#installation-and-setup>
 
 > 国内网络问题导致安装失败，请参考以下文章：
 >
@@ -16,6 +22,7 @@
 >
 > [Homestead 安装需要知道的一些信息](https://learnku.com/laravel/t/2090/homestead-installation-needs-to-know-some-information)
 
+<!-- #vagrant-cmd -->
 ```bash
 # 安装虚拟机盒子
 vagrant box add laravel/homestead --provider virtualbox

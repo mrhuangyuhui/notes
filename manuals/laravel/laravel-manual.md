@@ -1,4 +1,22 @@
+<!-- omit in toc -->
 # Laravel Manual
+
+- [Commands](#commands)
+  - [Controller](#controller)
+  - [Key](#key)
+  - [Migrate](#migrate)
+  - [Model](#model)
+  - [Tinker](#tinker)
+  - [Route](#route)
+  - [Policy](#policy)
+  - [Factory](#factory)
+  - [Seeder 假数据填充](#seeder-%e5%81%87%e6%95%b0%e6%8d%ae%e5%a1%ab%e5%85%85)
+- [API](#api)
+- [References](#references)
+- [Tutorials](#tutorials)
+- [Plugins](#plugins)
+- [IDEs](#ides)
+  - [PhpStorm](#phpstorm)
 
 <https://laravel.com/>
 
@@ -235,9 +253,12 @@ php artisan migrate:refresh --seed
 
 <https://github.com/overtrue/laravel-lang/>
 
+<!-- #laravel-tutorial -->
 ## Tutorials
 
 [Laravel 实战课程系列](https://learnku.com/laravel/courses)
+
+<https://laracasts.com/>
 
 ## Plugins
 
