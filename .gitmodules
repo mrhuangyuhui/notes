@@ -46,3 +46,7 @@
 	path = codes/php-codes
 	url = git@gitee.com:mrhuangyuhui/php-codes.git
 	ignore = dirty
+[submodule "codes/docker-repos"]
+	path = codes/docker-repos
+	url = git@gitee.com:mrhuangyuhui/docker-repos.git
+	ignore = dirty
