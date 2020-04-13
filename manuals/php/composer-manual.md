@@ -6,6 +6,7 @@
   - [Aliyun](#aliyun)
   - [Packagist](#packagist)
 - [Commands](#commands)
+  - [`composer create-project`](#composer-create-project)
   - [`composer config`](#composer-config)
 - [Packages](#packages)
 
@@ -113,6 +114,16 @@ composer list
 
 ```bash
 composer install
+```
+
+### `composer create-project`
+
+```bash
+composer help create-project
+```
+
+```bash
+composer create-project --prefer-dist laravel/lumen myapp 5.8.8
 ```
 
 ### `composer config`
