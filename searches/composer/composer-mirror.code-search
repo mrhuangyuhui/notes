@@ -1,0 +1,7 @@
+# Query: ^<!--.*composer-mirror.*-->$
+# Flags: RegExp
+
+1 result - 1 file
+
+manuals/php/composer-manual.md:
+  56: <!-- #composer-mirror -->
