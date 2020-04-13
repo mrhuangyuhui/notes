@@ -2,6 +2,7 @@
 # Vagrant Manual
 
 - [Install](#install)
+  - [Mac](#mac)
   - [CentOS](#centos)
   - [Ubuntu](#ubuntu)
 - [Quickstart](#quickstart)
@@ -25,9 +26,19 @@
 
 [Vagrant Documentation](https://www.vagrantup.com/docs/index.html)
 
-## [Install](https://www.vagrantup.com/intro/getting-started/install.html)
+## Install
+
+<https://www.vagrantup.com/intro/getting-started/install.html>
 
 <https://www.vagrantup.com/downloads.html>
+
+### Mac
+
+<https://releases.hashicorp.com/vagrant/2.2.7/vagrant_2.2.7_x86_64.dmg>
+
+> 提示：如果已经安装了旧版本，请先用脚本 `uninstall.tool` 进行卸载！
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/vagrant/vagrant-install-mac-1.png)
 
 ### CentOS
 
