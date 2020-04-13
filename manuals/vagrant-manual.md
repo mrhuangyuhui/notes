@@ -8,6 +8,8 @@
 - [Commands](#commands)
   - [`vagrant global-status`](#vagrant-global-status)
   - [`vagrant box`](#vagrant-box)
+    - [`vagrant box add`](#vagrant-box-add)
+    - [`vagrant box list`](#vagrant-box-list)
     - [`vagrant box remove`](#vagrant-box-remove)
   - [`vagrant up`](#vagrant-up)
   - [`vagrant reload`](#vagrant-reload)
@@ -166,30 +168,45 @@ vagrant box -h
 vagrant box --help
 ```
 
+#### `vagrant box add`
+
 安装盒子
 
 ```bash
 vagrant box add -h
-
-vagrant box add laravel/homestead --provider virtualbox
+vagrant box add --help
 ```
+
+```bash
+# 安装最新版本
+vagrant box add laravel/homestead --provider virtualbox
+# 安装指定版本
+vagrant box add laravel/homestead --provider virtualbox --box-version 9.4.0
+```
+
+#### `vagrant box list`
 
 列出已安装的盒子
 
 ```bash
 vagrant box list -h
+vagrant box list --help
+```
 
+```bash
 vagrant box list
 ```
 
-卸载已安装的盒子
-
 #### `vagrant box remove`
+
+卸载已安装的盒子
 
 ```bash
 vagrant box remove -h
 vagrant box remove --help
+```
 
+```bash
 vagrant box remove laravel/homestead
 ```
 
