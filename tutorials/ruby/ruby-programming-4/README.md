@@ -52,6 +52,8 @@ ruby example.rb
 
 ```bash
 irb
+# 简洁模式
+irb --simple-prompt
 ```
 
 ## API 文档
