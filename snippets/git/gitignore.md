@@ -1,13 +1,8 @@
-# Git 忽略配置
+# Git - Ignore
 
 <https://git-scm.com/docs/gitignore>
 
 <https://github.com/github/gitignore>
-
-- [Eclipse.gitignore](https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore)
-- [Java.gitignore](https://github.com/github/gitignore/blob/master/Java.gitignore)
-- [JetBrains.gitignore](https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore)
-- [Laravel.gitignore](https://github.com/github/gitignore/blob/master/Laravel.gitignore)
 
 注意：
 
