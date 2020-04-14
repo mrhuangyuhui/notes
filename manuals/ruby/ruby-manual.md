@@ -215,6 +215,8 @@ $ gem unpack malice-13.gem
 <!-- #ruby-tutorial -->
 ## Tutorials
 
+[Ruby 电子书](http://mrhuangyuhui.gitee.io/ruby-books/)
+
 [Ruby 基础教程（第 4 版）](/tutorials/ruby/ruby-programming-4/README.md)
 
 [“笨办法”学 Ruby（第 3 版）](/tutorials/ruby/learn-ruby-the-hard-way-3/README.md)
