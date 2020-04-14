@@ -50,3 +50,7 @@
 	path = codes/docker-repos
 	url = git@gitee.com:mrhuangyuhui/docker-repos.git
 	ignore = dirty
+[submodule "tools/homestead"]
+	path = tools/homestead
+	url = git@gitee.com:mrhuangyuhui/homestead.git
+	ignore = dirty
