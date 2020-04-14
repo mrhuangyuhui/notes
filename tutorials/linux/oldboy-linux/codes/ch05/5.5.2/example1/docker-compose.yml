@@ -7,3 +7,4 @@ services:
       - ./html/www/:/usr/share/nginx/html/www/
     ports:
       - "80:80"
+#nginx-docker

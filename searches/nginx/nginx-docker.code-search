@@ -1,0 +1,16 @@
+# Query: #nginx-docker
+# Flags: CaseSensitive WordMatch RegExp
+
+4 results - 4 files
+
+manuals/nginx/nginx-manual.md:
+  32: <!-- #nginx-docker -->
+
+tutorials/linux/oldboy-linux/codes/ch05/5.5.2/example1/docker-compose.yml:
+  10: #nginx-docker
+
+tutorials/linux/oldboy-linux/codes/ch05/5.5.2/example2/docker-compose.yml:
+  10: #nginx-docker
+
+tutorials/linux/oldboy-linux/codes/ch05/5.5.3/example1/docker-compose.yml:
+  10: #nginx-docker
