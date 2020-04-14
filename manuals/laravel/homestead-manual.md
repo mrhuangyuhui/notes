@@ -8,6 +8,8 @@
 
 <https://app.vagrantup.com/laravel/boxes/homestead>
 
+<https://github.com/laravel/homestead>
+
 <https://gitee.com/mrhuangyuhui/laravel-homestead>
 
 <https://gitee.com/mrhuangyuhui/summerblue-homestead>
