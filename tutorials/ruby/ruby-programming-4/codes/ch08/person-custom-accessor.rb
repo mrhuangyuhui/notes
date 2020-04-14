@@ -23,7 +23,7 @@ puts person.name
 =begin
 
 ```bash
-$ ruby person-custom-accessor.rb 
+$ ruby Person-custom-accessor.rb 
 Bob
 Robert
 ```

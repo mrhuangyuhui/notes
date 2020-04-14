@@ -15,7 +15,7 @@ puts person.name
 =begin
 
 ```bash
-$ ruby person-attr-accessor.rb 
+$ ruby Person-attr-accessor.rb 
 Bob
 Robert
 ```

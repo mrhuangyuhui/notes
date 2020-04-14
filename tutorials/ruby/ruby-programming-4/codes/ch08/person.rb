@@ -29,7 +29,7 @@ ruby.sayHello
 =begin
 
 ```bash
-$ ruby person.rb 
+$ ruby Person.rb 
 Hello, I am Bob!
 Hello, I am Alice!
 Hello, I am Ruby!
