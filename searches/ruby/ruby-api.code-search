@@ -1,0 +1,11 @@
+# Query: #ruby-api
+# Flags: CaseSensitive WordMatch RegExp
+
+3 results - 2 files
+
+manuals/ruby/ruby-manual.md:
+  140: <!-- #ruby-ref #ruby-api -->
+
+manuals/test/selenium/selenium-manual.md:
+   10:   - [Ruby API](#ruby-api)
+  114: [Ruby API](#ruby-api)

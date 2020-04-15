@@ -13,11 +13,19 @@
 - [Commands](#commands)
   - [`irb`](#irb)
 - [References](#references)
-- [Documentation](#documentation)
 - [RubyGems](#rubygems)
 - [Tutorials](#tutorials)
+- [Searches](#searches)
 
 <https://www.ruby-lang.org/>
+
+<https://github.com/ruby/ruby>
+
+<https://github.com/ruby/www.ruby-lang.org>
+
+<https://github.com/ruby/docs.ruby-lang.org>
+
+<https://sourcegraph.com/github.com/ruby/ruby>
 
 <https://ruby-china.org/>
 
@@ -138,23 +146,18 @@ irb --help
 ```bash
 irb
 ```
-<!-- #ruby-ref -->
+<!-- #ruby-ref #ruby-api -->
 ## References
 
-<https://rubydocs.org/>
+[Official API Documentation](https://docs.ruby-lang.org/en/)
 
-http://ruby-doc.org/core-2.4.2/
+[Ruby Core Reference](http://www.ruby-doc.org/core)
 
-http://ruby-doc.org/stdlib-2.4.2/
+[Ruby Standard Library Reference](http://www.ruby-doc.org/stdlib)
 
-http://docs.rubydocs.org/ruby-2-4-2/
+[Ruby 2.6 documentation — DevDocs](https://devdocs.io/ruby~2.6/)
 
-<https://devdocs.io/ruby~2.6/>
-
-## Documentation
-
-Ruby User's Guide
-http://www.rubyist.net/~slagell/ruby/
+[RubyDocs - Fancy docs for any Ruby project](https://rubydocs.org/)
 
 ## RubyGems
 
@@ -224,3 +227,23 @@ $ gem unpack malice-13.gem
 [The Definitive Ruby Tutorial For Complete Beginners](https://www.rubyguides.com/ruby-tutorial/)
 
 [Learn Ruby](https://www.tutorialspoint.com/ruby/index.htm)
+
+[Programming Ruby](http://www.ruby-doc.org/docs/ProgrammingRuby/)
+
+[The Ruby Programming Wikibook](http://en.wikibooks.org/wiki/Ruby_programming_language)
+
+## Searches
+
+<https://sourcegraph.com/github.com/ruby/ruby>
+
+Google Search
+
+```
+"ruby" site:docs.ruby-lang.org
+```
+
+Chrome Search Engine
+
+```
+https://www.google.com/search?as_q=%s&as_sitesearch=docs.ruby-lang.org
+```
