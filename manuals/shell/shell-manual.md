@@ -1,11 +1,10 @@
 <!-- omit in toc -->
 # Shell Manual
 
+- [Bash](#bash)
 - [Snippets](#snippets)
 - [Samples](#samples)
 - [Tutorials](#tutorials)
-
-[Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html)
 
 http://www.freeos.com/guides/lsst/
 
@@ -25,7 +24,13 @@ https://github.com/trending/shell
 
 https://github.com/learnbyexample/Command-line-text-processing
 
+## Bash
+
+[Bash Manual](bash-manual.md)
+
 ## Snippets
+
+[Shell Snippets](/snippets/shell/README.md)
 
 检查 Linux 发行版本和包管理方式
 
@@ -41,6 +46,7 @@ https://github.com/iuscommunity/automation-examples/blob/bash/enable-ius.sh
 
 http://svn.apache.org/repos/asf/subversion/trunk/get-deps.sh
 
+<!-- #shell-tutorial -->
 ## Tutorials
 
 [Shell 从入门到精通](/tutorials/shell/Shell%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/README.md)

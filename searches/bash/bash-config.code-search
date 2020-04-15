@@ -1,7 +1,0 @@
-# Query: ^<!--.*bash-config.*-->$
-# Flags: RegExp
-
-1 result - 1 file
-
-snippets/bash/bash-ps1.md:
-  1: <!-- #bash-config -->

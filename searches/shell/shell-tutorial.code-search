@@ -1,7 +1,10 @@
-# Query: ^<!--.*shell-tutorial.*-->$
+# Query: shell-tutorial
 # Flags: RegExp
 
-1 result - 1 file
+2 results - 2 files
+
+manuals/shell/shell-manual.md:
+  49: <!-- #shell-tutorial -->
 
 tutorials/shell/Shell 从入门到精通/README.md:
   1: <!-- #shell-tutorial -->

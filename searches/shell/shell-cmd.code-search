@@ -1,0 +1,7 @@
+# Query: shell-cmd
+# Flags: CaseSensitive WordMatch RegExp
+
+1 result - 1 file
+
+manuals/shell/bash-manual.md:
+  3: <!-- #shell-cmd #bash-cmd -->

@@ -1,0 +1,7 @@
+# Query: shell-snippet
+# Flags: RegExp
+
+1 result - 1 file
+
+snippets/shell/README.md:
+  1: <!-- #shell-snippet -->

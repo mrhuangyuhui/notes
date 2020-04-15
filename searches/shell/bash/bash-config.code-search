@@ -1,0 +1,7 @@
+# Query: #bash-config
+# Flags: CaseSensitive WordMatch RegExp
+
+1 result - 1 file
+
+snippets/shell/bash-ps1.md:
+  1: <!-- #bash-config -->
