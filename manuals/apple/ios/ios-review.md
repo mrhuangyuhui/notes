@@ -1,7 +1,7 @@
 <!-- #ios-review -->
 # iOS Review
 
-<[App Testing Guide](https://developer.apple.com/library/archive/technotes/tn2431/_index.html)>
+[App Testing Guide](https://developer.apple.com/library/archive/technotes/tn2431/_index.html)
 
 [App Store 审核指南](https://developer.apple.com/cn/app-store/review/guidelines/)
 
