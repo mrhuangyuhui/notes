@@ -5,18 +5,23 @@
   - [Mac](#mac)
   - [CentOS](#centos)
   - [Ubuntu](#ubuntu)
-- [Quickstart](#quickstart)
+- [Quick Start](#quick-start)
 - [Commands](#commands)
   - [`vagrant global-status`](#vagrant-global-status)
   - [`vagrant box`](#vagrant-box)
     - [`vagrant box add`](#vagrant-box-add)
     - [`vagrant box list`](#vagrant-box-list)
     - [`vagrant box remove`](#vagrant-box-remove)
+  - [`vagrant init`](#vagrant-init)
   - [`vagrant up`](#vagrant-up)
   - [`vagrant reload`](#vagrant-reload)
   - [`vagrant destroy`](#vagrant-destroy)
   - [`vagrant ssh`](#vagrant-ssh)
+- [Vagrantfile](#vagrantfile)
 - [Configs](#configs)
+- [Boxes](#boxes)
+- [Share](#share)
+- [References](#references)
 
 <https://www.vagrantup.com/>
 
@@ -26,6 +31,7 @@
 
 [Vagrant Documentation](https://www.vagrantup.com/docs/index.html)
 
+<!-- #vagrant-install -->
 ## Install
 
 <https://www.vagrantup.com/intro/getting-started/install.html>
@@ -63,41 +69,134 @@ sudo dpkg -i vagrant_2.2.4_x86_64.deb
 vagrant
 ```
 
-## Quickstart
+<!-- #vagrant-tutorial -->
+## Quick Start
 
-<https://www.vagrantup.com/intro/getting-started/index.html>
+[Getting Started](https://www.vagrantup.com/intro/getting-started/index.html)
+
+- [Project Setup](https://www.vagrantup.com/intro/getting-started/project_setup.html)
 
 ```bash
 mkdir vagrant_getting_started
 cd vagrant_getting_started
 
-# 初始化环境
+# 初始化环境，生成 Vagrantfile，使用的盒子是 hashicorp/precise64。
 vagrant init hashicorp/precise64
+```
 
-# 启动/重启虚拟机
+> 提示：`Vagrantfile` 使用的语言是 Ruby，使用方法请参考 [#Vagrantfile](#vagrantfile)。
+
+- [Boxes](https://www.vagrantup.com/intro/getting-started/boxes.html)
+
+```bash
+# 安装盒子
+vagrant box add hashicorp/bionic64
+```
+
+- [Up And SSH](https://www.vagrantup.com/intro/getting-started/up.html)
+
+```bash
+# 启动虚拟机
 vagrant up
 
 # 登录虚拟机
 vagrant ssh
+```
 
-# 查看虚拟机状态
-vagrant status
+- [Synced Folders](https://www.vagrantup.com/intro/getting-started/synced_folders.html)
 
-# 关闭虚拟机
-vagrant halt
+> By default, Vagrant shares your project directory (remember, that is the one with the `Vagrantfile`) to the `/vagrant` directory in your guest machine.
+
+- [Provisioning](https://www.vagrantup.com/intro/getting-started/provisioning.html)
+
+> 提示：第一次执行命令 `vagrant up` 时会自动执行用户的自定义脚本，执行命令 `vagrant reload --provision` 可进行重载。
+
+`bootstrap.sh`
+
+```bash
+#!/usr/bin/env bash
+
+apt-get update
+apt-get install -y apache2
+if ! [ -L /var/www ]; then
+  rm -rf /var/www
+  ln -fs /vagrant /var/www
+fi
+```
+
+`Vagrantfile`
+
+```ruby
+Vagrant.configure("2") do |config|
+  config.vm.box = "hashicorp/bionic64"
+  # 指定用户的自定义脚本
+  config.vm.provision :shell, path: "bootstrap.sh"
+end
+```
+
+- [Networking](https://www.vagrantup.com/intro/getting-started/networking.html)
+
+`Vagrantfile`
+
+```bash
+Vagrant.configure("2") do |config|
+  config.vm.box = "hashicorp/bionic64"
+  config.vm.provision :shell, path: "bootstrap.sh"
+  # 端口映射
+  config.vm.network :forwarded_port, guest: 80, host: 4567
+end
+```
+
+重载配置文件 `Vagrantfile`
+
+```bash
+vagrant reload
+# 如果已经关机，直接启动即可。
+vagrant up
+```
+
+- [Teardown](https://www.vagrantup.com/intro/getting-started/teardown.html)
+
+```bash
 
 # 暂停虚拟机
 vagrant suspend
 
-# 关闭并重置虚拟机
-vagrant destroy
+# 关闭虚拟机
+vagrant halt
 
-# 查看所有虚拟机的状态
+# 销毁虚拟机
+vagrant destroy
+```
+
+```bash
+# 查看虚拟机的状态
+vagrant status
+
+# 列出所有虚拟机的状态
 vagrant global-status
 ```
 
 <!-- #vagrant-cmd -->
 ## Commands
+
+```bash
+vagrant
+vagrant -h
+vagrant --help
+
+# 列出全部子命令
+vagrant list-commands
+
+# 查看子命令的帮助
+vagrant up -h
+vagrant up --help
+vagrant help up
+```
+
+```bash
+vagrant -v
+```
 
 ```bash
 # 启动/重启虚拟机
@@ -128,27 +227,6 @@ vagrant global-status
 vagrant reload --provision
 ```
 
-查看帮助
-
-```bash
-vagrant
-vagrant -h
-vagrant --help
-
-# 列出全部子命令
-vagrant list-commands
-
-# 查看子命令的帮助
-vagrant up -h
-vagrant up --help
-vagrant help up
-```
-
-```bash
-# 查看版本信息
-vagrant -v
-```
-
 ```bash
 mkdir vagrant_getting_started
 cd vagrant_getting_started
@@ -172,7 +250,7 @@ vagrant global-status
 
 ### `vagrant box`
 
-查看帮助
+<https://www.vagrantup.com/intro/getting-started/boxes.html>
 
 ```bash
 vagrant box -h
@@ -221,6 +299,15 @@ vagrant box remove --help
 vagrant box remove laravel/homestead
 ```
 
+### `vagrant init`
+
+初始化 Vagrant 环境，生成 `Vagrantfile`。
+
+```bash
+cd myapp
+vagrant init hashicorp/bionic64
+```
+
 ### `vagrant up`
 
 查看帮助
@@ -238,7 +325,13 @@ vagrant reload -h
 vagrant reload --help
 ```
 
-重载虚拟机配置
+重载配置文件 `Vagrantfile`
+
+```bash
+vagrant reload
+```
+
+重载配置文件 `Vagrantfile` 并执行用户的自定义脚本 `bootstrap.sh`
 
 ```bash
 vagrant reload --provision
@@ -260,6 +353,10 @@ vagrant destroy 5eda868
 vagrant ssh 6b5a146
 ```
 
+## Vagrantfile
+
+<https://www.vagrantup.com/docs/vagrantfile/>
+
 ## Configs
 
 配置虚拟机盒子
@@ -268,6 +365,7 @@ vagrant ssh 6b5a146
 
 ```ruby
 Vagrant.configure("2") do |config|
+  # 指定盒子的名称
   config.vm.box = "hashicorp/precise64"
 end
 ```
@@ -275,6 +373,7 @@ end
 ```ruby
 Vagrant.configure("2") do |config|
   config.vm.box = "hashicorp/precise64"
+  # 指定盒子的版本
   config.vm.box_version = "1.1.0"
 end
 ```
@@ -282,6 +381,7 @@ end
 ```ruby
 Vagrant.configure("2") do |config|
   config.vm.box = "hashicorp/precise64"
+  # 指定盒子的 URL
   config.vm.box_url = "https://vagrantcloud.com/hashicorp/precise64"
 end
 ```
@@ -301,3 +401,19 @@ Vagrant.configure("2") do |config|
   config.vm.network :forwarded_port, guest: 80, host: 4567
 end
 ```
+
+<!-- #vagrant-box -->
+## Boxes
+
+<https://app.vagrantup.com/boxes/search>
+
+<https://www.vagrantup.com/intro/getting-started/boxes.html>
+
+## Share
+
+[Vagrant Share](vagrant-share.md)
+
+<!-- #vagrant-ref -->
+## References
+
+[Vagrant Share](https://www.vagrantup.com/docs/share/)

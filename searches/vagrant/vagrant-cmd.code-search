@@ -1,7 +1,10 @@
-# Query: ^<!--.*vagrant-cmd.*-->$
+# Query: #vagrant-cmd
 # Flags: RegExp
 
-1 result - 1 file
+2 results - 2 files
 
 manuals/laravel/homestead-manual.md:
-  25: <!-- #vagrant-cmd -->
+  27: <!-- #vagrant-cmd -->
+
+manuals/vagrant/vagrant-manual.md:
+  180: <!-- #vagrant-cmd -->
