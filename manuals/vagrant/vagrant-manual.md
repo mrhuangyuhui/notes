@@ -416,4 +416,6 @@ end
 <!-- #vagrant-ref -->
 ## References
 
+[Vagrantfile](https://www.vagrantup.com/docs/vagrantfile/)
+
 [Vagrant Share](https://www.vagrantup.com/docs/share/)

@@ -1,0 +1,11 @@
+# Query: #vagrantfile
+# Flags: RegExp
+
+4 results - 2 files
+
+manuals/vagrant/vagrant-manual.md:
+  20: - [Vagrantfile](#vagrantfile)
+  87: > 提示：`Vagrantfile` 使用的语言是 Ruby，使用方法请参考 [#Vagrantfile](#vagrantfile)。
+
+manuals/vagrant/vagrantfile.md:
+  1: <!-- #vagrantfile -->
