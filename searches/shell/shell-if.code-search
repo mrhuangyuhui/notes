@@ -1,0 +1,10 @@
+# Query: #shell-if
+# Flags: CaseSensitive WordMatch RegExp
+
+2 results - 2 files
+
+snippets/shell/shell-condition.md:
+  1: <!-- #shell-condition #shell-if -->
+
+tutorials/shell/Shell 从入门到精通/ch04.md:
+  353: <!-- #shell-if -->
