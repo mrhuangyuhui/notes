@@ -19,6 +19,7 @@
   - [`vagrant ssh`](#vagrant-ssh)
 - [Vagrantfile](#vagrantfile)
 - [Configs](#configs)
+- [Provisioning](#provisioning)
 - [Boxes](#boxes)
 - [Share](#share)
 - [References](#references)
@@ -401,6 +402,18 @@ Vagrant.configure("2") do |config|
   config.vm.network :forwarded_port, guest: 80, host: 4567
 end
 ```
+
+## Provisioning
+
+<https://www.vagrantup.com/docs/provisioning/>
+
+Provisioning 在以下三种情况被执行：
+
+- 第一次执行命令 `vagrant up` 启动虚拟机
+- 在运行中的虚拟机执行命令 `vagrant provision`
+- 执行命令 `vagrant reload --provision`
+
+[`config.vm.provision`](vagrantfile.md#configvmprovision)
 
 <!-- #vagrant-box -->
 ## Boxes
