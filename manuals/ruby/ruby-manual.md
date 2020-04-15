@@ -151,9 +151,15 @@ irb
 
 [Official API Documentation](https://docs.ruby-lang.org/en/)
 
-[Ruby Core Reference](http://www.ruby-doc.org/core)
+[Ruby-Doc.org: Documenting the Ruby Language](https://ruby-doc.org/)
 
-[Ruby Standard Library Reference](http://www.ruby-doc.org/stdlib)
+- [Ruby Core Reference](http://www.ruby-doc.org/core)
+- [Ruby Standard Library Reference](http://www.ruby-doc.org/stdlib)
+
+<https://ruby-doc.org/core-2.6.3/>
+
+<https://ruby-doc.com/search.html>
+
 
 [Ruby 2.6 documentation — DevDocs](https://devdocs.io/ruby~2.6/)
 
@@ -234,9 +240,11 @@ $ gem unpack malice-13.gem
 
 ## Searches
 
+<https://ruby-doc.com/search.html>
+
 <https://sourcegraph.com/github.com/ruby/ruby>
 
-Google Search
+Google Advanced Search
 
 ```
 "ruby" site:docs.ruby-lang.org
