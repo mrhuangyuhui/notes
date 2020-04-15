@@ -32,6 +32,8 @@
 
 [Vagrant Documentation](https://www.vagrantup.com/docs/index.html)
 
+<https://github.com/hashicorp/vagrant>
+
 <!-- #vagrant-install -->
 ## Install
 

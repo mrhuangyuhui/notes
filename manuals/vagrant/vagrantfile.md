@@ -7,6 +7,8 @@
 - [`config.vm`](#configvm)
   - [`config.vm.provision`](#configvmprovision)
 
+<https://www.vagrantup.com/docs/vagrantfile/>
+
 ## `Vagrant.require_version`
 
 [Minimum Vagrant Version](https://www.vagrantup.com/docs/vagrantfile/vagrant_version.html)
