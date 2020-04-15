@@ -1,4 +1,4 @@
-# Query: shell-cmd
+# Query: bash-cmd
 # Flags: CaseSensitive WordMatch RegExp
 
 2 results - 2 files
@@ -7,4 +7,4 @@ commands/README.md:
   1: <!-- #shell-cmd #bash-cmd #linux-cmd -->
 
 manuals/shell/bash-manual.md:
-  3: <!-- #shell-cmd #bash-cmd -->
+  3: <!-- #bash-cmd -->

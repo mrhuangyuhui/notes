@@ -2,6 +2,8 @@
 # Shell Manual
 
 - [Bash](#bash)
+- [Commands](#commands)
+- [References](#references)
 - [Snippets](#snippets)
 - [Samples](#samples)
 - [Tutorials](#tutorials)
@@ -27,6 +29,16 @@ https://github.com/learnbyexample/Command-line-text-processing
 ## Bash
 
 [Bash Manual](bash-manual.md)
+
+<!-- #shell-cmd -->
+## Commands
+
+[Commands](/commands/README.md)
+
+<!-- #shell-ref -->
+## References
+
+[Bash References](bash-manual.md#references)
 
 ## Snippets
 

@@ -1,0 +1,7 @@
+# Query: shell-ref
+# Flags: CaseSensitive WordMatch RegExp
+
+1 result - 1 file
+
+manuals/shell/shell-manual.md:
+  38: <!-- #shell-ref -->

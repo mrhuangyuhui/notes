@@ -1,0 +1,7 @@
+# Query: bash-ref
+# Flags: CaseSensitive WordMatch RegExp
+
+1 result - 1 file
+
+manuals/shell/bash-manual.md:
+  10: <!-- #bash-ref -->

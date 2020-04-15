@@ -1,6 +1,15 @@
 # Bash Manual
 
-<!-- #shell-cmd #bash-cmd -->
+<!-- #bash-cmd -->
+## Commands
+
+[Commands](/commands/README.md)
+
+[Index of Shell Builtin Commands](https://www.gnu.org/software/bash/manual/bash.html#Builtin-Index)
+
+<!-- #bash-ref -->
+## References
+
 [Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html)
 
 ## Cheat Sheet

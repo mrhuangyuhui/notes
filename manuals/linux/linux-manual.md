@@ -1,4 +1,36 @@
+<!-- omit in toc -->
 # Linux Manual
+
+- [Commands](#commands)
+- [Files](#files)
+  - [`~/.bash_history`](#bashhistory)
+  - [`~/.bash_login`](#bashlogin)
+  - [`~/.bash_logout`](#bashlogout)
+  - [`~/.bash_profile`](#bashprofile)
+  - [`~/.bashrc`](#bashrc)
+  - [`~/.profile`](#profile)
+  - [`/etc/bashrc`](#etcbashrc)
+  - [`/etc/group`](#etcgroup)
+  - [`/etc/gshadow`](#etcgshadow)
+  - [`/etc/passwd`](#etcpasswd)
+  - [`/etc/profile`](#etcprofile)
+  - [`/etc/locale.conf`](#etclocaleconf)
+  - [`/etc/man_db.conf`](#etcmandbconf)
+  - [`/etc/profile.d/`](#etcprofiled)
+  - [`/etc/shadow`](#etcshadow)
+  - [`/etc/shells`](#etcshells)
+  - [`/etc/sudoers`](#etcsudoers)
+- [Variables](#variables)
+  - [`HISTSIZE`](#histsize)
+- [Packages](#packages)
+- [Coreutils - GNU core utilities](#coreutils---gnu-core-utilities)
+  - [21 System context](#21-system-context)
+    - [21.2 `arch`: Print machine hardware name](#212-arch-print-machine-hardware-name)
+    - [21.3 nproc: Print the number of available processors](#213-nproc-print-the-number-of-available-processors)
+    - [21.4 `uname`: Print system information](#214-uname-print-system-information)
+    - [21.5 `hostname`: Print or set system name](#215-hostname-print-or-set-system-name)
+    - [21.7 `uptime`: Print system uptime and load](#217-uptime-print-system-uptime-and-load)
+- [Tutorials](#tutorials)
 
 <https://www.kernel.org/>
 
@@ -6,9 +38,10 @@
 
 <https://github.com/arismelachroinos/lscript>
 
----
+<!-- #linux-cmd -->
+## Commands
 
-[TOC]
+[Commands](/commands/README.md)
 
 ## Files
 
