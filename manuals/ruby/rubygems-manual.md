@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Gem Manual
+# RubyGems Manual
 
 - [Mirrors](#mirrors)
 - [Commands](#commands)
@@ -113,4 +113,58 @@ gem help update
 
 ```bash
 gem update --system
+```
+
+https://rubygems.org/
+
+https://github.com/rubygems/rubygems
+
+Installation
+https://rubygems.org/pages/download
+
+Command Reference
+http://guides.rubygems.org/command-reference/
+
+Guides
+
+http://guides.rubygems.org/
+
+http://guides.rubygems.org/rubygems-basics/
+
+Make your own gem
+http://guides.rubygems.org/make-your-own-gem/
+
+Specification reference
+http://guides.rubygems.org/specification-reference/
+
+
+FINDING GEMS
+```
+# 支持正则表达式搜索
+$ gem search ^rails
+
+# 查看详细信息
+$ gem search ^rails$ -d
+
+```
+
+INSTALLING GEMS
+```
+$ gem install drip
+```
+
+LISTING INSTALLED GEMS
+```
+$ gem list
+```
+
+UNINSTALLING GEMS
+```
+$ gem uninstall drip
+```
+
+FETCHING AND UNPACKING GEMS
+```
+$ gem fetch malice
+$ gem unpack malice-13.gem
 ```

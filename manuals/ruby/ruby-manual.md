@@ -13,7 +13,6 @@
 - [Commands](#commands)
   - [`irb`](#irb)
 - [References](#references)
-- [RubyGems](#rubygems)
 - [Tutorials](#tutorials)
 - [Searches](#searches)
 
@@ -29,15 +28,9 @@
 
 <https://ruby-china.org/>
 
-<http://ruby-doc.org/>
-
 <https://bitnami.com/stack/ruby>
 
 <https://bitnami.com/stack/ruby/containers>
-
-RubyGems 国内镜像 <https://gems.ruby-china.com/>
-
-<https://github.com/fastlane/fastlane>
 
 <!-- #ruby-install -->
 ## Install
@@ -160,66 +153,11 @@ irb
 
 <https://ruby-doc.com/search.html>
 
-
 [Ruby 2.6 documentation — DevDocs](https://devdocs.io/ruby~2.6/)
 
 [RubyDocs - Fancy docs for any Ruby project](https://rubydocs.org/)
 
-## RubyGems
-
-https://rubygems.org/
-
-https://github.com/rubygems/rubygems
-
-Installation
-https://rubygems.org/pages/download
-
-Command Reference
-http://guides.rubygems.org/command-reference/
-
-Guides
-
-http://guides.rubygems.org/
-
-http://guides.rubygems.org/rubygems-basics/
-
-Make your own gem
-http://guides.rubygems.org/make-your-own-gem/
-
-Specification reference
-http://guides.rubygems.org/specification-reference/
-
-
-FINDING GEMS
-```
-# 支持正则表达式搜索
-$ gem search ^rails
-
-# 查看详细信息
-$ gem search ^rails$ -d
-
-```
-
-INSTALLING GEMS
-```
-$ gem install drip
-```
-
-LISTING INSTALLED GEMS
-```
-$ gem list
-```
-
-UNINSTALLING GEMS
-```
-$ gem uninstall drip
-```
-
-FETCHING AND UNPACKING GEMS
-```
-$ gem fetch malice
-$ gem unpack malice-13.gem
-```
+[![img](https://gitee.com/mrhuangyuhui/images/raw/master/ruby/ruby-docs-1.png)](http://www.ruby-doc.org/core)
 
 <!-- #ruby-tutorial -->
 ## Tutorials
