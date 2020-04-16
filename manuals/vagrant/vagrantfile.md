@@ -9,6 +9,10 @@
 
 <https://www.vagrantup.com/docs/vagrantfile/>
 
+> 提示：文档没列出的 API 可以搜索 <https://sourcegraph.com/github.com/hashicorp/vagrant>
+
+[![img](https://gitee.com/mrhuangyuhui/images/raw/master/vagrant/vagrant-sourcegraph-1.png)](https://sourcegraph.com/github.com/hashicorp/vagrant)
+
 ## `Vagrant.require_version`
 
 [Minimum Vagrant Version](https://www.vagrantup.com/docs/vagrantfile/vagrant_version.html)

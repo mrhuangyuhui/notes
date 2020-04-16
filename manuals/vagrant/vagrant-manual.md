@@ -34,6 +34,10 @@
 
 <https://github.com/hashicorp/vagrant>
 
+<https://sourcegraph.com/github.com/hashicorp/vagrant>
+
+<https://gems.ruby-china.com/gems/vagrant>
+
 <!-- #vagrant-install -->
 ## Install
 
