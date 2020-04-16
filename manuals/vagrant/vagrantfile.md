@@ -58,7 +58,7 @@ end
 
 [`config.vm.provision`](https://www.vagrantup.com/docs/vagrantfile/machine_settings.html#config-vm-provision)
 
-[File Provisioner](https://www.vagrantup.com/docs/provisioning/file.html)
+- [File Provisioner](https://www.vagrantup.com/docs/provisioning/file.html)
 
 从本地上传文件或目录到虚拟机
 
@@ -73,3 +73,5 @@ Vagrant.configure("2") do |config|
   config.vm.provision "file", source: "~/path/to/host/folder", destination: "$HOME/remote/newfolder"
 end
 ```
+
+- [Shell Provisioner](https://www.vagrantup.com/docs/provisioning/shell.html)
