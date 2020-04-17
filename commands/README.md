@@ -1,14 +1,14 @@
 <!-- #shell-cmd #bash-cmd #linux-cmd -->
 # Commands
 
-[OpenBSD manual page server](https://man.openbsd.org/)
+<!-- #man-pages -->
+## man-pages
 
-[Linux man pages online](http://www.man7.org/linux/man-pages/index.html)
+[`manuals/man-pages.md`](/manuals/man-pages.md)
 
-<https://linux.die.net/man/>
+<http://linux.vbird.org/linux_basic/0160startlinux.php#manual>
 
-<https://man.cx/>
-
+<!-- #man-pages -->
 ## Mac
 
 查看命令的使用手册

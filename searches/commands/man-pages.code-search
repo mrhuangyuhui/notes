@@ -1,0 +1,14 @@
+# Query: #man-pages
+# Flags: CaseSensitive WordMatch RegExp
+
+4 results - 3 files
+
+commands/man.md:
+  1: <!-- #man-pages -->
+
+commands/README.md:
+   4: <!-- #man-pages -->
+  11: <!-- #man-pages -->
+
+manuals/man-pages.md:
+  1: <!-- #man-pages -->
