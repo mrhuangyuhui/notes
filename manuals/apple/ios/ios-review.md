@@ -11,6 +11,8 @@
 
 [Network conditions](https://developer.apple.com/library/archive/technotes/tn2431/_index.html#//apple_ref/doc/uid/DTS40017497-CH1-NET)
 
+[Analyzing Crash Reports](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AnalyzingCrashReports/AnalyzingCrashReports.html)
+
 <!-- #ios-ipv6 -->
 ## IPv6
 
