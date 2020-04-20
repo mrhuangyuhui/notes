@@ -32,9 +32,9 @@ vagrant box add laravel/homestead --provider virtualbox
 vagrant box add laravel/homestead --provider virtualbox --box-version 9.4.0
 
 # 下载并初始化 Homestead
-git clone https://github.com/laravel/homestead.git ~/Homestead
+git clone https://github.com/laravel/homestead.git
 
-cd ~/Homestead
+cd ~/homestead
 
 git checkout release
 
