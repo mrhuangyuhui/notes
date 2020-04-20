@@ -54,6 +54,46 @@ composer require laravel/homestead --dev
 php vendor/bin/homestead make
 ```
 
+部署多个版本盒子的 Homestead 环境，可以采取以下步骤：
+
+- 添加两个版本的盒子
+
+```bash
+vagrant box add laravel/homestead --provider virtualbox --box-version 9.1.0
+vagrant box add laravel/homestead --provider virtualbox --box-version 9.4.0
+```
+
+- Clone 两个目录
+
+```bash
+git@gitee.com:mrhuangyuhui/homestead.git ~/homestead_box_v9.1.0
+git@gitee.com:mrhuangyuhui/homestead.git ~/homestead_box_v9.4.0
+```
+
+- 修改两个版本的 YAML
+
+```bash
+bash init.sh
+```
+
+`~/homestead_box_v9.1.0/Homestead.yml`
+
+```yml
+# ...
+name: homestead_box_v9.1.0
+version: "= 9.1.0"
+# ...
+```
+
+ `~/homestead_box_v9.4.0/Homestead.yml`
+
+```yml
+# ...
+name: homestead_box_v9.4.0
+version: "= 9.4.0"
+# ...
+```
+
 ## Debug
 
 [Debugging Web Requests With Xdebug](https://laravel.com/docs/5.8/homestead#debugging-web-requests)

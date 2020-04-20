@@ -362,52 +362,11 @@ vagrant ssh 6b5a146
 
 ## Vagrantfile
 
-<https://www.vagrantup.com/docs/vagrantfile/>
+[`vagrantfile.md`](vagrantfile.md)
 
 ## Configs
 
-配置虚拟机盒子
-
 <https://www.vagrantup.com/intro/getting-started/boxes.html>
-
-```ruby
-Vagrant.configure("2") do |config|
-  # 指定盒子的名称
-  config.vm.box = "hashicorp/precise64"
-end
-```
-
-```ruby
-Vagrant.configure("2") do |config|
-  config.vm.box = "hashicorp/precise64"
-  # 指定盒子的版本
-  config.vm.box_version = "1.1.0"
-end
-```
-
-```ruby
-Vagrant.configure("2") do |config|
-  config.vm.box = "hashicorp/precise64"
-  # 指定盒子的 URL
-  config.vm.box_url = "https://vagrantcloud.com/hashicorp/precise64"
-end
-```
-
-配置启动脚本
-
-```ruby
-Vagrant.configure("2") do |config|
-  config.vm.provision :shell, path: "bootstrap.sh"
-end
-```
-
-配置端口映射
-
-```bash
-Vagrant.configure("2") do |config|
-  config.vm.network :forwarded_port, guest: 80, host: 4567
-end
-```
 
 ## Provisioning
 

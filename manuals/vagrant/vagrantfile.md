@@ -52,6 +52,8 @@
 
 设置虚拟机的盒子版本
 
+<https://www.vagrantup.com/docs/boxes/versioning.html>
+
 <https://www.vagrantup.com/docs/vagrantfile/machine_settings.html#config-vm-box_version>
 
 [repo:^github\.com/laravel/homestead$ config.vm.box_version - Sourcegraph](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/laravel/homestead%24+config.vm.box_version&patternType=structural)
