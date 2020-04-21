@@ -188,6 +188,8 @@ vagrant global-status
 <!-- #vagrant-cmd -->
 ## Commands
 
+<https://www.vagrantup.com/docs/cli/>
+
 ```bash
 vagrant
 vagrant -h
@@ -330,20 +332,18 @@ vagrant help up
 
 ### `vagrant reload`
 
+<https://www.vagrantup.com/docs/cli/reload.html>
+
 ```bash
 vagrant reload -h
 vagrant reload --help
 ```
 
-重载配置文件 `Vagrantfile`
+重载 `Vagrantfile`，相当于关机重启。
 
 ```bash
 vagrant reload
-```
-
-重载配置文件 `Vagrantfile` 并执行用户的自定义脚本 `bootstrap.sh`
-
-```bash
+# 重新执行 Provision
 vagrant reload --provision
 ```
 

@@ -1,4 +1,10 @@
+<!-- omit in toc -->
 # PhpStorm Manual
+
+- [Debug](#debug)
+- [Vagrant](#vagrant)
+- [Test](#test)
+- [Downloads](#downloads)
 
 <https://www.jetbrains.com/phpstorm/documentation/>
 
@@ -77,3 +83,7 @@
 [Test Frameworks](https://www.jetbrains.com/help/phpstorm/php-test-frameworks.html)
 
 [Testing with PHPUnit](https://www.jetbrains.com/help/phpstorm/using-phpunit-framework.html)
+
+## Downloads
+
+<https://www.ifunmac.com/2020/04/phpstorm-2020-1/>

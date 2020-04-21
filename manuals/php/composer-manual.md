@@ -9,9 +9,15 @@
 - [Commands](#commands)
   - [`composer create-project`](#composer-create-project)
   - [`composer config`](#composer-config)
+  - [`composer list`](#composer-list)
+  - [`composer selfupdate`](#composer-selfupdate)
+- [`composer.json`](#composerjson)
+- [References](#references)
 - [Packages](#packages)
 
 <https://getcomposer.org/>
+
+<https://getcomposer.org/doc/>
 
 <https://packagist.org/>
 
@@ -29,6 +35,12 @@ php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 
 composer --version
+```
+
+更新到最新版本
+
+```bash
+composer selfupdate
 ```
 
 ## Docker
@@ -115,15 +127,13 @@ composer config --unset repos.packagist
 <!-- #composer-cmd -->
 ## Commands
 
-查看帮助
-
 ```bash
 composer -h
-```
+composer --help
+composer help
 
-查看某个命令的帮助
-
-```bash
+composer install -h
+composer install --help
 composer help list
 ```
 
@@ -168,6 +178,40 @@ composer config -l
 ```bash
 composer config -g repo
 ```
+
+### `composer list`
+
+列出所有可用命令
+
+```bash
+composer help list
+```
+
+```bash
+composer list
+```
+
+### `composer selfupdate`
+
+更新到最新版本
+
+```bash
+composer selfupdate -h
+composer selfupdate --help
+composer help selfupdate
+```
+
+```bash
+composer selfupdate
+```
+
+## `composer.json`
+
+[`repositories`](https://getcomposer.org/doc/04-schema.md#repositories)
+
+## References
+
+<https://getcomposer.org/doc/>
 
 ## Packages
 
