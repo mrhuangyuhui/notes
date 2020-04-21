@@ -1,7 +1,7 @@
-# Query: ^<!--.*gem-mirror.*-->$
+# Query: #gem-mirror
 # Flags: RegExp
 
 1 result - 1 file
 
-manuals/ruby/gem-manual.md:
+manuals/ruby/rubygems-manual.md:
   13: <!-- #gem-mirror -->

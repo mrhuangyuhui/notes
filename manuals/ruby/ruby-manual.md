@@ -48,6 +48,14 @@
 
 <https://bitnami.com/stack/ruby/containers>
 
+```bash
+docker pull ruby:2.7.1-alpine3.10
+```
+
+```bash
+docker run -it --rm -v `pwd`:/usr/src/app
+```
+
 ### RVM
 
 参考笔记 [RVM Manual](rvm-manual.md)

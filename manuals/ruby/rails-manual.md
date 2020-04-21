@@ -1,14 +1,27 @@
+<!-- omit in toc -->
 # Rails Manual
+
+- [Install](#install)
+  - [Docker](#docker)
+- [Commands](#commands)
+  - [`rails new`](#rails-new)
+- [References](#references)
 
 <https://rubyonrails.org/>
 
+[Ruby on Rails Guides](https://guides.rubyonrails.org/)
+
+[Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html)
+
+[Ruby on Rails API](https://api.rubyonrails.org/)
+
 <https://github.com/rails/rails>
 
-<https://guides.rubyonrails.org/getting_started.html>
+<https://github.com/rails/homepage>
 
-<https://api.rubyonrails.org/v6.0.2.1/>
+## Install
 
-## [Install](https://guides.rubyonrails.org/getting_started.html#installing-rails)
+<https://guides.rubyonrails.org/getting_started.html#installing-rails>
 
 > 注意：要求先安装 Ruby 2.5.0 以上版本和 sqlite3
 
@@ -39,6 +52,8 @@ rails new -h
 ```
 
 ### Docker
+
+<https://hub.docker.com/r/bitnami/rails>
 
 ```bash
 # 安装 Rails
@@ -71,7 +86,9 @@ rails new -h
 rails new --help
 ```
 
-## Refrences
+## References
+
+<https://guides.rubyonrails.org/>
 
 <https://guides.rubyonrails.org/api_documentation_guidelines.html>
 
