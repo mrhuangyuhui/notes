@@ -16,11 +16,11 @@
 
 > 提示：在 Homestead 下 Debug，请参考 [Homestead 笔记安装 Xdebug 模块](/manuals/laravel/homestead.md#debug)。
 
-![imaeg](https://gitee.com/mrhuangyuhui/images/raw/master/phpstorm/phpstorm-debug-1.png)
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/phpstorm/phpstorm-debug-1.png)
 
-![image](https://gitee.com/mrhuangyuhui/images/raw/master/phpstorm/phpstorm-debug-2.png)
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/phpstorm/phpstorm-debug-2.png)
 
-![image](https://gitee.com/mrhuangyuhui/images/raw/master/php/php-debug-xdebug-helper.jpg)
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/php/php-debug-xdebug-helper.png)
 
 [Zero-Configuration Debugging](https://www.jetbrains.com/help/phpstorm/zero-configuration-debugging.html)
 
