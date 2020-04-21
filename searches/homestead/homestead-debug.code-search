@@ -1,0 +1,7 @@
+# Query: #homestead-debug
+# Flags: CaseSensitive WordMatch RegExp
+
+1 result - 1 file
+
+manuals/laravel/homestead-manual.md:
+  97: <!-- #homestead-debug -->

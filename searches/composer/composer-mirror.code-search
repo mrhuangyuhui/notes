@@ -1,7 +1,12 @@
-# Query: ^<!--.*composer-mirror.*-->$
-# Flags: RegExp
+# Query: #composer-mirror
+# Flags: CaseSensitive WordMatch RegExp
+# ContextLines: 2
 
 1 result - 1 file
 
 manuals/php/composer-manual.md:
+  54  ```
+  55  
   56: <!-- #composer-mirror -->
+  57  ## Mirrors
+  58  

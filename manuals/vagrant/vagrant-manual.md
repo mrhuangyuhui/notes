@@ -16,6 +16,7 @@
   - [`vagrant up`](#vagrant-up)
   - [`vagrant reload`](#vagrant-reload)
   - [`vagrant destroy`](#vagrant-destroy)
+  - [`vagrant provision`](#vagrant-provision)
   - [`vagrant ssh`](#vagrant-ssh)
 - [Vagrantfile](#vagrantfile)
 - [Configs](#configs)
@@ -192,13 +193,15 @@ vagrant
 vagrant -h
 vagrant --help
 
-# 列出全部子命令
-vagrant list-commands
-
-# 查看子命令的帮助
 vagrant up -h
 vagrant up --help
 vagrant help up
+```
+
+列出全部子命令
+
+```bash
+vagrant list-commands
 ```
 
 ```bash
@@ -350,6 +353,18 @@ vagrant reload --provision
 
 ```bash
 vagrant destroy 5eda868
+```
+
+### `vagrant provision`
+
+[`Provisioning`](#provisioning)
+
+```bash
+vagrant provision --help
+```
+
+```bash
+vagrant provision
 ```
 
 ### `vagrant ssh`

@@ -3,6 +3,7 @@
 
 - [Install](#install)
 - [Debug](#debug)
+- [`user-customizations.sh`](#user-customizationssh)
 
 <https://laravel.com/docs/5.8/homestead>
 
@@ -94,6 +95,7 @@ version: "= 9.4.0"
 # ...
 ```
 
+<!-- #homestead-debug -->
 ## Debug
 
 [Debugging Web Requests With Xdebug](https://laravel.com/docs/5.8/homestead#debugging-web-requests)
@@ -107,4 +109,30 @@ sudo phpdismod xdebug
 
 # 检查安装结果
 php --version | grep Xdebug
+```
+
+## `user-customizations.sh`
+
+自定义配置脚本
+
+[`repo:^github\.com/laravel/homestead$ user-customizations.sh - Sourcegraph`](https://sourcegraph.com/search?q=repo:%5Egithub%5C.com/laravel/homestead%24+user-customizations.sh&patternType=literal)
+
+```bash
+cd ~homestead
+
+touch user-customizations.sh
+
+chmod a+x user-customizations.sh
+
+vagrant provision
+```
+
+```sh
+#!/bin/sh
+
+# 设置阿里云镜像
+composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
+
+# 启用调试模块
+sudo phpenmod xdebug
 ```
