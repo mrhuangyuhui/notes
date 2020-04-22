@@ -26,6 +26,8 @@ composer require --dev phpunit/phpunit ^7
 
 ## PhpStorm
 
+[PhpStorm Manual - Test](phpstorm-manual.md#test)
+
 [Test Frameworks](https://www.jetbrains.com/help/phpstorm/php-test-frameworks.html)
 
 [Testing with PHPUnit](https://www.jetbrains.com/help/phpstorm/using-phpunit-framework.html)

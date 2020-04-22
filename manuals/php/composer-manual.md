@@ -12,6 +12,9 @@
   - [`composer list`](#composer-list)
   - [`composer selfupdate`](#composer-selfupdate)
 - [`composer.json`](#composerjson)
+  - [`config`](#config)
+  - [`repositories`](#repositories)
+  - [`scripts`](#scripts)
 - [References](#references)
 - [Packages](#packages)
 
@@ -211,7 +214,21 @@ composer selfupdate
 
 ## `composer.json`
 
-[`repositories`](https://getcomposer.org/doc/04-schema.md#repositories)
+### `config`
+
+<https://getcomposer.org/doc/04-schema.md#config>
+
+<https://getcomposer.org/doc/06-config.md>
+
+### `repositories`
+
+<https://getcomposer.org/doc/04-schema.md#repositories>
+
+### `scripts`
+
+<https://getcomposer.org/doc/04-schema.md#scripts>
+
+<https://getcomposer.org/doc/articles/scripts.md>
 
 ## References
 
