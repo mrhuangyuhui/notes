@@ -55,25 +55,7 @@ rails new -h
 
 <https://hub.docker.com/r/bitnami/rails>
 
-```bash
-# 安装 Rails
-gem install rails
-
-# 安装 SQLite 3
-apt-get update && apt-get install -y sqlite3
-
-# 安装 Node
-curl -sL https://deb.nodesource.com/setup_12.x | bash -
-
-apt-get install -y nodejs
-
-# 安装 Yarn
-curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
-
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
-
-apt-get update && apt-get install -y yarn
-```
+<https://github.com/bitnami/bitnami-docker-rails>
 
 ## [Commands](https://guides.rubyonrails.org/command_line.html)
 

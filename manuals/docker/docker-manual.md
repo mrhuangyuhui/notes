@@ -662,6 +662,8 @@ docker tag --help
 
 [Official Images](https://hub.docker.com/search?image_filter=official&type=image)
 
+[Bitnami - Docker Images](/manuals/bitnami-manual.md#docker)
+
 <!-- #docker-gui -->
 ## GUI
 
