@@ -21,6 +21,10 @@
 
 <https://packagist.org/>
 
+<https://github.com/composer/composer>
+
+<https://gitee.com/mrhuangyuhui/composer>
+
 ## Install
 
 [如何安装 Composer](https://pkg.phpcomposer.com/#how-to-install-composer)
