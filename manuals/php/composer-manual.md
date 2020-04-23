@@ -29,6 +29,8 @@
 
 <https://gitee.com/mrhuangyuhui/composer>
 
+<https://sourcegraph.com/github.com/composer/composer>
+
 ## Install
 
 [如何安装 Composer](https://pkg.phpcomposer.com/#how-to-install-composer)
