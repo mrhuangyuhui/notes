@@ -12,6 +12,7 @@
   - [`composer list`](#composer-list)
   - [`composer selfupdate`](#composer-selfupdate)
 - [`composer.json`](#composerjson)
+  - [`autoload`](#autoload)
   - [`config`](#config)
   - [`repositories`](#repositories)
   - [`scripts`](#scripts)
@@ -213,6 +214,11 @@ composer selfupdate
 ```
 
 ## `composer.json`
+
+<!-- #php-autoload -->
+### `autoload`
+
+<https://getcomposer.org/doc/04-schema.md#autoload>
 
 ### `config`
 

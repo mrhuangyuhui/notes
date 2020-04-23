@@ -1,0 +1,13 @@
+# Query: #php-autoload
+# Flags: RegExp
+
+3 results - 3 files
+
+manuals/php/composer-manual.md:
+  218: <!-- #php-autoload -->
+
+manuals/php/psr-manual.md:
+  7: <!-- #php-autoload -->
+
+topics/php/php-autoload.md:
+  1: <!-- #php-autoload -->

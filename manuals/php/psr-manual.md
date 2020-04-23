@@ -4,6 +4,7 @@
 
 <https://github.com/php-fig/fig-standards/tree/master/accepted>
 
+<!-- #php-autoload -->
 ## PSR-4: Autoloader
 
 [`php-autoload.md`](/topics/php/php-autoload.md)
