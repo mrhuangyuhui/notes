@@ -1,3 +1,4 @@
+<!-- #node-install -->
 <!-- omit in toc -->
 # NVM Manual
 
@@ -12,7 +13,9 @@
 
 <https://github.com/creationix/nvm>
 
-## [Install](https://github.com/nvm-sh/nvm#installation-and-update)
+## Install
+
+<https://github.com/nvm-sh/nvm#installation-and-update>
 
 安装
 
