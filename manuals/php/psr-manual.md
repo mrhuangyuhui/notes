@@ -6,6 +6,8 @@
 
 ## PSR-4: Autoloader
 
+[`php-autoload.md`](/topics/php/php-autoload.md)
+
 <https://www.php-fig.org/psr/psr-4/>
 
 [Example Implementations of PSR-4](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader-examples.md)
