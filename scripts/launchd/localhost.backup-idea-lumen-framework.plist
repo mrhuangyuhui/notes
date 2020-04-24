@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>localhost.backup-idea-lumen-framework</string>
+	<key>Program</key>
+	<string>/Users/yuhuihuang/backup-idea-lumen-framework.sh</string>
+	<key>WatchPaths</key>
+	<array>
+		<string>/Users/yuhuihuang/repos/notes/codes/php-codes/lumen-framework/.idea</string>
+	</array>
+</dict>
+</plist>

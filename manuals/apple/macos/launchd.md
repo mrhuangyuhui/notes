@@ -1,6 +1,20 @@
 # `launchcd`
 
-<https://www.launchd.info/>
+[A launchd Tutorial](https://www.launchd.info/)
+
+[Daemons and Services Programming Guide](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html)
+
+## Job Definitions
+
+Type | Location | Run on behalf of
+---- | -------- | ----------------
+User Agents | `~/Library/LaunchAgents` | Currently logged in user
+Global Agents | `/Library/LaunchAgents` |Currently logged in user
+Global Daemons | `/Library/LaunchDaemons` | root or the user specified with the key `UserName`
+System Agents | `/System/Library/LaunchAgents` | Currently logged in user
+System Daemons | `/System/Library/LaunchDaemons` | root or the user specified with the key `UserName`
+
+## Commands
 
 ```bash
 man launchd
@@ -19,4 +33,6 @@ launchctl start com.example.program.plist
 launchctl stop com.example.program.plist
 ```
 
-[Daemons and Services Programming Guide](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html)
+## Examples
+
+[Mac 定时任务脚本](/scripts/launchd/README.md)
