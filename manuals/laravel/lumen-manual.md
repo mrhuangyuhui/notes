@@ -1,4 +1,11 @@
+<!-- omit in toc -->
 # Lumen Manual
+
+- [Install](#install)
+  - [Docker](#docker)
+  - [Homestead](#homestead)
+- [References](#references)
+- [Examples](#examples)
 
 <https://lumen.laravel.com/>
 
@@ -13,6 +20,8 @@
 <https://gitee.com/mrhuangyuhui/lumen>
 
 <https://gitee.com/mrhuangyuhui/lumen-framework>
+
+<https://sourcegraph.com/github.com/laravel/lumen>
 
 ## Install
 
@@ -135,4 +144,14 @@ QUEUE_CONNECTION=sync
 
 <https://lumen.laravel.com/docs/5.8>
 
-[Routing](https://lumen.laravel.com/docs/5.8/routing)
+[HTTP Routing](https://lumen.laravel.com/docs/5.8/routing)
+
+[HTTP Middleware](https://lumen.laravel.com/docs/5.8/middleware)
+
+[HTTP Controllers](https://lumen.laravel.com/docs/5.8/controllers)
+
+[HTTP Requests](https://lumen.laravel.com/docs/5.8/requests)
+
+## Examples
+
+<https://gitee.com/mrhuangyuhui/lumen-framework/tree/v5.8.13/tests>
