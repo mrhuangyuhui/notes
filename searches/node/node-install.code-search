@@ -1,0 +1,10 @@
+# Query: #node-install
+# Flags: CaseSensitive WordMatch RegExp
+
+2 results - 2 files
+
+manuals/node/node-manual.md:
+  31: <!-- #node-install -->
+
+manuals/node/nvm-manual.md:
+  1: <!-- #node-install -->

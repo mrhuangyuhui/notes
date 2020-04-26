@@ -47,9 +47,7 @@
 
 Node 版本管理工具，本地安装推荐这种方式。
 
-<https://github.com/creationix/nvm>
-
-请参考 [NVM Manual](nvm-manual.md)
+[`nvm-manual.md`](nvm-manual.md)
 
 ### Linux Binaries
 

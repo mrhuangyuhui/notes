@@ -13,6 +13,8 @@
   - [`nvm list`](#nvm-list)
   - [`nvm use`](#nvm-use)
   - [`nvm current`](#nvm-current)
+  - [`nvm alias`](#nvm-alias)
+  - [`nvm deactivate`](#nvm-deactivate)
 
 <https://github.com/nvm-sh/nvm>
 
@@ -99,9 +101,17 @@ export NVM_DIR="$HOME/.nvm"
 <!-- #nvm-cmd -->
 ## Commands
 
+<https://github.com/nvm-sh/nvm#usage>
+
 ```bash
 nvm
 nvm --help
+```
+
+设置默认 Node 版本
+
+```bash
+nvm alias default 12.16.2
 ```
 
 ### `nvm ls-remote`
@@ -167,7 +177,24 @@ nvm use 8.9.1
 nvm current
 ```
 
-在当前 shell 停用 `nvm`
+### `nvm alias`
+
+列出所有别名
+
+```bash
+nvm alias
+```
+
+设置别名
+
+```bash
+# 设置默认 Node 版本
+nvm alias default 12.16.2
+```
+
+### `nvm deactivate`
+
+在当前 Shell 停用 `nvm`
 
 ```bash
 $ nvm deactivate
