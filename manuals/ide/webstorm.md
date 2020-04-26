@@ -6,6 +6,7 @@
 - [Test](#test)
   - [Mocha](#mocha)
 - [HTTP Client](#http-client)
+- [NVM](#nvm)
 
 <https://www.jetbrains.com/help/webstorm/meet-webstorm.html>
 
@@ -50,3 +51,9 @@
 [Exploring the HTTP request in Editor syntax](https://www.jetbrains.com/help/webstorm/exploring-http-syntax.html)
 
 [HTTP Response handling API reference](https://www.jetbrains.com/help/webstorm/http-response-handling-api-reference.html)
+
+## NVM
+
+[`nvm-manual.md`](/manuals/node/nvm-manual.md)
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/webstorm-nvm-1.png)
