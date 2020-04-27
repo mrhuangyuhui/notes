@@ -5,8 +5,10 @@
   - [Mac](#mac)
 - [Uninstall](#uninstall)
 - [Mirrors](#mirrors)
+  - [Aliyun](#aliyun)
 - [Commands](#commands)
   - [`brew install`](#brew-install)
+  - [`brew uninstall`](#brew-uninstall)
   - [`brew list`](#brew-list)
   - [`brew update`](#brew-update)
   - [`brew cat`](#brew-cat)
@@ -56,23 +58,74 @@ macOS Requirements
 
 ## Mirrors
 
+<https://github.com/Homebrew/homebrew-core>
+
 <https://docs.brew.sh/Taps>
 
 <https://docs.brew.sh/Interesting-Taps-and-Forks>
 
-<https://github.com/Homebrew/homebrew-core>
-
-列出当前的 Formulae 仓库
+查看仓库地址
 
 ```bash
-brew tap
+# 替换 brew.git
+cd "$(brew --repo)"
+
+git remote -v
+
+# 替换 homebrew-core.git
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
+
+git remote -v
 ```
 
-阿里云仓库
+### Aliyun
+
+阿里云
 
 <https://developer.aliyun.com/mirror/homebrew>
 
 <https://mirrors.aliyun.com/homebrew/>
+
+Bash 终端配置
+
+```bash
+# 替换 brew.git
+cd "$(brew --repo)"
+
+git remote set-url origin https://mirrors.aliyun.com/homebrew/brew.git
+
+# 替换 homebrew-core.git
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
+
+git remote set-url origin https://mirrors.aliyun.com/homebrew/homebrew-core.git
+
+# 应用生效
+brew update
+
+# 替换 homebrew-bottles
+echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles' >> ~/.bash_profile
+
+source ~/.bash_profile
+```
+
+恢复默认配置
+
+```bash
+# 重置 brew.git
+cd "$(brew --repo)"
+
+git remote set-url origin https://github.com/Homebrew/brew.git
+
+# 重置homebrew-core.git
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
+
+git remote set-url origin https://github.com/Homebrew/homebrew-core.git
+
+# 删掉 HOMEBREW_BOTTLE_DOMAIN 环境变量
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles
+
+source ~/.bash_profile
+```
 
 ## Commands
 
@@ -85,7 +138,10 @@ brew
 brew -h
 brew --help
 brew help
-brew help list
+
+brew install -h
+brew install --help
+brew help install
 ```
 
 ```bash
@@ -101,6 +157,32 @@ brew --version
 <https://docs.brew.sh/Manpage#install-options-formula>
 
 Install formula.
+
+```bash
+brew install -h
+brew install --help
+brew help install
+```
+
+```bash
+brew install pyenv
+```
+
+### `brew uninstall`
+
+<https://docs.brew.sh/Manpage#uninstall-rm-remove-options-formula>
+
+Uninstall formula.
+
+```bash
+brew uninstall -h
+brew uninstall --help
+brew help uninstall
+```
+
+```bash
+brew uninstall pyenv
+```
 
 ### `brew list`
 
