@@ -3,6 +3,7 @@
 
 - [Install](#install)
   - [Mac](#mac)
+  - [Docker](#docker)
 - [Uninstall](#uninstall)
 - [Mirrors](#mirrors)
   - [Aliyun](#aliyun)
@@ -22,6 +23,8 @@
 <https://formulae.brew.sh/>
 
 <https://github.com/Homebrew>
+
+<https://github.com/Homebrew/brew>
 
 ## Install
 
@@ -48,6 +51,10 @@ macOS Requirements
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
+### Docker
+
+<https://hub.docker.com/r/homebrew/brew>
+
 ## Uninstall
 
 <https://docs.brew.sh/FAQ#how-do-i-uninstall-homebrew>
@@ -67,15 +74,11 @@ macOS Requirements
 查看仓库地址
 
 ```bash
-# 替换 brew.git
-cd "$(brew --repo)"
+# 查看 brew.git
+cd "$(brew --repo)" && git remote -v
 
-git remote -v
-
-# 替换 homebrew-core.git
-cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
-
-git remote -v
+# 查看 homebrew-core.git
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core" && git remote -v
 ```
 
 ### Aliyun
@@ -90,14 +93,10 @@ Bash 终端配置
 
 ```bash
 # 替换 brew.git
-cd "$(brew --repo)"
-
-git remote set-url origin https://mirrors.aliyun.com/homebrew/brew.git
+cd "$(brew --repo)" && git remote set-url origin https://mirrors.aliyun.com/homebrew/brew.git
 
 # 替换 homebrew-core.git
-cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
-
-git remote set-url origin https://mirrors.aliyun.com/homebrew/homebrew-core.git
+cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core" && git remote set-url origin https://mirrors.aliyun.com/homebrew/homebrew-core.git
 
 # 应用生效
 brew update
