@@ -54,3 +54,7 @@
 	path = tools/gitignore
 	url = git@gitee.com:mrhuangyuhui/gitignore.git
 	ignore = dirty
+[submodule "tutorials/python/pythonds/codes"]
+	path = tutorials/python/pythonds/codes
+	url = git@gitee.com:mrhuangyuhui/pythonds.git
+	ignore = dirty
