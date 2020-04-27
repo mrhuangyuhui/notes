@@ -1,4 +1,15 @@
+<!-- #python-install -->
+<!-- omit in toc -->
 # Pyenv Manual
+
+- [Install](#install)
+  - [Homebrew](#homebrew)
+  - [CentOS](#centos)
+  - [Ubuntu](#ubuntu)
+  - [Plugins](#plugins)
+- [Commands](#commands)
+  - [`pyenv install`](#pyenv-install)
+  - [`pyenv global`](#pyenv-global)
 
 <https://github.com/pyenv/pyenv>
 
@@ -7,6 +18,34 @@
 [自动安装工具](https://github.com/pyenv/pyenv-installer)
 
 [依赖软件列表](https://github.com/pyenv/pyenv/wiki/Common-build-problems)
+
+### Homebrew
+
+<https://github.com/pyenv/pyenv#homebrew-on-macos>
+
+<https://formulae.brew.sh/formula/pyenv>
+
+安装
+
+```bash
+brew update
+
+brew install pyenv
+```
+
+配置
+
+> 注意：配置完成后重启终端
+
+```bash
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile
+```
+
+验证
+
+```bash
+pyenv
+```
 
 ### CentOS
 
@@ -61,38 +100,72 @@ pyenv
 
 [pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper)
 
-## Cmds
+## Commands
 
 <https://github.com/pyenv/pyenv/blob/master/COMMANDS.md>
-
-查看帮助
 
 ```bash
 pyenv
 pyenv -h
-# 查看子命令帮助
+pyenv --help
+pyenv help
+
+pyenv install
+pyenv install -h
+pyenv install --help
 pyenv help install
 ```
 
-查看可安装的 Python 版本
+```bash
+pyenv --version
+```
+
+列出可安装的 Python 版本
 
 ```bash
 pyenv install -l
+pyenv install --list
 ```
 
-安装指定版本的 Python
+安装指定的 Python 版本
 
 ```bash
 pyenv install 3.6.5 -v
 ```
 
-列出当前可用的 Python 版本
+列出已安装的 Python 版本
 
 ```bash
 pyenv versions
 ```
 
-### [`pyenv global`](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-global)
+### `pyenv install`
+
+<https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-install>
+
+```bash
+pyenv install
+pyenv install -h
+pyenv install --help
+pyenv help install
+```
+
+列出可安装的 Python 版本
+
+```bash
+pyenv install -l
+pyenv install --list
+```
+
+安装指定的 Python 版本
+
+```bash
+pyenv install 3.6.5 -v
+```
+
+### `pyenv global`
+
+<https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-global>
 
 ```bash
 # 设置全局版本
