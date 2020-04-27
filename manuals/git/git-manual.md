@@ -15,6 +15,7 @@
   - [`git reset`](#git-reset)
   - [`ssh-keygen`](#ssh-keygen)
   - [`submodule`](#submodule)
+  - [`git remote`](#git-remote)
 - [References](#references)
   - [Cheat-sheets](#cheat-sheets)
 - [Tutorials](#tutorials)
@@ -170,6 +171,21 @@ git help reset
 
 ```bash
 git submodule add https://github.com/chaconinc/DbConnector
+```
+
+### `git remote`
+
+```bash
+man git-remote
+git help remote
+git remote --help
+git remote -h
+```
+
+列出仓库的 Fetch URL 和 Push URL
+
+```bash
+git remote -v
 ```
 
 <!-- #git-ref -->
