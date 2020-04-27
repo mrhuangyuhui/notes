@@ -1,0 +1,1391 @@
+# Query: printf
+# Flags: CaseSensitive WordMatch RegExp
+# Including: ./tutorials/c,*.h,*.c
+
+872 results - 258 files
+
+tutorials/c/c-primer-plus-6/codes/Ch01/inform.c:
+  4:     printf("A .c is used to end a C program filename.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch01/listing1.c:
+  6:     printf("How many dogs do you have?\n");
+  8:     printf("So you have %d dog(s)!\n", dogs);
+
+tutorials/c/c-primer-plus-6/codes/Ch01/listing2.c:
+  4:     printf("Concrete contains gravel and cement.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch02/fathm_ft.c:
+  10:     printf("There are %d feet in %d fathoms!\n", feet, fathoms);
+  11:     printf("Yes, I said %d feet!\n", 6 * fathoms);
+
+tutorials/c/c-primer-plus-6/codes/Ch02/first.c:
+   8:     printf("I am a simple "); /* use the printf() function    */
+   9:     printf("computer.\n");
+  10:     printf("My favorite number is %d because it is first.\n",num);
+
+tutorials/c/c-primer-plus-6/codes/Ch02/nogood.c:
+  11:  printf("n = %d, n squared = %d, n cubed = %d\n", n, n2, n3)
+
+tutorials/c/c-primer-plus-6/codes/Ch02/stillbad.c:
+  11:     printf("n = %d, n squared = %d, n cubed = %d\n", n, n2, n3);
+
+tutorials/c/c-primer-plus-6/codes/Ch02/two_func.c:
+   6:     printf("I will summon the butler function.\n");
+   8:     printf("Yes. Bring me some tea and writeable DVDs.\n");
+  15:     printf("You rang, sir?\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch03/altnames.c:
+   9:     printf("First, assume int32_t is int: ");
+  10:     printf("me32 = %d\n", me32);
+  11:     printf("Next, let's not make any assumptions.\n");
+  12:     printf("Instead, use a \"macro\" from inttypes.h: ");
+  13:     printf("me32 = %" PRId32 "\n", me32);
+
+tutorials/c/c-primer-plus-6/codes/Ch03/badcount.c:
+  10:     printf("%d\n", n, m);    /* too many arguments   */
+  11:     printf("%d %d %d\n", n); /* too few arguments    */
+  12:     printf("%d %d\n", f, g); /* wrong kind of values */
+
+tutorials/c/c-primer-plus-6/codes/Ch03/bases.c:
+  7:     printf("dec = %d; octal = %o; hex = %x\n", x, x, x);
+  8:     printf("dec = %d; octal = %#o; hex = %#x\n", x, x, x);
+
+tutorials/c/c-primer-plus-6/codes/Ch03/charcode.c:
+  7:     printf("Please enter a character.\n");
+  9:     printf("The code for %c is %d.\n", ch, ch);
+
+tutorials/c/c-primer-plus-6/codes/Ch03/escape.c:
+   7:     printf("\aEnter your desired monthly salary:");/* 1 */
+   8:     printf(" $_______\b\b\b\b\b\b\b");             /* 2 */
+  10:     printf("\n\t$%.2f a month is $%.2f a year.", salary,
+  12:     printf("\rGee!\n");                            /* 4 */
+
+tutorials/c/c-primer-plus-6/codes/Ch03/floaterr.c:
+  9:     printf("%f \n", a);
+
+tutorials/c/c-primer-plus-6/codes/Ch03/platinum.c:
+   8:     printf("Are you worth your weight in platinum?\n");
+   9:     printf("Let's check it out.\n");
+  10:     printf("Please enter your weight in pounds: ");
+  17:     printf("Your weight in platinum is worth $%.2f.\n", value);
+  18:     printf("You are easily worth that! If platinum prices drop,\n");
+  19:     printf("eat more to maintain your value.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch03/print1.c:
+   1: /* print1.c-displays some properties of printf() */
+   8:     printf("Doing it right: ");
+   9:     printf("%d minus %d is %d\n", ten, 2, ten - two );
+  10:     printf("Doing it wrong: ");
+  11:     printf("%d minus %d is %d\n", ten );  // forgot 2 arguments
+
+tutorials/c/c-primer-plus-6/codes/Ch03/print2.c:
+   1: /* print2.c-more printf() properties */
+  10:     printf("un = %u and not %d\n", un, un);
+  11:     printf("end = %hd and %d\n", end, end);
+  12:     printf("big = %ld and not %hd\n", big, big);
+  13:     printf("verybig= %lld and not %ld\n", verybig, verybig);
+
+tutorials/c/c-primer-plus-6/codes/Ch03/showf_pt.c:
+   9:     printf("%f can be written %e\n", aboat, aboat);
+  11:     printf("And it's %a in hexadecimal, powers of 2 notation\n", aboat);
+  12:     printf("%f can be written %e\n", abet, abet);
+  13:     printf("%Lf can be written %Le\n", dip, dip);
+
+tutorials/c/c-primer-plus-6/codes/Ch03/toobig.c:
+  8:     printf("%d %d %d\n", i, i+1, i+2);
+  9:     printf("%u %u %u\n", j, j+1, j+2);
+
+tutorials/c/c-primer-plus-6/codes/Ch03/typesize.c:
+   6:     printf("Type int has a size of %zd bytes.\n", sizeof(int));
+   7:     printf("Type char has a size of %zd bytes.\n", sizeof(char));
+   8:     printf("Type long has a size of %zd bytes.\n", sizeof(long));
+   9:     printf("Type long long has a size of %zd bytes.\n",
+  11:     printf("Type double has a size of %zd bytes.\n",
+  13:     printf("Type long double has a size of %zd bytes.\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch04/defines.c:
+   7:     printf("Some number limits for this system:\n");
+   8:     printf("Biggest int: %d\n", INT_MAX);
+   9:     printf("Smallest long long: %lld\n", LLONG_MIN);
+  10:     printf("One byte = %d bits on this system.\n", CHAR_BIT);
+  11:     printf("Largest double: %e\n", DBL_MAX);
+  12:     printf("Smallest normal float: %e\n", FLT_MIN);
+  13:     printf("float precision = %d digits\n", FLT_DIG);
+  14:     printf("float epsilon = %e\n", FLT_EPSILON);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/flags.c:
+  5:     printf("%x %X %#x\n", 31, 31, 31);
+  6:     printf("**%d**% d**% d**\n", 42, 42, -42);
+  7:     printf("**%5d**%5.3d**%05d**%05.3d**\n", 6, 6, 6, 6);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/floatcnv.c:
+  10:     printf("%.1e %.1e %.1e %.1e\n", n1, n2, n3, n4);
+  11:     printf("%ld %ld\n", n3, n4);
+  12:     printf("%ld %ld %ld %ld\n", n1, n2, n3, n4);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/floats.c:
+   8:     printf("*%f*\n", RENT);
+   9:     printf("*%e*\n", RENT);
+  10:     printf("*%4.2f*\n", RENT);
+  11:     printf("*%3.1f*\n", RENT);
+  12:     printf("*%10.3f*\n", RENT);
+  13:     printf("*%10.3E*\n", RENT);
+  14:     printf("*%+4.2f*\n", RENT);
+  15:     printf("*%010.2f*\n", RENT);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/input.c:
+   9:     printf("Enter your age, assets, and favorite pet.\n");
+  12:     printf("%d $%.2f %s\n", age, assets, pet);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/intconv.c:
+  10:     printf("num as short and unsigned short:  %hd %hu\n", num,
+  12:     printf("-num as short and unsigned short: %hd %hu\n", mnum,
+  14:     printf("num as int and char: %d %c\n", num, num);
+  15:     printf("WORDS as int, short, and char: %d %hd %c\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch04/longstrg.c:
+  5:     printf("Here's one way to print a ");
+  6:     printf("long string.\n");
+  7:     printf("Here's another way to print a \
+  9:     printf("Here's the newest way to print a "
+
+tutorials/c/c-primer-plus-6/codes/Ch04/pizza.c:
+   8:     printf("What is the radius of your pizza?\n");
+  12:     printf("Your basic pizza parameters are as follows:\n");
+  13:     printf("circumference = %1.2f, area = %1.2f\n", circum,
+
+tutorials/c/c-primer-plus-6/codes/Ch04/praise1.c:
+   8:     printf("What's your name? ");
+  10:     printf("Hello, %s. %s\n", name, PRAISE);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/praise2.c:
+  11:     printf("What's your name? ");
+  13:     printf("Hello, %s. %s\n", name, PRAISE);
+  14:     printf("Your name of %zd letters occupies %zd memory cells.\n",
+  16:     printf("The phrase of praise has %zd letters ",
+  18:     printf("and occupies %zd memory cells.\n", sizeof PRAISE);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/printout.c:
+  11:     printf("The %d contestants ate %f berry pies.\n", number,
+  13:     printf("The value of pi is %f.\n", PI);
+  14:     printf("Farewell! thou art too dear for my possessing,\n");
+  15:     printf("%c%d\n", '$', 2 * cost);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/prntval.c:
+  1: /* prntval.c -- finding printf()'s return value */
+  8:     rv = printf("%d F is water's boiling point.\n", bph2o);
+  9:     printf("The printf() function printed %d characters.\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch04/skiptwo.c:
+  7:     printf("Please enter three integers:\n");
+  9:     printf("The last integer was %d\n", n);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/stringf.c:
+  6:     printf("[%2s]\n", BLURB);
+  7:     printf("[%24s]\n", BLURB);
+  8:     printf("[%24.5s]\n", BLURB);
+  9:     printf("[%-24.5s]\n", BLURB);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/talkback.c:
+  11:     printf("Hi! What's your first name?\n");
+  13:     printf("%s, what's your weight in pounds?\n", name);
+  18:     printf("Well, %s, your volume is %2.2f cubic feet.\n",
+  20:     printf("Also, your first name has %d letters,\n",
+  22:     printf("and we have %d bytes to store it.\n", size);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/varwid.c:
+   9:     printf("Enter a field width:\n");
+  11:     printf("The number is :%*d:\n", width, number);
+  12:     printf("Now enter a width and a precision:\n");
+  14:     printf("Weight = %*.*f\n", width, precision, weight);
+  15:     printf("Done!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch04/width.c:
+  6:     printf("*%d*\n", PAGES);
+  7:     printf("*%2d*\n", PAGES);
+  8:     printf("*%10d*\n", PAGES);
+  9:     printf("*%-10d*\n", PAGES);
+
+tutorials/c/c-primer-plus-6/codes/Ch05/add_one.c:
+  11:         printf("super = %d, ultra = %d \n", super, ultra);
+
+tutorials/c/c-primer-plus-6/codes/Ch05/addemup.c:
+  11:     printf("sum = %d\n", sum);/* function statement             */
+
+tutorials/c/c-primer-plus-6/codes/Ch05/bottles.c:
+   8:         printf("%d bottles of spring water on the wall, "
+  10:         printf("Take one down and pass it around,\n");
+  11:         printf("%d bottles of spring water!\n\n", count - 1);
+
+tutorials/c/c-primer-plus-6/codes/Ch05/convert.c:
+  10:     printf("ch = %c, i = %d, fl = %2.2f\n", ch, i, fl); /* line 10 */
+  14:     printf("ch = %c, i = %d, fl = %2.2f\n", ch, i, fl); /* line 14 */
+  16:     printf("Now ch = %c\n", ch);                        /* line 16 */
+  18:     printf("Now ch = %c\n", ch);                        /* line 18 */
+
+tutorials/c/c-primer-plus-6/codes/Ch05/divide.c:
+  5:     printf("integer division:  5/4   is %d \n", 5/4);
+  6:     printf("integer division:  6/3   is %d \n", 6/3);
+  7:     printf("integer division:  7/4   is %d \n", 7/4);
+  8:     printf("floating division: 7./4. is %1.2f \n", 7./4.);
+  9:     printf("mixed division:    7./4  is %1.2f \n", 7./4);
+
+tutorials/c/c-primer-plus-6/codes/Ch05/golf.c:
+  8:     printf("                  cheeta   tarzan    jane\n");
+  9:     printf("First round score %4d %8d %8d\n",cheeta,tarzan,jane);
+
+tutorials/c/c-primer-plus-6/codes/Ch05/min_sec.c:
+   8:     printf("Convert seconds to minutes and seconds!\n");
+   9:     printf("Enter the number of seconds (<=0 to quit):\n");
+  15:         printf("%d seconds is %d minutes, %d seconds.\n", sec,
+  17:         printf("Enter next value (<=0 to quit):\n");
+  20:     printf("Done!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch05/post_pre.c:
+  10:     printf("a  a_post   b   pre_b \n");
+  11:     printf("%1d %5d %5d %5d\n", a, a_post, b, pre_b);
+
+tutorials/c/c-primer-plus-6/codes/Ch05/pound.c:
+  20:         printf("#");
+  21:     printf("\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch05/rules.c:
+  8:     printf("top = %d, score = %d\n", top, score);
+
+tutorials/c/c-primer-plus-6/codes/Ch05/running.c:
+  15:     printf("This program converts your time for a metric race\n");
+  16:     printf("to a time for running a mile and to your average\n");
+  17:     printf("speed in miles per hour.\n");
+  18:     printf("Please enter, in kilometers, the distance run.\n");
+  20:     printf("Next enter the time in minutes and seconds.\n");
+  21:     printf("Begin by entering the minutes.\n");
+  23:     printf("Now enter the seconds.\n");
+  35:     printf("You ran %1.2f km (%1.2f miles) in %d min, %d sec.\n",
+  37:     printf("That pace corresponds to running a mile in %d min, ",
+  39:     printf("%d sec.\nYour average speed was %1.2f mph.\n",msec,
+
+tutorials/c/c-primer-plus-6/codes/Ch05/shoes1.c:
+  11:     printf("Shoe size (men's)    foot length\n");
+  12:     printf("%10.1f %15.2f inches\n", shoe, foot);
+
+tutorials/c/c-primer-plus-6/codes/Ch05/shoes2.c:
+   9:     printf("Shoe size (men's)    foot length\n");
+  14:         printf("%10.1f %15.2f inches\n", shoe, foot);
+  17:     printf("If the shoe fits, wear it.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch05/sizeof.c:
+  10:     printf("n = %d, n has %zd bytes; all ints have %zd bytes.\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch05/squares.c:
+  9:         printf("%4d %6d\n", num, num * num);
+
+tutorials/c/c-primer-plus-6/codes/Ch05/wheat.c:
+  10:     printf("square     grains       total     ");
+  11:     printf("fraction of \n");
+  12:     printf("           added        grains    ");
+  13:     printf("world total\n");
+  15:     printf("%4d %13.2e %12.2e %12.2e\n", count, current,
+  23:         printf("%4d %13.2e %12.2e %12.2e\n", count, current,
+  26:     printf("That's all.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch06/boolean.c:
+   9:     printf("Please enter an integer to be summed ");
+  10:     printf("(q to quit): ");
+  15:         printf("Please enter next integer (q to quit): ");
+  18:     printf("Those integers sum to %ld.\n", sum);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/cmpflt.c:
+   9:     printf("What is the value of pi?\n");
+  13:         printf("Try again!\n");
+  16:     printf("Close enough!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch06/do_while.c:
+  10:         printf("To enter the triskaidekaphobia therapy club,\n");
+  11:         printf("please enter the secret code number: ");
+  14:     printf("Congratulations! You are cured!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch06/entry.c:
+   8:     printf("To enter the triskaidekaphobia therapy club,\n");
+   9:     printf("please enter the secret code number: ");
+  13:         printf("To enter the triskaidekaphobia therapy club,\n");
+  14:         printf("please enter the secret code number: ");
+  17:     printf("Congratulations! You are cured!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch06/for_13s.c:
+  8:         printf("%d \n", n);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/for_char.c:
+  8:         printf("The ASCII value for %c is %d.\n", ch, ch);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/for_cube.c:
+  7:     printf("    n   n cubed\n");
+  9:         printf("%5d %5d\n", num, num*num*num);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/for_down.c:
+  8:         printf("%d seconds!\n", secs);
+  9:     printf("We have ignition!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch06/for_geo.c:
+  8:         printf("Your debt is now $%.2f.\n", debt);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/for_none.c:
+  10:     printf("n = %d; ans = %d.\n", n, ans);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/for_show.c:
+  7:     for (printf("Keep entering numbers!\n"); num != 6;  )
+  9:     printf("That's the one I want!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch06/for_wild.c:
+  9:         printf("%10d %10d\n", x, y);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/postage.c:
+   9:     printf(" ounces  cost\n");
+  12:         printf("%5d   $%4.2f\n", ounces, cost/100.0);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/power.c:
+   9:     printf("Enter a number and the positive integer power");
+  10:     printf(" to which\nthe number will be raised. Enter q");
+  11:     printf(" to quit.\n");
+  15:         printf("%.3g to the power %d is %.5g\n", x, exp, xpow);
+  16:         printf("Enter next pair of numbers or q to quit.\n");
+  18:     printf("Hope you enjoyed this power trip -- bye!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch06/rows1.c:
+  13:             printf("%c", ch);
+  14:         printf("\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch06/rows2.c:
+  13:             printf("%c", ch);
+  14:         printf("\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch06/scores_in.c:
+  11:     printf("Enter %d golf scores:\n", SIZE);
+  14:     printf("The scores read in are as follows:\n");
+  16:         printf("%5d", score[index]); // verify input
+  17:     printf("\n");
+  21:     printf("Sum of scores = %d, average = %.2f\n", sum, average);
+  22:     printf("That's a handicap of %.0f.\n", average - PAR);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/summing.c:
+   9:     printf("Please enter an integer to be summed ");
+  10:     printf("(q to quit): ");
+  15:         printf("Please enter next integer (q to quit): ");
+  18:     printf("Those integers sum to %ld.\n", sum);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/sweetie1.c:
+  10:         printf("Be my Valentine!\n");  // action
+
+tutorials/c/c-primer-plus-6/codes/Ch06/sweetie2.c:
+  9:         printf("Be my Valentine!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch06/t_and_f.c:
+  9:     printf("true = %d; false = %d \n", true_val, false_val);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/trouble.c:
+  10:     printf("Please enter an integer to be summed ");
+  11:     printf("(q to quit): ");
+  16:         printf("Please enter next integer (q to quit): ");
+  19:     printf("Those integers sum to %ld.\n", sum);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/truth.c:
+   8:         printf("%2d is true\n", n--);
+   9:     printf("%2d is false\n", n);
+  13:         printf("%2d is true\n", n++);
+  14:     printf("%2d is false\n", n);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/when.c:
+   9:         printf("n = %d\n", n);
+  11:         printf("Now n = %d\n", n);   // line 11
+  13:     printf("The loop has finished.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch06/while1.c:
+   9:         printf("n is %d\n", n);
+  11:     printf("That's all this program does\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch06/while2.c:
+  8:     printf("n is %d\n", n);  /* line 8 */
+  9:     printf("That's all this program does.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch06/zeno.c:
+  10:     printf("Enter the number of terms you want: ");
+  16:         printf("time = %f when terms = %d.\n", time, t_ct);
+
+tutorials/c/c-primer-plus-6/codes/Ch07/animals.c:
+   8:     printf("Give me a letter of the alphabet, and I will give ");
+   9:     printf("an animal name\nbeginning with that letter.\n");
+  10:     printf("Please type in a letter; type # to end my act.\n");
+  19:                 printf("argali, a wild sheep of Asia\n");
+  22:                 printf("babirusa, a wild pig of Malay\n");
+  25:                 printf("coati, racoonlike mammal\n");
+  28:                 printf("desman, aquatic, molelike critter\n");
+  31:                 printf("echidna, the spiny anteater\n");
+  34:                 printf("fisher, brownish marten\n");
+  37:                 printf("That's a stumper!\n");
+  40:             printf("I recognize only lowercase letters.\n");
+  43:         printf("Please type another letter or a #.\n");
+  45:     printf("Bye!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch07/break.c:
+   7:     printf("Enter the length of the rectangle:\n");
+  10:         printf("Length = %0.2f:\n", length);
+  11:         printf("Enter its width:\n");
+  14:         printf("Width = %0.2f:\n", width);
+  15:         printf("Area = %0.2f:\n", length * width);
+  16:         printf("Enter the length of the rectangle:\n");
+  18:     printf("Done.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch07/chcount.c:
+  14:     printf("There are %d non-quote characters.\n", charcount);
+
+tutorials/c/c-primer-plus-6/codes/Ch07/colddays.c:
+  10:     printf("Enter the list of daily low temperatures.\n");
+  11:     printf("Use Celsius, and enter q to quit.\n");
+  19:         printf("%d days total: %.1f%% were below freezing.\n",
+  22:         printf("No data entered!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch07/divisors.c:
+  10:     printf("Please enter an integer for analysis; ");
+  11:     printf("Enter q to quit.\n");
+  19:                     printf("%lu is divisible by %lu and %lu.\n",
+  22:                     printf("%lu is divisible by %lu.\n",
+  28:             printf("%lu is prime.\n", num);
+  29:         printf("Please enter another integer for analysis; ");
+  30:         printf("Enter q to quit.\n");
+  32:     printf("Bye.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch07/electric.c:
+  21:     printf("Please enter the kwh used.\n");
+  31:     printf("The charge for %.1f kwh is $%1.2f.\n", kwh, bill);
+
+tutorials/c/c-primer-plus-6/codes/Ch07/paint.c:
+   9:     printf("Enter number of square feet to be painted:\n");
+  14:         printf("You need %d %s of paint.\n", cans,
+  16:         printf("Enter next value (q to quit):\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch07/skippart.c:
+  14:     printf("Enter the first score (q to quit): ");
+  19:             printf("%0.1f is an invalid value. Try again: ",
+  23:         printf("Accepting %0.1f:\n", score);
+  28:         printf("Enter next score (q to quit): ");
+  32:         printf("Average of %d scores is %0.1f.\n", n, total / n);
+  33:         printf("Low = %0.1f, high = %0.1f\n", min, max);
+  36:         printf("No valid scores were entered.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch07/vowels.c:
+  10:     printf("Enter some text; enter # to quit.\n");
+  33:     printf("number of vowels:   A    E    I    O    U\n");
+  34:     printf("                 %4d %4d %4d %4d %4d\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch07/wordcnt.c:
+  16:     printf("Enter text to be analyzed (| to terminate):\n");
+  35:     printf("characters = %ld, words = %d, lines = %d, ",
+  37:     printf("partial lines = %d\n", p_lines);
+
+tutorials/c/c-primer-plus-6/codes/Ch08/checking.c:
+  20:     printf("This program computes the sum of the squares of "
+  27:     printf("upper limit: ");
+  32:             printf("Please try again.\n");
+  36:             printf("The sum of the squares of the integers ");
+  37:             printf("from %ld to %ld is %g\n",
+  40:         printf("Enter the limits (enter 0 for both "
+  42:         printf("lower limit: ");
+  44:         printf("upper limit: ");
+  47:     printf("Done.\n");
+  61:         printf(" is not an integer.\nPlease enter an ");
+  62:         printf("integer value, such as 25, -178, or 3: ");
+  86:         printf("%ld isn't smaller than %ld.\n", begin, end);
+  91:         printf("Values must be %ld or greater.\n", low);
+  96:         printf("Values must be %ld or less.\n", high);
+
+tutorials/c/c-primer-plus-6/codes/Ch08/file_eof.c:
+  10:     printf("Enter the name of the file: ");
+  15: 	    printf("Failed to open file. Bye\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch08/guess.c:
+   7:     printf("Pick an integer from 1 to 100. I will try to guess ");
+   8:     printf("it.\nRespond with a y if my guess is right and with");
+   9:     printf("\nan n if it is wrong.\n");
+  10:     printf("Uh...is your number %d?\n", guess);
+  12:         printf("Well, then, is it %d?\n", ++guess);
+  13:     printf("I knew I could do it!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch08/menuette.c:
+  16:             case 'a' :  printf("Buy low, sell high.\n");
+  22:             default  :  printf("Program error!\n");
+  26:     printf("Bye.\n");
+  35:     printf("Count how far? Enter an integer:\n");
+  38:         printf("%d\n", i);
+  47:     printf("Enter the letter of your choice:\n");
+  48:     printf("a. advice           b. bell\n");
+  49:     printf("c. count            q. quit\n");
+  53:         printf("Please respond with a, b, c, or q.\n");
+  80:         printf(" is not an integer.\nPlease enter an ");
+  81:         printf("integer value, such as 25, -178, or 3: ");
+
+tutorials/c/c-primer-plus-6/codes/Ch08/newguess.c:
+   8:     printf("Pick an integer from 1 to 100. I will try to guess ");
+   9:     printf("it.\nRespond with a y if my guess is right and with");
+  10:     printf("\nan n if it is wrong.\n");
+  11:     printf("Uh...is your number %d?\n", guess);
+  15:             printf("Well, then, is it %d?\n", ++guess);
+  17:             printf("Sorry, I understand only y or n.\n");
+  21:     printf("I knew I could do it!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch08/showchar1.c:
+   8:     printf("Enter a character and two integers:\n");
+  13:         printf("Enter another character and two integers;\n");
+  14:         printf("Enter a newline to quit.\n");
+  16:     printf("Bye.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch08/showchar2.c:
+   9:     printf("Enter a character and two integers:\n");
+  17:         printf("Enter another character and two integers;\n");
+  18:         printf("Enter a newline to quit.\n");
+  20:     printf("Bye.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch09/binary.c:
+   8:     printf("Enter an integer (q to quit):\n");
+  11:         printf("Binary equivalent: ");
+  14:         printf("Enter an integer (q to quit):\n");
+  16:     printf("Done.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch09/factor.c:
+   9:     printf("This program calculates factorials.\n");
+  10:     printf("Enter a value in the range 0-12 (q to quit):\n");
+  14:             printf("No negative numbers, please.\n");
+  16:             printf("Keep input under 13.\n");
+  19:             printf("loop: %d factorial = %ld\n",
+  21:             printf("recursion: %d factorial = %ld\n",
+  24:         printf("Enter a value in the range 0-12 (q to quit):\n");
+  26:     printf("Bye.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch09/hotel.c:
+   8:     printf("\n%s%s\n", STARS, STARS);
+   9:     printf("Enter the number of the desired hotel:\n");
+  10:     printf("1) Fairfield Arms           2) Hotel Olympic\n");
+  11:     printf("3) Chertworthy Plaza        4) The Stockton\n");
+  12:     printf("5) quit\n");
+  13:     printf("%s%s\n", STARS, STARS);
+  19:         printf("Enter an integer from 1 to 5, please.\n");
+  29:     printf("How many nights are needed? ");
+  33:         printf("Please enter an integer, such as 2.\n");
+  47:     printf("The total cost will be $%0.2f.\n", total);
+
+tutorials/c/c-primer-plus-6/codes/Ch09/lesser.c:
+   9:     printf("Enter a pair of integers (q to quit):\n");
+  12:         printf("The lesser of %d and %d is %d.\n",
+  14:         printf("Enter a pair of integers (q to quit):\n");
+  16:     printf("Bye.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch09/lethead1.c:
+  13:     printf("%s\n", NAME);
+  14:     printf("%s\n", ADDRESS);
+  15:     printf("%s\n", PLACE);
+
+tutorials/c/c-primer-plus-6/codes/Ch09/lethead2.c:
+  19:     printf("%s\n", NAME);
+  24:     printf("%s\n", ADDRESS);
+  27:     printf("%s\n", PLACE);
+
+tutorials/c/c-primer-plus-6/codes/Ch09/loccheck.c:
+   8:     printf("In main(), pooh = %d and &pooh = %p\n",
+  10:     printf("In main(), bah = %d and &bah = %p\n",
+  21:     printf("In mikado(), pooh = %d and &pooh = %p\n",
+  23:     printf("In mikado(), bah = %d and &bah = %p\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch09/misuse.c:
+  7:     printf("The maximum of %d and %d is %d.\n",
+  9:     printf("The maximum of %d and %d is %d.\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch09/proto.c:
+  6:     printf("The maximum of %d and %d is %d.\n",
+  8:     printf("The maximum of %d and %d is %d.\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch09/recur.c:
+  13:     printf("Level %d: n location %p\n", n, &n); // 1
+  16:     printf("LEVEL %d: n location %p\n", n, &n); // 2
+
+tutorials/c/c-primer-plus-6/codes/Ch09/swap1.c:
+   9:     printf("Originally x = %d and y = %d.\n", x , y);
+  11:     printf("Now x = %d and y = %d.\n", x, y);
+
+tutorials/c/c-primer-plus-6/codes/Ch09/swap2.c:
+   9:     printf("Originally x = %d and y = %d.\n", x , y);
+  11:     printf("Now x = %d and y = %d.\n", x, y);
+  20:     printf("Originally u = %d and v = %d.\n", u , v);
+  24:     printf("Now u = %d and v = %d.\n", u, v);
+
+tutorials/c/c-primer-plus-6/codes/Ch09/usehotel.c:
+  25:                 printf("Oops!\n");
+  31:     printf("Thank you and goodbye.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch10/arf.c:
+  10:     printf("The original dip array:\n");
+  13:     printf("The dip array after calling mult_array():\n");
+  25:         printf("%8.3f ", ar[i]);
+
+tutorials/c/c-primer-plus-6/codes/Ch10/array2d.c:
+  18:     printf("Sum of all elements = %d\n", sum2d(junk, ROWS));
+  34:         printf("row %d: sum = %d\n", r, tot);
+  49:         printf("col %d: sum = %d\n", c, tot);
+
+tutorials/c/c-primer-plus-6/codes/Ch10/bounds.c:
+  11:     printf("value1 = %d, value2 = %d\n", value1, value2);
+  16:         printf("%2d  %d\n", i , arr[i]);
+  17:     printf("value1 = %d, value2 = %d\n", value1, value2);
+  19:     printf("address of arr[-1]: %p\n", &arr[-1]);
+  20:     printf("address of arr[4]:  %p\n", &arr[4]);
+  21:     printf("address of value1:  %p\n", &value1);
+  22:     printf("address of value2:  %p\n", &value2);
+
+tutorials/c/c-primer-plus-6/codes/Ch10/day_mon1.c:
+  11:         printf("Month %d has %2d days.\n", index +1,
+
+tutorials/c/c-primer-plus-6/codes/Ch10/day_mon2.c:
+  9:         printf("Month %2d has %d days.\n", index +1,
+
+tutorials/c/c-primer-plus-6/codes/Ch10/day_mon3.c:
+  11:         printf("Month %2d has %d days.\n", index +1,
+
+tutorials/c/c-primer-plus-6/codes/Ch10/designate.c:
+  10:         printf("%2d  %d\n", i + 1, days[i]);
+
+tutorials/c/c-primer-plus-6/codes/Ch10/flc.c:
+  18:     printf("total1 = %d\n", total1);
+  19:     printf("total2 = %d\n", total2);
+  20:     printf("total3 = %d\n", total3);
+
+tutorials/c/c-primer-plus-6/codes/Ch10/no_data.c:
+   9:     printf("%2s%14s\n",
+  12:         printf("%2d%14d\n", i, no_data[i]);
+
+tutorials/c/c-primer-plus-6/codes/Ch10/order.c:
+  11:     printf("  *p1 = %d,   *p2 = %d,     *p3 = %d\n",
+  13:     printf("*p1++ = %d, *++p2 = %d, (*p3)++ = %d\n",
+  15:     printf("  *p1 = %d,   *p2 = %d,     *p3 = %d\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch10/pnt_add.c:
+  14:     printf("%23s %15s\n", "short", "double");
+  16:         printf("pointers + %d: %10p %10p\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch10/ptr_ops.c:
+  12:     printf("pointer value, dereferenced pointer, pointer address:\n");
+  13:     printf("ptr1 = %p, *ptr1 =%d, &ptr1 = %p\n",
+  18:     printf("\nadding an int to a pointer:\n");
+  19:     printf("ptr1 + 4 = %p, *(ptr4 + 3) = %d\n",
+  22:     printf("\nvalues after ptr1++:\n");
+  23:     printf("ptr1 = %p, *ptr1 =%d, &ptr1 = %p\n",
+  26:     printf("\nvalues after --ptr2:\n");
+  27:     printf("ptr2 = %p, *ptr2 = %d, &ptr2 = %p\n",
+  31:     printf("\nPointers reset to original values:\n");
+  32:     printf("ptr1 = %p, ptr2 = %p\n", ptr1, ptr2);
+  34:     printf("\nsubtracting one pointer from another:\n");
+  35:     printf("ptr2 = %p, ptr1 = %p, ptr2 - ptr1 = %td\n",
+  38:     printf("\nsubtracting an int from a pointer:\n");
+  39:     printf("ptr3 = %p, ptr3 - 2 = %p\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch10/rain.c:
+  20:     printf(" YEAR    RAINFALL  (inches)\n");
+  25:         printf("%5d %15.1f\n", 2010 + year, subtot);
+  28:     printf("\nThe yearly average is %.1f inches.\n\n",
+  30:     printf("MONTHLY AVERAGES:\n\n");
+  31:     printf(" Jan  Feb  Mar  Apr  May  Jun  Jul  Aug  Sep  Oct ");
+  32:     printf(" Nov  Dec\n");
+  38:         printf("%4.1f ", subtot/YEARS);
+  40:     printf("\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch10/some_data.c:
+   9:     printf("%2s%14s\n",
+  12:         printf("%2d%14d\n", i, some_data[i]);
+
+tutorials/c/c-primer-plus-6/codes/Ch10/sum_arr1.c:
+  12:     printf("The total number of marbles is %ld.\n", answer);
+  13:     printf("The size of marbles is %zd bytes.\n",
+  26:     printf("The size of ar is %zd bytes.\n", sizeof ar);
+
+tutorials/c/c-primer-plus-6/codes/Ch10/sum_arr2.c:
+  11:     printf("The total number of marbles is %ld.\n", answer);
+
+tutorials/c/c-primer-plus-6/codes/Ch10/vararr2d.c:
+  28:     printf("3x5 array\n");
+  29:     printf("Sum of all elements = %d\n",
+  32:     printf("2x6 array\n");
+  33:     printf("Sum of all elements = %d\n",
+  36:     printf("3x10 VLA\n");
+  37:     printf("Sum of all elements = %d\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch10/zippo1.c:
+   7:     printf("   zippo = %p,    zippo + 1 = %p\n",
+   9:     printf("zippo[0] = %p, zippo[0] + 1 = %p\n",
+  11:     printf("  *zippo = %p,   *zippo + 1 = %p\n",
+  13:     printf("zippo[0][0] = %d\n", zippo[0][0]);
+  14:     printf("  *zippo[0] = %d\n", *zippo[0]);
+  15:     printf("    **zippo = %d\n", **zippo);
+  16:     printf("      zippo[2][1] = %d\n", zippo[2][1]);
+  17:     printf("*(*(zippo+2) + 1) = %d\n", *(*(zippo+2) + 1));
+
+tutorials/c/c-primer-plus-6/codes/Ch10/zippo2.c:
+   9:     printf("   pz = %p,    pz + 1 = %p\n",
+  11:     printf("pz[0] = %p, pz[0] + 1 = %p\n",
+  13:     printf("  *pz = %p,   *pz + 1 = %p\n",
+  15:     printf("pz[0][0] = %d\n", pz[0][0]);
+  16:     printf("  *pz[0] = %d\n", *pz[0]);
+  17:     printf("    **pz = %d\n", **pz);
+  18:     printf("      pz[2][1] = %d\n", pz[2][1]);
+  19:     printf("*(*(pz+2) + 1) = %d\n", *(*(pz+2) + 1));
+
+tutorials/c/c-primer-plus-6/codes/Ch11/addresses.c:
+   9:     printf("address of \"I'm special\": %p \n", "I'm special");
+  10:     printf("              address ar: %p\n", ar);
+  11:     printf("              address pt: %p\n", pt);
+  12:     printf("          address of MSG: %p\n", MSG);
+  13:     printf("address of \"I'm special\": %p \n", "I'm special");
+
+tutorials/c/c-primer-plus-6/codes/Ch11/arrchar.c:
+  21:     printf ("%-36s  %-25s\n", "My Talents", "Your Talents");
+  23:         printf("%-36s  %-25s\n", mytalents[i], yourtalents[i]);
+  24:     printf("\nsizeof mytalents: %zd, sizeof yourtalents: %zd\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch11/compback.c:
+   7:     printf("strcmp(\"A\", \"A\") is ");
+   8:     printf("%d\n", strcmp("A", "A"));
+  10:     printf("strcmp(\"A\", \"B\") is ");
+  11:     printf("%d\n", strcmp("A", "B"));
+  13:     printf("strcmp(\"B\", \"A\") is ");
+  14:     printf("%d\n", strcmp("B", "A"));
+  16:     printf("strcmp(\"C\", \"A\") is ");
+  17:     printf("%d\n", strcmp("C", "A"));
+  19:     printf("strcmp(\"Z\", \"a\") is ");
+  20:     printf("%d\n", strcmp("Z", "a"));
+  22:     printf("strcmp(\"apples\", \"apple\") is ");
+  23:     printf("%d\n", strcmp("apples", "apple"));
+
+tutorials/c/c-primer-plus-6/codes/Ch11/copy1.c:
+  14:     printf("Enter %d words beginning with q:\n", LIM);
+  18:             printf("%s doesn't begin with q!\n", temp);
+
+tutorials/c/c-primer-plus-6/codes/Ch11/copy3.c:
+  15:     printf("Enter %d words beginning with q:\n", LIM);
+  19:             printf("%s doesn't begin with q!\n", temp);
+
+tutorials/c/c-primer-plus-6/codes/Ch11/fgets1.c:
+  10:     printf("Your string twice (puts(), then fputs()):\n");
+  15:     printf("Your string twice (puts(), then fputs()):\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch11/getsputs.c:
+  10:     printf("Your string twice:\n");
+  11:     printf("%s\n", words);
+
+tutorials/c/c-primer-plus-6/codes/Ch11/mod_str.c:
+  21:     printf("That line has %d punctuation characters.\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch11/name1.c:
+   8:     printf("Hi, what's your name?\n");
+  11:     printf("Nice name, %s.\n", name);
+
+tutorials/c/c-primer-plus-6/codes/Ch11/p_and_s.c:
+   9:     printf("%s\n", copy);
+  10:     printf("mesg = %s; &mesg = %p; value = %p\n",
+  12:     printf("copy = %s; &copy = %p; value = %p\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch11/put_put.c:
+  10:     printf("I count %d characters.\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch11/quit_chk.c:
+  14:     printf("Enter up to %d lines (type quit to quit):\n", LIM);
+  20:     printf("%d strings entered\n", ct);
+
+tutorials/c/c-primer-plus-6/codes/Ch11/repeat.c:
+   7:     printf("The command line has %d arguments:\n", argc - 1);
+   9:         printf("%d: %s\n", count, argv[count]);
+  10:     printf("\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch11/scan_str.c:
+   8:     printf("Please enter 2 names.\n");
+  10:     printf("I read the %d names %s and %s.\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch11/sort_str.c:
+  17:     printf("Input up to %d lines, and I will sort them.\n",LIM);
+  18:     printf("To stop, press the Enter key at a line's start.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch11/starsrch.c:
+  19:             printf("Found: %s\n", list[i]);
+  22:     printf("The list contained %d words beginning"
+
+tutorials/c/c-primer-plus-6/codes/Ch11/strcnvt.c:
+  17:         printf("base 10 input, base 10 output: %ld, stopped at %s (%d)\n",
+  20:         printf("base 16 input, base 10 output: %ld, stopped at %s (%d)\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch11/strptr.c:
+  5:     printf("%s, %p, %c\n", "We", "are", *"space farers");
+
+tutorials/c/c-primer-plus-6/codes/Ch12/diceroll.c:
+  25:         printf("Need at least 2 sides.\n");
+  30:         printf("Need at least 1 die.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch12/dyn_arr.c:
+  28:     printf("Here are your %d entries:\n", number = i);
+  31:         printf("%7.2f ", ptd[i]);
+
+tutorials/c/c-primer-plus-6/codes/Ch12/forc99.c:
+   7:     printf("   Initially, n = %d at %p\n", n, &n);
+   9:         printf("      loop 1: n = %d at %p\n", n, &n);
+  10:     printf("After loop 1, n = %d at %p\n", n, &n);
+  13:         printf(" loop 2 index n = %d at %p\n", n, &n);
+  15:         printf("      loop 2: n = %d at %p\n", n, &n);
+  18:     printf("After loop 2, n = %d at %p\n", n, &n);
+
+tutorials/c/c-primer-plus-6/codes/Ch12/global.c:
+   9:     printf("How many pounds to a firkin of butter?\n");
+  13:     printf("You must have looked it up!\n");
+  21:     printf("No luck, my friend. Try again.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch12/hiding.c:
+   7:     printf("x in outer block: %d at %p\n", x, &x);
+  10:         printf("x in inner block: %d at %p\n", x, &x);
+  12:     printf("x in outer block: %d at %p\n", x, &x);
+  17:         printf("x in while loop: %d at %p\n", x, &x);
+  19:     printf("x in outer block: %d at %p\n", x, &x);
+
+tutorials/c/c-primer-plus-6/codes/Ch12/loc_stat.c:
+  11:         printf("Here comes iteration %d:\n", count);
+  23:     printf("fade = %d and stay = %d\n", fade++, stay++);
+
+tutorials/c/c-primer-plus-6/codes/Ch12/manydice.c:
+  15:     printf("Enter the number of sides per die, 0 to stop.\n");
+  18:         printf("How many dice?\n");
+  25:                 printf("You should have entered an integer.");
+  26:                 printf(" Let's begin again.\n");
+  29:                 printf("How many sides? Enter 0 to stop.\n");
+  34:         printf("You have rolled a %d using %d %d-sided dice.\n",
+  36:         printf("How many sides? Enter 0 to stop.\n");
+  38:     printf("The rollem() function was called %d times.\n",
+  41:     printf("GOOD FORTUNE TO YOU!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch12/parta.c:
+  13:     printf("Enter a positive integer (0 to quit): ");
+  19:         printf("Enter a positive integer (0 to quit): ");
+  28:     printf("Loop executed %d times\n", count);
+
+tutorials/c/c-primer-plus-6/codes/Ch12/partb.c:
+  16:         printf("loop cycle: %d\n", count);
+  17:         printf("subtotal: %d; total: %d\n", subtotal, total);
+
+tutorials/c/c-primer-plus-6/codes/Ch12/r_drive0.c:
+  11:         printf("%d\n", rand0());
+
+tutorials/c/c-primer-plus-6/codes/Ch12/r_drive1.c:
+  13:     printf("Please enter your choice for seed.\n");
+  18:             printf("%d\n", rand1());
+  19:         printf("Please enter next seed (q to quit):\n");
+  21:     printf("Done\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch12/where.c:
+  21:     printf("static_store: %d at %p\n", static_store, &static_store);
+  22:     printf("  auto_store: %d at %p\n", auto_store, &auto_store);
+  23:     printf("         *pi: %d at %p\n", *pi, pi);
+  24:     printf("  %s at %p\n", pcg, pcg);
+  25:     printf(" %s at %p\n", auto_string, auto_string);
+  26:     printf("  %s at %p\n", pcl, pcl);
+  27:     printf("   %s at %p\n", "Quoted String", "Quoted String");
+
+tutorials/c/c-primer-plus-6/codes/Ch13/append.c:
+  53:             printf("File %s appended.\n", file_src);
+  57:     printf("Done appending. %d files appended.\n", files);
+  59:     printf("%s contents:\n", file_app);
+
+tutorials/c/c-primer-plus-6/codes/Ch13/count.c:
+  12:         printf("Usage: %s filename\n", argv[0]);
+  17:         printf("Can't open %s\n", argv[1]);
+  26:     printf("File %s has %lu characters\n", argv[1], count);
+
+tutorials/c/c-primer-plus-6/codes/Ch13/randbin.c:
+  34:     printf("Enter an index in the range 0-%d.\n", ARSIZE - 1);
+  40:         printf("The value there is %f.\n", value);
+  41:         printf("Next index (out of range to quit):\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch13/reverse.c:
+  17:         printf("reverse can't open %s\n", file);
+
+tutorials/c/c-primer-plus-6/codes/Ch14/book.c:
+  18:     printf("Please enter the book title.\n");
+  20:     printf("Now enter the author.\n");
+  22:     printf("Now enter the value.\n");
+  24:     printf("%s by %s: $%.2f\n",library.title,
+  26:     printf("%s: \"%s\" ($%.2f)\n", library.author,
+  28:     printf("Done.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch14/booksave.c:
+  35:         printf("%s by %s: $%.2f\n",library[count].title,
+  65:             printf("%s by %s: $%.2f\n",library[index].title,
+
+tutorials/c/c-primer-plus-6/codes/Ch14/complit.c:
+  17:     printf("Enter test score: ");
+  28:     printf("Your assigned reading:\n");
+  29:     printf("%s by %s: $%.2f\n",readfirst.title,
+
+tutorials/c/c-primer-plus-6/codes/Ch14/enum.c:
+  46:             printf("I don't know about the color %s.\n", choice);
+
+tutorials/c/c-primer-plus-6/codes/Ch14/flexmemb.c:
+  52:     printf("Scores : ");
+  54:         printf("%g ", p->scores[i]);
+  55:     printf("\nAverage: %g\n", p->average);
+
+tutorials/c/c-primer-plus-6/codes/Ch14/friend.c:
+  34:     printf("Dear %s, \n\n", fellow.handle.first);
+  35:     printf("%s%s.\n", msgs[0], fellow.handle.first);
+  36:     printf("%s%s\n", msgs[1], fellow.job);
+  37:     printf("%s\n", msgs[2]);
+  38:     printf("%s%s%s", msgs[3], fellow.favfood, msgs[4]);
+  45:     printf("\n%40s%s\n", " ", "See you soon,");
+  46:     printf("%40s%s\n", " ", "Shalala");
+
+tutorials/c/c-primer-plus-6/codes/Ch14/friends.c:
+  33:     printf("address #1: %p #2: %p\n", &fellow[0], &fellow[1]);
+  35:     printf("pointer #1: %p #2: %p\n", him, him + 1);
+  36:     printf("him->income is $%.2f: (*him).income is $%.2f\n",
+  39:     printf("him->favfood is %s:  him->handle.last is %s\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch14/funds1.c:
+  23:     printf("Stan has a total of $%.2f.\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch14/funds2.c:
+  23:     printf("Stan has a total of $%.2f.\n", sum(&stan));
+
+tutorials/c/c-primer-plus-6/codes/Ch14/funds3.c:
+  23:     printf("Stan has a total of $%.2f.\n", sum(stan));
+
+tutorials/c/c-primer-plus-6/codes/Ch14/funds4.c:
+  33:     printf("The Joneses have a total of $%.2f.\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch14/manybook.c:
+  21:     printf("Please enter the book title.\n");
+  22:     printf("Press [enter] at the start of a line to stop.\n");
+  26:         printf("Now enter the author.\n");
+  28:         printf("Now enter the value.\n");
+  33:             printf("Enter the next title.\n");
+  38:         printf("Here is the list of your books:\n");
+  40:             printf("%s by %s: $%.2f\n", library[index].title,
+  44:     	printf("No books? Too bad.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch14/names1.c:
+  29:     printf("Please enter your first name.\n");
+  31:     printf("Please enter your last name.\n");
+  43:     printf("%s %s, your name contains %d letters.\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch14/names2.c:
+  31:     printf("Please enter your first name.\n");
+  33:     printf("Please enter your last name.\n");
+  48:     printf("%s %s, your name contains %d letters.\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch14/names3.c:
+  33:     printf("Please enter your first name.\n");
+  39:     printf("Please enter your last name.\n");
+  53:     printf("%s %s, your name contains %d letters.\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch15/align.c:
+  13:     printf("char alignment:   %zd\n", _Alignof(char));
+  14:     printf("double alignment: %zd\n", _Alignof(double));
+  15:     printf("&dx: %p\n", &dx);
+  16:     printf("&ca: %p\n", &ca);
+  17:     printf("&cx: %p\n", &cx);
+  18:     printf("&dz: %p\n", &dz);
+  19:     printf("&cb: %p\n", &cb);
+  20:     printf("&cz: %p\n", &cz);
+
+tutorials/c/c-primer-plus-6/codes/Ch15/binbit.c:
+  17:         printf("%d is ", number);
+
+tutorials/c/c-primer-plus-6/codes/Ch15/dualview.c:
+   66:     printf("Original box settings:\n");
+   68:     printf("\nBox settings using unsigned int view:\n");
+   71:     printf("bits are %s\n",
+   79:     printf("\nModified box settings:\n");
+   81:     printf("\nBox settings using unsigned int view:\n");
+   83:     printf("bits are %s\n",
+   91:     printf("Box is %s.\n",
+   93:     printf("The fill color is %s.\n", colors[pb->fill_color]);
+   94:     printf("Border %s.\n",
+   96:     printf("The border color is %s.\n", colors[pb->border_color]);
+   97:     printf ("The border style is ");
+  100:         case SOLID  : printf("solid.\n"); break;
+  101:         case DOTTED : printf("dotted.\n"); break;
+  102:         case DASHED : printf("dashed.\n"); break;
+  103:         default     : printf("unknown type.\n");
+  109:     printf("box is %s.\n",
+  111:     printf("The fill color is %s.\n",
+  113:     printf("Border %s.\n",
+  115:     printf ("The border style is ");
+  118:         case B_SOLID  : printf("solid.\n"); break;
+  119:         case B_DOTTED : printf("dotted.\n"); break;
+  120:         case B_DASHED : printf("dashed.\n"); break;
+  121:         default       : printf("unknown type.\n");
+  123:     printf("The border color is %s.\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch15/fields.c:
+  40:     printf("Original box settings:\n");
+  47:     printf("\nModified box settings:\n");
+  55:     printf("Box is %s.\n",
+  57:     printf("The fill color is %s.\n", colors[pb->fill_color]);
+  58:     printf("Border %s.\n",
+  60:     printf("The border color is %s.\n", colors[pb->border_color]);
+  61:     printf ("The border style is ");
+  64:         case SOLID  : printf("solid.\n"); break; 
+  65:         case DOTTED : printf("dotted.\n"); break;
+  66:         case DASHED : printf("dashed.\n"); break;
+  67:         default     : printf("unknown type.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch15/invert4.c:
+  19:         printf("%d is\n", number);
+  23:         printf("Inverting the last 4 bits gives\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch16/assert.c:
+  15:         printf("answer is %f\n", sqrt(z));
+
+tutorials/c/c-primer-plus-6/codes/Ch16/byebye.c:
+  19:     printf("%d is %s.\n", n,  (n % 2 == 0)? "even" : "odd");
+
+tutorials/c/c-primer-plus-6/codes/Ch16/doubleincl.c:
+  9:     printf("The winner is %s %s.\n", winner.first,
+
+tutorials/c/c-primer-plus-6/codes/Ch16/el1.c:
+  13:     printf("%d %d\n", n, m);
+
+tutorials/c/c-primer-plus-6/codes/Ch16/el2.c:
+  14:     printf("%f %f\n", m, b);
+
+tutorials/c/c-primer-plus-6/codes/Ch16/file1.c:
+  13:     printf("%.2f\n", q);
+
+tutorials/c/c-primer-plus-6/codes/Ch16/file2.c:
+  8:     printf("%.2f\n", kv);
+
+tutorials/c/c-primer-plus-6/codes/Ch16/file3.c:
+  8:     printf("%.2f\n", kw);
+
+tutorials/c/c-primer-plus-6/codes/Ch16/generic.c:
+  29:     printf("%.17Lf\n", y);   // matches float
+  30:     printf("%.17Lf\n", yy);  // matches default
+  31:     printf("%.17Lf\n", yyy); // matches long double
+  34:     printf("%.17Lf\n", yy);
+  36:     printf("%.17Lf\n", yyy);
+
+tutorials/c/c-primer-plus-6/codes/Ch16/glue.c:
+   4: #define PRINT_XN(n) printf("x" #n " = %d\n", x ## n);
+  11:     PRINT_XN(1);        // becomes printf("x1 = %d\n", x1);
+  12:     PRINT_XN(2);        // becomes printf("x2 = %d\n", x2);
+  13:     PRINT_XN(3);        // becomes printf("x3 = %d\n", x3);
+
+tutorials/c/c-primer-plus-6/codes/Ch16/ifdef.c:
+  15:         printf("i=%d, running total = %d\n", i, total);
+  18:     printf("Grand total = %d\n", total);
+
+tutorials/c/c-primer-plus-6/codes/Ch16/mac_arg.c:
+   4: #define PR(X)   printf("The result is %d.\n", X)
+  10:     printf("x = %d\n", x);
+  12:     printf("Evaluating SQUARE(x): ");
+  15:     printf("Evaluating SQUARE(2): ");
+  17:     printf("Evaluating SQUARE(x+2): ");
+  19:     printf("Evaluating 100/SQUARE(2): ");
+  21:     printf("x is %d.\n", x);
+  22:     printf("Evaluating SQUARE(++x): ");
+  24:     printf("After incrementing, x is %x.\n", x);
+
+tutorials/c/c-primer-plus-6/codes/Ch16/mems.c:
+  41:         printf("%d ", ar[i]);
+
+tutorials/c/c-primer-plus-6/codes/Ch16/mytype.c:
+  16:     printf("%s\n", MYTYPE(d));     // d is type int
+  17:     printf("%s\n", MYTYPE(2.0*d)); // 2.0* d is type double
+  18:     printf("%s\n", MYTYPE(3L));    // 3L is type long
+  19:     printf("%s\n", MYTYPE(&d));    // &d is type int *
+
+tutorials/c/c-primer-plus-6/codes/Ch16/names_st.c:
+   8:     printf("Please enter your first name: ");
+  11:     printf("Please enter your last name: ");
+  17:     printf("%s %s", pn->first, pn->last);
+
+tutorials/c/c-primer-plus-6/codes/Ch16/predef.c:
+   7:     printf("The file is %s.\n", __FILE__);
+   8:     printf("The date is %s.\n", __DATE__);
+   9:     printf("The time is %s.\n", __TIME__);
+  10:     printf("The version is %ld.\n", __STDC_VERSION__);
+  11:     printf("This is line %d.\n", __LINE__);
+  12:     printf("This function is %s\n", __func__);
+  20:     printf("This function is %s\n", __func__);
+  21:     printf("This is line %d.\n", __LINE__);
+
+tutorials/c/c-primer-plus-6/codes/Ch16/preproc.c:
+   8: #define PX printf("X is %d.\n", x)
+  17:     printf(FMT, x);
+  18:     printf("%s\n", OW);
+  19:     printf("TWO: OW\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch16/qsorter.c:
+  36:         printf("%9.4f ", ar[index]);
+
+tutorials/c/c-primer-plus-6/codes/Ch16/rect_pol.c:
+  28:         printf("magnitude = %0.2f, angle = %0.2f\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch16/subst.c:
+  3: #define PSQR(x) printf("The square of " #x " is %d.\n",((x)*(x)))
+
+tutorials/c/c-primer-plus-6/codes/Ch16/useheader.c:
+  11:     printf("Let's welcome ");
+  13:     printf(" to this program!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch16/varargs.c:
+  12:     printf("return value for "
+  14:     printf("return value for "
+
+tutorials/c/c-primer-plus-6/codes/Ch16/variadic.c:
+  4: #define PR(X, ...) printf("Message " #X ": " __VA_ARGS__)
+
+tutorials/c/c-primer-plus-6/codes/Ch17/films1.c:
+  29:         printf("No data entered. ");
+  31:         printf ("Here is the movie list:\n");
+  34:         printf("Movie: %s  Rating: %d\n", movies[j].title,
+  36:     printf("Bye!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch17/films2.c:
+  40:         printf("No data entered. ");
+  42:         printf ("Here is the movie list:\n");
+  46:         printf("Movie: %s  Rating: %d\n",
+  58:     printf("Bye!\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch17/films3.c:
+  45:         printf("No data entered. ");
+  48:         printf ("Here is the movie list:\n");
+  51:     printf("You entered %d movies.\n", ListItemCount(&movies));
+  56:     printf("Bye!\n");
+  63:     printf("Movie: %s  Rating: %d\n", item.title,
+
+tutorials/c/c-primer-plus-6/codes/Ch17/mall.c:
+  64:         printf("customers accepted: %ld\n", customers);
+  65:         printf("  customers served: %ld\n", served);
+  66:         printf("       turnaways: %ld\n", turnaways);
+  67:         printf("average queue size: %.2f\n",
+  69:         printf(" average wait time: %.2f minutes\n",
+
+tutorials/c/c-primer-plus-6/codes/Ch17/petclub.c:
+   32:             case 'n' :  printf("%d pets in club\n",
+   99:     printf("Pet: %-19s  Kind: %-19s\n", item.petname,
+  119:     printf("%s the %s ", temp.petname, temp.petkind);
+  121:         printf("is a member.\n");
+  123:         printf("is not a member.\n");
+  142:     printf("%s the %s ", temp.petname, temp.petkind);
+  144:         printf("is dropped from the club.\n");
+  146:         printf("is not a member.\n");
+
+tutorials/c/c-primer-plus-6/codes/Ch17/use_q.c:
+  21:             printf("Integer to add: ");
+  25:                 printf("Putting %d into queue\n", temp);
+  38:                 printf("Removing %d from queue\n", temp);
+  41:         printf("%d items in queue\n", QueueItemCount(&line));
+
+tutorials/c/c-primer-plus-6/codes/XB/complex.c:
+  12:     printf("Enter the real part of a complex number: ");
+  14:     printf("Enter the imaginary part of a complex number: ");
+  37:     printf("(%f, %fi)", creal(cv), cimag(cv));
+
+tutorials/c/c-primer-plus-6/codes/XB/complex0.c:
+  12:     printf("Enter the real part of a complex number: ");
+  14:     printf("Enter the imaginary part of a complex number: ");
+  19:     printf("v1: ");
+  22:     printf("v2: ");
+  28:     printf("sum: ");
+  31:     printf("product: ");
+  34:     printf("complex congjugate of v1: ");
+  43:     printf("(%.2f, %.2fi)", creal(cv), cimag(cv));
+
+tutorials/c/c-primer-plus-6/codes/XB/def.c:
+  16:     printf("%zd\n", into);
+
+tutorials/c/c-primer-plus-6/codes/XB/offset.c:
+  16:     printf("%zd\n", into);
+
+tutorials/c/c-primer-plus-6/codes/XB/wider.c:
+  10:     printf("%lc %ls  %lc\n", wch, w_arr, value);
+  15:     printf("%lc %ls\n", wch, w_arr);
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/avltree.c:
+  197:             printf( "Sorry; Delete is unimplemented; %d remains\n", X );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/disjsets.c:
+  112:         printf( "%d**", Set1 );
+  114:     printf( "\n" );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/dsl.c:
+   53:             printf( "%d\n", Element );
+  164:             printf( "Remove is unimplemented\n" );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/fig1_2.c:
+  16:     printf( "F(5) = %d\n", F( 5 ) );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/fig1_3.c:
+  16:     printf( "Bad is infinite recursion\n" );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/fig2_9.c:
+  35:         printf( "BinarySearch of %d returns %d\n",
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/fig2_10.c:
+  21:     printf( "Gcd( 45, 35 ) = %d\n", Gcd( 45, 35 ) );
+  22:     printf( "Gcd( 1989, 1590 ) = %d\n", Gcd( 1989, 1590 ) );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/fig2_11.c:
+  22:     printf( "2^21 = %ld\n", Pow( 2, 21 ) );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/fig10_38.c:
+  31:     printf( "%6.2f %6.2f\n%6.2f %6.2f\n", C[ 0 ][ 0 ], C[ 0 ][ 1 ],
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/fig10_40.c:
+  39:     printf( "%d\n%d\n", Fib( 7 ), Fibonacci( 7 ) );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/fig10_43.c:
+  24:     printf( "%f\n", Eval( 10 ) );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/fig10_45.c:
+  36:     printf( "%f\n", Eval( 10 ) );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/fig10_46.c:
+  57:             printf( "%14d", M[ i ][ j ] );
+  58:         printf( "\n" );
+  63:             printf( "%14d", LastChange[ i ][ j ] );
+  64:         printf( "\n" );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/fig10_53.c:
+  56:             printf( "%6d ", D[ i ][ j ] );
+  57:         printf( "\n" );
+  63:             printf( "%6d ", Path[ i ][ j ] );
+  64:         printf( "\n" );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/fig10_54.c:
+  30:         printf( "%6f\n", Random( ) );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/fig10_55.c:
+  39:         printf( "%6f\n", Random( ) );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/fig10_62.c:
+  58:             printf( "%d is prime\n", i );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/kdtree.c:
+   62:                     printf( "(%d,%d)\n",
+   85:     printf( "Starting program\n" );
+   94:     printf( "Insertions complete\n" );
+  100:     printf( "Done...\n" ) ;
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/max_sum.c:
+  150:     printf( "Maxsum = %d\n",
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/poly.c:
+  93:         printf( "%dx^%d + ", Q->CoeffArray[ i ], i );
+  94:     printf( "%d\n", Q->CoeffArray[ 0 ] );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/redblack.c:
+   50:             printf( "%d\n", Element );
+  238:             printf( "Remove is unimplemented\n" );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/sort.c:
+  287:                     printf( "Sort fails: %d %d\n", i, A[ i ] );
+  288:             printf( "Check completed\n" );
+  333:                     printf( "Select error: %d %d\n", MaxSize / 2 + i ,
+  336:                     printf( "Select works\n" );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/splay.c:
+  48:                 printf( "%d ", T->Element );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/testaa.c:
+  20:             printf( "Error at %d\n", i );
+  27:             printf( "Error at %d\n", i );
+  31:             printf( "Error at %d\n", i );
+  33:     printf( "Min is %d, Max is %d\n", Retrieve( FindMin( T ) ),
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/testavl.c:
+  16:             printf( "Error at %d\n", i );
+  23:             printf( "Error at %d\n", i );
+  26:             printf( "Error at %d\n", i );
+  28:     printf( "Min is %d, Max is %d\n", Retrieve( FindMin( T ) ),
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/testbin.c:
+  15:  /*     printf( "Inserting %d\n", j );
+  22:  /*     printf( "DeleteMin\n" );
+  25:             printf( "Error in DeleteMin, %d\n", j );
+  28:         printf( "Error in counting\n" );
+  30:     printf( "Done...\n" );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/testcurs.c:
+  10:         printf( "Empty list\n" );
+  16:             printf( "%d ", Retrieve( P ) );
+  18:         printf( "\n" );
+  44:             printf( "Find fails\n" );
+  46:     printf( "Finished deletions\n" );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/testdsl.c:
+  18:     printf( "Inserts are complete\n" );
+  23:             printf( "Error at %d\n", i );
+  25:     printf( "Min is %d, Max is %d\n", Retrieve( FindMin( T ) ),
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/testhash.c:
+  32:             printf( "Rehashing...\n" );
+  46:             printf( "Error at %d\n", j );
+  48:     printf( "End of program.\n" );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/testheap.c:
+  18:             printf( "Error in DeleteMin, %d\n", j );
+  19:     printf( "Done...\n" );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/testleft.c:
+  18:             printf( "Error in DeleteMin, %d\n", j );
+  21:     printf( "Done...\n" );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/testlist.c:
+  10:         printf( "Empty list\n" );
+  16:             printf( "%d ", Retrieve( P ) );
+  18:         printf( "\n" );
+  43:             printf( "Find fails\n" );
+  45:     printf( "Finished deletions\n" );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/testpair.c:
+  13:     printf( "Done sleeping!! %d", m );
+  29:     printf( "Done inserting\n" );
+  38:             printf( "Error in DeleteMin, %d\n", j );
+  40:     printf( "Done...\n" );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/testque.c:
+  16:         printf( "%d\n", Front( Q ) );
+  24:         printf( "%d\n", Front( Q ) );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/testrb.c:
+  18:     printf( "Inserts are complete\n" );
+  24:             printf( "Error at %d\n", i );
+  27:     printf( "Min is %d, Max is %d\n", Retrieve( FindMin( T ) ),
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/testsply.c:
+  22:                 printf( "Error1 at %d\n", i );
+  25:     printf( "Entering remove\n" );
+  34:             printf( "Error2 at %d\n", i );
+  41:             printf( "Error3 at %d\n", i );
+  44:     printf( "Min is %d\n", Retrieve( T = FindMin( T ) ) );
+  45:     printf( "Max is %d\n", Retrieve( T = FindMax( T ) ) );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/teststka.c:
+  15:         printf( "%d\n", Top( S ) );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/teststkl.c:
+  15:         printf( "%d\n", Top( S ) );
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/testtree.c:
+  16:             printf( "Error at %d\n", i );
+  23:             printf( "Error at %d\n", i );
+  26:             printf( "Error at %d\n", i );
+  28:     printf( "Min is %d, Max is %d\n", Retrieve( FindMin( T ) ),
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/testtrp.c:
+  20:             printf( "Error1 at %d\n", i );
+  27:            printf( "Error2 at %d\n", i );
+  31:             printf( "Error3 at %d\n", i );
+  32:     printf( "Min is %d, Max is %d\n", Retrieve( FindMin( T ) ),
+
+tutorials/c/data-structures-and-algorithm-analysis-in-c-2/codes/treap.c:
+  58:                 printf( "%d ", T->Element );

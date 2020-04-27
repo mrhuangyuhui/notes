@@ -1,0 +1,228 @@
+# Query: scanf
+# Flags: CaseSensitive WordMatch RegExp
+# Including: ./tutorials/c,*.h,*.c
+
+91 results - 66 files
+
+tutorials/c/c-primer-plus-6/codes/Ch01/listing1.c:
+  7:     scanf("%d", &dogs);
+
+tutorials/c/c-primer-plus-6/codes/Ch03/charcode.c:
+  8:     scanf("%c", &ch);   /* user inputs character */
+
+tutorials/c/c-primer-plus-6/codes/Ch03/escape.c:
+  9:     scanf("%f", &salary);
+
+tutorials/c/c-primer-plus-6/codes/Ch03/platinum.c:
+  13:     scanf("%f", &weight);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/input.c:
+  10:     scanf("%d %f", &age, &assets); // use the & here
+  11:     scanf("%s", pet);              // no & for char array
+
+tutorials/c/c-primer-plus-6/codes/Ch04/pizza.c:
+  9:     scanf("%f", &radius);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/praise1.c:
+  9:     scanf("%s", name);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/praise2.c:
+  12:     scanf("%s", name);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/skiptwo.c:
+  8:     scanf("%*d %*d %d", &n);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/talkback.c:
+  12:     scanf("%s", name);
+  14:     scanf("%f", &weight);
+
+tutorials/c/c-primer-plus-6/codes/Ch04/varwid.c:
+  10:     scanf("%d", &width);
+  13:     scanf("%d %d", &width, &precision);
+
+tutorials/c/c-primer-plus-6/codes/Ch05/min_sec.c:
+  10:     scanf("%d", &sec);            // read number of seconds
+  18:         scanf("%d", &sec);
+
+tutorials/c/c-primer-plus-6/codes/Ch05/running.c:
+  19:     scanf("%lf", &distk);  // %lf for type double
+  22:     scanf("%d", &min);
+  24:     scanf("%d", &sec);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/boolean.c:
+  11:     input_is_good = (scanf("%ld", &num) == 1);
+  16:         input_is_good = (scanf("%ld", &num) == 1);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/cmpflt.c:
+  10:     scanf("%lf", &response);
+  14:         scanf("%lf", &response);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/do_while.c:
+  12:         scanf("%d", &code_entered);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/entry.c:
+  10:     scanf("%d", &code_entered);
+  15:         scanf("%d", &code_entered);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/for_show.c:
+  8:         scanf("%d", &num);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/power.c:
+  12:     while (scanf("%lf%d", &x, &exp) == 2)
+
+tutorials/c/c-primer-plus-6/codes/Ch06/scores_in.c:
+  13:         scanf("%d", &score[index]);  // read in the ten scores
+
+tutorials/c/c-primer-plus-6/codes/Ch06/summing.c:
+  11:     status = scanf("%ld", &num);
+  16:         status = scanf("%ld", &num);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/trouble.c:
+  12:     status = scanf("%ld", &num);
+  17:         status = scanf("%ld", &num);
+
+tutorials/c/c-primer-plus-6/codes/Ch06/zeno.c:
+  11:     scanf("%d", &limit);
+
+tutorials/c/c-primer-plus-6/codes/Ch07/break.c:
+   8:     while (scanf("%f", &length) == 1)
+  12:         if (scanf("%f", &width) != 1)
+
+tutorials/c/c-primer-plus-6/codes/Ch07/colddays.c:
+  12:     while (scanf("%f", &temperature) == 1)
+
+tutorials/c/c-primer-plus-6/codes/Ch07/divisors.c:
+  12:     while (scanf("%lu", &num) == 1)
+
+tutorials/c/c-primer-plus-6/codes/Ch07/electric.c:
+  22:     scanf("%lf", &kwh);       // %lf for type double         
+
+tutorials/c/c-primer-plus-6/codes/Ch07/paint.c:
+  10:     while (scanf("%d", &sq_feet) == 1)
+
+tutorials/c/c-primer-plus-6/codes/Ch07/skippart.c:
+  15:     while (scanf("%f", &score) == 1)
+
+tutorials/c/c-primer-plus-6/codes/Ch08/checking.c:
+  57:     while (scanf("%ld", &input) != 1)
+
+tutorials/c/c-primer-plus-6/codes/Ch08/file_eof.c:
+  11:     scanf("%s", fname);
+
+tutorials/c/c-primer-plus-6/codes/Ch08/menuette.c:
+  76:     while (scanf("%d", &input) != 1)
+
+tutorials/c/c-primer-plus-6/codes/Ch08/showchar1.c:
+  11:         scanf("%d %d", &rows, &cols);
+
+tutorials/c/c-primer-plus-6/codes/Ch08/showchar2.c:
+  12:         if (scanf("%d %d",&rows, &cols) != 2)
+
+tutorials/c/c-primer-plus-6/codes/Ch09/binary.c:
+  9:     while (scanf("%lu", &number) == 1)
+
+tutorials/c/c-primer-plus-6/codes/Ch09/factor.c:
+  11:     while (scanf("%d", &num) == 1)
+
+tutorials/c/c-primer-plus-6/codes/Ch09/hotel.c:
+  14:     while ((status = scanf("%d", &code)) != 1  ||
+  18:             scanf("%*s");   // dispose of non-integer input
+  30:     while (scanf("%d", &nights) != 1)
+  32:         scanf("%*s");       // dispose of non-integer input
+
+tutorials/c/c-primer-plus-6/codes/Ch09/lesser.c:
+  10:     while (scanf("%d %d", &evil1, &evil2) == 2)
+
+tutorials/c/c-primer-plus-6/codes/Ch11/format.c:
+  18:     scanf("%lf", &prize);
+
+tutorials/c/c-primer-plus-6/codes/Ch11/scan_str.c:
+  1: /* scan_str.c -- using scanf() */
+  9:     count = scanf("%5s %10s",name1, name2);
+
+tutorials/c/c-primer-plus-6/codes/Ch12/dyn_arr.c:
+  13:     if (scanf("%d", &max) != 1)
+  26:     while (i < max && scanf("%lf", &ptd[i]) == 1)
+
+tutorials/c/c-primer-plus-6/codes/Ch12/global.c:
+  10:     scanf("%d", &units);
+  22:     scanf("%d", &units);
+
+tutorials/c/c-primer-plus-6/codes/Ch12/manydice.c:
+  16:     while (scanf("%d", &sides) == 1 && sides > 0 )
+  19:         if ((status =scanf("%d", &dice)) != 1)
+
+tutorials/c/c-primer-plus-6/codes/Ch12/parta.c:
+  14:     while (scanf("%d", &value) == 1 && value > 0)
+
+tutorials/c/c-primer-plus-6/codes/Ch12/r_drive1.c:
+  14:     while (scanf("%u", &seed) == 1)
+
+tutorials/c/c-primer-plus-6/codes/Ch13/randbin.c:
+  35:     while (scanf("%d", &i) == 1 && i >= 0 && i < ARSIZE)
+
+tutorials/c/c-primer-plus-6/codes/Ch13/reverse.c:
+  14:     scanf("%80s", file);
+
+tutorials/c/c-primer-plus-6/codes/Ch14/book.c:
+  23:     scanf("%f", &library.value);
+
+tutorials/c/c-primer-plus-6/codes/Ch14/booksave.c:
+  54:         scanf("%f", &library[count++].value);
+
+tutorials/c/c-primer-plus-6/codes/Ch14/complit.c:
+  18:     scanf("%d",&score);
+
+tutorials/c/c-primer-plus-6/codes/Ch14/manybook.c:
+  29:         scanf("%f", &library[count++].value);
+
+tutorials/c/c-primer-plus-6/codes/Ch15/binbit.c:
+  14:     while (scanf("%d", &number) == 1)
+
+tutorials/c/c-primer-plus-6/codes/Ch15/invert4.c:
+  16:     while (scanf("%d", &number) == 1)
+
+tutorials/c/c-primer-plus-6/codes/Ch16/assert.c:
+  10:     while (scanf("%lf%lf", &x, &y) == 2
+
+tutorials/c/c-primer-plus-6/codes/Ch16/byebye.c:
+  13:     if (scanf("%d",&n) != 1)
+
+tutorials/c/c-primer-plus-6/codes/Ch16/el1.c:
+  10:     scanf("%d", &n);
+  12:     scanf("%d", &m);
+
+tutorials/c/c-primer-plus-6/codes/Ch16/el2.c:
+  11:     scanf("%lf", &m);
+  13:     scanf("%lf", &b);
+
+tutorials/c/c-primer-plus-6/codes/Ch16/rect_pol.c:
+  25:     while (scanf("%lf %lf", &input.x, &input.y) == 2)
+
+tutorials/c/c-primer-plus-6/codes/Ch17/films1.c:
+  23:         scanf("%d", &movies[i++].rating);
+
+tutorials/c/c-primer-plus-6/codes/Ch17/films2.c:
+  31:         scanf("%d", &current->rating);
+
+tutorials/c/c-primer-plus-6/codes/Ch17/films3.c:
+  27:         scanf("%d", &temp.rating);
+
+tutorials/c/c-primer-plus-6/codes/Ch17/mall.c:
+  31:     scanf("%d", &hours);
+  34:     scanf("%d", &perhour);
+
+tutorials/c/c-primer-plus-6/codes/Ch17/use_q.c:
+  22:             scanf("%d", &temp);
+
+tutorials/c/c-primer-plus-6/codes/XB/complex.c:
+  13:     scanf("%lf", &re);
+  15:     scanf("%lf", &im);
+
+tutorials/c/c-primer-plus-6/codes/XB/complex0.c:
+  13:     scanf("%lf", &re);
+  15:     scanf("%lf", &im);
+
+tutorials/c/c-primer-plus-6/codes/XB/wider.c:
+  12:     scanf("%lc", &wch);
+  14:     scanf("%ls",w_arr);
