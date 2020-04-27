@@ -58,3 +58,7 @@
 	path = tutorials/python/pythonds/codes
 	url = git@gitee.com:mrhuangyuhui/pythonds.git
 	ignore = dirty
+[submodule "codes/ruby-codes"]
+	path = codes/ruby-codes
+	url = git@gitee.com:mrhuangyuhui/ruby-codes.git
+	ignore = dirty
