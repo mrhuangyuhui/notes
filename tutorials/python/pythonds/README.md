@@ -4,7 +4,7 @@
 
 [官网页面](https://runestone.academy/runestone/books/published/pythonds/index.html)
 
-[微信读书](https://weread.qq.com/web/reader/9143210071c95624914946bkc81322c012c81e728d9d180)
+[微信读书](https://weread.qq.com/web/reader/9143210071c95624914946b)
 
 ## 配套代码
 

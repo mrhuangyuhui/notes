@@ -3,26 +3,29 @@
 
 - [Install](#install)
   - [Docker](#docker)
+  - [pyenv](#pyenv)
+  - [Anaconda](#anaconda)
   - [CentOS](#centos)
-  - [Using pyenv (Recommended)](#using-pyenv-recommended)
   - [Source code](#source-code)
-  - [Windows](#windows)
-- [Mirrors](#mirrors)
+- [PIP](#pip)
 - [Cmds](#cmds)
 - [Refs](#refs)
   - [Python 3](#python-3)
 - [Tutorials](#tutorials)
-- [Related Practices](#related-practices)
 
 <https://www.python.org>
 
-https://www.python.org/doc/
+<https://www.python.org/doc/>
 
-https://github.com/python/cpython
+<https://github.com/python/cpython>
+
+<https://github.com/topics/python>
 
 [Installing packages using `pip` and virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
 ## Install
+
+<https://www.python.org/downloads/>
 
 ### Docker
 
@@ -32,6 +35,18 @@ https://github.com/python/cpython
 docker pull python:2.7.17-alpine3.11
 ```
 
+### pyenv
+
+本地安装推荐这种方式
+
+[`pyenv-manual.md`](pyenv-manual.md)
+
+### Anaconda
+
+数据处理推荐这种方式
+
+[`anaconda-manual.md`](anaconda-manual.md)
+
 ### CentOS
 
 Prerequisites(CentOS 7)
@@ -39,8 +54,6 @@ Prerequisites(CentOS 7)
 $ yum group install 'Development Tools' -y
 $ yum install zlib-devel bzip2-devel openssl-devel ncurses-devel readline-devel sqlite-devel -y
 ```
-
-### Using [pyenv](https://github.com/pyenv/pyenv) (Recommended)
 
 ### Source code
 
@@ -73,11 +86,9 @@ Verifying
 $ python3 -V
 ```
 
-### Windows
+## PIP
 
-## Mirrors
-
-配置国内镜像，参考笔记 [PIP Manual](/manuals/python/pip-manual.md#mirrors)
+[`pip-manual.md`](pip-manual.md)
 
 ## Cmds
 
@@ -128,11 +139,3 @@ http://devdocs.io/python~2.7/
 [Python 教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1016959663602400)
 
 [Python Tutorial (W3Schools)](https://www.w3schools.com/python/default.asp)
-
-## Related Practices
-
-**PIP Practice**
-
-**Virtualenv Practice**
-
-**Pyenv Practice**
