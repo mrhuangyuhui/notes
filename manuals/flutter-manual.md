@@ -1,4 +1,17 @@
+<!-- omit in toc -->
 # Flutter Manual
+
+- [Install](#install)
+  - [Mac](#mac)
+- [Mirrors](#mirrors)
+- [Commands](#commands)
+  - [`flutter create`](#flutter-create)
+  - [`flutter devices`](#flutter-devices)
+  - [`flutter run`](#flutter-run)
+  - [`flutter pub`](#flutter-pub)
+- [Examples](#examples)
+- [Packages](#packages)
+- [Errors](#errors)
 
 <https://github.com/flutter/flutter>
 
@@ -28,41 +41,97 @@
 
 [配置网络镜像](https://flutter.dev/community/china)
 
-### [macOS](https://flutter.cn/docs/get-started/install/macos)
+### Mac
+
+<https://flutter.cn/docs/get-started/install/macos>
+
+[下载地址](https://flutter.cn/docs/development/tools/sdk/releases?tab=macos)
 
 ```bash
+# 下载并解压安装包到目录 ~/flutter
 cd ~/flutter
 
 # 创建符号链接
-ln -s flutter_macos_v1.9.1+hotfix.5-stable/ current
+ln -s flutter_macos_v1.12.13+hotfix.9-stable current
 
-# 写入 PATH 环境变量
+# 配置 PATH
 echo 'export PATH=${PATH}:~/flutter/current/bin' >> ~/.bash_profile
 
-# 配置网络镜像
-echo 'export PUB_HOSTED_URL=https://pub.flutter-io.cn' >> ~/.bash_profile
-echo 'export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn' >> ~/.bash_profile
+source ~/.bash_profile
 ```
 
-## Cmds
-
-查看帮助
-
-```bash
-flutter -h
-```
-
-查看版本
+验证安装结果
 
 ```bash
 flutter --version
 ```
 
+检查环境配置
+
+```bash
+flutter doctor
+```
+
+## Mirrors
+
+<https://flutter-io.cn/#cn-mirror>
+
+Flutter 社区
+
+```bash
+cat >> ~/.bash_profile << EOF
+export PUB_HOSTED_URL=https://pub.flutter-io.cn
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+EOF
+```
+
+清华大学 TUNA 协会
+
+```bash
+cat >> ~/.bash_profile << EOF
+export PUB_HOSTED_URL=https://mirrors.tuna.tsinghua.edu.cn/dart-pub
+export FLUTTER_STORAGE_BASE_URL=https://mirrors.tuna.tsinghua.edu.cn/flutter
+EOF
+```
+
+## Commands
+
+```bash
+flutter
+flutter -h
+flutter --help
+flutter help
+
+flutter create -h
+flutter create --help
+flutter help create
+```
+
+```bash
+flutter --version
+```
+
+检查环境配置
+
+```bash
+flutter doctor
+```
+
+### `flutter create`
+
 创建项目
+
+```bash
+flutter create -h
+flutter create --help
+flutter help create
+```
 
 ```bash
 flutter create myapp
 ```
+
+### `flutter devices`
 
 列出所有已连接的设备
 
@@ -70,11 +139,15 @@ flutter create myapp
 flutter devices
 ```
 
+### `flutter run`
+
 运行项目
 
 ```bash
 flutter run
 ```
+
+### `flutter pub`
 
 安装依赖包
 
