@@ -17,6 +17,8 @@
 
 <https://github.com/vsouza/awesome-ios>
 
+[Objective-C Manual](/manuals/objc/objc-manual.md)
+
 ## UIUE
 
 <https://www.cocoacontrols.com/>
@@ -43,6 +45,8 @@
 
 <!-- #ios-tutorial -->
 ## Tutorials
+
+<<https://nshipster.com/>>
 
 <https://github.com/vsouza/awesome-ios>
 

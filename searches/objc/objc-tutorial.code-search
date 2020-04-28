@@ -1,0 +1,7 @@
+# Query: #objc-tutorial
+# Flags: CaseSensitive WordMatch RegExp
+
+1 result - 1 file
+
+manuals/objc/objc-manual.md:
+  10: <!-- #objc-tutorial -->
