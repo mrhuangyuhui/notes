@@ -9,37 +9,21 @@
   - [`flutter devices`](#flutter-devices)
   - [`flutter run`](#flutter-run)
   - [`flutter pub`](#flutter-pub)
+- [References](#references)
 - [Examples](#examples)
-- [Packages](#packages)
-- [Errors](#errors)
+- [Tutorials](#tutorials)
 
 <https://github.com/flutter/flutter>
 
-[Flutter 社区中文资源](https://flutter-io.cn/)
+<https://flutter-io.cn/>
 
-<https://flutter-io.cn/docs>
+[Flutter Packages](/manuals/flutter/packages/README.md)
 
-[Flutter中文网](https://flutterchina.club/)
-
-[Flutter核心技术与实战](https://time.geekbang.org/column/intro/200)
-
-[Flutter 从入门到进阶 实战携程网 App](https://coding.imooc.com/class/321.html)
-
-[Flutter 入门与案例实战](https://www.imooc.com/learn/1090)
-
-[Flutter 开发第一步：Dart 编程语言入门](https://www.imooc.com/learn/1035)
-
-<https://api.flutter.dev/index.html>
-
-<https://pub.flutter-io.cn/flutter>
-
-<https://github.com/Solido/awesome-flutter>
+[Flutter Errors](/errors/flutter/README.md)
 
 ## Install
 
 [Flutter SDK 版本列表](https://flutter.cn/docs/development/tools/sdk/releases)
-
-[配置网络镜像](https://flutter.dev/community/china)
 
 ### Mac
 
@@ -75,6 +59,8 @@ flutter doctor
 ## Mirrors
 
 <https://flutter-io.cn/#cn-mirror>
+
+<https://flutter.dev/community/china>
 
 Flutter 社区
 
@@ -155,6 +141,10 @@ flutter run
 flutter pub get
 ```
 
+## References
+
+<https://api.flutter.dev/index.html>
+
 ## Examples
 
 <https://github.com/flutter/samples>
@@ -165,15 +155,16 @@ flutter pub get
 
 <https://github.com/Solido/awesome-flutter>
 
-## Packages
+## Tutorials
 
-<https://pub.flutter-io.cn/packages/provider>
+<https://github.com/Solido/awesome-flutter>
 
-<https://pub.flutter-io.cn/packages/english_words>
+[Flutter 中文网](https://flutterchina.club/)
 
-## Errors
+[Flutter 核心技术与实战](https://time.geekbang.org/column/intro/200)
 
-```bash
-# Waiting for another flutter command to release the startup lock...
-rm ~/flutter/current/bin/cache/lockfile
-```
+[Flutter 从入门到进阶——实战携程网 App](https://coding.imooc.com/class/321.html)
+
+[Flutter 入门与案例实战](https://www.imooc.com/learn/1090)
+
+[Flutter 开发第一步：Dart 编程语言入门](https://www.imooc.com/learn/1035)
