@@ -66,3 +66,4 @@
 [submodule "codes/dart-codes"]
 	path = codes/dart-codes
 	url = git@gitee.com:mrhuangyuhui/dart-codes.git
+	ignore = dirty
