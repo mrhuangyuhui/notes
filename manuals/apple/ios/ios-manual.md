@@ -9,13 +9,13 @@
 - [Tools](#tools)
 - [Tutorials](#tutorials)
 
-<https://developer.apple.com/documentation/>
-
 [iOS 预审](https://wetest.qq.com/product/ios)
 
 <https://github.com/topics/ios>
 
 <https://github.com/vsouza/awesome-ios>
+
+<http://awesomeios.com/>
 
 [Objective-C Manual](/manuals/objc/objc-manual.md)
 
