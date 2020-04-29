@@ -13,7 +13,7 @@
 - [Codes](#codes)
 - [Tutorials](#tutorials)
 
-<https://github.com/flutter/flutter>
+<https://github.com/flutter/flutter> (<https://gitee.com/mrhuangyuhui/flutter>)
 
 <https://flutter-io.cn/>
 
@@ -156,7 +156,10 @@ flutter pub get
 
 [撰写双端平台代码（插件编写实现）](https://flutter.cn/docs/development/platform-integration/platform-channels)
 
+<!-- #flutter-code -->
 ## Codes
+
+<https://github.com/flutter/flutter/tree/master/examples> ([Gitee](https://gitee.com/mrhuangyuhui/flutter/tree/master/examples))
 
 <https://github.com/flutter/samples>
 
