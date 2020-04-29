@@ -10,12 +10,14 @@
   - [`flutter run`](#flutter-run)
   - [`flutter pub`](#flutter-pub)
 - [References](#references)
-- [Examples](#examples)
+- [Codes](#codes)
 - [Tutorials](#tutorials)
 
 <https://github.com/flutter/flutter>
 
 <https://flutter-io.cn/>
+
+<https://github.com/cfug/flutter.cn>
 
 [Dart Codes](https://gitee.com/mrhuangyuhui/dart-codes)
 
@@ -145,9 +147,11 @@ flutter pub get
 
 ## References
 
-<https://api.flutter.dev/index.html>
+[Flutter 开发文档](https://flutter.cn/docs)
 
-## Examples
+[Flutter API 文档](https://api.flutter-io.cn/)
+
+## Codes
 
 <https://github.com/flutter/samples>
 
@@ -159,7 +163,21 @@ flutter pub get
 
 ## Tutorials
 
+[Flutter Gallery](https://flutter.github.io/gallery/#/)
+
+[Flutter Samples](https://flutter.github.io/samples/#)
+
+[Flutter Codelabs](https://codelabs.flutter-io.cn/) (<https://flutter.cn/#codelabs>, <https://flutter.cn/docs/codelabs>)
+
+[Flutter 实用教程](https://flutter.cn/docs/cookbook)
+
+[Flutter 实践教程](https://flutter.cn/docs/reference/tutorials)
+
+<https://www.youtube.com/flutterdev>
+
 <https://github.com/Solido/awesome-flutter>
+
+<https://www.appbrewery.co/p/intro-to-flutter>
 
 [Flutter 中文网](https://flutterchina.club/)
 
