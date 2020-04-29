@@ -9,19 +9,21 @@
 
 <https://lumen.laravel.com/>
 
-<https://packagist.org/packages/laravel/lumen>
+<https://lumen.laravel.com/docs/>
 
-<https://lumen.laravel.com/docs/5.8>
+laravel/lumen
 
-<https://github.com/laravel/lumen>
+- [GitHub](https://github.com/laravel/lumen)
+- [Gitee](https://gitee.com/mrhuangyuhui/lumen)
+- [Sourcegraph](https://sourcegraph.com/github.com/laravel/lumen)
+- [Packagist](https://packagist.org/packages/laravel/lumen)
 
-<https://github.com/laravel/lumen-framework>
+lumen-framework
 
-<https://gitee.com/mrhuangyuhui/lumen>
-
-<https://gitee.com/mrhuangyuhui/lumen-framework>
-
-<https://sourcegraph.com/github.com/laravel/lumen>
+- [GitHub](https://github.com/laravel/lumen-framework)
+- [Gitee](https://gitee.com/mrhuangyuhui/lumen-framework)
+- [Sourcegraph](https://sourcegraph.com/github.com/laravel/lumen-framework)
+- [Packagist](https://packagist.org/packages/laravel/lumen-framework)
 
 ## Install
 
