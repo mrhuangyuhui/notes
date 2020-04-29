@@ -23,7 +23,7 @@
 
 [Flutter Packages](/manuals/flutter/packages/README.md)
 
-[Flutter Errors](/errors/flutter/README.md)
+[Flutter Issues](/issues/flutter/README.md)
 
 ## Install
 
@@ -43,7 +43,10 @@ cd ~/flutter
 ln -s flutter_macos_v1.12.13+hotfix.9-stable current
 
 # 配置 PATH
-echo 'export PATH=${PATH}:~/flutter/current/bin' >> ~/.bash_profile
+cat >> ~/.bash_profile << EOF
+export FLUTTER_HOME=$HOME/flutter/current
+export PATH=${PATH}:$FLUTTER_HOME/bin
+EOF
 
 source ~/.bash_profile
 ```
@@ -150,6 +153,8 @@ flutter pub get
 [Flutter 开发文档](https://flutter.cn/docs)
 
 [Flutter API 文档](https://api.flutter-io.cn/)
+
+[撰写双端平台代码（插件编写实现）](https://flutter.cn/docs/development/platform-integration/platform-channels)
 
 ## Codes
 
