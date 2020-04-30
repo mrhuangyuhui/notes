@@ -16,6 +16,7 @@
   - [`config`](#config)
   - [`repositories`](#repositories)
   - [`scripts`](#scripts)
+- [Guides](#guides)
 - [References](#references)
 - [Packages](#packages)
 
@@ -30,6 +31,8 @@
 <https://gitee.com/mrhuangyuhui/composer>
 
 <https://sourcegraph.com/github.com/composer/composer>
+
+<https://packagist.org/packages/submit>
 
 ## Install
 
@@ -78,7 +81,9 @@ docker run -it --rm --volume `pwd`:/app composer:1.10.4 install
 <!-- #composer-mirror -->
 ## Mirrors
 
-查看当前源镜像
+<https://packagist.org/mirrors>
+
+查看当前镜像
 
 ```bash
 composer config -g repo
@@ -217,6 +222,8 @@ composer selfupdate
 
 ## `composer.json`
 
+<https://getcomposer.org/doc/04-schema.md>
+
 <!-- #php-autoload -->
 ### `autoload`
 
@@ -237,6 +244,10 @@ composer selfupdate
 <https://getcomposer.org/doc/04-schema.md#scripts>
 
 <https://getcomposer.org/doc/articles/scripts.md>
+
+## Guides
+
+[Libraries](https://getcomposer.org/doc/02-libraries.md)
 
 ## References
 
