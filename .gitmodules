@@ -63,7 +63,3 @@
 	path = codes/dart-codes
 	url = git@gitee.com:mrhuangyuhui/dart-codes.git
 	ignore = dirty
-[submodule "codes/php"]
-	path = codes/php
-	url = git@gitee.com:mrhuangyuhui/php-repos.git
-	ignore = dirty
