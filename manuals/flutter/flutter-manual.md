@@ -10,31 +10,32 @@
   - [`flutter devices`](#flutter-devices)
   - [`flutter run`](#flutter-run)
   - [`flutter pub`](#flutter-pub)
-- [iOS](#ios)
+- [IDE](#ide)
+  - [VSCode](#vscode)
+- [Platforms](#platforms)
+  - [iOS](#ios)
 - [Guides](#guides)
 - [API](#api)
 - [Codes](#codes)
 - [Tutorials](#tutorials)
 
-<https://github.com/flutter/flutter> (<https://gitee.com/mrhuangyuhui/flutter>)
+<https://flutter.dev/>
 
-<https://flutter-io.cn/>
+<https://flutter.cn/> ([GitHub](https://github.com/cfug/flutter.cn))
 
-<https://github.com/cfug/flutter.cn>
+<https://github.com/flutter/flutter> ([Gitee](https://gitee.com/mrhuangyuhui/flutter))
 
-[Dart Codes](https://gitee.com/mrhuangyuhui/dart-codes)
+相关笔记：
 
-[Flutter Packages](/manuals/flutter/packages/README.md)
-
-[Flutter Issues](/issues/flutter/README.md)
+- [Dart Codes](https://gitee.com/mrhuangyuhui/dart-codes)
+- [Flutter Packages](packages/README.md)
+- [Flutter Issues](/issues/flutter/README.md)
 
 ## Quick Start
 
-[Install](#install), [Mirrors](#mirrors)
-
 <https://flutter.cn/docs/get-started>
 
-[编写第一个 Flutter 应用](https://flutter.cn/docs/get-started/codelab)
+[Install](#install), [Mirrors](#mirrors), [Platforms](#platforms), [IDE](#ide)
 
 ## Install
 
@@ -97,9 +98,7 @@ flutter run
 
 <https://flutter.cn/community/china>
 
-<https://flutter.dev/community/china>
-
-<https://flutter-io.cn/#cn-mirror>
+<https://flutter.cn/#cn-mirror>
 
 Flutter 社区
 
@@ -180,7 +179,17 @@ flutter run
 flutter pub get
 ```
 
-## iOS
+## IDE
+
+### VSCode
+
+[编辑工具设定](https://flutter.cn/docs/get-started/editor?tab=vscode)
+
+[开发体验初探](https://flutter.cn/docs/get-started/test-drive?tab=vscode)
+
+## Platforms
+
+### iOS
 
 [设置 iOS 开发环境](https://flutter.cn/docs/get-started/install/macos#ios-setup)
 
@@ -200,13 +209,13 @@ flutter pub get
 <!-- #flutter-code -->
 ## Codes
 
+<https://github.com/flutter/gallery/> ([Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery))
+
 <https://github.com/flutter/flutter/tree/master/examples> ([Gitee](https://gitee.com/mrhuangyuhui/flutter/tree/master/examples))
 
-<https://github.com/flutter/samples>
+<https://github.com/flutter/samples> ([Index](https://github.com/flutter/samples/blob/master/INDEX.md))
 
 <https://github.com/nisrulz/flutter-examples>
-
-<https://github.com/flutter/samples/blob/master/INDEX.md>
 
 ## Tutorials
 
