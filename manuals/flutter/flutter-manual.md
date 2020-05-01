@@ -1,6 +1,7 @@
 <!-- omit in toc -->
 # Flutter Manual
 
+- [Quick Start](#quick-start)
 - [Install](#install)
   - [Mac](#mac)
 - [Mirrors](#mirrors)
@@ -9,7 +10,9 @@
   - [`flutter devices`](#flutter-devices)
   - [`flutter run`](#flutter-run)
   - [`flutter pub`](#flutter-pub)
-- [References](#references)
+- [iOS](#ios)
+- [Guides](#guides)
+- [API](#api)
 - [Codes](#codes)
 - [Tutorials](#tutorials)
 
@@ -25,7 +28,17 @@
 
 [Flutter Issues](/issues/flutter/README.md)
 
+## Quick Start
+
+[Install](#install), [Mirrors](#mirrors)
+
+<https://flutter.cn/docs/get-started>
+
+[编写第一个 Flutter 应用](https://flutter.cn/docs/get-started/codelab)
+
 ## Install
+
+<https://flutter.cn/docs/get-started/install>
 
 [Flutter SDK 版本列表](https://flutter.cn/docs/development/tools/sdk/releases)
 
@@ -33,16 +46,21 @@
 
 <https://flutter.cn/docs/get-started/install/macos>
 
-[下载地址](https://flutter.cn/docs/development/tools/sdk/releases?tab=macos)
+[下载安装包](https://flutter.cn/docs/development/tools/sdk/releases?tab=macos)
+
+解压安装包到目录 `~/flutter`
+
+创建符号链接
 
 ```bash
-# 下载并解压安装包到目录 ~/flutter
 cd ~/flutter
 
-# 创建符号链接
 ln -s flutter_macos_v1.12.13+hotfix.9-stable current
+```
 
-# 配置 PATH
+配置 `PATH`
+
+```bash
 cat >> ~/.bash_profile << EOF
 export FLUTTER_HOME=$HOME/flutter/current
 export PATH=${PATH}:$FLUTTER_HOME/bin
@@ -51,23 +69,37 @@ EOF
 source ~/.bash_profile
 ```
 
-验证安装结果
+验证配置结果
 
 ```bash
 flutter --version
 ```
 
-检查环境配置
+检查依赖安装
 
 ```bash
 flutter doctor
 ```
 
+[创建并运行一个简单的 Flutter 应用](https://flutter.cn/docs/get-started/install/macos#create-and-run-a-simple-flutter-app)
+
+- [设置 iOS 开发环境](#ios)
+
+```bash
+flutter create my_app
+
+cd my_app
+
+flutter run
+```
+
 ## Mirrors
 
-<https://flutter-io.cn/#cn-mirror>
+<https://flutter.cn/community/china>
 
 <https://flutter.dev/community/china>
+
+<https://flutter-io.cn/#cn-mirror>
 
 Flutter 社区
 
@@ -148,13 +180,22 @@ flutter run
 flutter pub get
 ```
 
-## References
+## iOS
+
+[设置 iOS 开发环境](https://flutter.cn/docs/get-started/install/macos#ios-setup)
+
+- [配置 iOS 模拟器](https://flutter.cn/docs/get-started/install/macos#set-up-the-ios-simulator)
+- [部署到 iOS 真机上](https://flutter.cn/docs/get-started/install/macos#deploy-to-ios-devices)
+
+## Guides
 
 [Flutter 开发文档](https://flutter.cn/docs)
 
-[Flutter API 文档](https://api.flutter-io.cn/)
-
 [撰写双端平台代码（插件编写实现）](https://flutter.cn/docs/development/platform-integration/platform-channels)
+
+## API
+
+[Flutter API 文档](https://api.flutter-io.cn/)
 
 <!-- #flutter-code -->
 ## Codes
@@ -167,9 +208,11 @@ flutter pub get
 
 <https://github.com/flutter/samples/blob/master/INDEX.md>
 
-<https://github.com/Solido/awesome-flutter>
-
 ## Tutorials
+
+[开始使用 Flutter](https://flutter.cn/docs/get-started)
+
+<<https://github.com/Solido/awesome-flutter>>
 
 [Flutter Gallery](https://flutter.github.io/gallery/#/) ([GitHub](https://github.com/flutter/gallery/), [Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery))
 
