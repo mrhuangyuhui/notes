@@ -171,7 +171,7 @@ flutter pub get
 
 ## Tutorials
 
-[Flutter Gallery](https://flutter.github.io/gallery/#/)
+[Flutter Gallery](https://flutter.github.io/gallery/#/) ([GitHub](https://github.com/flutter/gallery/), [Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery))
 
 [Flutter Samples](https://flutter.github.io/samples/#)
 
