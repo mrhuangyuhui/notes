@@ -59,10 +59,6 @@
 	path = tutorials/objc/NSHipster-Articles
 	url = git@gitee.com:mrhuangyuhui/NSHipster-Articles.git
 	ignore = dirty
-[submodule "codes/dart-codes"]
-	path = codes/dart-codes
-	url = git@gitee.com:mrhuangyuhui/dart-codes.git
-	ignore = dirty
 [submodule "codes/php"]
 	path = codes/php
 	url = git@gitee.com:mrhuangyuhui/php-code-submodules.git
