@@ -19,7 +19,7 @@
 - [Codes](#codes)
 - [Tutorials](#tutorials)
 
-<https://flutter.dev/>
+<https://flutter.dev/> ([GitHub](https://github.com/flutter/website))
 
 <https://flutter.cn/> ([GitHub](https://github.com/cfug/flutter.cn))
 
@@ -33,21 +33,21 @@
 
 ## Quick Start
 
-<https://flutter.cn/docs/get-started>
+<https://flutter.dev/docs/get-started>
 
 [Install](#install), [Mirrors](#mirrors), [Platforms](#platforms), [IDE](#ide)
 
 ## Install
 
-<https://flutter.cn/docs/get-started/install>
+<https://flutter.dev/docs/get-started/install>
 
-[Flutter SDK 版本列表](https://flutter.cn/docs/development/tools/sdk/releases)
+[Flutter SDK 版本列表](https://flutter.dev/docs/development/tools/sdk/releases)
 
 ### Mac
 
-<https://flutter.cn/docs/get-started/install/macos>
+<https://flutter.dev/docs/get-started/install/macos>
 
-[下载安装包](https://flutter.cn/docs/development/tools/sdk/releases?tab=macos)
+[下载安装包](https://flutter.dev/docs/development/tools/sdk/releases?tab=macos)
 
 解压安装包到目录 `~/flutter`
 
@@ -82,7 +82,7 @@ flutter --version
 flutter doctor
 ```
 
-[创建并运行一个简单的 Flutter 应用](https://flutter.cn/docs/get-started/install/macos#create-and-run-a-simple-flutter-app)
+[创建并运行一个简单的 Flutter 应用](https://flutter.dev/docs/get-started/install/macos#create-and-run-a-simple-flutter-app)
 
 - [设置 iOS 开发环境](#ios)
 
@@ -96,9 +96,9 @@ flutter run
 
 ## Mirrors
 
-<https://flutter.cn/community/china>
+<https://flutter.dev/community/china>
 
-<https://flutter.cn/#cn-mirror>
+<https://flutter.dev/#cn-mirror>
 
 Flutter 社区
 
@@ -183,24 +183,24 @@ flutter pub get
 
 ### VSCode
 
-[编辑工具设定](https://flutter.cn/docs/get-started/editor?tab=vscode)
+[编辑工具设定](https://flutter.dev/docs/get-started/editor?tab=vscode)
 
-[开发体验初探](https://flutter.cn/docs/get-started/test-drive?tab=vscode)
+[开发体验初探](https://flutter.dev/docs/get-started/test-drive?tab=vscode)
 
 ## Platforms
 
 ### iOS
 
-[设置 iOS 开发环境](https://flutter.cn/docs/get-started/install/macos#ios-setup)
+[设置 iOS 开发环境](https://flutter.dev/docs/get-started/install/macos#ios-setup)
 
-- [配置 iOS 模拟器](https://flutter.cn/docs/get-started/install/macos#set-up-the-ios-simulator)
-- [部署到 iOS 真机上](https://flutter.cn/docs/get-started/install/macos#deploy-to-ios-devices)
+- [配置 iOS 模拟器](https://flutter.dev/docs/get-started/install/macos#set-up-the-ios-simulator)
+- [部署到 iOS 真机上](https://flutter.dev/docs/get-started/install/macos#deploy-to-ios-devices)
 
 ## Guides
 
-[Flutter 开发文档](https://flutter.cn/docs)
+[Flutter 开发文档](https://flutter.dev/docs)
 
-[撰写双端平台代码（插件编写实现）](https://flutter.cn/docs/development/platform-integration/platform-channels)
+[撰写双端平台代码（插件编写实现）](https://flutter.dev/docs/development/platform-integration/platform-channels)
 
 ## API
 
@@ -219,7 +219,7 @@ flutter pub get
 
 ## Tutorials
 
-[开始使用 Flutter](https://flutter.cn/docs/get-started)
+[开始使用 Flutter](https://flutter.dev/docs/get-started)
 
 <<https://github.com/Solido/awesome-flutter>>
 
@@ -227,11 +227,11 @@ flutter pub get
 
 [Flutter Samples](https://flutter.github.io/samples/#)
 
-[Flutter Codelabs](https://codelabs.flutter-io.cn/) (<https://flutter.cn/#codelabs>, <https://flutter.cn/docs/codelabs>)
+[Flutter Codelabs](https://codelabs.flutter-io.cn/) (<https://flutter.dev/#codelabs>, <https://flutter.dev/docs/codelabs>)
 
-[Flutter 实用教程](https://flutter.cn/docs/cookbook)
+[Flutter 实用教程](https://flutter.dev/docs/cookbook)
 
-[Flutter 实践教程](https://flutter.cn/docs/reference/tutorials)
+[Flutter 实践教程](https://flutter.dev/docs/reference/tutorials)
 
 <https://www.youtube.com/flutterdev>
 
