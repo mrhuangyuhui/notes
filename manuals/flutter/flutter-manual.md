@@ -14,6 +14,7 @@
   - [`flutter pub`](#flutter-pub)
 - [IDE](#ide)
   - [VSCode](#vscode)
+  - [IDEA](#idea)
 - [Platforms](#platforms)
   - [iOS](#ios)
   - [Desktop](#desktop)
@@ -196,17 +197,41 @@ flutter pub get
 
 ### VSCode
 
-[编辑工具设定](https://flutter.dev/docs/get-started/editor?tab=vscode)
+[Set up an editor > VSCode](https://flutter.dev/docs/get-started/editor?tab=vscode)
 
-[开发体验初探](https://flutter.dev/docs/get-started/test-drive?tab=vscode)
+[Test drive > VSCode](https://flutter.dev/docs/get-started/test-drive?tab=vscode)
 
-运行 Mac 程序
+[Development > Tools > VSCode](https://flutter.dev/docs/development/tools/vs-code)
+
+[Flutter - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter) ([GitHub](https://github.com/Dart-Code/Flutter))
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/flutter/flutter-vscode-4.png)
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/flutter/flutter-vscode-5.png)
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/flutter/flutter-vscode-1.jpg)
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/flutter/flutter-vscode-2.png)
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/flutter/flutter-vscode-3.png)
+
+### IDEA
+
+[Set up an editor > Android Studio and IntelliJ](https://flutter.dev/docs/get-started/editor?tab=androidstudio)
+
+[Test drive > Android Studio and IntelliJ](https://flutter.dev/docs/get-started/test-drive?tab=androidstudio)
+
+[Development > Tools > Android Studio and IntelliJ](https://flutter.dev/docs/development/tools/android-studio)
+
+[Flutter - plugin for IntelliJ IDEA and Android Studio | JetBrains](https://plugins.jetbrains.com/plugin/9212-flutter) ([GitHub](https://github.com/flutter/flutter-intellij))
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/flutter/flutter-idea-1.png)
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/flutter/flutter-idea-2.png)
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/flutter/flutter-idea-3.png)
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/flutter/flutter-idea-4.png)
 
 ## Platforms
 
@@ -259,7 +284,7 @@ Samples
 <!-- #flutter-code -->
 ## Codes
 
-<https://github.com/flutter/gallery/> ([Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery))
+[Flutter Gallery](https://github.com/flutter/gallery/) ([Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery))
 
 <https://github.com/flutter/flutter/tree/master/examples> ([Gitee](https://gitee.com/mrhuangyuhui/flutter/tree/master/examples))
 
