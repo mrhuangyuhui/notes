@@ -23,9 +23,11 @@
 - [Codes](#codes)
 - [Tutorials](#tutorials)
 
-<https://flutter.dev/> ([GitHub](https://github.com/flutter/website))
+<https://flutter.dev/> ([GitHub](https://github.com/flutter/website), [Gitee](https://gitee.com/mrhuangyuhui/flutter-website))
 
 <https://flutter.cn/> ([GitHub](https://github.com/cfug/flutter.cn))
+
+> 提示：`flutter.dev` 对应的中文网页域名是 `flutter.cn`
 
 相关笔记：
 
@@ -39,7 +41,7 @@
 
 ## Install
 
-> [DownLoads](#downloads), [Mirrors](#mirrors)
+> [Downloads](#downloads), [Mirrors](#mirrors)
 
 <https://flutter.dev/docs/get-started/install>
 
@@ -82,9 +84,9 @@ flutter --version
 flutter doctor
 ```
 
-[创建并运行一个简单的 Flutter 应用](https://flutter.dev/docs/get-started/install/macos#create-and-run-a-simple-flutter-app)
+[Create and run a simple Flutter app](https://flutter.dev/docs/get-started/install/macos#create-and-run-a-simple-flutter-app)
 
-- [设置 iOS 开发环境](#ios)
+> [设置各平台的开发环境](#platforms)
 
 ```bash
 flutter create my_app
@@ -98,21 +100,17 @@ flutter run
 
 <https://github.com/flutter/flutter> ([Gitee](https://gitee.com/mrhuangyuhui/flutter))
 
-<https://github.com/flutter/website>
+<https://github.com/flutter/website> ([Gitee](https://gitee.com/mrhuangyuhui/flutter-website))
 
 ## Downloads
 
 [Flutter 版本说明](https://github.com/flutter/flutter/wiki/Flutter-build-release-channels)
 
-<https://flutter.dev/docs/development/tools/sdk/releases>
-
-<https://flutter.cn/docs/development/tools/sdk/releases>
+[Flutter SDK releases](https://flutter.dev/docs/development/tools/sdk/releases) ([中国镜像](https://flutter.cn/docs/development/tools/sdk/releases))
 
 ## Mirrors
 
 <https://flutter.dev/community/china>
-
-<https://flutter.dev/#cn-mirror>
 
 Flutter 社区
 
@@ -237,10 +235,10 @@ flutter pub get
 
 ### iOS
 
-[设置 iOS 开发环境](https://flutter.dev/docs/get-started/install/macos#ios-setup)
+[iOS setup](https://flutter.dev/docs/get-started/install/macos#ios-setup)
 
-- [配置 iOS 模拟器](https://flutter.dev/docs/get-started/install/macos#set-up-the-ios-simulator)
-- [部署到 iOS 真机上](https://flutter.dev/docs/get-started/install/macos#deploy-to-ios-devices)
+- [Set up the iOS simulator](https://flutter.dev/docs/get-started/install/macos#set-up-the-ios-simulator)
+- [Deploy to iOS devices](https://flutter.dev/docs/get-started/install/macos#deploy-to-ios-devices)
 
 ### Desktop
 
@@ -269,57 +267,55 @@ Samples
 - [Flutter Gallery](https://github.com/flutter/samples/tree/master/gallery)
 - [Photo Search app](https://github.com/flutter/samples/tree/master/experimental/desktop_photo_search)
 
-<https://github.com/flutter/flutter/wiki/Desktop-shells>
+[关注桌面平台的开发进展](https://github.com/flutter/flutter/wiki/Desktop-shells)
 
 ## Guides
 
-[Flutter 开发文档](https://flutter.dev/docs)
+[Flutter Documentation](https://flutter.dev/docs)
 
-[撰写双端平台代码（插件编写实现）](https://flutter.dev/docs/development/platform-integration/platform-channels)
+[Writing custom platform-specific code](https://flutter.dev/docs/development/platform-integration/platform-channels)
 
 ## API
 
-[Flutter API 文档](https://api.flutter-io.cn/)
+[Flutter API](https://api.flutter-io.cn/)
 
 <!-- #flutter-code -->
 ## Codes
 
 [Flutter Gallery](https://github.com/flutter/gallery/) ([Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery))
 
-<https://github.com/flutter/flutter/tree/master/examples> ([Gitee](https://gitee.com/mrhuangyuhui/flutter/tree/master/examples))
+[flutter/flutter > examples](https://github.com/flutter/flutter/tree/master/examples) ([Gitee](https://gitee.com/mrhuangyuhui/flutter/tree/master/examples))
 
-<https://github.com/flutter/samples> ([Index](https://github.com/flutter/samples/blob/master/INDEX.md))
+[flutter/samples](https://github.com/flutter/samples)
 
-<https://github.com/nisrulz/flutter-examples>
+[nisrulz/flutter-examples](https://github.com/nisrulz/flutter-examples)
 
 ## Tutorials
 
-[开始使用 Flutter](https://flutter.dev/docs/get-started)
-
-<<https://github.com/Solido/awesome-flutter>>
+[Get started](https://flutter.dev/docs/get-started)
 
 [Flutter Gallery](https://flutter.github.io/gallery/#/) ([GitHub](https://github.com/flutter/gallery/), [Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery))
 
 [Flutter Samples](https://flutter.github.io/samples/#)
 
-[Flutter Codelabs](https://codelabs.flutter-io.cn/) (<https://flutter.dev/#codelabs>, <https://flutter.dev/docs/codelabs>)
+[Flutter Codelabs](https://flutter.dev/docs/codelabs) ([zh-CN](https://codelabs.flutter-io.cn/))
 
-[Flutter 实用教程](https://flutter.dev/docs/cookbook)
+[Flutter Cookbook](https://flutter.dev/docs/cookbook)
 
-[Flutter 实践教程](https://flutter.dev/docs/reference/tutorials)
+[Flutter Tutorials](https://flutter.dev/docs/reference/tutorials)
 
-<https://www.youtube.com/flutterdev>
+[Flutter - YouTube](https://www.youtube.com/flutterdev)
 
-<https://github.com/Solido/awesome-flutter>
+[Solido/awesome-flutter](https://github.com/Solido/awesome-flutter)
 
-<https://www.appbrewery.co/p/intro-to-flutter>
+[Introduction to Flutter Development with Dart | The App Brewery](https://www.appbrewery.co/p/intro-to-flutter)
 
 [Flutter 中文网](https://flutterchina.club/)
 
 [Flutter 核心技术与实战](https://time.geekbang.org/column/intro/200)
 
-[Flutter 从入门到进阶——实战携程网 App](https://coding.imooc.com/class/321.html)
+慕课网
 
-[Flutter 入门与案例实战](https://www.imooc.com/learn/1090)
-
-[Flutter 开发第一步：Dart 编程语言入门](https://www.imooc.com/learn/1035)
+- [Flutter 从入门到进阶——实战携程网 App](https://coding.imooc.com/class/321.html)
+- [Flutter 入门与案例实战](https://www.imooc.com/learn/1090)
+- [Flutter 开发第一步：Dart 编程语言入门](https://www.imooc.com/learn/1035)
