@@ -200,6 +200,14 @@ flutter pub get
 
 [开发体验初探](https://flutter.dev/docs/get-started/test-drive?tab=vscode)
 
+运行 Mac 程序
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/flutter/flutter-vscode-1.jpg)
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/flutter/flutter-vscode-2.png)
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/flutter/flutter-vscode-3.png)
+
 ## Platforms
 
 ### iOS
@@ -214,6 +222,22 @@ flutter pub get
 > **This page covers desktop support for macOS which is available as an alpha release as of 1.13.** This page does not cover Windows or Linux platforms, which are in technical preview.
 
 <https://flutter.dev/desktop>
+
+```bash
+flutter channel master
+
+flutter upgrade
+
+flutter config --enable-macos-desktop
+
+mkdir myapp
+
+cd myapp
+
+flutter create .
+
+flutter run -d macOS
+```
 
 Samples
 
