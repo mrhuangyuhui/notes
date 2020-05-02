@@ -4,6 +4,8 @@
 - [Quick Start](#quick-start)
 - [Install](#install)
   - [Mac](#mac)
+- [Repos](#repos)
+- [Downloads](#downloads)
 - [Mirrors](#mirrors)
 - [Commands](#commands)
   - [`flutter create`](#flutter-create)
@@ -14,6 +16,7 @@
   - [VSCode](#vscode)
 - [Platforms](#platforms)
   - [iOS](#ios)
+  - [Desktop](#desktop)
 - [Guides](#guides)
 - [API](#api)
 - [Codes](#codes)
@@ -22,8 +25,6 @@
 <https://flutter.dev/> ([GitHub](https://github.com/flutter/website))
 
 <https://flutter.cn/> ([GitHub](https://github.com/cfug/flutter.cn))
-
-<https://github.com/flutter/flutter> ([Gitee](https://gitee.com/mrhuangyuhui/flutter))
 
 相关笔记：
 
@@ -35,13 +36,11 @@
 
 <https://flutter.dev/docs/get-started>
 
-[Install](#install), [Mirrors](#mirrors), [Platforms](#platforms), [IDE](#ide)
-
 ## Install
 
-<https://flutter.dev/docs/get-started/install>
+> [DownLoads](#downloads), [Mirrors](#mirrors)
 
-[Flutter SDK 版本列表](https://flutter.dev/docs/development/tools/sdk/releases)
+<https://flutter.dev/docs/get-started/install>
 
 ### Mac
 
@@ -93,6 +92,20 @@ cd my_app
 
 flutter run
 ```
+
+## Repos
+
+<https://github.com/flutter/flutter> ([Gitee](https://gitee.com/mrhuangyuhui/flutter))
+
+<https://github.com/flutter/website>
+
+## Downloads
+
+[Flutter 版本说明](https://github.com/flutter/flutter/wiki/Flutter-build-release-channels)
+
+<https://flutter.dev/docs/development/tools/sdk/releases>
+
+<https://flutter.cn/docs/development/tools/sdk/releases>
 
 ## Mirrors
 
@@ -195,6 +208,19 @@ flutter pub get
 
 - [配置 iOS 模拟器](https://flutter.dev/docs/get-started/install/macos#set-up-the-ios-simulator)
 - [部署到 iOS 真机上](https://flutter.dev/docs/get-started/install/macos#deploy-to-ios-devices)
+
+### Desktop
+
+> **This page covers desktop support for macOS which is available as an alpha release as of 1.13.** This page does not cover Windows or Linux platforms, which are in technical preview.
+
+<https://flutter.dev/desktop>
+
+Samples
+
+- [Flutter Gallery](https://github.com/flutter/samples/tree/master/gallery)
+- [Photo Search app](https://github.com/flutter/samples/tree/master/experimental/desktop_photo_search)
+
+<https://github.com/flutter/flutter/wiki/Desktop-shells>
 
 ## Guides
 
