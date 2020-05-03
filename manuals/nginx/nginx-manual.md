@@ -29,14 +29,10 @@
 
 <http://nginx.org/en/linux_packages.html>
 
-<!-- #nginx-docker -->
+<!-- #nginx-docker #docker-nginx -->
 ### Docker
 
-<https://hub.docker.com/_/nginx>
-
-```bash
-docker pull nginx:1.16.1-alpine
-```
+[`nginx-docker.md`](/manuals/nginx/nginx-docker.md)
 
 ### CentOS
 
