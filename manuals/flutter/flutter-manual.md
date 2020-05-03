@@ -12,12 +12,14 @@
   - [`flutter devices`](#flutter-devices)
   - [`flutter run`](#flutter-run)
   - [`flutter pub`](#flutter-pub)
+  - [Files](#files)
 - [IDE](#ide)
   - [VSCode](#vscode)
   - [IDEA](#idea)
 - [Platforms](#platforms)
   - [iOS](#ios)
   - [Desktop](#desktop)
+  - [Web](#web)
 - [Guides](#guides)
 - [API](#api)
 - [Codes](#codes)
@@ -191,6 +193,14 @@ flutter run
 flutter pub get
 ```
 
+### Files
+
+```bash
+~/.flutter
+~/.flutter_settings
+~/.flutter_tool_state
+```
+
 ## IDE
 
 ### VSCode
@@ -269,6 +279,33 @@ Samples
 
 [关注桌面平台的开发进展](https://github.com/flutter/flutter/wiki/Desktop-shells)
 
+### Web
+
+> As of 1.12, Flutter has early support for running web applications, but you need to be running the **beta** channel of Flutter at present.
+
+[Building a web application with Flutter](https://flutter.dev/docs/get-started/web) ([zh-CN](https://flutter.cn/docs/get-started/web))
+
+初始化
+
+```bash
+flutter channel beta
+
+flutter upgrade
+
+flutter config --enable-web
+```
+
+验证初始化结果
+
+```bash
+$ cat ~/.flutter_settings
+{
+  "enable-web": true,
+}
+
+flutter devices
+```
+
 ## Guides
 
 [Flutter Documentation](https://flutter.dev/docs)
@@ -282,7 +319,9 @@ Samples
 <!-- #flutter-code -->
 ## Codes
 
-[Flutter Gallery](https://github.com/flutter/gallery/) ([Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery))
+相关笔记：[Dart Codes](/codes/dart/README.md) ([Gitee](https://gitee.com/mrhuangyuhui/dart-codes))
+
+[Flutter Gallery](https://flutter.github.io/gallery/#/) ([GitHub](https://github.com/flutter/gallery/), [Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery))
 
 [flutter/flutter > examples](https://github.com/flutter/flutter/tree/master/examples) ([Gitee](https://gitee.com/mrhuangyuhui/flutter/tree/master/examples))
 
