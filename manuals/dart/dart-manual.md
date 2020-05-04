@@ -1,6 +1,10 @@
+<!-- omit in toc -->
 # Dart Manual
 
-<https://dart.dev/>
+- [Repos](#repos)
+- [IDEs](#ides)
+
+<https://dart.dev/> ([zh-CN](https://dart.cn/))
 
 <https://book.flutterchina.club/chapter1/dart.html>
 
@@ -9,6 +13,10 @@
 <https://dart.dev/codelabs/dart-cheatsheet>
 
 <https://dart.dev/guides/language/cheatsheet>
+
+## Repos
+
+<https://github.com/cfug/dart.cn>
 
 ## IDEs
 
