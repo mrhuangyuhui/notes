@@ -4,9 +4,6 @@
 [submodule "codes/swift"]
 	path = codes/swift
 	url = git@gitee.com:mrhuangyuhui/swift.git
-[submodule "bookmarks"]
-	path = bookmarks
-	url = git@gitee.com:mrhuangyuhui/bookmarks.git
 [submodule "tutorials/js/node/express/N-blog"]
 	path = tutorials/js/node/express/N-blog
 	url = git@gitee.com:mrhuangyuhui/N-blog.git
