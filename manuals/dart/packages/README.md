@@ -1,6 +1,6 @@
 # Dart Packages
 
-<https://pub.flutter-io.cn/>
+<https://pub.dev/> | [CN](https://pub.flutter-io.cn/)
 
 <https://dart.cn/tools/pub/cmd>
 
@@ -8,11 +8,11 @@
 
 <https://dart.cn/guides/libraries/create-library-packages>
 
-<https://dart.cn/tools/pub/publishing>
-
 <https://dart.cn/tools/pub/pubspec>
 
 <https://dart.cn/tools/pub/dependencies#git-packages>
+
+[发布 package](https://dart.cn/tools/pub/publishing)
 
 [Commonly used packages](https://dart.dev/guides/libraries/useful-libraries) | [常用 package 介绍](https://dart.cn/guides/libraries/useful-libraries)
 
@@ -36,3 +36,7 @@ pub get
 Examples
 
 - <https://gitee.com/mrhuangyuhui/shelf/blob/0.7.5/pubspec.yaml>
+
+## Examples
+
+<https://pub.dev/packages/shelf> | [CN](https://pub.flutter-io.cn/packages/shelf) | [GitHub](https://github.com/dart-lang/shelf) | [Gitee](https://gitee.com/mrhuangyuhui/shelf)
