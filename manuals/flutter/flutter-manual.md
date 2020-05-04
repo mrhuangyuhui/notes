@@ -12,7 +12,6 @@
   - [`flutter devices`](#flutter-devices)
   - [`flutter run`](#flutter-run)
   - [`flutter pub`](#flutter-pub)
-- [Files](#files)
 - [IDE](#ide)
   - [VSCode](#vscode)
   - [IDEA](#idea)
@@ -24,11 +23,9 @@
 - [API](#api)
 - [Tutorials](#tutorials)
 
-<https://flutter.dev/> ([GitHub](https://github.com/flutter/website), [Gitee](https://gitee.com/mrhuangyuhui/flutter-website))
+<https://flutter.dev/> | [zh-CN](https://flutter.cn/)
 
-<https://flutter.cn/> ([GitHub](https://github.com/cfug/flutter.cn))
-
-> 提示：`flutter.dev` 对应的中文网页域名是 `flutter.cn`
+> 提示：`flutter.dev` 对应的中文域名是 `flutter.cn`
 
 相关笔记：
 
@@ -40,6 +37,7 @@
 
 <https://flutter.dev/docs/get-started>
 
+<!-- #flutter-install -->
 ## Install
 
 > [Downloads](#downloads), [Mirrors](#mirrors)
@@ -97,15 +95,17 @@ cd my_app
 flutter run
 ```
 
+<!-- #flutter-download -->
 ## Downloads
 
 [Flutter 版本说明](https://github.com/flutter/flutter/wiki/Flutter-build-release-channels)
 
-[Flutter SDK releases](https://flutter.dev/docs/development/tools/sdk/releases) ([中国镜像](https://flutter.cn/docs/development/tools/sdk/releases))
+[Flutter SDK releases](https://flutter.dev/docs/development/tools/sdk/releases) | [Flutter SDK 版本列表](https://flutter.cn/docs/development/tools/sdk/releases)
 
+<!-- #flutter-mirror -->
 ## Mirrors
 
-<https://flutter.dev/community/china>
+[Using Flutter in China](https://flutter.dev/community/china) | [在中国网络环境下使用 Flutter](https://flutter.cn/community/china)
 
 Flutter 社区
 
@@ -125,6 +125,7 @@ export FLUTTER_STORAGE_BASE_URL=https://mirrors.tuna.tsinghua.edu.cn/flutter
 EOF
 ```
 
+<!-- #flutter-repo #flutter-code -->
 ## Repos & Codes
 
 > 相关笔记：[Dart Codes](https://gitee.com/mrhuangyuhui/dart-codes)
@@ -141,6 +142,9 @@ EOF
 
 [flutter/website](https://github.com/flutter/website) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-website)
 
+[cfug/flutter.cn](https://github.com/cfug/flutter.cn)
+
+<!-- #flutter-cmd -->
 ## Commands
 
 ```bash
@@ -202,16 +206,10 @@ flutter run
 flutter pub get
 ```
 
-## Files
-
-```bash
-~/.flutter
-~/.flutter_settings
-~/.flutter_tool_state
-```
-
+<!-- #flutter-ide -->
 ## IDE
 
+<!-- #flutter-vscode -->
 ### VSCode
 
 [Set up an editor > VSCode](https://flutter.dev/docs/get-started/editor?tab=vscode)
@@ -220,7 +218,7 @@ flutter pub get
 
 [Development > Tools > VSCode](https://flutter.dev/docs/development/tools/vs-code)
 
-[Flutter - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter) ([GitHub](https://github.com/Dart-Code/Flutter))
+[Flutter - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter) | [GitHub](https://github.com/Dart-Code/Flutter)
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/flutter/flutter-vscode-4.png)
 
@@ -232,6 +230,7 @@ flutter pub get
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/flutter/flutter-vscode-3.png)
 
+<!-- #flutter-idea -->
 ### IDEA
 
 [Set up an editor > Android Studio and IntelliJ](https://flutter.dev/docs/get-started/editor?tab=androidstudio)
@@ -240,7 +239,7 @@ flutter pub get
 
 [Development > Tools > Android Studio and IntelliJ](https://flutter.dev/docs/development/tools/android-studio)
 
-[Flutter - plugin for IntelliJ IDEA and Android Studio | JetBrains](https://plugins.jetbrains.com/plugin/9212-flutter) ([GitHub](https://github.com/flutter/flutter-intellij))
+[Flutter - plugin for IntelliJ IDEA and Android Studio | JetBrains](https://plugins.jetbrains.com/plugin/9212-flutter) | [GitHub](https://github.com/flutter/flutter-intellij)
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/flutter/flutter-idea-1.png)
 
@@ -252,6 +251,7 @@ flutter pub get
 
 ## Platforms
 
+<!-- #flutter-ios -->
 ### iOS
 
 [iOS setup](https://flutter.dev/docs/get-started/install/macos#ios-setup)
@@ -259,6 +259,7 @@ flutter pub get
 - [Set up the iOS simulator](https://flutter.dev/docs/get-started/install/macos#set-up-the-ios-simulator)
 - [Deploy to iOS devices](https://flutter.dev/docs/get-started/install/macos#deploy-to-ios-devices)
 
+<!-- #flutter-mac -->
 ### Desktop
 
 > **This page covers desktop support for macOS which is available as an alpha release as of 1.13.** This page does not cover Windows or Linux platforms, which are in technical preview.
@@ -305,13 +306,14 @@ Samples
 - [Flutter Gallery](https://github.com/flutter/samples/tree/master/gallery)
 - [Photo Search app](https://github.com/flutter/samples/tree/master/experimental/desktop_photo_search)
 
-[关注桌面平台的开发进展](https://github.com/flutter/flutter/wiki/Desktop-shells)
+> [关注桌面平台的开发进展](https://github.com/flutter/flutter/wiki/Desktop-shells)
 
+<!-- #flutter-web -->
 ### Web
 
 > As of 1.12, Flutter has early support for running web applications, but you need to be running the **beta** channel of Flutter at present.
 
-[Building a web application with Flutter](https://flutter.dev/docs/get-started/web) ([zh-CN](https://flutter.cn/docs/get-started/web))
+[Building a web application with Flutter](https://flutter.dev/docs/get-started/web) | [使用 Flutter 构建 Web 应用](https://flutter.cn/docs/get-started/web)
 
 > 注意：如果是用 Gitee 或其他方式同步 GitHub 上的 Fluttr 仓库，请确保同步是最新的！
 
@@ -359,29 +361,32 @@ flutter build web
 flutter run --release
 ```
 
+<!-- #flutter-guide -->
 ## Guides
 
 [Flutter Documentation](https://flutter.dev/docs)
 
-[Writing custom platform-specific code](https://flutter.dev/docs/development/platform-integration/platform-channels)
+[Writing custom platform-specific code](https://flutter.dev/docs/development/platform-integration/platform-channels) | [撰写双端平台代码（插件编写实现）](https://flutter.cn/docs/development/platform-integration/platform-channels)
 
+<!-- #flutter-api -->
 ## API
 
 [Flutter API](https://api.flutter-io.cn/)
 
+<!-- #flutter-tutorial -->
 ## Tutorials
 
 [Get started](https://flutter.dev/docs/get-started)
 
-[Flutter Gallery](https://flutter.github.io/gallery/#/) ([GitHub](https://github.com/flutter/gallery/), [Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery))
+[Flutter Gallery](https://flutter.github.io/gallery/#/) | [GitHub](https://github.com/flutter/gallery) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery)
 
 [Flutter Samples](https://flutter.github.io/samples/#) | [GitHub](https://github.com/flutter/samples) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-samples)
 
 [Flutter Codelabs](https://flutter.dev/docs/codelabs) | [zh-CN](https://flutter.cn/docs/codelabs)
 
-[Flutter Cookbook](https://flutter.dev/docs/cookbook)
+[Flutter Cookbook](https://flutter.dev/docs/cookbook) | [实用教程](https://flutter.cn/docs/cookbook)
 
-[Flutter Tutorials](https://flutter.dev/docs/reference/tutorials)
+[Flutter Tutorials](https://flutter.dev/docs/reference/tutorials) | [Flutter 实践教程](https://flutter.cn/docs/reference/tutorials)
 
 [Flutter - YouTube](https://www.youtube.com/flutterdev)
 
