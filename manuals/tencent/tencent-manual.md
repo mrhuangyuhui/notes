@@ -1,5 +1,7 @@
-# 腾讯
+# 腾讯开放平台
 
 <https://open.tencent.com/>
 
-<https://zhuanlan.zhihu.com/c_171332177>
+<https://github.com/Tencent>
+
+[QQ 众测](https://task.qq.com/)
