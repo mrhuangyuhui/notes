@@ -23,7 +23,9 @@
 - [API](#api)
 - [Tutorials](#tutorials)
 
-<https://flutter.dev/> | [zh-CN](https://flutter.cn/)
+<https://flutter.dev/> | [GitHub](https://github.com/flutter/website) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-website)
+
+<https://flutter.cn/> | [GitHub](https://github.com/cfug/flutter.cn)
 
 > 提示：`flutter.dev` 对应的中文域名是 `flutter.cn`
 
