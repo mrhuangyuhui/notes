@@ -48,7 +48,7 @@ export NVM_DIR="$HOME/.nvm"
 
 > 提示：在 Mac 中，以上配置一般会在安装过程中自动添加到文件 `~/.bashrc` 中，如果 `nvm` 命令没有生效，请在文件 `~/.bash_profile` 的第一行加入 `source ~/.bashrc`。
 
-检查安装结果
+验证安装结果
 
 ```bash
 command -v nvm
