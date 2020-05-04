@@ -4,15 +4,15 @@
 - [Quick Start](#quick-start)
 - [Install](#install)
   - [Mac](#mac)
-- [Repos & Codes](#repos--codes)
 - [Downloads](#downloads)
 - [Mirrors](#mirrors)
+- [Repos & Codes](#repos--codes)
 - [Commands](#commands)
   - [`flutter create`](#flutter-create)
   - [`flutter devices`](#flutter-devices)
   - [`flutter run`](#flutter-run)
   - [`flutter pub`](#flutter-pub)
-  - [Files](#files)
+- [Files](#files)
 - [IDE](#ide)
   - [VSCode](#vscode)
   - [IDEA](#idea)
@@ -97,22 +97,6 @@ cd my_app
 flutter run
 ```
 
-## Repos & Codes
-
-> 相关笔记：[Dart Codes](https://gitee.com/mrhuangyuhui/dart-codes)
-
-[flutter/flutter](https://github.com/flutter/flutter) | [Gitee](https://gitee.com/mrhuangyuhui/flutter)
-
-[flutter/flutter > examples](https://github.com/flutter/flutter/tree/master/examples) | [Gitee](https://gitee.com/mrhuangyuhui/flutter/tree/master/examples)
-
-[flutter/gallery](https://github.com/flutter/gallery) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery)
-
-[flutter/samples](https://github.com/flutter/samples) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-samples)
-
-[nisrulz/flutter-examples](https://github.com/nisrulz/flutter-examples) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-examples)
-
-[flutter/website](https://github.com/flutter/website) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-website)
-
 ## Downloads
 
 [Flutter 版本说明](https://github.com/flutter/flutter/wiki/Flutter-build-release-channels)
@@ -140,6 +124,22 @@ export PUB_HOSTED_URL=https://mirrors.tuna.tsinghua.edu.cn/dart-pub
 export FLUTTER_STORAGE_BASE_URL=https://mirrors.tuna.tsinghua.edu.cn/flutter
 EOF
 ```
+
+## Repos & Codes
+
+> 相关笔记：[Dart Codes](https://gitee.com/mrhuangyuhui/dart-codes)
+
+[flutter/flutter](https://github.com/flutter/flutter) | [Gitee](https://gitee.com/mrhuangyuhui/flutter)
+
+[flutter/flutter > examples](https://github.com/flutter/flutter/tree/master/examples) | [Gitee](https://gitee.com/mrhuangyuhui/flutter/tree/master/examples)
+
+[flutter/gallery](https://github.com/flutter/gallery) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery)
+
+[flutter/samples](https://github.com/flutter/samples) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-samples)
+
+[nisrulz/flutter-examples](https://github.com/nisrulz/flutter-examples) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-examples)
+
+[flutter/website](https://github.com/flutter/website) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-website)
 
 ## Commands
 
@@ -202,7 +202,7 @@ flutter run
 flutter pub get
 ```
 
-### Files
+## Files
 
 ```bash
 ~/.flutter
