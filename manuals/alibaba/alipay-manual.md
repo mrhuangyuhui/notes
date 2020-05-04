@@ -1,4 +1,6 @@
-# Alipay Manual
+# 支付宝开放平台
+
+<https://open.alipay.com>
 
 <https://mini.open.alipay.com/channel/miniIndex.htm>
 
