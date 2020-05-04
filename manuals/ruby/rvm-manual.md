@@ -70,7 +70,7 @@ curl -sSL https://get.rvm.io | bash -s stable --ruby
 source /usr/local/rvm/scripts/rvm
 ```
 
-检查安装结果
+验证安装结果
 
 ```bash
 rvm
@@ -84,6 +84,16 @@ which ruby
 
 ```bash
 curl -sSL https://get.rvm.io | bash
+```
+
+验证安装结果
+
+```bash
+rvm
+rvm list known
+
+ruby -v
+which ruby
 ```
 
 ## Uninstall
