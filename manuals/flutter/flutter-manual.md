@@ -4,7 +4,7 @@
 - [Quick Start](#quick-start)
 - [Install](#install)
   - [Mac](#mac)
-- [Repos](#repos)
+- [Repos & Codes](#repos--codes)
 - [Downloads](#downloads)
 - [Mirrors](#mirrors)
 - [Commands](#commands)
@@ -22,7 +22,6 @@
   - [Web](#web)
 - [Guides](#guides)
 - [API](#api)
-- [Codes](#codes)
 - [Tutorials](#tutorials)
 
 <https://flutter.dev/> ([GitHub](https://github.com/flutter/website), [Gitee](https://gitee.com/mrhuangyuhui/flutter-website))
@@ -98,11 +97,21 @@ cd my_app
 flutter run
 ```
 
-## Repos
+## Repos & Codes
 
-<https://github.com/flutter/flutter> ([Gitee](https://gitee.com/mrhuangyuhui/flutter))
+> 相关笔记：[Dart Codes](https://gitee.com/mrhuangyuhui/dart-codes)
 
-<https://github.com/flutter/website> ([Gitee](https://gitee.com/mrhuangyuhui/flutter-website))
+[flutter/flutter](https://github.com/flutter/flutter) | [Gitee](https://gitee.com/mrhuangyuhui/flutter)
+
+[flutter/flutter > examples](https://github.com/flutter/flutter/tree/master/examples) | [Gitee](https://gitee.com/mrhuangyuhui/flutter/tree/master/examples)
+
+[flutter/gallery](https://github.com/flutter/gallery) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery)
+
+[flutter/samples](https://github.com/flutter/samples) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-samples)
+
+[nisrulz/flutter-examples](https://github.com/nisrulz/flutter-examples) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-examples)
+
+[flutter/website](https://github.com/flutter/website) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-website)
 
 ## Downloads
 
@@ -360,28 +369,15 @@ flutter run --release
 
 [Flutter API](https://api.flutter-io.cn/)
 
-<!-- #flutter-code -->
-## Codes
-
-相关笔记：[Dart Codes](/codes/dart/README.md) ([Gitee](https://gitee.com/mrhuangyuhui/dart-codes))
-
-[Flutter Gallery](https://flutter.github.io/gallery/#/) ([GitHub](https://github.com/flutter/gallery/), [Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery))
-
-[flutter/flutter > examples](https://github.com/flutter/flutter/tree/master/examples) ([Gitee](https://gitee.com/mrhuangyuhui/flutter/tree/master/examples))
-
-[flutter/samples](https://github.com/flutter/samples)
-
-[nisrulz/flutter-examples](https://github.com/nisrulz/flutter-examples)
-
 ## Tutorials
 
 [Get started](https://flutter.dev/docs/get-started)
 
 [Flutter Gallery](https://flutter.github.io/gallery/#/) ([GitHub](https://github.com/flutter/gallery/), [Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery))
 
-[Flutter Samples](https://flutter.github.io/samples/#)
+[Flutter Samples](https://flutter.github.io/samples/#) | [GitHub](https://github.com/flutter/samples) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-samples)
 
-[Flutter Codelabs](https://flutter.dev/docs/codelabs) ([zh-CN](https://codelabs.flutter-io.cn/))
+[Flutter Codelabs](https://flutter.dev/docs/codelabs) | [zh-CN](https://flutter.cn/docs/codelabs)
 
 [Flutter Cookbook](https://flutter.dev/docs/cookbook)
 
