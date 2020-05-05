@@ -15,12 +15,16 @@
 - [Packages](#packages)
 - [Testing](#testing)
 - [Debugging](#debugging)
+- [Guides](#guides)
 - [Tutorials](#tutorials)
 - [Tools](#tools)
+- [Searches](#searches)
 
 <https://dart.dev/> | [GitHub](https://github.com/dart-lang/site-www)
 
 <https://dart.cn/>
+
+[Dart language specification](https://dart.dev/guides/language/spec)
 
 <https://book.flutterchina.club/chapter1/dart.html>
 
@@ -106,13 +110,15 @@ brew info dart
 
 <https://dart.dev/web/debugging>
 
-## Tutorials
-
-[Language samples](https://dart.dev/samples)
+## Guides
 
 [A tour of the Dart language](https://dart.dev/guides/language/language-tour)
 
 [A tour of the core libraries](https://dart.dev/guides/libraries/library-tour)
+
+## Tutorials
+
+[Language samples](https://dart.dev/samples)
 
 [Dart cheatsheet codelab](https://dart.dev/codelabs/dart-cheatsheet)
 
@@ -131,3 +137,9 @@ brew info dart
 <https://dart.dev/tools>
 
 [Formatting code](https://dart.dev/guides/language/formatting)
+
+## Searches
+
+搜索 [dart-lang/site-www](https://github.com/dart-lang/site-www)
+
+<https://github.com/search?l=&q=example+repo%3Adart-lang%2Fsite-www&type=Code>
