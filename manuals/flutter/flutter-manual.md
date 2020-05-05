@@ -3,7 +3,6 @@
 
 - [Quick Start](#quick-start)
 - [Install](#install)
-  - [Mac](#mac)
 - [Downloads](#downloads)
 - [Mirrors](#mirrors)
 - [Repos & Codes](#repos--codes)
@@ -44,58 +43,7 @@
 
 > [Downloads](#downloads), [Mirrors](#mirrors)
 
-<https://flutter.dev/docs/get-started/install>
-
-### Mac
-
-<https://flutter.dev/docs/get-started/install/macos>
-
-[下载安装包](https://flutter.dev/docs/development/tools/sdk/releases?tab=macos)
-
-解压安装包到目录 `~/flutter`
-
-创建符号链接
-
-```bash
-cd ~/flutter
-
-ln -s flutter_macos_v1.12.13+hotfix.9-stable current
-```
-
-配置 `PATH`
-
-```bash
-cat >> ~/.bash_profile << EOF
-export FLUTTER_HOME=$HOME/flutter/current
-export PATH=${PATH}:$FLUTTER_HOME/bin
-EOF
-
-source ~/.bash_profile
-```
-
-验证配置结果
-
-```bash
-flutter --version
-```
-
-检查依赖安装
-
-```bash
-flutter doctor
-```
-
-[Create and run a simple Flutter app](https://flutter.dev/docs/get-started/install/macos#create-and-run-a-simple-flutter-app)
-
-> [设置各平台的开发环境](#platforms)
-
-```bash
-flutter create my_app
-
-cd my_app
-
-flutter run
-```
+[`flutter-install.md`](flutter-install.md)
 
 <!-- #flutter-download -->
 ## Downloads

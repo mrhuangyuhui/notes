@@ -1,5 +1,9 @@
 # `tail`
 
+```bash
+man tail
+```
+
 持续监控一个文件
 
 ```bash

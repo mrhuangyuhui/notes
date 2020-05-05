@@ -25,3 +25,31 @@ Node
 # 注意：要用单引号，而不是双引号，因为双引号会解析全局变量 PATH 的值。
 echo 'export PATH=${PATH}:~/node/current/bin' >> ~/.bash_profile
 ```
+
+## Dart
+
+```bash
+cat >> ~/.bash_profile << EOF
+
+# Dart
+export DART_HOME=\$HOME/dart/current
+export PATH=\$PATH:\$DART_HOME/bin
+
+EOF
+
+source ~/.bash_profile
+```
+
+## Flutter
+
+```bash
+cat >> ~/.bash_profile << EOF
+
+# Flutter
+export FLUTTER_HOME=\$HOME/flutter/current
+export PATH=\$PATH:\$FLUTTER_HOME/bin
+
+EOF
+
+source ~/.bash_profile
+```

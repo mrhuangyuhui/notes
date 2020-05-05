@@ -3,7 +3,6 @@
 
 - [Quick Start](#quick-start)
 - [Install](#install)
-  - [Mac](#mac)
 - [Downloads](#downloads)
 - [Repos & Codes](#repos--codes)
 - [Commands](#commands)
@@ -37,27 +36,13 @@
 
 ## Quick Start
 
+> [Tutorials](#tutorials)
+
 [Language samples](https://dart.dev/samples)
 
 ## Install
 
-[Install the Dart SDK](https://dart.dev/get-dart#install) | [安装 Dart SDK](https://dart.dev/get-dart#install)
-
-> [Downloads](#downloads)
-
-### Mac
-
-```bash
-brew tap dart-lang/dart
-
-brew install dart
-```
-
-查看版本信息
-
-```bash
-brew info dart
-```
+[`dart-install.md`](dart-install.md)
 
 ## Downloads
 
@@ -91,9 +76,7 @@ brew info dart
 
 ### IDEA
 
-<https://dart.dev/tools/jetbrains-plugin>
-
-> Note: WebStorm, a JetBrains IDE for client-side development, comes with the Dart plugin pre-installed.
+[`dart-idea.md`](dart-idea.md)
 
 ## DartPad
 

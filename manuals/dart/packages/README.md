@@ -1,4 +1,9 @@
+<!-- omit in toc -->
 # Dart Packages
+
+- [Commands](#commands)
+- [`pubspec.yaml`](#pubspecyaml)
+- [Examples](#examples)
 
 <https://pub.dev/> | [CN](https://pub.flutter-io.cn/)
 
