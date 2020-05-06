@@ -1,6 +1,7 @@
 <!-- omit in toc -->
 # Dart Manual
 
+- [Language Reference](#language-reference)
 - [Quick Start](#quick-start)
 - [Install](#install)
 - [Downloads](#downloads)
@@ -24,8 +25,6 @@
 
 <https://dart.cn/>
 
-[Dart language specification](https://dart.dev/guides/language/spec)
-
 <https://book.flutterchina.club/chapter1/dart.html>
 
 <https://www.tutorialspoint.com/dart_programming/index.htm>
@@ -37,6 +36,12 @@
 相关笔记
 
 - [Dart Packages](packages/README.md)
+
+## Language Reference
+
+[Dart language specification](https://dart.dev/guides/language/spec)
+
+[A tour of the Dart language](https://dart.dev/guides/language/language-tour)
 
 ## Quick Start
 
@@ -112,9 +117,9 @@ brew info dart
 
 ## Guides
 
-[A tour of the Dart language](https://dart.dev/guides/language/language-tour)
-
 [A tour of the core libraries](https://dart.dev/guides/libraries/library-tour)
+
+[Effective Dart](https://dart.dev/guides/language/effective-dart)
 
 ## Tutorials
 
