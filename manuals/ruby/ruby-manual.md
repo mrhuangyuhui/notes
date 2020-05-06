@@ -1,6 +1,7 @@
 <!-- omit in toc -->
 # Ruby Manual
 
+- [Language Reference](#language-reference)
 - [Install](#install)
   - [Docker](#docker)
   - [RVM](#rvm)
@@ -31,6 +32,12 @@
 <https://bitnami.com/stack/ruby>
 
 <https://bitnami.com/stack/ruby/containers>
+
+## Language Reference
+
+<http://www.ruby-doc.org/core>
+
+[![img](https://gitee.com/mrhuangyuhui/images/raw/master/ruby/ruby-docs-1.png)](http://www.ruby-doc.org/core)
 
 <!-- #ruby-install -->
 ## Install
@@ -147,6 +154,7 @@ irb --help
 ```bash
 irb
 ```
+
 <!-- #ruby-ref #ruby-api -->
 ## References
 
@@ -164,8 +172,6 @@ irb
 [Ruby 2.6 documentation — DevDocs](https://devdocs.io/ruby~2.6/)
 
 [RubyDocs - Fancy docs for any Ruby project](https://rubydocs.org/)
-
-[![img](https://gitee.com/mrhuangyuhui/images/raw/master/ruby/ruby-docs-1.png)](http://www.ruby-doc.org/core)
 
 <!-- #ruby-tutorial -->
 ## Tutorials
