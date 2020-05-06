@@ -6,7 +6,9 @@
   - [`gem sources`](#gem-sources)
   - [`gem update`](#gem-update)
 
-<https://rubygems.org/>
+<https://rubygems.org/> | [RubyGems 镜像 - Ruby China](https://gems.ruby-china.com/)
+
+<https://gems.ruby-china.com/stats>
 
 <https://guides.rubygems.org/>
 

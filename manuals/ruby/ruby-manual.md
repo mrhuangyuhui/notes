@@ -33,6 +33,10 @@
 
 <https://bitnami.com/stack/ruby/containers>
 
+相关笔记：
+
+- [`rubygems-manual.md`](rubygems-manual.md)
+
 ## Language Reference
 
 <http://www.ruby-doc.org/core>
