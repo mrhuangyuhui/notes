@@ -1,8 +1,27 @@
+<!-- omit in toc -->
 # PHP Manual
 
-http://php.net/
+- [Installation >>](#installation)
+  - [Source >>](#source)
+  - [YUM](#yum)
+- [Cmds](#cmds)
+  - [php-fpm](#php-fpm)
+  - [phpize >>](#phpize)
+  - [php-config >>](#php-config)
+- [Language Reference](#language-reference)
+- [Downloads](#downloads)
+- [Docs](#docs)
+- [Runtime Configuration](#runtime-configuration)
+- [References](#references)
+- [Tutorials](#tutorials)
+- [FPM >>](#fpm)
+- [XCache >>](#xcache)
+- [OPcache](#opcache)
+- [API](#api)
 
-http://php.net/docs.php
+<http://php.net/>
+
+[PHP Manual](https://www.php.net/manual/en/>) | [PHP 手册](https://www.php.net/manual/zh/)
 
 https://github.com/php
 
@@ -246,6 +265,22 @@ php-config is a simple shell script for obtaining information about the installe
 $ php-config -h
 Usage: /usr/local/bin/php-config [OPTION]
 ```
+
+## Language Reference
+
+<https://www.php.net/manual/en/langref.php>
+
+## Downloads
+
+[Download documentation](https://www.php.net/download-docs.php)
+
+## Docs
+
+<https://www.php.net/docs.php>
+
+[PHP Manual](https://www.php.net/manual/en/>) | [PHP 手册](https://www.php.net/manual/zh/)
+
+[Language Reference](https://www.php.net/manual/en/langref.php)
 
 ## Runtime Configuration
 
