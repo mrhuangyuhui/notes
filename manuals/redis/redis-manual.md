@@ -1,4 +1,21 @@
+<!-- omit in toc -->
 # Redis Manual
+
+- [Install](#install)
+  - [Docker](#docker)
+  - [Source](#source)
+  - [YUM](#yum)
+  - [APT](#apt)
+- [Commands](#commands)
+- [Configurations](#configurations)
+  - [Redis Server](#redis-server)
+  - [Redis Sentinel](#redis-sentinel)
+- [References](#references)
+- [Clients](#clients)
+  - [Java](#java)
+- [Tools](#tools)
+- [GUI](#gui)
+- [Tutorials](#tutorials)
 
 <https://redis.io/>
 
@@ -8,9 +25,23 @@
 
 <http://try.redis.io>
 
-## [Installation](https://redis.io/download)
+## Install
+
+<https://redis.io/download>
 
 <http://download.redis.io/releases/>
+
+### Docker
+
+<https://hub.docker.com/_/redis>
+
+```bash
+docker pull redis:6.0.1-alpine3.11
+```
+
+```bash
+docker run -p 6379:6379 -d redis:6.0.1-alpine3.11
+```
 
 ### Source
 
