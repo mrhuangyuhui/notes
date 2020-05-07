@@ -65,6 +65,8 @@
 
 ## Commands
 
+> 相关笔记：[`pub.md`](/manuals/dart/commands/pub.md)
+
 <https://dart.dev/tools/sdk>
 
 查看版本信息
