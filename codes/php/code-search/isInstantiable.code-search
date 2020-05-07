@@ -1,0 +1,11 @@
+# Query: isInstantiable
+# Flags: CaseSensitive WordMatch RegExp
+# Including: {./codes/php-codes,*.php}
+
+2 results - 2 files
+
+codes/php-codes/laravel-framework/src/Illuminate/Container/Container.php:
+  787:         if (! $reflector->isInstantiable()) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Events/DiscoverEvents.php:
+  45:             if (! $listener->isInstantiable()) {

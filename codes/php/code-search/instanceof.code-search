@@ -1,0 +1,1168 @@
+# Query: instanceof
+# Flags: CaseSensitive WordMatch RegExp
+# Including: {./codes/php-codes,*.php}
+
+669 results - 252 files
+
+codes/php-codes/composer/src/Composer/Installer.php:
+   254:             if (!$package instanceof CompletePackage || !$package->isAbandoned()) {
+   319:             if ($package instanceof CompletePackageInterface && !$package instanceof AliasPackage && $package->getFunding()) {
+   532:                 if ($operation instanceof InstallOperation) {
+   534:                 } elseif ($operation instanceof UpdateOperation) {
+   536:                 } elseif ($operation instanceof UninstallOperation) {
+   616:                 if ($reason instanceof Rule) {
+   752:                 if ($installedDevPkg instanceof AliasPackage) {
+   793:             if ($op instanceof InstallOperation) {
+   795:             } elseif ($op instanceof UpdateOperation) {
+   840:             if ($op instanceof UninstallOperation) {
+   903:             if ($constraint instanceof Link) {
+  1207:                 if ($package instanceof CompletePackage && $newPackage instanceof CompletePackage) {
+  1432:             if ($package instanceof AliasPackage) {
+
+codes/php-codes/composer/src/Composer/Autoload/AutoloadGenerator.php:
+  364:             if ($package instanceof AliasPackage) {
+
+codes/php-codes/composer/src/Composer/Command/BaseCommand.php:
+   55:             if ($application instanceof Application) {
+  105:             if ($application instanceof Application) {
+
+codes/php-codes/composer/src/Composer/Command/CreateProjectCommand.php:
+  383:         if ($package instanceof AliasPackage) {
+
+codes/php-codes/composer/src/Composer/Command/DiagnoseCommand.php:
+  140:                 if ($e instanceof TransportException && $e->getCode() === 401) {
+  354:             if ($e instanceof TransportException && $e->getCode() === 401) {
+  458:         if ($result instanceof \Exception) {
+
+codes/php-codes/composer/src/Composer/Command/FundCommand.php:
+  43:             if ($package instanceof AliasPackage) {
+  47:             if ($latest instanceof CompletePackageInterface && $latest->getFunding()) {
+  51:             if ($package instanceof CompletePackageInterface && $package->getFunding()) {
+
+codes/php-codes/composer/src/Composer/Command/HomeCommand.php:
+  79:                     if ($package instanceof CompletePackageInterface && $this->handlePackage($package, $input->getOption('homepage'), $input->getOption('show'))) {
+
+codes/php-codes/composer/src/Composer/Command/RunScriptCommand.php:
+  124:                 if ($cmd instanceof ScriptAliasCommand) {
+
+codes/php-codes/composer/src/Composer/Command/SelfUpdateCommand.php:
+  370:             if (!$e instanceof \UnexpectedValueException && !$e instanceof \PharException) {
+
+codes/php-codes/composer/src/Composer/Command/ShowCommand.php:
+  273:         if ($repos instanceof CompositeRepository) {
+  318:                 || ($installedRepo instanceof CompositeRepository && in_array($repo, $installedRepo->getRepositories(), true))
+  324:             if ($repo instanceof ComposerRepository && $repo->hasProviders()) {
+
+codes/php-codes/composer/src/Composer/Command/StatusCommand.php:
+   96:             if ($downloader instanceof ChangeReportInterface) {
+  106:             if ($downloader instanceof VcsCapableDownloaderInterface) {
+  136:             if ($downloader instanceof DvcsDownloaderInterface) {
+
+codes/php-codes/composer/src/Composer/Console/Application.php:
+  198:                 $isProxyCommand = ($command instanceof Command\BaseCommand && $command->isProxyCommand());
+  499:                     if (!$command instanceof Command\BaseCommand) {
+
+codes/php-codes/composer/src/Composer/DependencyResolver/DefaultPolicy.php:
+  122:                 $aAliased = $a instanceof AliasPackage;
+  123:                 $bAliased = $b instanceof AliasPackage;
+  264:             if ($package instanceof AliasPackage && $package->isRootPackageAlias()) {
+  278:             if ($package instanceof AliasPackage && $package->isRootPackageAlias()) {
+
+codes/php-codes/composer/src/Composer/DependencyResolver/Pool.php:
+   88:         if ($repo instanceof CompositeRepository) {
+   97:             $exempt = $repo instanceof PlatformRepository || $repo instanceof InstalledRepositoryInterface;
+   99:             if ($repo instanceof ComposerRepository && $repo->hasProviders()) {
+  120:                             if ($package instanceof AliasPackage) {
+  232:             if ($candidate instanceof AliasPackage) {
+  237:                 (!($candidate instanceof AliasPackage) && !isset($this->whitelist[$candidate->id])) ||
+  238:                 ($candidate instanceof AliasPackage && !isset($this->whitelist[$aliasOfCandidate->id]))
+  330:         $isAlias = $candidate instanceof AliasPackage;
+
+codes/php-codes/composer/src/Composer/DependencyResolver/Problem.php:
+  104:                         if ($firstAvailable instanceof CompletePackageInterface && isset($extra['config.platform']) && $extra['config.platform'] === true) {
+  172:                 if ($rule instanceof Rule) {
+
+codes/php-codes/composer/src/Composer/DependencyResolver/Rule.php:
+  182:                             if ($package instanceof CompletePackage) {
+  190:                         if (!($package instanceof CompletePackage)) {
+
+codes/php-codes/composer/src/Composer/DependencyResolver/Rule2Literals.php:
+  67:         if ($rule instanceof self) {
+
+codes/php-codes/composer/src/Composer/DependencyResolver/RuleSetGenerator.php:
+  178:                 if (($package instanceof AliasPackage) && $package->getAliasOf() === $provider) {
+  226:                 if (($package instanceof AliasPackage) && $package->getAliasOf() === $provider) {
+  285:         $packageIsAlias = $package instanceof AliasPackage;
+  286:         $providerIsAlias = $provider instanceof AliasPackage;
+
+codes/php-codes/composer/src/Composer/DependencyResolver/Transaction.php:
+   57:                 if (isset($installMeansUpdateMap[abs($literal)]) && !$package instanceof AliasPackage) {
+  116:                 if ($package instanceof AliasPackage) {
+  187:             if ($package instanceof AliasPackage) {
+  214:         if ($package instanceof AliasPackage) {
+  228:         if ($package instanceof AliasPackage) {
+
+codes/php-codes/composer/src/Composer/Downloader/ArchiveDownloader.php:
+  82:                 if ($retries && $e instanceof \UnexpectedValueException && class_exists('ZipArchive') && $e->getCode() === \ZipArchive::ER_NOZIP) {
+
+codes/php-codes/composer/src/Composer/Downloader/PerforceDownloader.php:
+  65:         if ($repository instanceof VcsRepository) {
+
+codes/php-codes/composer/src/Composer/Downloader/SvnDownloader.php:
+  37:         if ($repo instanceof VcsRepository) {
+
+codes/php-codes/composer/src/Composer/Downloader/VcsDownloader.php:
+   94:                 if ($e instanceof \PHPUnit_Framework_Exception) {
+  151:                 if ($exception instanceof \PHPUnit_Framework_Exception) {
+
+codes/php-codes/composer/src/Composer/EventDispatcher/EventDispatcher.php:
+  331:         if (!$typehint instanceof \ReflectionClass) {
+  338:         if (!$event instanceof $expected && $expected === 'Composer\Script\CommandEvent') {
+  348:         if (!$event instanceof $expected && $expected === 'Composer\Script\PackageEvent') {
+  363:         if (!$event instanceof $expected && $expected === 'Composer\Script\Event') {
+  483:         if ($event instanceof ScriptEvent) {
+
+codes/php-codes/composer/src/Composer/Installer/InstallationManager.php:
+   80:             if (!$installer instanceof PluginInstaller) {
+  123:         if ($package instanceof AliasPackage) {
+  146:         if ($installer instanceof BinaryPresenceInterface) {
+
+codes/php-codes/composer/src/Composer/IO/BufferIO.php:
+  66:         if (!$this->input instanceof StreamableInputInterface) {
+
+codes/php-codes/composer/src/Composer/IO/ConsoleIO.php:
+  184:         if (true === $stderr && $this->output instanceof ConsoleOutputInterface) {
+  340:         if ($this->output instanceof ConsoleOutputInterface) {
+
+codes/php-codes/composer/src/Composer/Package/BasePackage.php:
+  169:         return $this->getRepository() instanceof PlatformRepository;
+  185:         if ($this instanceof AliasPackage) {
+  188:         if ($package instanceof AliasPackage) {
+
+codes/php-codes/composer/src/Composer/Package/Locker.php:
+  356:             if ($package instanceof AliasPackage) {
+
+codes/php-codes/composer/src/Composer/Package/Archiver/ArchiveManager.php:
+  143:         if ($package instanceof RootPackageInterface) {
+  176:         if (!$package instanceof RootPackageInterface) {
+
+codes/php-codes/composer/src/Composer/Package/Dumper/ArrayDumper.php:
+   97:         if ($package instanceof CompletePackageInterface) {
+  121:         if ($package instanceof RootPackageInterface) {
+
+codes/php-codes/composer/src/Composer/Package/Loader/ArrayLoader.php:
+  166:         if ($package instanceof Package\CompletePackageInterface) {
+  211:             if ($package instanceof RootPackageInterface) {
+
+codes/php-codes/composer/src/Composer/Package/Loader/JsonLoader.php:
+  35:         if ($json instanceof JsonFile) {
+
+codes/php-codes/composer/src/Composer/Package/Loader/RootPackageLoader.php:
+  116:         if ($realPackage instanceof AliasPackage) {
+
+codes/php-codes/composer/src/Composer/Plugin/PluginManager.php:
+  239:         if ($plugin instanceof EventSubscriberInterface) {
+  260:             if (!($package instanceof CompletePackage)) {
+  341:         if (!($plugin instanceof Capable)) {
+  378:             if (!$capabilityObj instanceof Capability || !$capabilityObj instanceof $capabilityClassName) {
+
+codes/php-codes/composer/src/Composer/Repository/ArrayRepository.php:
+   51:         if (!$constraint instanceof ConstraintInterface) {
+   77:         if (null !== $constraint && !$constraint instanceof ConstraintInterface) {
+  108:                 || ($mode === self::SEARCH_FULLTEXT && $package instanceof CompletePackageInterface && preg_match($regex, implode(' ', (array) $package->getKeywords()) . ' ' . $package->getDescription()))
+  116:                     'description' => $package instanceof CompletePackageInterface ? $package->getDescription() : null,
+  152:         if ($package instanceof AliasPackage) {
+  165:         return new AliasPackage($package instanceof AliasPackage ? $package->getAliasOf() : $package, $alias, $prettyAlias);
+
+codes/php-codes/composer/src/Composer/Repository/BaseRepository.php:
+  53:             if ($package instanceof RootPackageInterface) {
+  94:             if ($package instanceof RootPackageInterface) {
+
+codes/php-codes/composer/src/Composer/Repository/ComposerRepository.php:
+  133:         if (!$constraint instanceof ConstraintInterface) {
+  165:         if (null !== $constraint && !$constraint instanceof ConstraintInterface) {
+  293:             if ($package instanceof AliasPackage) {
+  395:                         if ($this->providersByUid[$version['uid']] instanceof AliasPackage) {
+  415:                     if ($package instanceof AliasPackage) {
+  434:                     } elseif ($package instanceof AliasPackage && isset($this->rootAliases[$package->getName()][$package->getAliasOf()->getVersion()])) {
+  730:                 if ($e instanceof TransportException && $e->getStatusCode() === 404) {
+  739:                 if ($e instanceof RepositorySecurityException) {
+  791:                 if ($e instanceof TransportException && $e->getStatusCode() === 404) {
+
+codes/php-codes/composer/src/Composer/Repository/CompositeRepository.php:
+  156:         if ($repository instanceof self) {
+
+codes/php-codes/composer/src/Composer/Repository/VcsRepository.php:
+  236:                 if ($e instanceof TransportException) {
+  243:                     $this->io->writeError('<warning>Skipped tag '.$tag.', '.($e instanceof TransportException ? 'no composer file was found (' . $e->getCode() . ' HTTP status code)' : $e->getMessage()).'</warning>');
+  314:                 if ($this->loader instanceof ValidatingArrayLoader && $this->loader->getWarnings()) {
+
+codes/php-codes/composer/src/Composer/Repository/WritableArrayRepository.php:
+  48:             if (!isset($packagesByName[$package->getName()]) || $packagesByName[$package->getName()] instanceof AliasPackage) {
+  57:             while ($package instanceof AliasPackage) {
+
+codes/php-codes/composer/src/Composer/Script/Event.php:
+  127:         if ($event instanceof Event && $event->getOriginatingEvent()) {
+
+codes/php-codes/composer/src/Composer/Util/RemoteFilesystem.php:
+  366:             if ($e instanceof TransportException && !empty($http_response_header[0])) {
+  370:             if ($e instanceof TransportException && $result !== false) {
+  979:         $caBundleLogger = $this->io instanceof LoggerInterface ? $this->io : null;
+
+codes/php-codes/composer/tests/Composer/Test/IO/BufferIOTest.php:
+  29:         if (!$input instanceof StreamableInputInterface) {
+
+codes/php-codes/composer/tests/Composer/Test/Plugin/Fixtures/plugin-v8/Installer/CommandProvider.php:
+  14:         if (!$args['composer'] instanceof \Composer\Composer) {
+  17:         if (!$args['io'] instanceof \Composer\IO\IOInterface) {
+  20:         if (!$args['plugin'] instanceof Plugin8) {
+
+codes/php-codes/composer/tests/Composer/Test/Question/StrictConfirmationQuestionTest.php:
+  111:         if ($input instanceof StreamableInputInterface) {
+
+codes/php-codes/laravel-admin/resources/views/grid/batch-actions.blade.php:
+  13:             @if($action instanceof \Encore\Admin\Actions\BatchAction)
+
+codes/php-codes/laravel-admin/resources/views/widgets/tab.blade.php:
+  30:                 @if($content instanceof \Illuminate\Contracts\Support\Renderable)
+
+codes/php-codes/laravel-admin/src/Admin.php:
+  148:         if ($model instanceof Model) {
+
+codes/php-codes/laravel-admin/src/Extension.php:
+  95:         if (!isset(self::$instance[$class]) || !self::$instance[$class] instanceof $class) {
+
+codes/php-codes/laravel-admin/src/Form.php:
+   242:         if ($callback instanceof Closure) {
+   376:             if (($ret = $this->callDeleting($id)) instanceof Response) {
+   400:             if (($ret = $this->callDeleted()) instanceof Response) {
+   434:             return $field instanceof Field\File;
+   456:         if (($response = $this->prepare($data)) instanceof Response) {
+   472:         if (($response = $this->callSaved()) instanceof Response) {
+   532:         if (($response = $this->callSubmitted()) instanceof Response) {
+   538:         if (($response = $this->callSaving()) instanceof Response) {
+   577:                 if ($relation instanceof Relations\Relation) {
+   600:         if (($data = $this->handleColumnUpdates($id, $data)) instanceof Response) {
+   624:         if (($response = $this->prepare($data)) instanceof Response) {
+   641:         if (($result = $this->callSaved()) instanceof Response) {
+   822:             if ($model instanceof Sortable) {
+   848:             $oneToOneRelation = $relation instanceof Relations\HasOne
+   849:                 || $relation instanceof Relations\MorphOne
+   850:                 || $relation instanceof Relations\BelongsTo;
+   859:                 case $relation instanceof Relations\BelongsToMany:
+   860:                 case $relation instanceof Relations\MorphToMany:
+   865:                 case $relation instanceof Relations\HasOne:
+   883:                 case $relation instanceof Relations\BelongsTo:
+   884:                 case $relation instanceof Relations\MorphTo:
+   908:                 case $relation instanceof Relations\MorphOne:
+   918:                 case $relation instanceof Relations\HasMany:
+   919:                 case $relation instanceof Relations\MorphMany:
+  1200:             if (($validator instanceof Validator) && !$validator->passes()) {
+  1247:                     $this->model->$relation() instanceof Relations\Relation
+
+codes/php-codes/laravel-admin/src/Grid.php:
+  382:         if (!method_exists($model, $relation) || !$model->{$relation}() instanceof Relations\Relation) {
+  838:         if (!($relation = $model->$method()) instanceof Relations\Relation) {
+  842:         if ($relation instanceof Relations\HasOne ||
+  843:             $relation instanceof Relations\BelongsTo ||
+  844:             $relation instanceof Relations\MorphOne
+  853:         if ($relation instanceof Relations\HasMany
+  854:             || $relation instanceof Relations\BelongsToMany
+  855:             || $relation instanceof Relations\MorphToMany
+  856:             || $relation instanceof Relations\HasManyThrough
+  882:         if ($this->model()->eloquent() instanceof MongodbModel) {
+
+codes/php-codes/laravel-admin/src/Show.php:
+   94:         if (static::$initCallback instanceof \Closure) {
+  432:         if (!($relation = $this->model->$method()) instanceof EloquentRelation) {
+  436:         if ($relation    instanceof HasOne
+  437:             || $relation instanceof BelongsTo
+  438:             || $relation instanceof MorphOne
+  442:             if (count($arguments) == 1 && $arguments[0] instanceof \Closure) {
+  446:             if (count($arguments) == 2 && $arguments[1] instanceof \Closure) {
+  455:         if ($relation    instanceof HasMany
+  456:             || $relation instanceof MorphMany
+  457:             || $relation instanceof BelongsToMany
+  458:             || $relation instanceof HasManyThrough
+
+codes/php-codes/laravel-admin/src/Tree.php:
+  93:         if ($callback instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Actions/Action.php:
+  252:         if ($this->interactor instanceof Interactor\Form) {
+  422:         if ($content && $this->interactor instanceof Interactor\Form) {
+
+codes/php-codes/laravel-admin/src/Actions/Authorizable.php:
+  25:         if ($model instanceof Collection) {
+
+codes/php-codes/laravel-admin/src/Actions/BatchAction.php:
+  66:         if ($this->interactor instanceof Interactor\Form) {
+
+codes/php-codes/laravel-admin/src/Actions/Response.php:
+   61:         if (!$this->plugin instanceof Toastr) {
+   73:         if (!$this->plugin instanceof SweatAlert2) {
+  220:         if ($exception instanceof ValidationException) {
+
+codes/php-codes/laravel-admin/src/Actions/Interactor/Form.php:
+  347:         if ($this->action instanceof RowAction) {
+  361:             if (($validator instanceof Validator) && !$validator->passes()) {
+  427:             if ($this->action instanceof RowAction) {
+  477:         if ($this->action instanceof RowAction) {
+
+codes/php-codes/laravel-admin/src/Console/ResourceGenerator.php:
+  65:         if ($model instanceof Model) {
+
+codes/php-codes/laravel-admin/src/Controllers/HandleController.php:
+  75:         if ($action instanceof GridAction) {
+  84:         if ($action instanceof RowAction) {
+  96:         if ($response instanceof Response) {
+
+codes/php-codes/laravel-admin/src/Form/Builder.php:
+  445:             if ($field instanceof Field\File || $field instanceof Field\MultipleFile) {
+
+codes/php-codes/laravel-admin/src/Form/Field.php:
+   410:         if (isset($this->customFormat) && $this->customFormat instanceof \Closure) {
+   488:         if ($options instanceof Arrayable) {
+   506:         if ($checked instanceof Arrayable) {
+   534:         if (!$this instanceof Form\Field\Text) {
+   586:         if ($input instanceof Closure) {
+   699:         if ($rules instanceof \Closure) {
+   844:         if ($this->default instanceof \Closure) {
+   950:         if ($this instanceof Field\MultipleSelect) {
+  1476:         if ($this->callback instanceof Closure) {
+
+codes/php-codes/laravel-admin/src/Form/HasHooks.php:
+  46:             if (!$func instanceof Closure) {
+  52:             if ($response instanceof Response) {
+
+codes/php-codes/laravel-admin/src/Form/NestedForm.php:
+  278:             if (($field instanceof \Encore\Admin\Form\Field\Hidden) || $value != $field->original()) {
+
+codes/php-codes/laravel-admin/src/Form/Tools.php:
+  332:             if ($tool instanceof Renderable) {
+  336:             if ($tool instanceof Htmlable) {
+
+codes/php-codes/laravel-admin/src/Form/Field/Checkbox.php:
+  30:         if ($options instanceof Arrayable) {
+  64:         if ($checked instanceof Arrayable) {
+
+codes/php-codes/laravel-admin/src/Form/Field/HasMany.php:
+  403:         if (!$relation instanceof Relation && !$relation instanceof MorphMany) {
+
+codes/php-codes/laravel-admin/src/Form/Field/Html.php:
+  57:         if ($this->html instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Form/Field/MultipleSelect.php:
+  32:             ($relation = $this->form->model()->{$this->column}()) instanceof BelongsToMany
+
+codes/php-codes/laravel-admin/src/Form/Field/Radio.php:
+  29:         if ($options instanceof Arrayable) {
+  47:         if ($checked instanceof Arrayable) {
+
+codes/php-codes/laravel-admin/src/Form/Field/Select.php:
+   57:         if ($options instanceof Arrayable) {
+  420:         if ($this->options instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Form/Field/Tags.php:
+  103:         if ($options instanceof Collection) {
+  107:         if ($options instanceof Arrayable) {
+
+codes/php-codes/laravel-admin/src/Form/Field/UploadField.php:
+  126:         if ($this->form instanceof Form) {
+  350:         if ($this->name instanceof \Closure) {
+  368:         if ($this->directory instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Grid/Column.php:
+  233:         if (is_null(static::$model) && ($model instanceof BaseModel)) {
+  830:             if (($value instanceof static) &&
+  907:         if ($class instanceof Closure) {
+  976:             if (is_array($value) || $value instanceof Arrayable) {
+  998:         if ($abstract instanceof Closure) {
+
+codes/php-codes/laravel-admin/src/Grid/Exporter.php:
+  78:         if ($driver instanceof Grid\Exporters\AbstractExporter) {
+
+codes/php-codes/laravel-admin/src/Grid/Filter.php:
+  580:             return $filter instanceof Filter\Group;
+  609:         if ($keys instanceof Arrayable) {
+
+codes/php-codes/laravel-admin/src/Grid/Model.php:
+  271:         if ($this->relation instanceof HasMany) {
+  376:         if ($this->model instanceof LengthAwarePaginator) {
+  391:         if ($this->model instanceof Collection) {
+  395:         if ($this->model instanceof LengthAwarePaginator) {
+  634:         if ($relation instanceof BelongsTo) {
+  645:         if ($relation instanceof HasOne) {
+
+codes/php-codes/laravel-admin/src/Grid/Row.php:
+  171:         if ($value instanceof Closure) {
+  189:         if ($value instanceof Renderable) {
+  193:         if ($value instanceof Htmlable) {
+  197:         if ($value instanceof Jsonable) {
+
+codes/php-codes/laravel-admin/src/Grid/Tools.php:
+   62:         if ($tool instanceof GridAction) {
+   93:             if ($tool instanceof FilterButton) {
+  121:             if ($tool instanceof BatchActions) {
+  135:             return $tool instanceof BatchActions;
+  147:             if ($tool instanceof AbstractTool) {
+  155:             if ($tool instanceof Renderable) {
+  159:             if ($tool instanceof Htmlable) {
+
+codes/php-codes/laravel-admin/src/Grid/Column/HasHeader.php:
+   31:         if ($header instanceof Filter) {
+  119:             if ($item instanceof Renderable) {
+  123:             if ($item instanceof Htmlable) {
+
+codes/php-codes/laravel-admin/src/Grid/Concerns/HasActions.php:
+  33:         if ($actions instanceof Closure) {
+
+codes/php-codes/laravel-admin/src/Grid/Concerns/HasQuickSearch.php:
+  60:         if ($this->search instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Grid/Displayers/Actions.php:
+  165:         if ($callback instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Grid/Displayers/Badge.php:
+  12:         if ($this->value instanceof Arrayable) {
+
+codes/php-codes/laravel-admin/src/Grid/Displayers/Carousel.php:
+  13:         if ($this->value instanceof Arrayable) {
+
+codes/php-codes/laravel-admin/src/Grid/Displayers/Checkbox.php:
+  12:         if ($options instanceof \Closure) {
+  23:         if ($this->value instanceof Arrayable) {
+
+codes/php-codes/laravel-admin/src/Grid/Displayers/Downloadable.php:
+  12:         if ($this->value instanceof Arrayable) {
+
+codes/php-codes/laravel-admin/src/Grid/Displayers/DropdownActions.php:
+  164:         if ($callback instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Grid/Displayers/Editable.php:
+  79:         if ($options instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Grid/Displayers/Image.php:
+  12:         if ($this->value instanceof Arrayable) {
+
+codes/php-codes/laravel-admin/src/Grid/Displayers/Label.php:
+  12:         if ($this->value instanceof Arrayable) {
+
+codes/php-codes/laravel-admin/src/Grid/Displayers/Link.php:
+  9:         if ($callback instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Grid/Displayers/Prefix.php:
+  9:         if ($prefix instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Grid/Displayers/QRCode.php:
+  31:         if ($formatter instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Grid/Displayers/Radio.php:
+  11:         if ($options instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Grid/Displayers/Select.php:
+  11:         if ($options instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Grid/Displayers/Suffix.php:
+  9:         if ($suffix instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Grid/Filter/Presenter/Radio.php:
+  29:         if ($options instanceof Arrayable) {
+
+codes/php-codes/laravel-admin/src/Grid/Filter/Presenter/Select.php:
+  67:         if ($this->options instanceof \Closure) {
+  71:         if ($this->options instanceof Arrayable) {
+
+codes/php-codes/laravel-admin/src/Grid/Tools/Footer.php:
+  52:         if ($content instanceof Renderable) {
+  56:         if ($content instanceof Htmlable) {
+
+codes/php-codes/laravel-admin/src/Grid/Tools/Header.php:
+  52:         if ($content instanceof Renderable) {
+  56:         if ($content instanceof Htmlable) {
+
+codes/php-codes/laravel-admin/src/Grid/Tools/Paginator.php:
+  36:         if ($this->paginator instanceof LengthAwarePaginator) {
+
+codes/php-codes/laravel-admin/src/Grid/Tools/Selector.php:
+  68:             if ($options instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Layout/Column.php:
+  30:         if ($content instanceof \Closure) {
+  72:         if (!$content instanceof \Closure) {
+  99:             if ($content instanceof Renderable || $content instanceof Grid) {
+
+codes/php-codes/laravel-admin/src/Layout/Content.php:
+   50:         if ($callback instanceof Closure) {
+  150:         if ($content instanceof Closure) {
+
+codes/php-codes/laravel-admin/src/Show/Field.php:
+  362:             if ($value instanceof Arrayable) {
+  382:             if ($value instanceof Arrayable) {
+  534:         if ($abstract instanceof \Closure) {
+  543:         if ($abstract instanceof AbstractField) {
+
+codes/php-codes/laravel-admin/src/Show/Relation.php:
+  100:         if ($relation    instanceof HasOne
+  101:             || $relation instanceof BelongsTo
+  102:             || $relation instanceof MorphOne
+  106:             if (!$model instanceof Model) {
+  115:         if ($relation    instanceof HasMany
+  116:             || $relation instanceof MorphMany
+  117:             || $relation instanceof BelongsToMany
+  118:             || $relation instanceof HasManyThrough
+
+codes/php-codes/laravel-admin/src/Show/Tools.php:
+  297:             if ($tool instanceof Renderable) {
+  301:             if ($tool instanceof Htmlable) {
+
+codes/php-codes/laravel-admin/src/Traits/ModelTree.php:
+  183:         if ($this->queryCallback instanceof \Closure) {
+
+codes/php-codes/laravel-admin/src/Traits/ShouldSnakeAttributes.php:
+  27:         $model = ($this->model instanceof GridModel) ?
+
+codes/php-codes/laravel-admin/src/Tree/Tools.php:
+  59:             if ($tool instanceof Renderable) {
+  63:             if ($tool instanceof Htmlable) {
+
+codes/php-codes/laravel-admin/src/Widgets/Box.php:
+  71:         if ($content instanceof Renderable) {
+  89:         if ($footer instanceof Renderable) {
+
+codes/php-codes/laravel-admin/src/Widgets/Form.php:
+  146:         if ($data instanceof Arrayable) {
+  379:             if ($field instanceof Field\File) {
+  408:             if (($validator instanceof Validator) && !$validator->passes()) {
+
+codes/php-codes/laravel-admin/src/Widgets/Navbar.php:
+  79:             if ($element instanceof Htmlable) {
+  83:             if ($element instanceof Renderable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Auth/DatabaseUserProvider.php:
+  118:             if (is_array($value) || $value instanceof Arrayable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Auth/EloquentUserProvider.php:
+  124:             if (is_array($value) || $value instanceof Arrayable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Auth/Access/Gate.php:
+  324:         if ($result instanceof Response) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Auth/Listeners/SendEmailVerificationNotification.php:
+  18:         if ($event->user instanceof MustVerifyEmail && ! $event->user->hasVerifiedEmail()) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Auth/Middleware/Authorize.php:
+  62:             return $model instanceof Model ? $model : $this->getModel($request, $model);
+
+codes/php-codes/laravel-framework/src/Illuminate/Auth/Middleware/EnsureEmailIsVerified.php:
+  22:             ($request->user() instanceof MustVerifyEmail &&
+
+codes/php-codes/laravel-framework/src/Illuminate/Auth/Passwords/PasswordBroker.php:
+   90:         if (! $user instanceof CanResetPasswordContract) {
+  192:         if ($user && ! $user instanceof CanResetPasswordContract) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Broadcasting/BroadcastEvent.php:
+  85:         if ($value instanceof Arrayable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Broadcasting/BroadcastManager.php:
+  111:         $connection = $event instanceof ShouldBroadcastNow ? 'sync' : null;
+
+codes/php-codes/laravel-framework/src/Illuminate/Bus/Dispatcher.php:
+  135:         return $command instanceof ShouldQueue;
+  152:         if (! $queue instanceof Queue) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Cache/DatabaseStore.php:
+  273:         if ($this->connection instanceof PostgresConnection && Str::contains($result, "\0")) {
+  288:         if ($this->connection instanceof PostgresConnection && ! Str::contains($value, [':', ';'])) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Cache/Repository.php:
+  616:         if ($duration instanceof DateTimeInterface) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Console/Application.php:
+  232:         if ($command instanceof Command) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Console/Command.php:
+  425:         if ($rows instanceof Arrayable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Console/ConfirmableTrait.php:
+  22:         $shouldConfirm = $callback instanceof Closure ? call_user_func($callback) : $callback;
+
+codes/php-codes/laravel-framework/src/Illuminate/Console/Scheduling/Schedule.php:
+  109:             if ($job instanceof ShouldQueue) {
+  199:         if ($this->eventMutex instanceof CacheEventMutex) {
+  203:         if ($this->schedulingMutex instanceof CacheSchedulingMutex) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Container/BoundMethod.php:
+  78:             return $default instanceof Closure ? $default() : $default;
+  90:         return $default instanceof Closure ? $default() : $default;
+
+codes/php-codes/laravel-framework/src/Illuminate/Container/Container.php:
+   236:         if (! $concrete instanceof Closure) {
+   768:         return $concrete === $abstract || $concrete instanceof Closure;
+   781:         if ($concrete instanceof Closure) {
+   864:             return $concrete instanceof Closure ? $concrete($this) : $concrete;
+   949:         if (is_null($callback) && $abstract instanceof Closure) {
+   969:         if ($abstract instanceof Closure && is_null($callback)) {
+  1024:             if ($type === $abstract || $object instanceof $type) {
+  1197:         $this->bind($key, $value instanceof Closure ? $value : function () use ($value) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Cookie/CookieJar.php:
+  135:         if (head($parameters) instanceof Cookie) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Connection.php:
+  594:             if ($value instanceof DateTimeInterface) {
+  918:         if ($this->pdo instanceof Closure) {
+  940:         if ($this->readPdo instanceof Closure) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Grammar.php:
+  177:         return $value instanceof Expression;
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/QueryException.php:
+  41:         if ($previous instanceof PDOException) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Eloquent/Builder.php:
+   188:         if (is_array($id) || $id instanceof Arrayable) {
+   205:         if (is_array($id) || $id instanceof Arrayable) {
+   225:         if ($column instanceof Closure) {
+   325:         if (is_array($id) || $id instanceof Arrayable) {
+   341:         $ids = $ids instanceof Arrayable ? $ids->toArray() : $ids;
+   466:         if ($columns instanceof Closure) {
+   973:                 if ($scope instanceof Closure) {
+   980:                 if ($scope instanceof Scope) {
+  1341:             if (static::$macros[$method] instanceof Closure) {
+  1382:         if (static::$macros[$method] instanceof Closure) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Eloquent/Collection.php:
+   24:         if ($key instanceof Model) {
+   28:         if ($key instanceof Arrayable) {
+  164:         if ($models->first() instanceof BaseCollection) {
+  206:         if ($key instanceof Model) {
+  257:             return ! $item instanceof Model;
+  544:         return $this->first() instanceof QueueableEntity
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Eloquent/FactoryBuilder.php:
+  180:         if ($results instanceof Model) {
+  366:             if ($attribute instanceof static) {
+  370:             if ($attribute instanceof Model) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Eloquent/Model.php:
+   625:             $models = $models instanceof Collection
+   857:         if ($ids instanceof BaseCollection) {
+  1425:             if ($relation instanceof QueueableCollection) {
+  1431:             if ($relation instanceof QueueableEntity) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php:
+  242:             if ($value instanceof Arrayable) {
+  413:         if (! $relation instanceof Relation) {
+  464:         return $value instanceof Arrayable ? $value->toArray() : $value;
+  772:         if ($value instanceof Carbon || $value instanceof CarbonInterface) {
+  779:         if ($value instanceof DateTimeInterface) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Eloquent/Concerns/HasGlobalScopes.php:
+  25:         } elseif ($scope instanceof Closure) {
+  27:         } elseif ($scope instanceof Scope) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Eloquent/Concerns/HasRelationships.php:
+  671:             if ($this->$relation instanceof self) {
+  675:             } elseif ($this->$relation instanceof Collection) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php:
+  36:         if ($relation instanceof MorphTo) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Eloquent/Relations/BelongsTo.php:
+  215:         $ownerKey = $model instanceof Model ? $model->getAttribute($this->ownerKey) : $model;
+  219:         if ($model instanceof Model) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php:
+  168:         if (! $model instanceof Model) {
+  172:         if ($model instanceof Pivot) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Eloquent/Relations/MorphTo.php:
+  201:             $this->foreignKey, $model instanceof Model ? $model->getKey() : null
+  205:             $this->morphType, $model instanceof Model ? $model->getMorphClass() : null
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Eloquent/Relations/Concerns/InteractsWithPivotTable.php:
+  576:         if ($value instanceof Model) {
+  580:         if ($value instanceof Collection) {
+  584:         if ($value instanceof BaseCollection) {
+  599:         return $value instanceof Model ? $value->{$this->relatedKey} : $value;
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Query/Builder.php:
+   306:         if ($query instanceof Closure) {
+   323:         if ($query instanceof self || $query instanceof EloquentBuilder) {
+   390:         if ($first instanceof Closure) {
+   615:         if ($column instanceof Closure) {
+   629:         if ($value instanceof Closure) {
+   660:         if (! $value instanceof Expression) {
+   848:         if ($values instanceof self ||
+   849:             $values instanceof EloquentBuilder ||
+   850:             $values instanceof Closure) {
+   861:         if ($values instanceof Arrayable) {
+   970:         if ($values instanceof Arrayable) {
+  1121:         if ($value instanceof DateTimeInterface) {
+  1160:         if ($value instanceof DateTimeInterface) {
+  1199:         if ($value instanceof DateTimeInterface) {
+  1203:         if (! $value instanceof Expression) {
+  1242:         if ($value instanceof DateTimeInterface) {
+  1246:         if (! $value instanceof Expression) {
+  1285:         if ($value instanceof DateTimeInterface) {
+  1323:         if (! $value instanceof Expression) {
+  1527:         if (! $value instanceof Expression) {
+  1590:         if (! $value instanceof Expression) {
+  1723:         if (! $value instanceof Expression) {
+  2015:         if ($query instanceof Closure) {
+  2938:             return ! $binding instanceof Expression;
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Query/JoinClause.php:
+  95:         if ($first instanceof Closure) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Query/JsonExpression.php:
+  32:         if ($value instanceof Expression) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Query/Grammars/Grammar.php:
+  219:         $conjunction = $query instanceof JoinClause ? 'on' : 'where';
+  483:         $offset = $query instanceof JoinClause ? 3 : 6;
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Schema/Blueprint.php:
+  142:         if ($connection instanceof SQLiteConnection) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Schema/Grammars/Grammar.php:
+  216:             $table instanceof Blueprint ? $table->getTable() : $table
+  230:             $value instanceof Fluent ? $value->name : $value, $prefixAlias
+  242:         if ($value instanceof Expression) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php:
+  836:         if ($table instanceof Blueprint && $table->temporary) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Events/Dispatcher.php:
+  243:                $payload[0] instanceof ShouldBroadcast &&
+
+codes/php-codes/laravel-framework/src/Illuminate/Filesystem/FilesystemAdapter.php:
+  203:         if ($contents instanceof File ||
+  204:             $contents instanceof UploadedFile) {
+  408:         if ($adapter instanceof CachedAdapter) {
+  416:         } elseif ($adapter instanceof AwsS3Adapter) {
+  418:         } elseif ($adapter instanceof RackspaceAdapter) {
+  420:         } elseif ($adapter instanceof LocalAdapter) {
+  527:         if ($adapter instanceof CachedAdapter) {
+  533:         } elseif ($adapter instanceof AwsS3Adapter) {
+  535:         } elseif ($adapter instanceof RackspaceAdapter) {
+  676:         if ($adapter instanceof CachedAdapter) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Filesystem/FilesystemManager.php:
+  141:         if ($driver instanceof FilesystemInterface) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Application.php:
+  658:             return $value instanceof $name;
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/helpers.php:
+   40:         if ($code instanceof Response) {
+   42:         } elseif ($code instanceof Responsable) {
+  395:         if ($job instanceof Closure) {
+  667:         if ($exception instanceof Throwable &&
+  668:             ! $exception instanceof Exception) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php:
+  85:         if (! $e instanceof Exception) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Console/RouteListCommand.php:
+  174:             return $middleware instanceof Closure ? 'Closure' : $middleware;
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Exceptions/Handler.php:
+  144:             return $e instanceof $type;
+  176:         } elseif ($e instanceof Responsable) {
+  182:         if ($e instanceof HttpResponseException) {
+  184:         } elseif ($e instanceof AuthenticationException) {
+  186:         } elseif ($e instanceof ValidationException) {
+  203:         if ($e instanceof ModelNotFoundException) {
+  205:         } elseif ($e instanceof AuthorizationException) {
+  207:         } elseif ($e instanceof TokenMismatchException) {
+  209:         } elseif ($e instanceof SuspiciousOperationException) {
+  419:         if ($response instanceof SymfonyRedirectResponse) {
+  490:         return $e instanceof HttpExceptionInterface;
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Testing/Assert.php:
+  30:         if (! (is_array($subset) || $subset instanceof ArrayAccess)) {
+  34:         if (! (is_array($array) || $array instanceof ArrayAccess)) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Testing/TestResponse.php:
+   804:         } elseif ($value instanceof Closure) {
+   806:         } elseif ($value instanceof Model) {
+   869:         if (! isset($this->original) || ! $this->original instanceof View) {
+   894:         } elseif ($value instanceof Closure) {
+   948:         } elseif ($value instanceof Closure) {
+  1127:         if (! $this->baseResponse instanceof StreamedResponse) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithDatabase.php:
+  59:         if ($table instanceof Model) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithExceptionHandling.php:
+  117:                 if ($e instanceof NotFoundHttpException) {
+  124:                     if ($e instanceof $class) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php:
+  447:             if ($value instanceof SymfonyUploadedFile) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/MocksApplicationServices.php:
+  227:                 $dispatched instanceof $needle) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Http/JsonResponse.php:
+  64:         if ($data instanceof Jsonable) {
+  66:         } elseif ($data instanceof JsonSerializable) {
+  68:         } elseif ($data instanceof Arrayable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Http/RedirectResponse.php:
+   96:             if ($value instanceof SymfonyUploadedFile) {
+  137:         if (! $errors instanceof ViewErrorBag) {
+  156:         if ($provider instanceof MessageProvider) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Http/Request.php:
+  421:         if ($request instanceof static) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Http/Response.php:
+  41:         elseif ($content instanceof Renderable) {
+  58:         return $content instanceof Arrayable ||
+  59:                $content instanceof Jsonable ||
+  60:                $content instanceof ArrayObject ||
+  61:                $content instanceof JsonSerializable ||
+  73:         if ($content instanceof Jsonable) {
+  75:         } elseif ($content instanceof Arrayable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Http/ResponseTrait.php:
+  54:         return $original instanceof self ? $original->{__FUNCTION__}() : $original;
+  80:         if ($headers instanceof HeaderBag) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Http/UploadedFile.php:
+  125:         return $file instanceof static ? $file : new static(
+
+codes/php-codes/laravel-framework/src/Illuminate/Http/Concerns/InteractsWithInput.php:
+  362:         return $file instanceof SplFileInfo && $file->getPath() !== '';
+
+codes/php-codes/laravel-framework/src/Illuminate/Http/Middleware/CheckResponseForModifications.php:
+  21:         if ($response instanceof Response) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Http/Resources/CollectsResources.php:
+  18:         if ($resource instanceof MissingValue) {
+  24:         $this->collection = $collects && ! $resource->first() instanceof $collects
+  28:         return $resource instanceof AbstractPaginator
+
+codes/php-codes/laravel-framework/src/Illuminate/Http/Resources/ConditionallyLoadsAttributes.php:
+   28:             if (is_numeric($key) && $value instanceof MergeValue) {
+   35:             if ($value instanceof self && is_null($value->resource)) {
+   77:             if (($value instanceof PotentiallyMissing && $value->isMissing()) ||
+   78:                 ($value instanceof self &&
+   79:                 $value->resource instanceof PotentiallyMissing &&
+  206:             ($this->resource->$accessor instanceof $table ||
+
+codes/php-codes/laravel-framework/src/Illuminate/Http/Resources/MergeValue.php:
+  25:         if ($data instanceof Collection) {
+  27:         } elseif ($data instanceof JsonSerializable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Http/Resources/Json/JsonResource.php:
+  97:         if ($data instanceof Arrayable) {
+  99:         } elseif ($data instanceof JsonSerializable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Http/Resources/Json/ResourceCollection.php:
+  70:         return $this->resource instanceof AbstractPaginator
+
+codes/php-codes/laravel-framework/src/Illuminate/Http/Resources/Json/ResourceResponse.php:
+   61:         if ($data instanceof Collection) {
+  117:         return $this->resource->resource instanceof Model &&
+
+codes/php-codes/laravel-framework/src/Illuminate/Log/Logger.php:
+  224:         } elseif ($message instanceof Jsonable) {
+  226:         } elseif ($message instanceof Arrayable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Mail/Mailable.php:
+  600:         if (! is_array($address) && ! $address instanceof Collection) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Mail/Mailer.php:
+  228:         if ($view instanceof MailableContract) {
+  273:         return $mailable instanceof ShouldQueue
+  351:         return $view instanceof Htmlable
+  380:         if (! $view instanceof MailableContract) {
+  429:         if (! $view instanceof MailableContract) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Mail/PendingMail.php:
+   81:         if (! $this->locale && $users instanceof HasLocalePreference) {
+  123:         if ($mailable instanceof ShouldQueue) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Mail/TransportManager.php:
+  195:         if ($logger instanceof LogManager) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Notifications/NotificationSender.php:
+   73:         if ($notification instanceof ShouldQueue) {
+  119:             if ($notifiable instanceof HasLocalePreference) {
+  209:         if (! $notifiables instanceof Collection && ! is_array($notifiables)) {
+  210:             return $notifiables instanceof Model
+
+codes/php-codes/laravel-framework/src/Illuminate/Notifications/Channels/BroadcastChannel.php:
+  46:         if ($message instanceof BroadcastMessage) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Notifications/Channels/MailChannel.php:
+  54:             ! $message instanceof Mailable) {
+  58:         if ($message instanceof Mailable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Notifications/Messages/MailMessage.php:
+  301:                $address instanceof Arrayable ||
+  302:                $address instanceof Traversable;
+
+codes/php-codes/laravel-framework/src/Illuminate/Notifications/Messages/SimpleMessage.php:
+  161:         if ($line instanceof Action) {
+  180:         if ($line instanceof Htmlable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Pagination/LengthAwarePaginator.php:
+  54:         $this->items = $items instanceof Collection ? $items : Collection::make($items);
+
+codes/php-codes/laravel-framework/src/Illuminate/Pagination/Paginator.php:
+  69:         $this->items = $items instanceof Collection ? $items : Collection::make($items);
+
+codes/php-codes/laravel-framework/src/Illuminate/Pipeline/Pipeline.php:
+  166:                 return $response instanceof Responsable
+
+codes/php-codes/laravel-framework/src/Illuminate/Queue/BeanstalkdQueue.php:
+  131:         if ($job instanceof PheanstalkJob) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Queue/Queue.php:
+  170:         return $delay instanceof DateTimeInterface
+  188:         return $expiration instanceof DateTimeInterface
+
+codes/php-codes/laravel-framework/src/Illuminate/Queue/SerializesAndRestoresModelIdentifiers.php:
+  22:         if ($value instanceof QueueableCollection) {
+  31:         if ($value instanceof QueueableEntity) {
+  51:         if (! $value instanceof ModelIdentifier) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:
+  399:         if (! $this->client instanceof RedisCluster) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Redis/Connections/PredisConnection.php:
+  56:         if (! $this->client->getConnection() instanceof ClusterInterface) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:
+  71:             if ($client instanceof RedisFacade) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Routing/ImplicitRouteBinding.php:
+  31:             if ($parameterValue instanceof UrlRoutable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Routing/MiddlewareNameResolver.php:
+  22:         if ($name instanceof Closure) {
+  26:         if (isset($map[$name]) && $map[$name] instanceof Closure) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Routing/Pipeline.php:
+  75:             ! $passable instanceof Request) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Routing/Route.php:
+  271:             if (! $includingMethod && $validator instanceof MethodValidator) {
+  916:         if ($this->action['uses'] instanceof Closure) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Routing/RouteBinding.php:
+  75:             if ($callback instanceof Closure) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Routing/RouteDependencyResolverTrait.php:
+  93:             return $value instanceof $class;
+
+codes/php-codes/laravel-framework/src/Illuminate/Routing/Router.php:
+  412:         if ($routes instanceof Closure) {
+  489:         if (! $action instanceof Closure) {
+  732:         if ($response instanceof Responsable) {
+  736:         if ($response instanceof PsrResponseInterface) {
+  738:         } elseif ($response instanceof Model && $response->wasRecentlyCreated) {
+  740:         } elseif (! $response instanceof SymfonyResponse &&
+  741:                    ($response instanceof Arrayable ||
+  742:                     $response instanceof Jsonable ||
+  743:                     $response instanceof ArrayObject ||
+  744:                     $response instanceof JsonSerializable ||
+  747:         } elseif (! $response instanceof SymfonyResponse) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Routing/RouteRegistrar.php:
+  166:         if (is_string($action) || $action instanceof Closure) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Routing/SortedMiddleware.php:
+  18:         if ($middlewares instanceof Collection) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Routing/UrlGenerator.php:
+  457:             if ($parameter instanceof UrlRoutable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Session/Store.php:
+  594:         if ($this->handler instanceof ExistenceAwareInterface) {
+  657:         return $this->handler instanceof CookieSessionHandler;
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/Arr.php:
+   21:         return is_array($value) || $value instanceof ArrayAccess;
+   52:             if ($values instanceof Collection) {
+  147:         if ($array instanceof ArrayAccess) {
+  212:             $item = $item instanceof Collection ? $item->all() : $item;
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/Collection.php:
+    92:         return $value instanceof self
+   105:         return $value instanceof self ? $value->all() : $value;
+   531:         if ($keys instanceof self) {
+   802:             return $value instanceof $type;
+  1349:         if ($keys instanceof self) {
+  1946:             return $value instanceof Arrayable ? $value->toArray() : $value;
+  1958:             if ($value instanceof JsonSerializable) {
+  1960:             } elseif ($value instanceof Jsonable) {
+  1962:             } elseif ($value instanceof Arrayable) {
+  2123:         } elseif ($items instanceof self) {
+  2125:         } elseif ($items instanceof Arrayable) {
+  2127:         } elseif ($items instanceof Jsonable) {
+  2129:         } elseif ($items instanceof JsonSerializable) {
+  2131:         } elseif ($items instanceof Traversable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/DateFactory.php:
+  127:         } elseif ($handler instanceof Factory) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/helpers.php:
+   401:         if ($value instanceof Countable) {
+   509:                 if ($target instanceof Collection) {
+   609:         if ($value instanceof Htmlable) {
+  1237:         return $value instanceof Closure ? $value() : $value;
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/InteractsWithTime.php:
+  20:         return $delay instanceof DateTimeInterface
+  35:         return $delay instanceof DateTimeInterface
+  48:         if ($delay instanceof DateInterval) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/MessageBag.php:
+  37:             $value = $value instanceof Arrayable ? $value->toArray() : (array) $value;
+  91:         if ($messages instanceof MessageProvider) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/Optional.php:
+  57:         if (is_array($this->value) || $this->value instanceof ArrayObject) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/ServiceProvider.php:
+  311:         return $this->defer || $this instanceof DeferrableProvider;
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/Facades/Facade.php:
+  107:                static::$resolvedInstance[$name] instanceof MockInterface;
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/Testing/Fakes/EventFake.php:
+  220:                 return $event instanceof Closure
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/Testing/Fakes/MailFake.php:
+  226:             return $mailable instanceof $type;
+  239:             return $mailable instanceof $type;
+  287:         if (! $view instanceof Mailable) {
+  291:         if ($view instanceof ShouldQueue) {
+  307:         if (! $view instanceof Mailable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php:
+   41:         if (is_array($notifiable) || $notifiable instanceof Collection) {
+   85:         if (is_array($notifiable) || $notifiable instanceof Collection) {
+  201:         if (! $notifiables instanceof Collection && ! is_array($notifiables)) {
+  215:                     if ($notifiable instanceof HasLocalePreference) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/Traits/Macroable.php:
+   85:         if ($macro instanceof Closure) {
+  111:         if ($macro instanceof Closure) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Translation/Translator.php:
+  202:         if (is_array($number) || $number instanceof Countable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Validation/DatabasePresenceVerifier.php:
+  84:             if ($value instanceof Closure) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Validation/Rule.php:
+  43:         if ($values instanceof Arrayable) {
+  58:         if ($values instanceof Arrayable) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Validation/ValidationRuleParser.php:
+  103:         if ($rule instanceof Closure) {
+  108:             $rule instanceof RuleContract ||
+  109:             ($rule instanceof Exists && $rule->queryCallbacks()) ||
+  110:             ($rule instanceof Unique && $rule->queryCallbacks())) {
+  194:         if ($rules instanceof RuleContract) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Validation/Validator.php:
+  379:         if ($value instanceof UploadedFile && ! $value->isValid() &&
+  390:         if ($rule instanceof RuleContract) {
+  510:         return $rule instanceof ImplicitRule ||
+
+codes/php-codes/laravel-framework/src/Illuminate/Validation/Concerns/FormatsMessages.php:
+  187:         } elseif ($this->getValue($attribute) instanceof UploadedFile) {
+  364:         if ($callback instanceof Closure) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Validation/Concerns/ValidatesAttributes.php:
+   153:         if (! is_string($value) && ! is_numeric($value) && ! $value instanceof DateTimeInterface) {
+   189:         if ($value instanceof DateTimeInterface) {
+   380:         if ($value instanceof DateTimeInterface) {
+   703:         if ($this->currentRule instanceof Exists) {
+   750:         if ($this->currentRule instanceof Unique) {
+  1141:         if ($value instanceof UploadedFile && ! $value->isValid()) {
+  1209:         return ($value instanceof UploadedFile)
+  1329:         } elseif ((is_array($value) || $value instanceof Countable) && count($value) < 1) {
+  1331:         } elseif ($value instanceof File) {
+  1683:         } elseif ($value instanceof File) {
+  1698:         if ($value instanceof UploadedFile && ! $value->isValid()) {
+  1702:         return $value instanceof File;
+
+codes/php-codes/laravel-framework/src/Illuminate/Validation/Rules/DatabaseRule.php:
+  63:         if ($column instanceof Closure) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Validation/Rules/Unique.php:
+  34:         if ($id instanceof Model) {
+
+codes/php-codes/laravel-framework/src/Illuminate/View/Factory.php:
+  240:         return $data instanceof Arrayable ? $data->toArray() : $data;
+
+codes/php-codes/laravel-framework/src/Illuminate/View/View.php:
+   76:         $this->data = $data instanceof Arrayable ? $data->toArray() : (array) $data;
+  155:             if ($value instanceof Renderable) {
+  229:         return $provider instanceof MessageProvider
+
+codes/php-codes/laravel-framework/src/Illuminate/View/Concerns/ManagesEvents.php:
+  76:         if ($callback instanceof Closure) {
+
+codes/php-codes/laravel-framework/src/Illuminate/View/Concerns/ManagesLayouts.php:
+   45:             $this->extendSection($section, $content instanceof View ? $content : e($content));
+  149:         $sectionContent = $default instanceof View ? $default : e($default);
+
+codes/php-codes/laravel-framework/src/Illuminate/View/Concerns/ManagesLoops.php:
+  25:         $length = is_array($data) || $data instanceof Countable ? count($data) : null;
+
+codes/php-codes/laravel-framework/tests/Auth/AuthAccessGateTest.php:
+  870:         return $user instanceof stdClass;
+
+codes/php-codes/laravel-framework/tests/Cache/CacheEventsTest.php:
+  180:             if (! $event instanceof $eventClass) {
+
+codes/php-codes/lumen-framework/src/Application.php:
+  189:         if (! $provider instanceof ServiceProvider) {
+  495:         if (! $request instanceof Request) {
+
+codes/php-codes/lumen-framework/src/helpers.php:
+  247:         if ($exception instanceof Throwable &&
+  248:             ! $exception instanceof Exception) {
+
+codes/php-codes/lumen-framework/src/Concerns/RegistersExceptionHandlers.php:
+   99:         if ($e instanceof Error) {
+  118:         if ($e instanceof Error) {
+
+codes/php-codes/lumen-framework/src/Concerns/RoutesRequests.php:
+  110:         if ($response instanceof SymfonyResponse) {
+  282:             if ($value instanceof Closure) {
+  315:         if ($instance instanceof LumenController) {
+  429:         if ($response instanceof Responsable) {
+  433:         if ($response instanceof PsrResponseInterface) {
+  435:         } elseif (! $response instanceof SymfonyResponse) {
+  437:         } elseif ($response instanceof BinaryFileResponse) {
+
+codes/php-codes/lumen-framework/src/Exceptions/Handler.php:
+   73:             if ($e instanceof $type) {
+   92:         } elseif ($e instanceof Responsable) {
+   96:         if ($e instanceof HttpResponseException) {
+   98:         } elseif ($e instanceof ModelNotFoundException) {
+  100:         } elseif ($e instanceof AuthorizationException) {
+  102:         } elseif ($e instanceof ValidationException && $e->getResponse()) {
+
+codes/php-codes/lumen-framework/src/Routing/Pipeline.php:
+  70:         if (! $this->container->bound(ExceptionHandler::class) || ! $passable instanceof Request) {
+
+codes/php-codes/lumen-framework/src/Routing/UrlGenerator.php:
+  300:             if ($parameter instanceof UrlRoutable) {
+
+codes/php-codes/lumen-framework/src/Testing/TestCase.php:
+  199:                     (is_object($called) && $called instanceof $event)) {
+
+codes/php-codes/lumen-framework/tests/FullApplicationTest.php:
+  819:         $_SERVER['__middleware.response'] = $response instanceof Illuminate\Http\Response;

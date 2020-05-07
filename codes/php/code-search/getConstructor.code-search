@@ -1,0 +1,8 @@
+# Query: getConstructor
+# Flags: CaseSensitive WordMatch RegExp
+# Including: {./codes/php-codes,*.php}
+
+1 result - 1 file
+
+codes/php-codes/laravel-framework/src/Illuminate/Container/Container.php:
+  793:         $constructor = $reflector->getConstructor();

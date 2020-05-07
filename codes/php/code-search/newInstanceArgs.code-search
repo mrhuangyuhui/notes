@@ -1,0 +1,14 @@
+# Query: newInstanceArgs
+# Flags: CaseSensitive WordMatch RegExp
+# Including: {./codes/php-codes,*.php}
+
+3 results - 3 files
+
+codes/php-codes/laravel-framework/src/Illuminate/Container/Container.php:
+  813:         return $reflector->newInstanceArgs($instances);
+
+codes/php-codes/laravel-framework/tests/Session/EncryptedSessionStoreTest.php:
+  51:         return $reflection->newInstanceArgs($this->getMocks());
+
+codes/php-codes/laravel-framework/tests/Session/SessionStoreTest.php:
+  470:         return $reflection->newInstanceArgs($this->getMocks());

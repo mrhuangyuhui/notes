@@ -1,0 +1,99 @@
+# Query: array_pop
+# Flags: CaseSensitive WordMatch RegExp
+# Including: {./codes/php-codes,*.php}
+
+38 results - 28 files
+
+codes/php-codes/composer/src/Composer/Command/CreateProjectCommand.php:
+  305:             $directory = getcwd() . DIRECTORY_SEPARATOR . array_pop($parts);
+
+codes/php-codes/composer/src/Composer/Config/JsonConfigSource.php:
+  140:                 $last = array_pop($bits);
+  164:                 $last = array_pop($bits);
+  208:         $fallback = array_pop($args);
+
+codes/php-codes/composer/src/Composer/DependencyResolver/Decisions.php:
+  126:         while ($decision = array_pop($this->decisionQueue)) {
+  134:             $decision = array_pop($this->decisionQueue);
+  142:         array_pop($this->decisionQueue);
+
+codes/php-codes/composer/src/Composer/DependencyResolver/Solver.php:
+  306:             array_pop($this->branches);
+
+codes/php-codes/composer/src/Composer/DependencyResolver/Transaction.php:
+  110:             $package = array_pop($queue);
+
+codes/php-codes/composer/src/Composer/EventDispatcher/EventDispatcher.php:
+  542:         return array_pop($this->eventStack);
+
+codes/php-codes/composer/src/Composer/Util/Filesystem.php:
+  496:                 array_pop($parts);
+
+codes/php-codes/composer/src/Composer/Util/Silencer.php:
+  51:             error_reporting(array_pop(self::$stack));
+
+codes/php-codes/laravel-admin/src/Show.php:
+  325:             array_pop($segments);
+
+codes/php-codes/laravel-admin/src/Actions/Interactor/Form.php:
+  400:         $name = strtolower(array_pop($path));
+
+codes/php-codes/laravel-admin/src/Console/ActionCommand.php:
+  117:         array_pop($segments);
+
+codes/php-codes/laravel-admin/src/Form/NestedForm.php:
+  380:                 $scripts[] = array_pop(Admin::$script);
+
+codes/php-codes/laravel-admin/src/Form/Field/HasMany.php:
+  695:                 $scripts[] = array_pop(Admin::$script);
+
+codes/php-codes/laravel-admin/src/Grid/Column.php:
+  831:                 ($last = array_pop($this->displayCallbacks))
+
+codes/php-codes/laravel-admin/src/Grid/Tools/QuickCreate.php:
+  227:         $name = strtolower(array_pop($path));
+
+codes/php-codes/laravel-framework/src/Illuminate/Container/Container.php:
+  695:         array_pop($this->with);
+  805:             array_pop($this->buildStack);
+  818:             array_pop($this->buildStack);
+  823:         array_pop($this->buildStack);
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Eloquent/Concerns/HasRelationships.php:
+  534:             $lastWord = array_pop($words);
+
+codes/php-codes/laravel-framework/src/Illuminate/Database/Query/Grammars/PostgresGrammar.php:
+  456:         $attribute = array_pop($wrappedPath);
+
+codes/php-codes/laravel-framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:
+  208:             foreach (array_pop($dictionary) as $member => $score) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Routing/Router.php:
+  375:         array_pop($this->groupStack);
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/Collection.php:
+  1413:         return array_pop($this->items);
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/Str.php:
+  312:         $lastWord = array_pop($parts);
+
+codes/php-codes/laravel-framework/src/Illuminate/View/Concerns/ManagesComponents.php:
+   79:         $name = array_pop($this->componentStack);
+  128:         $currentSlot = array_pop(
+
+codes/php-codes/laravel-framework/src/Illuminate/View/Concerns/ManagesLayouts.php:
+   89:         $last = array_pop($this->sectionStack);
+  113:         $last = array_pop($this->sectionStack);
+
+codes/php-codes/laravel-framework/src/Illuminate/View/Concerns/ManagesLoops.php:
+  70:         array_pop($this->loopsStack);
+
+codes/php-codes/laravel-framework/src/Illuminate/View/Concerns/ManagesStacks.php:
+   61:         return tap(array_pop($this->pushStack), function ($last) {
+  117:         return tap(array_pop($this->pushStack), function ($last) {
+
+codes/php-codes/laravel-framework/src/Illuminate/View/Engines/CompilerEngine.php:
+  61:         array_pop($this->lastCompiled);
+
+codes/php-codes/lumen-framework/src/Routing/Router.php:
+  64:         array_pop($this->groupStack);

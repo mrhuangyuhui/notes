@@ -1,0 +1,39 @@
+# Query: getParameters
+# Flags: CaseSensitive WordMatch RegExp
+# Including: {./codes/php-codes,*.php}
+
+14 results - 10 files
+
+codes/php-codes/composer/src/Composer/Repository/RepositoryManager.php:
+  129:         $params = $reflMethod->getParameters();
+
+codes/php-codes/laravel-framework/src/Illuminate/Auth/Access/Gate.php:
+  408:             $parameters = $method->getParameters();
+  426:         $parameters = (new ReflectionFunction($callback))->getParameters();
+
+codes/php-codes/laravel-framework/src/Illuminate/Broadcasting/Broadcasters/Broadcaster.php:
+  114:             return (new ReflectionFunction($callback))->getParameters();
+  138:         return $reflection->getMethod('join')->getParameters();
+
+codes/php-codes/laravel-framework/src/Illuminate/Container/BoundMethod.php:
+  120:         foreach (static::getCallReflector($callback)->getParameters() as $parameter) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Container/Container.php:
+  810:         $dependencies = $constructor->getParameters();
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Console/ClosureCommand.php:
+  48:         foreach ((new ReflectionFunction($this->callback))->getParameters() as $parameter) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Events/DiscoverEvents.php:
+  51:                     ! isset($method->getParameters()[0])) {
+  56:                                 optional($method->getParameters()[0]->getClass())->name;
+
+codes/php-codes/laravel-framework/src/Illuminate/Routing/ResourceRegistrar.php:
+  420:     public static function getParameters()
+
+codes/php-codes/laravel-framework/src/Illuminate/Routing/RouteDependencyResolverTrait.php:
+  44:         foreach ($reflector->getParameters() as $key => $parameter) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Routing/RouteSignatureParameters.php:
+  22:                         : (new ReflectionFunction($action['uses']))->getParameters();
+  43:         return (new ReflectionMethod($class, $method))->getParameters();

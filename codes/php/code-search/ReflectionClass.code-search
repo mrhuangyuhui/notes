@@ -1,0 +1,99 @@
+# Query: ReflectionClass
+# Flags: CaseSensitive WordMatch RegExp
+# Including: {./codes/php-codes,*.php}
+
+46 results - 24 files
+
+codes/php-codes/composer/src/Composer/EventDispatcher/EventDispatcher.php:
+  331:         if (!$typehint instanceof \ReflectionClass) {
+
+codes/php-codes/composer/tests/Composer/Test/Autoload/ClassMapGeneratorTest.php:
+  129:         $r = new \ReflectionClass('Composer\\Autoload\\ClassMapGenerator');
+
+codes/php-codes/composer/tests/Composer/Test/Downloader/ZipDownloaderTest.php:
+  46:         $reflectionClass = new \ReflectionClass('Composer\Downloader\ZipDownloader');
+
+codes/php-codes/composer/tests/Composer/Test/Repository/Vcs/PerforceDriverTest.php:
+  69:         $reflectionClass = new \ReflectionClass($this->driver);
+
+codes/php-codes/laravel-admin/src/AdminServiceProvider.php:
+  117:         $reflectionClass = new \ReflectionClass('\Illuminate\View\Compilers\BladeCompiler');
+
+codes/php-codes/laravel-admin/src/Grid/Filter/Presenter/Presenter.php:
+  31:         $reflect = new \ReflectionClass(get_called_class());
+
+codes/php-codes/laravel-framework/src/Illuminate/Auth/Access/Gate.php:
+    6: use ReflectionClass;
+  400:             $reflection = new ReflectionClass($class);
+
+codes/php-codes/laravel-framework/src/Illuminate/Broadcasting/BroadcastEvent.php:
+   5: use ReflectionClass;
+  68:         foreach ((new ReflectionClass($event))->getProperties(ReflectionProperty::IS_PUBLIC) as $property) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Broadcasting/Broadcasters/Broadcaster.php:
+    6: use ReflectionClass;
+  132:         $reflection = new ReflectionClass($callback);
+
+codes/php-codes/laravel-framework/src/Illuminate/Container/Container.php:
+    9: use ReflectionClass;
+  788:         $reflector = new ReflectionClass($concrete);
+
+codes/php-codes/laravel-framework/src/Illuminate/Events/Dispatcher.php:
+    6: use ReflectionClass;
+  408:             return (new ReflectionClass($class))->implementsInterface(
+  485:         $listener = (new ReflectionClass($class))->newInstanceWithoutConstructor();
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Console/Kernel.php:
+    8: use ReflectionClass;
+  242:                 ! (new ReflectionClass($command))->isAbstract()) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Events/DiscoverEvents.php:
+   6: use ReflectionClass;
+  41:             $listener = new ReflectionClass(
+
+codes/php-codes/laravel-framework/src/Illuminate/Foundation/Testing/Constraints/SeeInOrder.php:
+   5: use ReflectionClass;
+  86:         return (new ReflectionClass($this))->name;
+
+codes/php-codes/laravel-framework/src/Illuminate/Mail/Mailable.php:
+    5: use ReflectionClass;
+  287:         foreach ((new ReflectionClass($this))->getProperties(ReflectionProperty::IS_PUBLIC) as $property) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Queue/CallQueuedHandler.php:
+    6: use ReflectionClass;
+  120:             $shouldDelete = (new ReflectionClass($class))
+
+codes/php-codes/laravel-framework/src/Illuminate/Queue/SerializesModels.php:
+   5: use ReflectionClass;
+  19:         $properties = (new ReflectionClass($this))->getProperties();
+  39:         foreach ((new ReflectionClass($this))->getProperties() as $property) {
+
+codes/php-codes/laravel-framework/src/Illuminate/Support/Traits/Macroable.php:
+   6: use ReflectionClass;
+  43:         $methods = (new ReflectionClass($mixin))->getMethods(
+
+codes/php-codes/laravel-framework/tests/Database/DatabaseConnectionTest.php:
+   12: use ReflectionClass;
+  315:         $method = (new ReflectionClass(Connection::class))->getMethod('run');
+  332:         $method = (new ReflectionClass(Connection::class))->getMethod('run');
+
+codes/php-codes/laravel-framework/tests/Database/DatabaseEloquentModelTest.php:
+   10: use ReflectionClass;
+  805:         $class = new ReflectionClass($model);
+
+codes/php-codes/laravel-framework/tests/Queue/QueueDatabaseQueueUnitTest.php:
+   7: use ReflectionClass;
+  64:         $class = new ReflectionClass(Queue::class);
+  79:         $class = new ReflectionClass(Queue::class);
+
+codes/php-codes/laravel-framework/tests/Session/EncryptedSessionStoreTest.php:
+   6: use ReflectionClass;
+  49:         $reflection = new ReflectionClass(EncryptedStore::class);
+
+codes/php-codes/laravel-framework/tests/Session/SessionStoreTest.php:
+    6: use ReflectionClass;
+  468:         $reflection = new ReflectionClass(Store::class);
+
+codes/php-codes/laravel-framework/tests/Support/SupportCollectionTest.php:
+   12: use ReflectionClass;
+  165:         $class = new ReflectionClass($collection);
