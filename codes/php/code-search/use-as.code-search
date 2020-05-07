@@ -1,0 +1,778 @@
+# Query: ^use.*as
+# Flags: CaseSensitive WordMatch RegExp
+# Including: src/**/*.php
+
+351 results - 211 files
+
+notes • codes/php/code-hub/composer/src/Composer/Command/RunScriptCommand.php:
+  15: use Composer\Script\Event as ScriptEvent;
+
+notes • codes/php/code-hub/composer/src/Composer/Console/Application.php:
+  18: use Symfony\Component\Console\Application as BaseApplication;
+
+notes • codes/php/code-hub/composer/src/Composer/Downloader/FileDownloader.php:
+  28: use Composer\Util\Url as UrlUtil;
+
+notes • codes/php/code-hub/composer/src/Composer/Downloader/GitDownloader.php:
+  19: use Composer\Util\Git as GitUtil;
+
+notes • codes/php/code-hub/composer/src/Composer/Downloader/HgDownloader.php:
+  17: use Composer\Util\Hg as HgUtils;
+
+notes • codes/php/code-hub/composer/src/Composer/Downloader/PathDownloader.php:
+  22: use Composer\Util\Filesystem as ComposerFilesystem;
+
+notes • codes/php/code-hub/composer/src/Composer/Downloader/SvnDownloader.php:
+  16: use Composer\Util\Svn as SvnUtil;
+
+notes • codes/php/code-hub/composer/src/Composer/EventDispatcher/EventDispatcher.php:
+  27: use Composer\Script\Event as ScriptEvent;
+
+notes • codes/php/code-hub/composer/src/Composer/Package/Locker.php:
+  23: use Composer\Util\Git as GitUtil;
+
+notes • codes/php/code-hub/composer/src/Composer/Package/LinkConstraint/EmptyConstraint.php:
+  15: use Composer\Semver\Constraint\EmptyConstraint as SemverEmptyConstraint;
+
+notes • codes/php/code-hub/composer/src/Composer/Package/LinkConstraint/MultiConstraint.php:
+  15: use Composer\Semver\Constraint\MultiConstraint as SemverMultiConstraint;
+
+notes • codes/php/code-hub/composer/src/Composer/Package/Loader/ArrayLoader.php:
+  21: use Composer\Semver\VersionParser as SemverVersionParser;
+
+notes • codes/php/code-hub/composer/src/Composer/Package/Version/VersionGuesser.php:
+  18: use Composer\Semver\VersionParser as SemverVersionParser;
+  19: use Composer\Util\Git as GitUtil;
+  21: use Composer\Util\Svn as SvnUtil;
+
+notes • codes/php/code-hub/composer/src/Composer/Package/Version/VersionParser.php:
+  16: use Composer\Semver\VersionParser as SemverVersionParser;
+
+notes • codes/php/code-hub/composer/src/Composer/Repository/PearRepository.php:
+  16: use Composer\Semver\VersionParser as SemverVersionParser;
+
+notes • codes/php/code-hub/composer/src/Composer/Repository/Vcs/GitDriver.php:
+  17: use Composer\Util\Git as GitUtil;
+
+notes • codes/php/code-hub/composer/src/Composer/Repository/Vcs/HgDriver.php:
+  17: use Composer\Util\Hg as HgUtils;
+
+notes • codes/php/code-hub/composer/src/Composer/Repository/Vcs/SvnDriver.php:
+  20: use Composer\Util\Svn as SvnUtil;
+
+notes • codes/php/code-hub/composer/src/Composer/Script/Event.php:
+  17: use Composer\EventDispatcher\Event as BaseEvent;
+
+notes • codes/php/code-hub/composer/src/Composer/Script/PackageEvent.php:
+  15: use Composer\Installer\PackageEvent as BasePackageEvent;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/AuthManager.php:
+  7: use Illuminate\Contracts\Auth\Factory as FactoryContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/AuthServiceProvider.php:
+  7: use Illuminate\Contracts\Auth\Access\Gate as GateContract;
+  8: use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/DatabaseUserProvider.php:
+   9: use Illuminate\Contracts\Hashing\Hasher as HasherContract;
+  10: use Illuminate\Contracts\Auth\Authenticatable as UserContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/EloquentUserProvider.php:
+  8: use Illuminate\Contracts\Hashing\Hasher as HasherContract;
+  9: use Illuminate\Contracts\Auth\Authenticatable as UserContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/GenericUser.php:
+  5: use Illuminate\Contracts\Auth\Authenticatable as UserContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/GuardHelpers.php:
+  6: use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/SessionGuard.php:
+  15: use Illuminate\Contracts\Cookie\QueueingFactory as CookieJar;
+  17: use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/Access/Gate.php:
+  12: use Illuminate\Contracts\Auth\Access\Gate as GateContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/Middleware/Authenticate.php:
+  7: use Illuminate\Contracts\Auth\Factory as Auth;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/Middleware/AuthenticateWithBasicAuth.php:
+  6: use Illuminate\Contracts\Auth\Factory as AuthFactory;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/Passwords/CanResetPassword.php:
+  5: use Illuminate\Auth\Notifications\ResetPassword as ResetPasswordNotification;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/Passwords/DatabaseTokenRepository.php:
+  8: use Illuminate\Contracts\Hashing\Hasher as HasherContract;
+  9: use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/Passwords/PasswordBroker.php:
+   9: use Illuminate\Contracts\Auth\PasswordBroker as PasswordBrokerContract;
+  10: use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/Passwords/PasswordBrokerManager.php:
+  7: use Illuminate\Contracts\Auth\PasswordBrokerFactory as FactoryContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/Passwords/TokenRepositoryInterface.php:
+  5: use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Broadcasting/BroadcastManager.php:
+  14: use Illuminate\Contracts\Broadcasting\Factory as FactoryContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Broadcasting/BroadcastServiceProvider.php:
+  7: use Illuminate\Contracts\Broadcasting\Factory as BroadcastingFactory;
+  8: use Illuminate\Contracts\Broadcasting\Broadcaster as BroadcasterContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Broadcasting/Broadcasters/Broadcaster.php:
+  14: use Illuminate\Contracts\Broadcasting\Broadcaster as BroadcasterContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Broadcasting/Broadcasters/RedisBroadcaster.php:
+  6: use Illuminate\Contracts\Redis\Factory as Redis;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Bus/BusServiceProvider.php:
+  7: use Illuminate\Contracts\Bus\Dispatcher as DispatcherContract;
+  8: use Illuminate\Contracts\Queue\Factory as QueueFactoryContract;
+  9: use Illuminate\Contracts\Bus\QueueingDispatcher as QueueingDispatcherContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Cache/CacheManager.php:
+  10: use Illuminate\Contracts\Cache\Factory as FactoryContract;
+  11: use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Cache/Lock.php:
+  7: use Illuminate\Contracts\Cache\Lock as LockContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Cache/RateLimiter.php:
+  6: use Illuminate\Contracts\Cache\Repository as Cache;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Cache/RedisStore.php:
+  6: use Illuminate\Contracts\Redis\Factory as Redis;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Cache/Repository.php:
+  18: use Illuminate\Contracts\Cache\Repository as CacheContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Config/Repository.php:
+  7: use Illuminate\Contracts\Config\Repository as ConfigContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Console/Application.php:
+  18: use Symfony\Component\Console\Application as SymfonyApplication;
+  19: use Symfony\Component\Console\Command\Command as SymfonyCommand;
+  21: use Illuminate\Contracts\Console\Application as ApplicationContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Console/Command.php:
+  16: use Symfony\Component\Console\Command\Command as SymfonyCommand;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Console/Scheduling/CacheEventMutex.php:
+  5: use Illuminate\Contracts\Cache\Factory as Cache;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Console/Scheduling/CacheSchedulingMutex.php:
+  6: use Illuminate\Contracts\Cache\Factory as Cache;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Console/Scheduling/Event.php:
+  9: use GuzzleHttp\Client as HttpClient;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Container/Container.php:
+  13: use Illuminate\Contracts\Container\Container as ContainerContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Container/ContextualBindingBuilder.php:
+  7: use Illuminate\Contracts\Container\ContextualBindingBuilder as ContextualBindingBuilderContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Contracts/Mail/Mailable.php:
+  5: use Illuminate\Contracts\Queue\Factory as Queue;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Cookie/CookieJar.php:
+  9: use Illuminate\Contracts\Cookie\QueueingFactory as JarContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php:
+  6: use Illuminate\Contracts\Cookie\QueueingFactory as CookieJar;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php:
+  10: use Illuminate\Contracts\Encryption\Encrypter as EncrypterContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/ConfigurationUrlParser.php:
+  5: use Illuminate\Support\ConfigurationUrlParser as BaseConfigurationUrlParser;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Connection.php:
+  15: use Doctrine\DBAL\Connection as DoctrineConnection;
+  17: use Illuminate\Database\Query\Builder as QueryBuilder;
+  18: use Illuminate\Database\Schema\Builder as SchemaBuilder;
+  19: use Illuminate\Database\Query\Grammars\Grammar as QueryGrammar;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/DatabaseServiceProvider.php:
+   5: use Faker\Factory as FakerFactory;
+   6: use Faker\Generator as FakerGenerator;
+  12: use Illuminate\Database\Eloquent\Factory as EloquentFactory;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/MySqlConnection.php:
+   8: use Doctrine\DBAL\Driver\PDOMySql\Driver as DoctrineDriver;
+   9: use Illuminate\Database\Query\Grammars\MySqlGrammar as QueryGrammar;
+  10: use Illuminate\Database\Schema\Grammars\MySqlGrammar as SchemaGrammar;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/PostgresConnection.php:
+  6: use Doctrine\DBAL\Driver\PDOPgSql\Driver as DoctrineDriver;
+  8: use Illuminate\Database\Query\Grammars\PostgresGrammar as QueryGrammar;
+  9: use Illuminate\Database\Schema\Grammars\PostgresGrammar as SchemaGrammar;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/SQLiteConnection.php:
+  7: use Doctrine\DBAL\Driver\PDOSqlite\Driver as DoctrineDriver;
+  8: use Illuminate\Database\Query\Grammars\SQLiteGrammar as QueryGrammar;
+  9: use Illuminate\Database\Schema\Grammars\SQLiteGrammar as SchemaGrammar;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/SqlServerConnection.php:
+   9: use Doctrine\DBAL\Driver\PDOSqlsrv\Driver as DoctrineDriver;
+  11: use Illuminate\Database\Query\Grammars\SqlServerGrammar as QueryGrammar;
+  12: use Illuminate\Database\Schema\Grammars\SqlServerGrammar as SchemaGrammar;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Capsule/Manager.php:
+  10: use Illuminate\Database\Eloquent\Model as Eloquent;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Console/Seeds/SeedCommand.php:
+  9: use Illuminate\Database\ConnectionResolverInterface as Resolver;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Builder.php:
+  15: use Illuminate\Database\Query\Builder as QueryBuilder;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Collection.php:
+  11: use Illuminate\Support\Collection as BaseCollection;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Factory.php:
+  6: use Faker\Generator as Faker;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/FactoryBuilder.php:
+  5: use Faker\Generator as Faker;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Model.php:
+  17: use Illuminate\Support\Collection as BaseCollection;
+  18: use Illuminate\Database\ConnectionResolverInterface as Resolver;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/QueueEntityResolver.php:
+  6: use Illuminate\Contracts\Queue\EntityResolver as EntityResolverContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php:
+  14: use Illuminate\Support\Collection as BaseCollection;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php:
+  12: use Illuminate\Database\Query\Builder as QueryBuilder;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Relations/Concerns/InteractsWithPivotTable.php:
+  8: use Illuminate\Support\Collection as BaseCollection;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Events/MigrationEvent.php:
+  6: use Illuminate\Contracts\Database\Events\MigrationEvent as MigrationEventContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Events/MigrationsEnded.php:
+  5: use Illuminate\Contracts\Database\Events\MigrationEvent as MigrationEventContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Events/MigrationsStarted.php:
+  5: use Illuminate\Contracts\Database\Events\MigrationEvent as MigrationEventContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Migrations/DatabaseMigrationRepository.php:
+  5: use Illuminate\Database\ConnectionResolverInterface as Resolver;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Migrations/Migrator.php:
+  15: use Illuminate\Database\ConnectionResolverInterface as Resolver;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Query/Builder.php:
+  20: use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Query/Grammars/Grammar.php:
+  10: use Illuminate\Database\Grammar as BaseGrammar;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Schema/Grammars/ChangeColumn.php:
+  12: use Doctrine\DBAL\Schema\AbstractSchemaManager as SchemaManager;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Schema/Grammars/Grammar.php:
+  11: use Illuminate\Database\Grammar as BaseGrammar;
+  12: use Doctrine\DBAL\Schema\AbstractSchemaManager as SchemaManager;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Schema/Grammars/RenameColumn.php:
+  10: use Doctrine\DBAL\Schema\AbstractSchemaManager as SchemaManager;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Encryption/Encrypter.php:
+  8: use Illuminate\Contracts\Encryption\Encrypter as EncrypterContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Events/Dispatcher.php:
+  12: use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
+  13: use Illuminate\Contracts\Broadcasting\Factory as BroadcastFactory;
+  14: use Illuminate\Contracts\Container\Container as ContainerContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Events/EventServiceProvider.php:
+  6: use Illuminate\Contracts\Queue\Factory as QueueFactoryContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Filesystem/FilesystemAdapter.php:
+  14: use PHPUnit\Framework\Assert as PHPUnit;
+  21: use League\Flysystem\Adapter\Local as LocalAdapter;
+  23: use Illuminate\Contracts\Filesystem\Cloud as CloudFilesystemContract;
+  24: use Illuminate\Contracts\Filesystem\Filesystem as FilesystemContract;
+  25: use Illuminate\Contracts\Filesystem\FileExistsException as ContractFileExistsException;
+  26: use Illuminate\Contracts\Filesystem\FileNotFoundException as ContractFileNotFoundException;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Filesystem/FilesystemManager.php:
+  14: use League\Flysystem\Filesystem as Flysystem;
+  15: use League\Flysystem\Adapter\Ftp as FtpAdapter;
+  17: use League\Flysystem\Adapter\Local as LocalAdapter;
+  18: use League\Flysystem\AwsS3v3\AwsS3Adapter as S3Adapter;
+  19: use League\Flysystem\Cached\Storage\Memory as MemoryStore;
+  20: use Illuminate\Contracts\Filesystem\Factory as FactoryContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Application.php:
+  19: use Illuminate\Contracts\Http\Kernel as HttpKernelContract;
+  21: use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
+  23: use Illuminate\Contracts\Foundation\Application as ApplicationContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/helpers.php:
+  17: use Illuminate\Contracts\Auth\Factory as AuthFactory;
+  18: use Illuminate\Contracts\View\Factory as ViewFactory;
+  20: use Illuminate\Contracts\Cookie\Factory as CookieFactory;
+  22: use Illuminate\Database\Eloquent\Factory as EloquentFactory;
+  23: use Illuminate\Contracts\Validation\Factory as ValidationFactory;
+  24: use Illuminate\Contracts\Broadcasting\Factory as BroadcastFactory;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/ProviderRepository.php:
+  7: use Illuminate\Contracts\Foundation\Application as ApplicationContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Auth/User.php:
+  10: use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
+  11: use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;
+  12: use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php:
+  10: use Illuminate\Contracts\Config\Repository as RepositoryContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Console/ConfigCacheCommand.php:
+  9: use Illuminate\Contracts\Console\Kernel as ConsoleKernelContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Console/Kernel.php:
+  15: use Illuminate\Console\Application as Artisan;
+  18: use Illuminate\Contracts\Console\Kernel as KernelContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Console/QueuedCommand.php:
+  8: use Illuminate\Contracts\Console\Kernel as KernelContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Console/RouteCacheCommand.php:
+  8: use Illuminate\Contracts\Console\Kernel as ConsoleKernelContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Console/VendorPublishCommand.php:
+  10: use League\Flysystem\Filesystem as Flysystem;
+  11: use League\Flysystem\Adapter\Local as LocalAdapter;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Exceptions/Handler.php:
+   7: use Whoops\Run as Whoops;
+  29: use Symfony\Component\Console\Application as ConsoleApplication;
+  30: use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
+  34: use Symfony\Component\Debug\ExceptionHandler as SymfonyExceptionHandler;
+  35: use Illuminate\Contracts\Debug\ExceptionHandler as ExceptionHandlerContract;
+  37: use Symfony\Component\HttpFoundation\RedirectResponse as SymfonyRedirectResponse;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Http/FormRequest.php:
+  13: use Illuminate\Contracts\Validation\Factory as ValidationFactory;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Http/Kernel.php:
+  12: use Illuminate\Contracts\Http\Kernel as KernelContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php:
+  61: use Illuminate\Queue\Console\WorkCommand as QueueWorkCommand;
+  64: use Illuminate\Cache\Console\ClearCommand as CacheClearCommand;
+  65: use Illuminate\Queue\Console\RetryCommand as QueueRetryCommand;
+  66: use Illuminate\Cache\Console\ForgetCommand as CacheForgetCommand;
+  67: use Illuminate\Queue\Console\ListenCommand as QueueListenCommand;
+  68: use Illuminate\Queue\Console\RestartCommand as QueueRestartCommand;
+  69: use Illuminate\Queue\Console\ListFailedCommand as ListFailedQueueCommand;
+  70: use Illuminate\Queue\Console\FlushFailedCommand as FlushFailedQueueCommand;
+  71: use Illuminate\Queue\Console\ForgetFailedCommand as ForgetFailedQueueCommand;
+  72: use Illuminate\Database\Console\Migrations\FreshCommand as MigrateFreshCommand;
+  73: use Illuminate\Database\Console\Migrations\ResetCommand as MigrateResetCommand;
+  74: use Illuminate\Database\Console\Migrations\StatusCommand as MigrateStatusCommand;
+  75: use Illuminate\Database\Console\Migrations\InstallCommand as MigrateInstallCommand;
+  76: use Illuminate\Database\Console\Migrations\RefreshCommand as MigrateRefreshCommand;
+  77: use Illuminate\Database\Console\Migrations\RollbackCommand as MigrateRollbackCommand;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/Assert.php:
+  7: use PHPUnit\Framework\Assert as PHPUnit;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/PendingCommand.php:
+  9: use PHPUnit\Framework\TestCase as PHPUnitTestCase;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/TestCase.php:
+  12: use Illuminate\Console\Application as Artisan;
+  13: use PHPUnit\Framework\TestCase as BaseTestCase;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/TestResponse.php:
+  13: use Illuminate\Foundation\Testing\Assert as PHPUnit;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithAuthentication.php:
+  5: use Illuminate\Contracts\Auth\Authenticatable as UserContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithDatabase.php:
+  8: use PHPUnit\Framework\Constraint\LogicalNot as ReverseConstraint;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithExceptionHandling.php:
+  8: use Symfony\Component\Console\Application as ConsoleApplication;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php:
+   8: use Illuminate\Contracts\Http\Kernel as HttpKernel;
+   9: use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
+  10: use Symfony\Component\HttpFoundation\File\UploadedFile as SymfonyUploadedFile;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/MocksApplicationServices.php:
+  6: use Illuminate\Contracts\Bus\Dispatcher as BusDispatcherContract;
+  7: use Illuminate\Contracts\Events\Dispatcher as EventsDispatcherContract;
+  8: use Illuminate\Contracts\Notifications\Dispatcher as NotificationDispatcher;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Hashing/ArgonHasher.php:
+  6: use Illuminate\Contracts\Hashing\Hasher as HasherContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Hashing/BcryptHasher.php:
+  6: use Illuminate\Contracts\Hashing\Hasher as HasherContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Http/File.php:
+  5: use Symfony\Component\HttpFoundation\File\File as SymfonyFile;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Http/JsonResponse.php:
+  10: use Symfony\Component\HttpFoundation\JsonResponse as BaseJsonResponse;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Http/RedirectResponse.php:
+  10: use Illuminate\Session\Store as SessionStore;
+  12: use Symfony\Component\HttpFoundation\File\UploadedFile as SymfonyUploadedFile;
+  13: use Symfony\Component\HttpFoundation\RedirectResponse as BaseRedirectResponse;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Http/Request.php:
+  13: use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Http/Response.php:
+  11: use Symfony\Component\HttpFoundation\Response as BaseResponse;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Http/UploadedFile.php:
+   9: use Illuminate\Contracts\Filesystem\Factory as FilesystemFactory;
+  10: use Symfony\Component\HttpFoundation\File\UploadedFile as SymfonyUploadedFile;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Log/LogManager.php:
+  10: use Monolog\Logger as Monolog;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Log/ParsesLogConfiguration.php:
+  6: use Monolog\Logger as Monolog;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Mail/Mailable.php:
+  14: use Illuminate\Contracts\Queue\Factory as Queue;
+  15: use Illuminate\Contracts\Mail\Mailer as MailerContract;
+  16: use Illuminate\Contracts\Mail\Mailable as MailableContract;
+  17: use Illuminate\Contracts\Filesystem\Factory as FilesystemFactory;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Mail/Mailer.php:
+  13: use Illuminate\Contracts\Mail\Mailer as MailerContract;
+  14: use Illuminate\Contracts\Queue\Factory as QueueContract;
+  15: use Illuminate\Contracts\Mail\Mailable as MailableContract;
+  16: use Illuminate\Contracts\Mail\MailQueue as MailQueueContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Mail/Markdown.php:
+  7: use Illuminate\Contracts\View\Factory as ViewFactory;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Mail/PendingMail.php:
+  6: use Illuminate\Contracts\Mail\Mailer as MailerContract;
+  8: use Illuminate\Contracts\Mail\Mailable as MailableContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Mail/SendQueuedMailable.php:
+  5: use Illuminate\Contracts\Mail\Mailer as MailerContract;
+  6: use Illuminate\Contracts\Mail\Mailable as MailableContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Mail/TransportManager.php:
+  10: use GuzzleHttp\Client as HttpClient;
+  11: use Swift_SmtpTransport as SmtpTransport;
+  14: use Postmark\Transport as PostmarkTransport;
+  19: use Swift_SendmailTransport as SendmailTransport;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Notifications/ChannelManager.php:
+   8: use Illuminate\Contracts\Bus\Dispatcher as Bus;
+   9: use Illuminate\Contracts\Notifications\Factory as FactoryContract;
+  10: use Illuminate\Contracts\Notifications\Dispatcher as DispatcherContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Notifications/NotificationSender.php:
+  11: use Illuminate\Database\Eloquent\Collection as ModelCollection;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Notifications/NotificationServiceProvider.php:
+  6: use Illuminate\Contracts\Notifications\Factory as FactoryContract;
+  7: use Illuminate\Contracts\Notifications\Dispatcher as DispatcherContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Pagination/LengthAwarePaginator.php:
+  13: use Illuminate\Contracts\Pagination\LengthAwarePaginator as LengthAwarePaginatorContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Pagination/Paginator.php:
+  13: use Illuminate\Contracts\Pagination\Paginator as PaginatorContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Pagination/UrlWindow.php:
+  5: use Illuminate\Contracts\Pagination\LengthAwarePaginator as PaginatorContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Pipeline/Hub.php:
+  7: use Illuminate\Contracts\Pipeline\Hub as HubContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Pipeline/Pipeline.php:
+  10: use Illuminate\Contracts\Pipeline\Pipeline as PipelineContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Pipeline/PipelineServiceProvider.php:
+  7: use Illuminate\Contracts\Pipeline\Hub as PipelineHubContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/BeanstalkdQueue.php:
+  6: use Pheanstalk\Job as PheanstalkJob;
+  8: use Illuminate\Contracts\Queue\Queue as QueueContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/DatabaseQueue.php:
+  9: use Illuminate\Contracts\Queue\Queue as QueueContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/InteractsWithQueue.php:
+  5: use Illuminate\Contracts\Queue\Job as JobContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/NullQueue.php:
+  5: use Illuminate\Contracts\Queue\Queue as QueueContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/QueueManager.php:
+  7: use Illuminate\Contracts\Queue\Factory as FactoryContract;
+  8: use Illuminate\Contracts\Queue\Monitor as MonitorContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/RedisQueue.php:
+  7: use Illuminate\Contracts\Redis\Factory as Redis;
+  8: use Illuminate\Contracts\Queue\Queue as QueueContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/SerializableClosure.php:
+  5: use Opis\Closure\SerializableClosure as OpisSerializableClosure;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/SerializesAndRestoresModelIdentifiers.php:
+  10: use Illuminate\Database\Eloquent\Collection as EloquentCollection;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/SqsQueue.php:
+  7: use Illuminate\Contracts\Queue\Queue as QueueContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/SyncQueue.php:
+  9: use Illuminate\Contracts\Queue\Queue as QueueContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/Worker.php:
+  12: use Illuminate\Contracts\Cache\Repository as CacheContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/Connectors/RedisConnector.php:
+  6: use Illuminate\Contracts\Redis\Factory as Redis;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/Jobs/BeanstalkdJob.php:
+  7: use Pheanstalk\Job as PheanstalkJob;
+  8: use Illuminate\Contracts\Queue\Job as JobContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/Jobs/DatabaseJob.php:
+  7: use Illuminate\Contracts\Queue\Job as JobContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/Jobs/RedisJob.php:
+  7: use Illuminate\Contracts\Queue\Job as JobContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/Jobs/SqsJob.php:
+  7: use Illuminate\Contracts\Queue\Job as JobContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/Jobs/SyncJob.php:
+  6: use Illuminate\Contracts\Queue\Job as JobContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php:
+  8: use Illuminate\Contracts\Redis\Connection as ConnectionContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Redis/Connections/PredisConnection.php:
+  8: use Illuminate\Contracts\Redis\Connection as ConnectionContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php:
+  11: use Illuminate\Support\Facades\Redis as RedisFacade;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Routing/ControllerDispatcher.php:
+  6: use Illuminate\Routing\Contracts\ControllerDispatcher as ControllerDispatcherContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Routing/Pipeline.php:
+  10: use Illuminate\Pipeline\Pipeline as BasePipeline;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Routing/Redirector.php:
+  7: use Illuminate\Session\Store as SessionStore;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Routing/ResponseFactory.php:
+   9: use Illuminate\Contracts\View\Factory as ViewFactory;
+  12: use Illuminate\Contracts\Routing\ResponseFactory as FactoryContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Routing/Route.php:
+  18: use Illuminate\Routing\Contracts\ControllerDispatcher as ControllerDispatcherContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Routing/RouteCompiler.php:
+  5: use Symfony\Component\Routing\Route as SymfonyRoute;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Routing/Router.php:
+  21: use Psr\Http\Message\ResponseInterface as PsrResponseInterface;
+  22: use Illuminate\Contracts\Routing\Registrar as RegistrarContract;
+  24: use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Routing/RoutingServiceProvider.php:
+   7: use Zend\Diactoros\Response as PsrResponse;
+  10: use Illuminate\Contracts\View\Factory as ViewFactoryContract;
+  11: use Illuminate\Contracts\Routing\ResponseFactory as ResponseFactoryContract;
+  12: use Illuminate\Routing\Contracts\ControllerDispatcher as ControllerDispatcherContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Routing/UrlGenerator.php:
+  14: use Illuminate\Contracts\Routing\UrlGenerator as UrlGeneratorContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Routing/ViewController.php:
+  5: use Illuminate\Contracts\View\Factory as ViewFactory;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Routing/Middleware/ThrottleRequestsWithRedis.php:
+  7: use Illuminate\Contracts\Redis\Factory as Redis;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Session/CacheBasedSessionHandler.php:
+  6: use Illuminate\Contracts\Cache\Repository as CacheContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Session/CookieSessionHandler.php:
+  8: use Illuminate\Contracts\Cookie\QueueingFactory as CookieJar;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Session/EncryptedStore.php:
+  7: use Illuminate\Contracts\Encryption\Encrypter as EncrypterContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Session/Middleware/AuthenticateSession.php:
+  7: use Illuminate\Contracts\Auth\Factory as AuthFactory;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Carbon.php:
+  5: use Carbon\Carbon as BaseCarbon;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/MessageBag.php:
+  10: use Illuminate\Contracts\Support\MessageBag as MessageBagContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/ServiceProvider.php:
+  5: use Illuminate\Console\Application as Artisan;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/ViewErrorBag.php:
+  6: use Illuminate\Contracts\Support\MessageBag as MessageBagContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Facades/Artisan.php:
+  5: use Illuminate\Contracts\Console\Kernel as ConsoleKernelContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Facades/Broadcast.php:
+  5: use Illuminate\Contracts\Broadcasting\Factory as BroadcastingFactoryContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Facades/Bus.php:
+  6: use Illuminate\Contracts\Bus\Dispatcher as BusDispatcherContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Facades/Gate.php:
+  5: use Illuminate\Contracts\Auth\Access\Gate as GateContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Facades/Response.php:
+  5: use Illuminate\Contracts\Routing\ResponseFactory as ResponseFactoryContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Testing/Fakes/BusFake.php:
+  6: use PHPUnit\Framework\Assert as PHPUnit;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Testing/Fakes/EventFake.php:
+  7: use PHPUnit\Framework\Assert as PHPUnit;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Testing/Fakes/MailFake.php:
+  8: use PHPUnit\Framework\Assert as PHPUnit;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php:
+   8: use PHPUnit\Framework\Assert as PHPUnit;
+  10: use Illuminate\Contracts\Notifications\Factory as NotificationFactory;
+  11: use Illuminate\Contracts\Notifications\Dispatcher as NotificationDispatcher;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Testing/Fakes/QueueFake.php:
+  8: use PHPUnit\Framework\Assert as PHPUnit;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Translation/Translator.php:
+  12: use Illuminate\Contracts\Translation\Translator as TranslatorContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Validation/ClosureValidationRule.php:
+  5: use Illuminate\Contracts\Validation\Rule as RuleContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Validation/Factory.php:
+  9: use Illuminate\Contracts\Validation\Factory as FactoryContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Validation/ValidationException.php:
+  7: use Illuminate\Support\Facades\Validator as ValidatorFacade;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Validation/ValidationRuleParser.php:
+  10: use Illuminate\Contracts\Validation\Rule as RuleContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Validation/Validator.php:
+  15: use Illuminate\Contracts\Validation\Rule as RuleContract;
+  16: use Illuminate\Contracts\Validation\Validator as ValidatorContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Validation/Concerns/FilterEmailValidation.php:
+  5: use Egulias\EmailValidator\EmailLexer;
+  6: use Egulias\EmailValidator\Warning\Warning;
+  7: use Egulias\EmailValidator\Exception\InvalidEmail;
+  8: use Egulias\EmailValidator\Validation\EmailValidation;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Validation/Concerns/ValidatesAttributes.php:
+  19: use Egulias\EmailValidator\EmailValidator;
+  21: use Egulias\EmailValidator\Validation\RFCValidation;
+  23: use Egulias\EmailValidator\Validation\DNSCheckValidation;
+  24: use Egulias\EmailValidator\Validation\SpoofCheckValidation;
+  25: use Egulias\EmailValidator\Validation\NoRFCWarningsValidation;
+  26: use Egulias\EmailValidator\Validation\MultipleValidationWithAnd;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Factory.php:
+  13: use Illuminate\Contracts\View\Factory as FactoryContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/View.php:
+  16: use Illuminate\Contracts\View\View as ViewContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesLayouts.php:
+  5: use Illuminate\View\Factory as ViewFactory;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Concerns/ManagesEvents.php:
+  7: use Illuminate\Contracts\View\View as ViewContract;
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php:
+  7: use Illuminate\Contracts\View\Factory as ViewFactory;
+
+notes • codes/php/code-hub/lumen-framework/src/Application.php:
+  15: use Zend\Diactoros\Response as PsrResponse;
+  16: use Illuminate\Config\Repository as ConfigRepository;
+  18: use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
+
+notes • codes/php/code-hub/lumen-framework/src/helpers.php:
+  8: use Illuminate\Contracts\Broadcasting\Factory as BroadcastFactory;
+
+notes • codes/php/code-hub/lumen-framework/src/Concerns/RoutesRequests.php:
+  14: use Laravel\Lumen\Http\Request as LumenRequest;
+  15: use Laravel\Lumen\Routing\Closure as RoutingClosure;
+  17: use Laravel\Lumen\Routing\Controller as LumenController;
+  19: use Psr\Http\Message\ResponseInterface as PsrResponseInterface;
+  20: use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
+  22: use Symfony\Component\HttpFoundation\Response as SymfonyResponse;
+
+notes • codes/php/code-hub/lumen-framework/src/Console/ConsoleServiceProvider.php:
+  13: use Illuminate\Queue\Console\WorkCommand as QueueWorkCommand;
+  15: use Illuminate\Cache\Console\ClearCommand as CacheClearCommand;
+  16: use Illuminate\Queue\Console\RetryCommand as QueueRetryCommand;
+  17: use Illuminate\Cache\Console\ForgetCommand as CacheForgetCommand;
+  18: use Illuminate\Queue\Console\ListenCommand as QueueListenCommand;
+  19: use Illuminate\Queue\Console\RestartCommand as QueueRestartCommand;
+  20: use Illuminate\Queue\Console\ListFailedCommand as ListFailedQueueCommand;
+  21: use Illuminate\Queue\Console\FlushFailedCommand as FlushFailedQueueCommand;
+  22: use Illuminate\Queue\Console\ForgetFailedCommand as ForgetFailedQueueCommand;
+  23: use Illuminate\Database\Console\Migrations\FreshCommand as MigrateFreshCommand;
+  24: use Illuminate\Database\Console\Migrations\ResetCommand as MigrateResetCommand;
+  25: use Illuminate\Database\Console\Migrations\StatusCommand as MigrateStatusCommand;
+  26: use Illuminate\Database\Console\Migrations\InstallCommand as MigrateInstallCommand;
+  27: use Illuminate\Database\Console\Migrations\RefreshCommand as MigrateRefreshCommand;
+  28: use Illuminate\Database\Console\Migrations\RollbackCommand as MigrateRollbackCommand;
+
+notes • codes/php/code-hub/lumen-framework/src/Console/Kernel.php:
+  11: use Illuminate\Console\Application as Artisan;
+  12: use Illuminate\Contracts\Console\Kernel as KernelContract;
+
+notes • codes/php/code-hub/lumen-framework/src/Exceptions/Handler.php:
+  15: use Symfony\Component\Console\Application as ConsoleApplication;
+  17: use Symfony\Component\Debug\ExceptionHandler as SymfonyExceptionHandler;
+
+notes • codes/php/code-hub/lumen-framework/src/Http/Request.php:
+  8: use Illuminate\Http\Request as BaseRequest;
+
+notes • codes/php/code-hub/lumen-framework/src/Routing/Pipeline.php:
+   7: use Closure as BaseClosure;
+  10: use Illuminate\Pipeline\Pipeline as BasePipeline;
+
+notes • codes/php/code-hub/lumen-framework/src/Routing/ProvidesConvenienceMethods.php:
+  5: use Closure as BaseClosure;
+
+notes • codes/php/code-hub/lumen-framework/src/Testing/TestCase.php:
+  9: use PHPUnit\Framework\TestCase as BaseTestCase;
+
+notes • codes/php/code-hub/lumen-framework/src/Testing/Concerns/MakesHttpRequests.php:
+   8: use PHPUnit\Framework\Assert as PHPUnit;
+   9: use Laravel\Lumen\Http\Request as LumenRequest;
+  10: use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
