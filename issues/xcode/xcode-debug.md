@@ -7,7 +7,3 @@
 ![img](https://developer.apple.com/library/archive/qa/qa1947/Art/QA1947_SwiftOptimizationLevel.png)
 
 ![img](https://developer.apple.com/library/archive/qa/qa1947/Art/QA1947_SchemeEditor.png)
-
----
-
-> Tags: #debug
