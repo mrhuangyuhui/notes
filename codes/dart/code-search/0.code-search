@@ -1,0 +1,5 @@
+# Query: 搜索模板
+# Flags: CaseSensitive WordMatch RegExp
+# Including: lib/**/*.dart
+
+No Results

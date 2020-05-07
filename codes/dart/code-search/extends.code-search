@@ -1,0 +1,35 @@
+# Query: extends
+# Flags: CaseSensitive WordMatch RegExp
+# Including: lib/**/*.dart
+
+10 results - 10 files
+
+notes • codes/dart/code-hub/http/lib/src/browser_client.dart:
+  30: class BrowserClient extends BaseClient {
+
+notes • codes/dart/code-hub/http/lib/src/byte_stream.dart:
+  10: class ByteStream extends StreamView<List<int>> {
+
+notes • codes/dart/code-hub/http/lib/src/io_client.dart:
+  19: class IOClient extends BaseClient {
+
+notes • codes/dart/code-hub/http/lib/src/io_streamed_response.dart:
+  12: class IOStreamedResponse extends StreamedResponse {
+
+notes • codes/dart/code-hub/http/lib/src/mock_client.dart:
+  23: class MockClient extends BaseClient {
+
+notes • codes/dart/code-hub/http/lib/src/multipart_request.dart:
+  33: class MultipartRequest extends BaseRequest {
+
+notes • codes/dart/code-hub/http/lib/src/request.dart:
+  15: class Request extends BaseRequest {
+
+notes • codes/dart/code-hub/http/lib/src/response.dart:
+  17: class Response extends BaseResponse {
+
+notes • codes/dart/code-hub/http/lib/src/streamed_request.dart:
+  17: class StreamedRequest extends BaseRequest {
+
+notes • codes/dart/code-hub/http/lib/src/streamed_response.dart:
+  14: class StreamedResponse extends BaseResponse {
