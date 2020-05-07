@@ -21,6 +21,8 @@
 
 <https://github.com/ruby/ruby>
 
+<https://github.com/topics/ruby>
+
 <https://github.com/ruby/www.ruby-lang.org>
 
 <https://github.com/ruby/docs.ruby-lang.org>
