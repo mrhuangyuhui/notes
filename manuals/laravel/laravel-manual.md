@@ -1,6 +1,7 @@
 <!-- omit in toc -->
 # Laravel Manual
 
+- [Repos & Codes](#repos--codes)
 - [Commands](#commands)
   - [Controller](#controller)
   - [Key](#key)
@@ -11,6 +12,7 @@
   - [Policy](#policy)
   - [Factory](#factory)
   - [Seeder 假数据填充](#seeder-%e5%81%87%e6%95%b0%e6%8d%ae%e5%a1%ab%e5%85%85)
+- [Docs](#docs)
 - [API](#api)
 - [References](#references)
 - [Tutorials](#tutorials)
@@ -62,6 +64,12 @@
 ```bash
 composer create-project laravel/laravel laravel54 5.4.*
 ```
+
+## Repos & Codes
+
+[laravel/laravel](https://github.com/laravel/laravel) | [Gitee](https://gitee.com/mrhuangyuhui/laravel)
+
+[laravel/framework](https://github.com/laravel/framework) | [Gitee](https://gitee.com/mrhuangyuhui/laravel-framework)
 
 ## Commands
 
@@ -240,6 +248,10 @@ php artisan db:seed --class=UsersTableSeeder
 # 重置数据库并执行假数据填充
 php artisan migrate:refresh --seed
 ```
+
+## Docs
+
+<https://laravel.com/docs/5.8>
 
 ## API
 
