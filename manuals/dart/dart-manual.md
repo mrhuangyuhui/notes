@@ -65,7 +65,7 @@
 
 ## Commands
 
-> 相关笔记：[`pub.md`](/manuals/dart/commands/pub.md)
+> 相关笔记：[`pub-cmd.md`](/commands/dart/pub-cmd.md)
 
 <https://dart.dev/tools/sdk>
 
