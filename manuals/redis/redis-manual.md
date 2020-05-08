@@ -4,8 +4,8 @@
 - [Installation](#installation)
 - [Downloads](#downloads)
 - [Documentations](#documentations)
-- [Guides](#guides)
-- [API](#api)
+  - [Guides](#guides)
+  - [API](#api)
   - [Cheat Sheets](#cheat-sheets)
 - [Tutorials](#tutorials)
 - [Commands](#commands)
@@ -35,7 +35,9 @@
 
 <https://redis.io/documentation> | [GitHub](https://github.com/antirez/redis-doc)
 
-## Guides
+### Guides
+
+[`guides/redis`](/guides/redis/README.md)
 
 [Replication](https://redis.io/topics/replication)
 
@@ -45,7 +47,7 @@
 
 [Security](https://redis.io/topics/security)
 
-## API
+### API
 
 [Redis modules API reference](https://redis.io/topics/modules-api-ref)
 
