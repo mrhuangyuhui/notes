@@ -13,7 +13,8 @@
 - [Version Management](#version-management)
 - [Commands](#commands)
   - [`irb`](#irb)
-- [References](#references)
+- [Docs](#docs)
+- [API](#api)
 - [Tutorials](#tutorials)
 - [Searches](#searches)
 
@@ -41,9 +42,7 @@
 
 ## Language Reference
 
-<http://www.ruby-doc.org/core>
-
-[![img](https://gitee.com/mrhuangyuhui/images/raw/master/ruby/ruby-docs-1.png)](http://www.ruby-doc.org/core)
+> 相关笔记：[Ruby 语言参考](/langs/ruby/README.md)
 
 <!-- #ruby-install -->
 ## Install
@@ -161,8 +160,10 @@ irb --help
 irb
 ```
 
-<!-- #ruby-ref #ruby-api -->
-## References
+## Docs
+
+<!-- #ruby-api -->
+## API
 
 [Official API Documentation](https://docs.ruby-lang.org/en/)
 
@@ -178,6 +179,8 @@ irb
 [Ruby 2.6 documentation — DevDocs](https://devdocs.io/ruby~2.6/)
 
 [RubyDocs - Fancy docs for any Ruby project](https://rubydocs.org/)
+
+[RubyDoc.info: Documenting RubyGems, Stdlib, and GitHub Projects](https://www.rubydoc.info/gems)
 
 <!-- #ruby-tutorial -->
 ## Tutorials
