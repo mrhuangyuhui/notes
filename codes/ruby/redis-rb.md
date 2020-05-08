@@ -1,5 +1,13 @@
 # redis-rb
 
-<https://www.rubydoc.info/gems/redis>
+## Repos
 
-<https://travis-ci.org/github/redis/redis-rb>
+[redis/redis-rb](https://github.com/redis/redis-rb) | [Gitee](https://gitee.com/mrhuangyuhui/redis-rb)
+
+## Gems
+
+<https://gems.ruby-china.com/gems/redis>
+
+## API
+
+<https://www.rubydoc.info/gems/redis>

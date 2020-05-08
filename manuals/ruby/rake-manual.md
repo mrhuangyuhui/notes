@@ -1,5 +1,7 @@
 # Rake Manual
 
+> 相关笔记：[`codes/ruby/rake.md`](/codes/ruby/rake.md)
+
 <https://github.com/ruby/rake>
 
 ## Install
@@ -14,16 +16,20 @@ gem install rake
 
 <https://ruby.github.io/rake/>
 
+### `Rakefile`
+
+<https://github.com/ruby/rake/blob/master/doc/rakefile.rdoc>
+
+### API
+
+<https://www.rubydoc.info/gems/rake>
+
 ## Commands
 
 ```bash
 rake -h
 rake --help
 ```
-
-## `Rakefile`
-
-<https://github.com/ruby/rake/blob/master/doc/rakefile.rdoc>
 
 ## Issues
 
