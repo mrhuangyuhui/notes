@@ -4,6 +4,9 @@
 - [Installation](#installation)
 - [Downloads](#downloads)
 - [Documentations](#documentations)
+- [Guides](#guides)
+- [API](#api)
+  - [Cheat Sheets](#cheat-sheets)
 - [Tutorials](#tutorials)
 - [Commands](#commands)
 - [Configurations](#configurations)
@@ -30,11 +33,9 @@
 
 ## Documentations
 
-<https://redis.io/documentation>
+<https://redis.io/documentation> | [GitHub](https://github.com/antirez/redis-doc)
 
-[Commands](https://redis.io/commands)
-
-[Redis-cli](https://redis.io/topics/rediscli)
+## Guides
 
 [Replication](https://redis.io/topics/replication)
 
@@ -43,6 +44,12 @@
 [High Availability](https://redis.io/topics/sentinel)
 
 [Security](https://redis.io/topics/security)
+
+## API
+
+[Redis modules API reference](https://redis.io/topics/modules-api-ref)
+
+### Cheat Sheets
 
 [Redis Cheat Sheet](https://www.cheatography.com/tasjaevan/cheat-sheets/redis/)
 
@@ -61,6 +68,8 @@
 ## Repositories
 
 <https://github.com/antirez/redis>
+
+<https://github.com/antirez/redis-doc>
 
 ## Clients
 
