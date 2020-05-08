@@ -1,6 +1,6 @@
 # Redis 开发与运维
 
-[电子书](https://mrhuangyuhui.gitee.io/books/8PpgED.html)
+[电子书](http://mrhuangyuhui.gitee.io/redis-books/2iozYS.html)
 
 ## 环境搭建
 

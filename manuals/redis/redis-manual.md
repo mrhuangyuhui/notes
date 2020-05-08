@@ -57,7 +57,7 @@
 
 ## Tutorials
 
-[Redis 开发与运维](tutorials/redis/redis-devops/README.md)
+[Redis 开发与运维](/tutorials/redis/redis-devops/README.md)
 
 ## Commands
 
@@ -72,6 +72,8 @@
 <https://github.com/antirez/redis>
 
 <https://github.com/antirez/redis-doc>
+
+<https://gitee.com/mrhuangyuhui/redis-books>
 
 ## Clients
 
