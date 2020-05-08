@@ -1,9 +1,11 @@
 <!-- omit in toc -->
-# Redis - Commands
+# Redis Commands
 
 - [`redis-server`](#redis-server)
 - [`redis-cli`](#redis-cli)
 - [Redis Shell](#redis-shell)
+  - [`keys`](#keys)
+  - [`rpush`](#rpush)
 
 ## `redis-server`
 
@@ -52,13 +54,13 @@ redis-cli --version
 ```bash
 # 默认 -h 127.0.0.1 -p 6379
 $ redis-cli
-> help
+127.0.0.1:6379> help
 ```
 
 退出客户端
 
 ```bash
-> quit
+127.0.0.1:6379> quit
 ```
 
 关闭服务端
@@ -79,3 +81,12 @@ PONG
 ## Redis Shell
 
 <https://redis.io/commands>
+
+### `keys`
+
+```bash
+127.0.0.1:6379> keys *
+```
+
+### `rpush`
+

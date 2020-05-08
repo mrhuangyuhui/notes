@@ -55,7 +55,7 @@
 
 ## Tutorials
 
-<https://gitee.com/mrhuangyuhui/notes/blob/master/imooc/class-117/ch13.md>
+[Redis 开发与运维](tutorials/redis/redis-devops/README.md)
 
 ## Commands
 

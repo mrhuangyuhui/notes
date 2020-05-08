@@ -1,10 +1,10 @@
-# Redis - Installation
+# Redis Installation
 
 <https://redis.io/download#installation>
 
 ## Docker
 
-> 相关笔记：[`manuals/redis/redis-docker.md`](/manuals/redis/redis-docker.md)
+[`manuals/redis/redis-docker.md`](/manuals/redis/redis-docker.md)
 
 ## Mac
 

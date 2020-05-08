@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Redis - Configurations
+# Redis Configurations
 
 - [Redis Server](#redis-server)
 - [Redis Sentinel](#redis-sentinel)

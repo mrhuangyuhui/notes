@@ -1,10 +1,12 @@
-# [《Redis 开发与运维》](https://mrhuangyuhui.gitee.io/books/8PpgED.html)学习笔记
+# Redis 开发与运维
 
-## 环境信息
+[电子书](https://mrhuangyuhui.gitee.io/books/8PpgED.html)
 
-Redis 3.0.7 （下载地址 <http://download.redis.io/releases/redis-3.0.7.tar.gz>）
+## 环境搭建
 
-CentOS 7.3
+[Redis 3.0.7](http://download.redis.io/releases/redis-3.0.7.tar.gz)
+
+[`manuals/redis/redis-install.md`](/manuals/redis/redis-install.md)
 
 ## 练习代码
 
