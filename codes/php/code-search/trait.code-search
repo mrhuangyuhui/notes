@@ -1,0 +1,350 @@
+# Query: ^trait
+# Flags: CaseSensitive WordMatch RegExp
+# Including: src/**/*.php
+
+115 results - 115 files
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/Authenticatable.php:
+  5: trait Authenticatable
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/CreatesUserProviders.php:
+  7: trait CreatesUserProviders
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/GuardHelpers.php:
+  11: trait GuardHelpers
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/MustVerifyEmail.php:
+  5: trait MustVerifyEmail
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/Access/HandlesAuthorization.php:
+  5: trait HandlesAuthorization
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Auth/Passwords/CanResetPassword.php:
+  7: trait CanResetPassword
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Broadcasting/InteractsWithSockets.php:
+  7: trait InteractsWithSockets
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Broadcasting/Broadcasters/UsePusherChannelConventions.php:
+  7: trait UsePusherChannelConventions
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Bus/Queueable.php:
+  5: trait Queueable
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Cache/RetrievesMultipleKeys.php:
+  5: trait RetrievesMultipleKeys
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Console/ConfirmableTrait.php:
+  7: trait ConfirmableTrait
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Console/DetectsApplicationNamespace.php:
+  7: trait DetectsApplicationNamespace
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Console/Scheduling/ManagesFrequencies.php:
+  7: trait ManagesFrequencies
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/DetectsDeadlocks.php:
+  8: trait DetectsDeadlocks
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/DetectsLostConnections.php:
+  8: trait DetectsLostConnections
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Concerns/BuildsQueries.php:
+  9: trait BuildsQueries
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Concerns/ManagesTransactions.php:
+  9: trait ManagesTransactions
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/SoftDeletes.php:
+  10: trait SoftDeletes
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Concerns/GuardsAttributes.php:
+  7: trait GuardsAttributes
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php:
+  17: trait HasAttributes
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Concerns/HasEvents.php:
+  9: trait HasEvents
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Concerns/HasGlobalScopes.php:
+  10: trait HasGlobalScopes
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Concerns/HasRelationships.php:
+  22: trait HasRelationships
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Concerns/HasTimestamps.php:
+  7: trait HasTimestamps
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Concerns/HidesAttributes.php:
+  5: trait HidesAttributes
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Concerns/QueriesRelationships.php:
+  14: trait QueriesRelationships
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Relations/Concerns/AsPivot.php:
+  9: trait AsPivot
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Relations/Concerns/InteractsWithPivotTable.php:
+  10: trait InteractsWithPivotTable
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Eloquent/Relations/Concerns/SupportsDefaultModels.php:
+  7: trait SupportsDefaultModels
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php:
+  9: trait AuthenticatesUsers
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Auth/RedirectsUsers.php:
+  5: trait RedirectsUsers
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Auth/RegistersUsers.php:
+  9: trait RegistersUsers
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Auth/ResetsPasswords.php:
+  12: trait ResetsPasswords
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Auth/SendsPasswordResetEmails.php:
+  8: trait SendsPasswordResetEmails
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Auth/ThrottlesLogins.php:
+  13: trait ThrottlesLogins
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Auth/VerifiesEmails.php:
+  9: trait VerifiesEmails
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Auth/Access/Authorizable.php:
+  7: trait Authorizable
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Auth/Access/AuthorizesRequests.php:
+  8: trait AuthorizesRequests
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Bus/Dispatchable.php:
+  7: trait Dispatchable
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Bus/DispatchesJobs.php:
+  7: trait DispatchesJobs
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Events/Dispatchable.php:
+  5: trait Dispatchable
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php:
+  7: trait DatabaseMigrations
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/DatabaseTransactions.php:
+  5: trait DatabaseTransactions
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/RefreshDatabase.php:
+  7: trait RefreshDatabase
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/WithFaker.php:
+  7: trait WithFaker
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/WithoutEvents.php:
+  7: trait WithoutEvents
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/WithoutMiddleware.php:
+  7: trait WithoutMiddleware
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithAuthentication.php:
+  7: trait InteractsWithAuthentication
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithConsole.php:
+  10: trait InteractsWithConsole
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithContainer.php:
+  8: trait InteractsWithContainer
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithDatabase.php:
+  11: trait InteractsWithDatabase
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithExceptionHandling.php:
+  11: trait InteractsWithExceptionHandling
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithRedis.php:
+  9: trait InteractsWithRedis
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithSession.php:
+  5: trait InteractsWithSession
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/MakesHttpRequests.php:
+  12: trait MakesHttpRequests
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Testing/Concerns/MocksApplicationServices.php:
+  10: trait MocksApplicationServices
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Foundation/Validation/ValidatesRequests.php:
+  9: trait ValidatesRequests
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Http/FileHelpers.php:
+  7: trait FileHelpers
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Http/ResponseTrait.php:
+  9: trait ResponseTrait
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Http/Concerns/InteractsWithContentTypes.php:
+  7: trait InteractsWithContentTypes
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Http/Concerns/InteractsWithFlashData.php:
+  5: trait InteractsWithFlashData
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Http/Concerns/InteractsWithInput.php:
+  11: trait InteractsWithInput
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Http/Resources/CollectsResources.php:
+  8: trait CollectsResources
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Http/Resources/ConditionallyLoadsAttributes.php:
+  7: trait ConditionallyLoadsAttributes
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Http/Resources/DelegatesToResource.php:
+  8: trait DelegatesToResource
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Log/ParsesLogConfiguration.php:
+  8: trait ParsesLogConfiguration
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Notifications/HasDatabaseNotifications.php:
+  5: trait HasDatabaseNotifications
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Notifications/Notifiable.php:
+  5: trait Notifiable
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Notifications/RoutesNotifications.php:
+  8: trait RoutesNotifications
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/InteractsWithQueue.php:
+  7: trait InteractsWithQueue
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/SerializesAndRestoresModelIdentifiers.php:
+  12: trait SerializesAndRestoresModelIdentifiers
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Queue/SerializesModels.php:
+  8: trait SerializesModels
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Routing/RouteDependencyResolverTrait.php:
+  10: trait RouteDependencyResolverTrait
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/InteractsWithTime.php:
+  8: trait InteractsWithTime
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Traits/CapsuleManagerTrait.php:
+  8: trait CapsuleManagerTrait
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Traits/ForwardsCalls.php:
+  8: trait ForwardsCalls
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Traits/Localizable.php:
+  7: trait Localizable
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Traits/Macroable.php:
+  10: trait Macroable
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Support/Traits/Tappable.php:
+  5: trait Tappable
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Validation/ValidatesWhenResolvedTrait.php:
+  8: trait ValidatesWhenResolvedTrait
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Validation/Concerns/FormatsMessages.php:
+  10: trait FormatsMessages
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Validation/Concerns/ReplacesAttributes.php:
+  7: trait ReplacesAttributes
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Validation/Concerns/ValidatesAttributes.php:
+  28: trait ValidatesAttributes
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Validation/Rules/DatabaseRule.php:
+  7: trait DatabaseRule
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesAuthorizations.php:
+  5: trait CompilesAuthorizations
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesComments.php:
+  5: trait CompilesComments
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesComponents.php:
+  5: trait CompilesComponents
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesConditionals.php:
+  5: trait CompilesConditionals
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesEchos.php:
+  5: trait CompilesEchos
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesErrors.php:
+  5: trait CompilesErrors
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesHelpers.php:
+  5: trait CompilesHelpers
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesIncludes.php:
+  5: trait CompilesIncludes
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesInjections.php:
+  5: trait CompilesInjections
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesJson.php:
+  5: trait CompilesJson
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesLayouts.php:
+  7: trait CompilesLayouts
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesLoops.php:
+  5: trait CompilesLoops
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesRawPhp.php:
+  5: trait CompilesRawPhp
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesStacks.php:
+  5: trait CompilesStacks
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Compilers/Concerns/CompilesTranslations.php:
+  5: trait CompilesTranslations
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Concerns/ManagesComponents.php:
+  8: trait ManagesComponents
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Concerns/ManagesEvents.php:
+  9: trait ManagesEvents
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Concerns/ManagesLayouts.php:
+  8: trait ManagesLayouts
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Concerns/ManagesLoops.php:
+  8: trait ManagesLoops
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Concerns/ManagesStacks.php:
+  7: trait ManagesStacks
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/View/Concerns/ManagesTranslations.php:
+  5: trait ManagesTranslations
+
+notes • codes/php/code-hub/lumen-framework/src/Auth/Authorizable.php:
+  7: trait Authorizable
+
+notes • codes/php/code-hub/lumen-framework/src/Concerns/RegistersExceptionHandlers.php:
+  13: trait RegistersExceptionHandlers
+
+notes • codes/php/code-hub/lumen-framework/src/Concerns/RoutesRequests.php:
+  26: trait RoutesRequests
+
+notes • codes/php/code-hub/lumen-framework/src/Routing/ProvidesConvenienceMethods.php:
+  13: trait ProvidesConvenienceMethods
+
+notes • codes/php/code-hub/lumen-framework/src/Testing/DatabaseMigrations.php:
+  5: trait DatabaseMigrations
+
+notes • codes/php/code-hub/lumen-framework/src/Testing/DatabaseTransactions.php:
+  5: trait DatabaseTransactions
+
+notes • codes/php/code-hub/lumen-framework/src/Testing/WithoutEvents.php:
+  7: trait WithoutEvents
+
+notes • codes/php/code-hub/lumen-framework/src/Testing/WithoutMiddleware.php:
+  7: trait WithoutMiddleware
+
+notes • codes/php/code-hub/lumen-framework/src/Testing/Concerns/MakesHttpRequests.php:
+  12: trait MakesHttpRequests
+
+notes • tools/homestead/src/Traits/GeneratesSlugs.php:
+  5: trait GeneratesSlugs

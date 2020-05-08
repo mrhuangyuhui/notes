@@ -1,0 +1,8 @@
+# Query: use.*\\{.*as.*\\}
+# Flags: CaseSensitive WordMatch RegExp
+# Including: src/**/*.php
+
+1 result - 1 file
+
+notes • codes/php/code-hub/laravel-framework/src/Illuminate/Database/Connectors/MySqlConnector.php:
+  27:             $connection->exec("use `{$config['database']}`;");

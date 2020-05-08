@@ -1,0 +1,5 @@
+# Query: insteadof
+# Flags: CaseSensitive WordMatch RegExp
+# Including: src/**/*.php
+
+No Results
