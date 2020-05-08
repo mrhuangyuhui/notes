@@ -3,13 +3,13 @@
 
 - [Installation](#installation)
 - [Downloads](#downloads)
-- [Repositories](#repositories)
-- [Commands](#commands)
-- [Configurations](#configurations)
-- [Clients](#clients)
-  - [Java](#java)
 - [Documentations](#documentations)
 - [Tutorials](#tutorials)
+- [Commands](#commands)
+- [Configurations](#configurations)
+- [Repositories](#repositories)
+- [Clients](#clients)
+  - [Java](#java)
 - [Tools](#tools)
 
 <https://redis.io/>
@@ -18,7 +18,7 @@
 
 ## Installation
 
-> 相关笔记：[`manuals/redis/redis-install.md`](/manuals/redis/redis-install.md)
+[`manuals/redis/redis-install.md`](/manuals/redis/redis-install.md)
 
 ## Downloads
 
@@ -27,28 +27,6 @@
 稳定版本 <http://download.redis.io/>
 
 所有版本 <http://download.redis.io/releases/>
-
-## Repositories
-
-<https://github.com/antirez/redis>
-
-## Commands
-
-> 相关笔记：[`manuals/redis/redis-cmds.md`](/manuals/redis/redis-cmds.md)
-
-## Configurations
-
-> 相关笔记：[`manuals/redis/redis-configs.md`](/manuals/redis/redis-configs.md)
-
-## Clients
-
-<https://redis.io/clients>
-
-### Java
-
-<https://redis.io/clients#java>
-
-<https://github.com/xetorthio/jedis>
 
 ## Documentations
 
@@ -71,6 +49,28 @@
 ## Tutorials
 
 <https://gitee.com/mrhuangyuhui/notes/blob/master/imooc/class-117/ch13.md>
+
+## Commands
+
+[`manuals/redis/redis-cmds.md`](/manuals/redis/redis-cmds.md)
+
+## Configurations
+
+[`manuals/redis/redis-configs.md`](/manuals/redis/redis-configs.md)
+
+## Repositories
+
+<https://github.com/antirez/redis>
+
+## Clients
+
+<https://redis.io/clients>
+
+### Java
+
+<https://redis.io/clients#java>
+
+<https://github.com/xetorthio/jedis>
 
 ## Tools
 
