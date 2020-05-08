@@ -1,4 +1,4 @@
-# Redis - Install
+# Redis - Installation
 
 <https://redis.io/download#installation>
 
@@ -54,6 +54,7 @@ source ~/.bash_profile
 redis-server --help
 ```
 
+<!--#todo -->
 ## Source
 
 <https://github.com/antirez/redis#installing-redis>
@@ -153,6 +154,7 @@ OK
 "bar"
 ```
 
+<!--#todo -->
 ## YUM
 
 ```bash
@@ -166,6 +168,7 @@ rpm -ql redis
 yum erase redis
 ```
 
+<!--#todo -->
 ## APT
 
 ```bash

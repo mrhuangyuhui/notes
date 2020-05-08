@@ -1,28 +1,22 @@
 <!-- omit in toc -->
 # Redis Manual
 
-- [Install](#install)
+- [Installation](#installation)
 - [Downloads](#downloads)
+- [Repositories](#repositories)
 - [Commands](#commands)
 - [Configurations](#configurations)
-  - [Redis Server](#redis-server)
-  - [Redis Sentinel](#redis-sentinel)
-- [References](#references)
 - [Clients](#clients)
   - [Java](#java)
-- [Tools](#tools)
-- [GUI](#gui)
+- [Documentations](#documentations)
 - [Tutorials](#tutorials)
+- [Tools](#tools)
 
 <https://redis.io/>
 
-<https://redis.io/documentation>
-
-<https://github.com/antirez/redis>
-
 <http://try.redis.io>
 
-## Install
+## Installation
 
 > 相关笔记：[`manuals/redis/redis-install.md`](/manuals/redis/redis-install.md)
 
@@ -34,56 +28,31 @@
 
 所有版本 <http://download.redis.io/releases/>
 
+## Repositories
+
+<https://github.com/antirez/redis>
+
 ## Commands
 
-> 相关笔记：[`manuals/redis/redis-commands.md`](/manuals/redis/redis-commands.md)
+> 相关笔记：[`manuals/redis/redis-cmds.md`](/manuals/redis/redis-cmds.md)
 
-## [Configurations](https://redis.io/topics/config)
+## Configurations
 
-### Redis Server
+> 相关笔记：[`manuals/redis/redis-configs.md`](/manuals/redis/redis-configs.md)
 
-配置方式一：配置文件
+## Clients
 
-手动创建或自动创建配置文件，详情查看安装部分。
+<https://redis.io/clients>
 
-官方文档
+### Java
 
-- [redis.conf for Redis 4.0](https://raw.githubusercontent.com/antirez/redis/4.0/redis.conf)
-- [redis.conf for Redis 3.0](https://raw.githubusercontent.com/antirez/redis/3.0/redis.conf)
+<https://redis.io/clients#java>
 
-我的注释
+<https://github.com/xetorthio/jedis>
 
-- [redis-3.0.7.conf](https://gitee.com/mrhuangyuhui/notes/blob/master/configs/redis/redis-3.0.7.conf)
+## Documentations
 
-```bash
-# 指定配置文件启动服务器
-redis-server /etc/redis/6379.conf
-```
-
-配置方式二：命令行选项
-
-临时配置，服务器重启后失效。
-
-```bash
-redis-server --port 6380 --slaveof 127.0.0.1 6379
-```
-
-配置方式三：交互终端命令
-
-临时配置，服务器重启后失效。
-
-相关命令
-
-- [CONFIG SET](https://redis.io/commands/config-set)
-- [CONFIG GET](https://redis.io/commands/config-get)
-
-### Redis Sentinel
-
-- [Sentinel](https://redis.io/topics/sentinel)
-- [sentinel-3.0.conf](https://github.com/antirez/redis/blob/3.0/sentinel.conf)
-- [sentinel-4.0.conf](https://github.com/antirez/redis/blob/4.0/sentinel.conf)
-
-## [References](https://redis.io/documentation)
+<https://redis.io/documentation>
 
 [Commands](https://redis.io/commands)
 
@@ -99,11 +68,9 @@ redis-server --port 6380 --slaveof 127.0.0.1 6379
 
 [Redis Cheat Sheet](https://www.cheatography.com/tasjaevan/cheat-sheets/redis/)
 
-## [Clients](https://redis.io/clients)
+## Tutorials
 
-### [Java](https://redis.io/clients#java)
-
-<https://github.com/xetorthio/jedis>
+<https://gitee.com/mrhuangyuhui/notes/blob/master/imooc/class-117/ch13.md>
 
 ## Tools
 
@@ -115,10 +82,4 @@ redis-server --port 6380 --slaveof 127.0.0.1 6379
 
 <https://github.com/jcoleman/tomcat-redis-session-manager>
 
-## GUI
-
 [Redis Desktop Manager](https://redisdesktop.com/)
-
-## Tutorials
-
-<https://gitee.com/mrhuangyuhui/notes/blob/master/imooc/class-117/ch13.md>
