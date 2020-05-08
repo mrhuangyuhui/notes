@@ -4,15 +4,7 @@
 
 ## Docker
 
-<https://hub.docker.com/_/redis>
-
-```bash
-docker pull redis:6.0.1-alpine3.11
-```
-
-```bash
-docker run -p 6379:6379 -d redis:6.0.1-alpine3.11
-```
+> 相关笔记：[`manuals/redis/redis-docker.md`](/manuals/redis/redis-docker.md)
 
 ## Mac
 
@@ -51,7 +43,15 @@ export PATH=\$PATH:\$REDIS_HOME/src
 
 EOF
 
+tail -n 5 ~/.bash_profile
+
 source ~/.bash_profile
+```
+
+验证配置结果
+
+```bash
+redis-server --help
 ```
 
 ## Source

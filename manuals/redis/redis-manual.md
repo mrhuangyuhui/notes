@@ -36,59 +36,7 @@
 
 ## Commands
 
-启动服务器
-
-```bash
-# 使用默认配置
-redis-server
-
-# 指定配置文件
-redis-server /etc/redis/6379.conf
-# 指定端口
-redis-server --port 7777
-# 指定复制主节点
-redis-server --port 7777 --slaveof 127.0.0.1 8888
-```
-
-关闭服务器
-
-```bash
-redis-cli shutdown
-
-# 或在交互终端内执行
-127.0.0.1:6379> shutdown
-```
-
-验证服务器是否正常运行
-
-```bash
-$ redis-cli -h 127.0.0.1 -p 6379 ping
-PONG
-```
-
-启动交互终端
-
-```bash
-$ redis-cli
-# 查看帮助
-127.0.0.1:6379> help
-```
-
-`redis-server`
-
-```bash
-redis-server -h
-
-redis-server -v
-```
-
-`redis-cli`
-
-[Redis-cli](https://redis.io/topics/rediscli)
-
-```bash
-redis-cli --help
-```
+> 相关笔记：[`manuals/redis/redis-commands.md`](/manuals/redis/redis-commands.md)
 
 ## [Configurations](https://redis.io/topics/config)
 
