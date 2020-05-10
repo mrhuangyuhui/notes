@@ -1,4 +1,12 @@
+<!-- omit in toc -->
 # Virtualenv Manual
+
+- [Install](#install)
+  - [PIP](#pip)
+  - [Linux](#linux)
+  - [Mac](#mac)
+- [Cmds](#cmds)
+- [Refs](#refs)
 
 <http://virtualenv.pypa.io/>
 
@@ -8,11 +16,11 @@
 
 ## Install
 
+> 注意：Python 3 自带 [`venv`](https://docs.python.org/3/library/venv.html#module-venv) 模块，不需要安装！！！
+
 [Installing packages using `pip` and virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
 <https://virtualenv.pypa.io/en/latest/installation/>
-
-> 注意：Python 3 自带 [`venv`](https://docs.python.org/3/library/venv.html#module-venv) 模块，不需要安装。
 
 ### PIP
 
@@ -36,7 +44,7 @@ sudo apt-get install python-virtualenv
 sudo yum install python-virtualenv
 ```
 
-### macOS
+### Mac
 
 ```bash
 sudo python2 -m pip install virtualenv
