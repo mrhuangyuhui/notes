@@ -5,12 +5,12 @@
   - [PIP](#pip)
   - [Linux](#linux)
   - [Mac](#mac)
-- [Cmds](#cmds)
-- [Refs](#refs)
-
-<http://virtualenv.pypa.io/>
+- [Commands](#commands)
+- [Docs](#docs)
 
 <https://github.com/pypa/virtualenv>
+
+<http://virtualenv.pypa.io/>
 
 [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/stable/)
 
@@ -18,9 +18,9 @@
 
 > 注意：Python 3 自带 [`venv`](https://docs.python.org/3/library/venv.html#module-venv) 模块，不需要安装！！！
 
-[Installing packages using `pip` and virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+<https://virtualenv.pypa.io/en/latest/installation.html>
 
-<https://virtualenv.pypa.io/en/latest/installation/>
+[Installing virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#installing-virtualenv)
 
 ### PIP
 
@@ -50,38 +50,41 @@ sudo yum install python-virtualenv
 sudo python2 -m pip install virtualenv
 ```
 
-## [Cmds](https://virtualenv.pypa.io/en/latest/reference/#virtualenv-command)
+## Commands
+
+<https://virtualenv.pypa.io/en/latest/reference/#virtualenv-command>
 
 <https://virtualenv.pypa.io/en/latest/userguide/>
 
-创建虚拟 Python 环境
+创建虚拟环境
 
 ```bash
 cd myapp
-# ENV 是虚拟环境所在的目录
-virtualenv ENV
-# Python 3 自带模块创建
-python3 -m venv ENV
+
+virtualenv venv # venv 是虚拟环境所在的目录名
+
+# 或使用 Python 3 自带模块创建
+python3 -m venv venv
 ```
 
-激活虚拟 Python 环境
+激活虚拟环境
 
 ```bash
-source ENV/bin/activate
+source venv/bin/activate
 ```
 
-关闭虚拟 Python 环境
+关闭虚拟环境
 
 ```bash
 deactivate
 ```
 
-删除虚拟 Python 环境
+删除虚拟环境
 
 ```bash
-deactivate && rm -r ENV
+deactivate && rm -r venv
 ```
 
-## Refs
+## Docs
 
 [Reference Guide](https://virtualenv.pypa.io/en/latest/reference/)
