@@ -5,7 +5,7 @@
 - [Installation](#installation)
 - [Downloads](#downloads)
 - [PIP](#pip)
-- [Cmds](#cmds)
+- [Commands](#commands)
 - [Refs](#refs)
   - [Python 3](#python-3)
 - [Tutorials](#tutorials)
@@ -36,31 +36,15 @@
 
 [`pip-manual.md`](pip-manual.md)
 
-## Cmds
+## Commands
 
-列出已安装模块
-
-```bash
-pydoc modules
-# 或
-pip list
-```
-
-用源码安装模块
-
-```bash
-git clone https://github.com/pallets/flask.git
-cd flask
-python setup.py build
-python setup.py install
-```
+[`python-cmd.md`](python-cmd.md)
 
 ## Refs
 
 [General Index](https://docs.python.org/3/genindex.html) \
 [Global Module Index](https://docs.python.org/3/py-modindex.html) \
-[Search page](https://docs.python.org/3/search.html)
-
+[Search page](https://docs.python.org/3/searc
 http://devdocs.io/python~3.6/ \
 http://devdocs.io/python~2.7/
 
