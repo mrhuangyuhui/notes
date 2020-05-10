@@ -3,13 +3,16 @@
 # Pyenv Manual
 
 - [Install](#install)
-  - [Homebrew](#homebrew)
+  - [Mac](#mac)
   - [CentOS](#centos)
   - [Ubuntu](#ubuntu)
   - [Plugins](#plugins)
 - [Commands](#commands)
   - [`pyenv install`](#pyenv-install)
   - [`pyenv global`](#pyenv-global)
+  - [`pyenv local`](#pyenv-local)
+  - [`pyenv uninstall`](#pyenv-uninstall)
+  - [`pyenv version`](#pyenv-version)
 
 <https://github.com/pyenv/pyenv>
 
@@ -19,7 +22,7 @@
 
 [依赖软件列表](https://github.com/pyenv/pyenv/wiki/Common-build-problems)
 
-### Homebrew
+### Mac
 
 <https://github.com/pyenv/pyenv#homebrew-on-macos>
 
@@ -35,13 +38,13 @@ brew install pyenv
 
 配置
 
-> 注意：配置完成后重启终端
-
 ```bash
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile
+
+source ~/.bash_profile
 ```
 
-验证
+验证安装结果
 
 ```bash
 pyenv
@@ -165,6 +168,8 @@ pyenv install 3.6.5 -v
 
 ### `pyenv global`
 
+设置或查看全局 Python 版本
+
 <https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-global>
 
 ```bash
@@ -174,6 +179,8 @@ pyenv global 3.6.1
 # 查看全局版本
 pyenv global
 ```
+
+### `pyenv local`
 
 Set or show the local application-specific Python version
 ```
@@ -186,12 +193,18 @@ Unset the local version
 $ pyenv local --unset
 ```
 
-Show the current Python version and its origin
-```
-$ pyenv version
+### `pyenv uninstall`
+
+卸载
+
+```bash
+pyenv uninstall 3.6.1
 ```
 
-Uninstall a specific Python version
-```
-$ pyenv uninstall 3.6.1
+### `pyenv version`
+
+查看当前终端的 Python 版本
+
+```bash
+pyenv version
 ```

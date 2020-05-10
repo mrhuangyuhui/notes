@@ -1,12 +1,9 @@
 <!-- omit in toc -->
 # Python Manual
 
-- [Install](#install)
-  - [Docker](#docker)
-  - [pyenv](#pyenv)
-  - [Anaconda](#anaconda)
-  - [CentOS](#centos)
-  - [Source code](#source-code)
+- [Language Reference](#language-reference)
+- [Installation](#installation)
+- [Downloads](#downloads)
 - [PIP](#pip)
 - [Cmds](#cmds)
 - [Refs](#refs)
@@ -23,68 +20,17 @@
 
 [Installing packages using `pip` and virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
-## Install
+## Language Reference
+
+[`langs/python`](/langs/python/README.md)
+
+## Installation
+
+[`python-install.md`](python-install.md)
+
+## Downloads
 
 <https://www.python.org/downloads/>
-
-### Docker
-
-<https://hub.docker.com/_/python>
-
-```bash
-docker pull python:2.7.17-alpine3.11
-```
-
-### pyenv
-
-本地安装推荐这种方式
-
-[`pyenv-manual.md`](pyenv-manual.md)
-
-### Anaconda
-
-数据处理推荐这种方式
-
-[`anaconda-manual.md`](anaconda-manual.md)
-
-### CentOS
-
-Prerequisites(CentOS 7)
-```
-$ yum group install 'Development Tools' -y
-$ yum install zlib-devel bzip2-devel openssl-devel ncurses-devel readline-devel sqlite-devel -y
-```
-
-### Source code
-
-Download
-
-https://www.python.org/downloads/
-
-Build
-```
-$ ./configure --prefix=/usr/local/Python/Python-3.6.2/
-$ make
-$ make test
-$ make install
-```
-
-Symlink
-```
-$ cd /usr/local/Python/
-$ ln -s Python-3.6.2/ default
-```
-
-Add to the load path
-```
-$ echo 'export PATH=/usr/local/Python/default/bin:$PATH' >> ~/.bash_profile
-$ source ~/.bash_profile
-```
-
-Verifying
-```
-$ python3 -V
-```
 
 ## PIP
 
