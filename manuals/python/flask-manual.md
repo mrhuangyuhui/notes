@@ -1,5 +1,12 @@
 # Flask Manual
 
+- [Flask Manual](#flask-manual)
+  - [Install](#install)
+  - [Docs](#docs)
+    - [API](#api)
+  - [Tutorials](#tutorials)
+  - [IDEs](#ides)
+
 <https://flask.palletsprojects.com>
 
 <https://github.com/pallets/flask/>
@@ -58,9 +65,11 @@ def hello_world():
     return 'Hello, World!'
 ```
 
-## Refs
+## Docs
 
-[API](https://flask.palletsprojects.com/en/1.1.x/api/)
+### API
+
+<https://flask.palletsprojects.com/en/1.1.x/api/>
 
 ## Tutorials
 
