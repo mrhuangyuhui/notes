@@ -2,29 +2,25 @@
 # Python Manual
 
 - [Language Reference](#language-reference)
-- [Installation](#installation)
+- [Install](#install)
 - [Downloads](#downloads)
-- [PIP](#pip)
 - [Commands](#commands)
-- [Refs](#refs)
-  - [Python 3](#python-3)
+- [Docs](#docs)
+  - [API](#api)
 - [Tutorials](#tutorials)
+- [Tools](#tools)
 
 <https://www.python.org>
-
-<https://www.python.org/doc/>
 
 <https://github.com/python/cpython>
 
 <https://github.com/topics/python>
 
-[Installing packages using `pip` and virtual environments](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
-
 ## Language Reference
 
 [`langs/python`](/langs/python/README.md)
 
-## Installation
+## Install
 
 [`python-install.md`](python-install.md)
 
@@ -32,35 +28,29 @@
 
 <https://www.python.org/downloads/>
 
-## PIP
-
-[`pip-manual.md`](pip-manual.md)
-
 ## Commands
 
 [`python-cmd.md`](python-cmd.md)
 
-## Refs
+## Docs
 
-[General Index](https://docs.python.org/3/genindex.html) \
-[Global Module Index](https://docs.python.org/3/py-modindex.html) \
-[Search page](https://docs.python.org/3/searc
-http://devdocs.io/python~3.6/ \
-http://devdocs.io/python~2.7/
+<https://docs.python.org/3.7/>
 
-**[sys](https://docs.python.org/3.6/library/sys.html)**
+<https://docs.python.org/2.7/>
 
-- [sys.modules](https://docs.python.org/3.6/library/sys.html#sys.modules)
+### API
 
-### [Python 3](https://docs.python.org/3/)
+[The Python Standard Library — Python 3.7](https://docs.python.org/3.7/library/index.html)
+
+[Index — Python 3.7](https://docs.python.org/3.7/genindex.html)
+
+[Python Module Index — Python 3.7](https://docs.python.org/3.7/py-modindex.html)
+
+[Search — Python 3.7](https://docs.python.org/3.7/search.html)
 
 ## Tutorials
 
-[The Python Tutorial](https://docs.python.org/3/tutorial/)
-
-[The Python Standard Library](https://docs.python.org/3/library/index.html)
-
-[The Python Language Reference](https://docs.python.org/3.6/reference/index.html)
+[The Python Tutorial — Python 3.7](https://docs.python.org/3.7/tutorial/index.html)
 
 [Python 进阶](https://github.com/eastlakeside/interpy-zh)
 
@@ -69,3 +59,7 @@ http://devdocs.io/python~2.7/
 [Python 教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1016959663602400)
 
 [Python Tutorial (W3Schools)](https://www.w3schools.com/python/default.asp)
+
+## Tools
+
+[`manuals/python/tools/pip-manual.md`](/manuals/python/tools/pip-manual.md)

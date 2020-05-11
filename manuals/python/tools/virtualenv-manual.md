@@ -10,7 +10,9 @@
 
 <https://github.com/pypa/virtualenv>
 
-<http://virtualenv.pypa.io/>
+<https://virtualenv.pypa.io/en/latest/>
+
+<https://pypi.org/project/virtualenv/>
 
 [virtualenvwrapper](http://virtualenvwrapper.readthedocs.io/en/stable/)
 
