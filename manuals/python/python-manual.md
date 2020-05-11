@@ -18,7 +18,7 @@
 
 ## Language Reference
 
-[`langs/python`](/langs/python/README.md)
+[`langs/python/`](/langs/python/README.md)
 
 ## Install
 
