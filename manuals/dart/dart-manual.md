@@ -39,9 +39,7 @@
 
 ## Language Reference
 
-[Dart language specification](https://dart.dev/guides/language/spec)
-
-[A tour of the Dart language](https://dart.dev/guides/language/language-tour)
+[langs/dart](/langs/dart/README.md)
 
 ## Quick Start
 
