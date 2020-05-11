@@ -1,0 +1,15 @@
+# Query: Function
+# Flags: CaseSensitive WordMatch RegExp
+# Including: lib/**/*.dart
+
+4 results - 3 files
+
+code-hub/http/lib/http.dart:
+  163: Future<T> _withClient<T>(Future<T> Function(Client) fn) async {
+
+code-hub/http/lib/src/mock_client.dart:
+  79: typedef MockClientStreamHandler = Future<StreamedResponse> Function(
+  85: typedef MockClientHandler = Future<Response> Function(Request request);
+
+code-hub/http/lib/src/utils.dart:
+  72: Stream<T> onDone<T>(Stream<T> stream, void Function() onDone) =>

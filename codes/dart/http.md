@@ -2,6 +2,12 @@
 
 <https://pub.dev/packages/http>
 
-<https://github.com/dart-lang/http> | [Gitee](https://gitee.com/mrhuangyuhui/http)
+## Repos
+
+<https://github.com/dart-lang/http>
+
+<https://gitee.com/mrhuangyuhui/http>
+
+## API
 
 <https://pub.dev/documentation/http/latest/>
