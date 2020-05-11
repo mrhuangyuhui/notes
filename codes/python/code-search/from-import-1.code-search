@@ -1,0 +1,677 @@
+# Query: from \\..*import
+# Flags: CaseSensitive WordMatch RegExp
+# Including: *.py
+# Excluding: test*,site-packages
+
+401 results - 135 files
+
+notes • codes/python/code-hub/ansible/hacking/build_library/build_ansible/command_plugins/collection_meta.py:
+  19: from ..change_detection import update_file_if_different  # pylint: disable=relative-beyond-top-level
+  20: from ..commands import Command  # pylint: disable=relative-beyond-top-level
+  21: from ..jinja2.filters import documented_type, rst_ify  # pylint: disable=relative-beyond-top-level
+
+notes • codes/python/code-hub/ansible/hacking/build_library/build_ansible/command_plugins/dump_config.py:
+  18: from ..change_detection import update_file_if_different  # pylint: disable=relative-beyond-top-level
+  19: from ..commands import Command  # pylint: disable=relative-beyond-top-level
+
+notes • codes/python/code-hub/ansible/hacking/build_library/build_ansible/command_plugins/dump_keywords.py:
+  22: from ..change_detection import update_file_if_different  # pylint: disable=relative-beyond-top-level
+  23: from ..commands import Command  # pylint: disable=relative-beyond-top-level
+
+notes • codes/python/code-hub/ansible/hacking/build_library/build_ansible/command_plugins/generate_man.py:
+  20: from ..change_detection import update_file_if_different  # pylint: disable=relative-beyond-top-level
+  21: from ..commands import Command  # pylint: disable=relative-beyond-top-level
+
+notes • codes/python/code-hub/ansible/hacking/build_library/build_ansible/command_plugins/plugin_formatter.py:
+  47: from ..change_detection import update_file_if_different  # pylint: disable=relative-beyond-top-level
+  48: from ..commands import Command  # pylint: disable=relative-beyond-top-level
+  49: from ..jinja2.filters import do_max, documented_type, html_ify, rst_fmt, rst_ify, rst_xline  # pylint: disable=relative-beyond-top-level
+
+notes • codes/python/code-hub/ansible/hacking/build_library/build_ansible/command_plugins/porting_guide.py:
+  17: from ..commands import Command  # pylint: disable=relative-beyond-top-level
+
+notes • codes/python/code-hub/ansible/hacking/build_library/build_ansible/command_plugins/release_announcement.py:
+  15: from ..commands import Command  # pylint: disable=relative-beyond-top-level
+  16: from .. import errors  # pylint: disable=relative-beyond-top-level
+  69:         from .. announce import create_short_message, create_long_message  # pylint: disable=relative-beyond-top-level
+
+notes • codes/python/code-hub/ansible/lib/ansible/compat/selectors/__init__.py:
+  55:     from . import _selectors2 as selectors
+
+notes • codes/python/code-hub/ansible/lib/ansible/executor/module_common.py:
+  429: # from ..module_utils[ import basic]
+  430: # from ..module_utils[.basic import AnsibleModule]
+  496:         # from ...executor import module_common
+  497:         # from ... import executor (Currently it gives a non-helpful error)
+  502:                     # relative import: from .module import x
+  505:                     # relative import: from . import x
+
+notes • codes/python/code-hub/ansible/lib/ansible/module_utils/basic.py:
+  82: from ._text import to_native, to_bytes, to_text
+
+notes • codes/python/code-hub/ansible/lib/ansible/modules/system/setup.py:
+  134: from ...module_utils.basic import AnsibleModule
+
+notes • codes/python/code-hub/django/django/apps/__init__.py:
+  1: from .config import AppConfig
+  2: from .registry import apps
+
+notes • codes/python/code-hub/django/django/apps/registry.py:
+  10: from .config import AppConfig
+
+notes • codes/python/code-hub/django/django/contrib/admin/templatetags/admin_list.py:
+  22: from .base import InclusionAdminNode
+
+notes • codes/python/code-hub/django/django/contrib/admin/templatetags/admin_modify.py:
+  6: from .base import InclusionAdminNode
+
+notes • codes/python/code-hub/django/django/contrib/admindocs/middleware.py:
+  5: from .utils import get_view_name
+
+notes • codes/python/code-hub/django/django/contrib/admindocs/views.py:
+  26: from .utils import get_view_name
+
+notes • codes/python/code-hub/django/django/contrib/auth/__init__.py:
+   11: from .signals import user_logged_in, user_logged_out, user_login_failed
+  170:     from .models import AnonymousUser
+
+notes • codes/python/code-hub/django/django/contrib/auth/apps.py:
+   7: from . import get_user_model
+   8: from .checks import check_models_permissions, check_user_model
+   9: from .management import create_permissions
+  10: from .signals import user_logged_in
+  25:             from .models import update_last_login
+
+notes • codes/python/code-hub/django/django/contrib/auth/checks.py:
+  8: from .management import _get_builtin_permissions
+
+notes • codes/python/code-hub/django/django/contrib/auth/models.py:
+  11: from .validators import UnicodeUsernameValidator
+
+notes • codes/python/code-hub/django/django/contrib/contenttypes/apps.py:
+  9: from .management import (
+
+notes • codes/python/code-hub/django/django/contrib/contenttypes/checks.py:
+  8:     from .fields import GenericForeignKey
+
+notes • codes/python/code-hub/django/django/contrib/contenttypes/management/commands/remove_stale_contenttypes.py:
+  7: from ...management import get_contenttypes_and_models
+
+notes • codes/python/code-hub/django/django/contrib/gis/db/backends/mysql/base.py:
+  5: from .features import DatabaseFeatures
+  6: from .introspection import MySQLIntrospection
+  7: from .operations import MySQLOperations
+  8: from .schema import MySQLGISSchemaEditor
+
+notes • codes/python/code-hub/django/django/contrib/gis/db/backends/oracle/base.py:
+  5: from .features import DatabaseFeatures
+  6: from .introspection import OracleIntrospection
+  7: from .operations import OracleOperations
+  8: from .schema import OracleGISSchemaEditor
+
+notes • codes/python/code-hub/django/django/contrib/gis/db/backends/postgis/base.py:
+  6: from .features import DatabaseFeatures
+  7: from .introspection import PostGISIntrospection
+  8: from .operations import PostGISOperations
+  9: from .schema import PostGISSchemaEditor
+
+notes • codes/python/code-hub/django/django/contrib/gis/db/backends/postgis/operations.py:
+  20: from .adapter import PostGISAdapter
+  21: from .models import PostGISGeometryColumns, PostGISSpatialRefSys
+  22: from .pgraster import from_pgraster
+
+notes • codes/python/code-hub/django/django/contrib/gis/db/backends/postgis/pgraster.py:
+  5: from .const import (
+
+notes • codes/python/code-hub/django/django/contrib/gis/db/backends/spatialite/base.py:
+   9: from .client import SpatiaLiteClient
+  10: from .features import DatabaseFeatures
+  11: from .introspection import SpatiaLiteIntrospection
+  12: from .operations import SpatiaLiteOperations
+  13: from .schema import SpatialiteSchemaEditor
+
+notes • codes/python/code-hub/django/django/contrib/gis/forms/__init__.py:
+  3: from .fields import (  # NOQA
+  8: from .widgets import BaseGeometryWidget, OpenLayersWidget, OSMWidget  # NOQA
+
+notes • codes/python/code-hub/django/django/contrib/gis/forms/fields.py:
+  6: from .widgets import OpenLayersWidget
+
+notes • codes/python/code-hub/django/django/contrib/gis/gdal/raster/band.py:
+  9: from .const import (
+
+notes • codes/python/code-hub/django/django/contrib/gis/geoip2/__init__.py:
+  21:     from .base import GeoIP2, GeoIP2Exception
+
+notes • codes/python/code-hub/django/django/contrib/gis/geoip2/base.py:
+  10: from .resources import City, Country
+
+notes • codes/python/code-hub/django/django/contrib/gis/geos/__init__.py:
+   5: from .collections import (  # NOQA
+   8: from .error import GEOSException  # NOQA
+   9: from .factory import fromfile, fromstr  # NOQA
+  10: from .geometry import GEOSGeometry, hex_regex, wkt_regex  # NOQA
+  11: from .io import WKBReader, WKBWriter, WKTReader, WKTWriter  # NOQA
+  12: from .libgeos import geos_version  # NOQA
+  13: from .linestring import LinearRing, LineString  # NOQA
+  14: from .point import Point  # NOQA
+  15: from .polygon import Polygon  # NOQA
+
+notes • codes/python/code-hub/django/django/contrib/gis/geos/geometry.py:
+   40:                     from .linestring import LineString, LinearRing
+   41:                     from .point import Point
+   42:                     from .polygon import Polygon
+   43:                     from .collections import (
+  617:         from .point import Point
+  651:         from .point import Point
+  657:         from .point import Point
+
+notes • codes/python/code-hub/django/django/contrib/gis/geos/prepared.py:
+   1: from .base import GEOSBase
+   2: from .prototypes import prepared as capi
+  19:         from .geometry import GEOSGeometry
+
+notes • codes/python/code-hub/django/django/contrib/postgres/apps.py:
+  13: from .lookups import SearchLookup, TrigramSimilar, Unaccent
+  14: from .serializers import RangeSerializer
+  15: from .signals import register_type_handlers
+
+notes • codes/python/code-hub/django/django/contrib/postgres/lookups.py:
+  4: from .search import SearchVector, SearchVectorExact, SearchVectorField
+
+notes • codes/python/code-hub/django/django/contrib/postgres/aggregates/__init__.py:
+  1: from .general import *  # NOQA
+  2: from .statistics import *  # NOQA
+
+notes • codes/python/code-hub/django/django/contrib/postgres/aggregates/general.py:
+  5: from .mixins import OrderableAggMixin
+
+notes • codes/python/code-hub/django/django/contrib/postgres/fields/__init__.py:
+  1: from .array import *  # NOQA
+  2: from .citext import *  # NOQA
+  3: from .hstore import *  # NOQA
+  4: from .jsonb import *  # NOQA
+  5: from .ranges import *  # NOQA
+
+notes • codes/python/code-hub/django/django/contrib/postgres/fields/array.py:
+  11: from ..utils import prefix_validation_error
+  12: from .mixins import CheckFieldDefaultMixin
+  13: from .utils import AttributeSetter
+
+notes • codes/python/code-hub/django/django/contrib/postgres/fields/hstore.py:
+  9: from .mixins import CheckFieldDefaultMixin
+
+notes • codes/python/code-hub/django/django/contrib/postgres/fields/jsonb.py:
+  12: from .mixins import CheckFieldDefaultMixin
+
+notes • codes/python/code-hub/django/django/contrib/postgres/fields/ranges.py:
+  9: from .utils import AttributeSetter
+
+notes • codes/python/code-hub/django/django/contrib/postgres/forms/__init__.py:
+  1: from .array import *  # NOQA
+  2: from .hstore import *  # NOQA
+  3: from .jsonb import *  # NOQA
+  4: from .ranges import *  # NOQA
+
+notes • codes/python/code-hub/django/django/contrib/postgres/forms/array.py:
+  11: from ..utils import prefix_validation_error
+
+notes • codes/python/code-hub/django/django/contrib/sites/apps.py:
+  5: from .management import create_default_site
+
+notes • codes/python/code-hub/django/django/contrib/sites/middleware.py:
+  3: from .shortcuts import get_current_site
+
+notes • codes/python/code-hub/django/django/contrib/sites/shortcuts.py:
+  12:         from .models import Site
+  15:         from .requests import RequestSite
+
+notes • codes/python/code-hub/django/django/core/checks/__init__.py:
+  1: from .messages import (
+  5: from .registry import Tags, register, run_checks, tag_exists
+
+notes • codes/python/code-hub/django/django/core/checks/caches.py:
+  4: from . import Error, Tags, register
+
+notes • codes/python/code-hub/django/django/core/checks/database.py:
+  3: from . import Tags, register
+
+notes • codes/python/code-hub/django/django/core/checks/templates.py:
+  5: from . import Error, Tags, register
+
+notes • codes/python/code-hub/django/django/core/checks/translation.py:
+  5: from . import Error, Tags, register
+
+notes • codes/python/code-hub/django/django/core/checks/urls.py:
+  5: from . import Error, Tags, Warning, register
+
+notes • codes/python/code-hub/django/django/core/checks/security/base.py:
+  3: from .. import Error, Tags, Warning, register
+
+notes • codes/python/code-hub/django/django/core/checks/security/csrf.py:
+  3: from .. import Tags, Warning, register
+
+notes • codes/python/code-hub/django/django/core/checks/security/sessions.py:
+  3: from .. import Tags, Warning, register
+
+notes • codes/python/code-hub/django/django/core/handlers/base.py:
+  12: from .exception import convert_exception_to_response
+
+notes • codes/python/code-hub/django/django/core/management/utils.py:
+  10: from .base import CommandError, CommandParser
+
+notes • codes/python/code-hub/django/django/core/management/commands/startproject.py:
+  3: from ..utils import get_random_secret_key
+
+notes • codes/python/code-hub/django/django/db/backends/mysql/base.py:
+  27: from .client import DatabaseClient                          # isort:skip
+  28: from .creation import DatabaseCreation                      # isort:skip
+  29: from .features import DatabaseFeatures                      # isort:skip
+  30: from .introspection import DatabaseIntrospection            # isort:skip
+  31: from .operations import DatabaseOperations                  # isort:skip
+  32: from .schema import DatabaseSchemaEditor                    # isort:skip
+  33: from .validation import DatabaseValidation                  # isort:skip
+
+notes • codes/python/code-hub/django/django/db/backends/mysql/creation.py:
+  6: from .client import DatabaseClient
+
+notes • codes/python/code-hub/django/django/db/backends/oracle/base.py:
+  53: from .client import DatabaseClient                          # NOQA isort:skip
+  54: from .creation import DatabaseCreation                      # NOQA isort:skip
+  55: from .features import DatabaseFeatures                      # NOQA isort:skip
+  56: from .introspection import DatabaseIntrospection            # NOQA isort:skip
+  57: from .operations import DatabaseOperations                  # NOQA isort:skip
+  58: from .schema import DatabaseSchemaEditor                    # NOQA isort:skip
+  59: from .utils import Oracle_datetime                          # NOQA isort:skip
+  60: from .validation import DatabaseValidation                  # NOQA isort:skip
+
+notes • codes/python/code-hub/django/django/db/backends/oracle/operations.py:
+  16: from .base import Database
+  17: from .utils import BulkInsertMapper, InsertVar, Oracle_datetime
+
+notes • codes/python/code-hub/django/django/db/backends/oracle/utils.py:
+  3: from .base import Database
+
+notes • codes/python/code-hub/django/django/db/backends/postgresql/base.py:
+  44: from .client import DatabaseClient                          # NOQA isort:skip
+  45: from .creation import DatabaseCreation                      # NOQA isort:skip
+  46: from .features import DatabaseFeatures                      # NOQA isort:skip
+  47: from .introspection import DatabaseIntrospection            # NOQA isort:skip
+  48: from .operations import DatabaseOperations                  # NOQA isort:skip
+  49: from .schema import DatabaseSchemaEditor                    # NOQA isort:skip
+  50: from .utils import utc_tzinfo_factory                       # NOQA isort:skip
+
+notes • codes/python/code-hub/django/django/db/backends/sqlite3/base.py:
+  27: from .client import DatabaseClient                          # isort:skip
+  28: from .creation import DatabaseCreation                      # isort:skip
+  29: from .features import DatabaseFeatures                      # isort:skip
+  30: from .introspection import DatabaseIntrospection            # isort:skip
+  31: from .operations import DatabaseOperations                  # isort:skip
+  32: from .schema import DatabaseSchemaEditor                    # isort:skip
+
+notes • codes/python/code-hub/django/django/db/backends/sqlite3/features.py:
+  3: from .base import Database
+
+notes • codes/python/code-hub/django/django/db/migrations/__init__.py:
+  1: from .migration import Migration, swappable_dependency  # NOQA
+  2: from .operations import *  # NOQA
+
+notes • codes/python/code-hub/django/django/db/migrations/executor.py:
+  4: from .exceptions import InvalidMigrationPlan
+  5: from .loader import MigrationLoader
+  6: from .recorder import MigrationRecorder
+  7: from .state import ProjectState
+
+notes • codes/python/code-hub/django/django/db/migrations/graph.py:
+  5: from .exceptions import CircularDependencyError, NodeNotFoundError
+
+notes • codes/python/code-hub/django/django/db/migrations/loader.py:
+  10: from .exceptions import (
+
+notes • codes/python/code-hub/django/django/db/migrations/migration.py:
+  3: from .exceptions import IrreversibleError
+
+notes • codes/python/code-hub/django/django/db/migrations/questioner.py:
+  10: from .loader import MigrationLoader
+
+notes • codes/python/code-hub/django/django/db/migrations/recorder.py:
+  7: from .exceptions import MigrationSchemaMissing
+
+notes • codes/python/code-hub/django/django/db/migrations/state.py:
+  16: from .exceptions import InvalidBasesError
+
+notes • codes/python/code-hub/django/django/db/migrations/writer.py:
+  174:         # "from" in "from ... import ..." or after "import" in "import ...").
+
+notes • codes/python/code-hub/django/django/db/migrations/operations/__init__.py:
+  1: from .fields import AddField, AlterField, RemoveField, RenameField
+  2: from .models import (
+  8: from .special import RunPython, RunSQL, SeparateDatabaseAndState
+
+notes • codes/python/code-hub/django/django/db/migrations/operations/fields.py:
+    5: from .base import Operation
+    6: from .utils import (
+  190:         from .models import DeleteModel
+
+notes • codes/python/code-hub/django/django/db/migrations/operations/models.py:
+   7: from .fields import (
+  10: from .utils import ModelTuple, field_references_model
+
+notes • codes/python/code-hub/django/django/db/migrations/operations/special.py:
+  3: from .base import Operation
+
+notes • codes/python/code-hub/django/django/db/models/fields/related.py:
+  19: from . import Field
+  20: from .mixins import FieldCacheMixin
+  21: from .related_descriptors import (
+  26: from .related_lookups import (
+  30: from .reverse_related import (
+
+notes • codes/python/code-hub/django/django/db/models/fields/reverse_related.py:
+  15: from . import BLANK_CHOICE_DASH
+  16: from .mixins import FieldCacheMixin
+
+notes • codes/python/code-hub/django/django/db/models/functions/__init__.py:
+   1: from .comparison import Cast, Coalesce, Greatest, Least, NullIf
+   2: from .datetime import (
+   8: from .math import (
+  12: from .text import (
+  17: from .window import (
+
+notes • codes/python/code-hub/django/django/forms/forms.py:
+  20: from .renderers import get_default_renderer
+
+notes • codes/python/code-hub/django/django/forms/widgets.py:
+  26: from .renderers import get_default_renderer
+
+notes • codes/python/code-hub/django/django/template/__init__.py:
+  44: from .engine import Engine
+  45: from .utils import EngineHandler
+  55: from .base import VariableDoesNotExist                                  # NOQA isort:skip
+  56: from .context import ContextPopException                                # NOQA isort:skip
+  57: from .exceptions import TemplateDoesNotExist, TemplateSyntaxError       # NOQA isort:skip
+  60: from .base import (                                                     # NOQA isort:skip
+  65: from .library import Library                                            # NOQA isort:skip
+
+notes • codes/python/code-hub/django/django/template/base.py:
+   70: from .exceptions import TemplateSyntaxError
+  148:             from .engine import Engine
+
+notes • codes/python/code-hub/django/django/template/defaultfilters.py:
+  25: from .base import Variable, VariableDoesNotExist
+  26: from .library import Library
+
+notes • codes/python/code-hub/django/django/template/defaulttags.py:
+  15: from .base import (
+  22: from .defaultfilters import date
+  23: from .library import Library
+  24: from .smartif import IfParser, Literal
+
+notes • codes/python/code-hub/django/django/template/engine.py:
+   7: from .base import Context, Template
+   8: from .context import _builtin_context_processors
+   9: from .exceptions import TemplateDoesNotExist
+  10: from .library import import_library
+
+notes • codes/python/code-hub/django/django/template/library.py:
+  8: from .base import Node, Template, token_kwargs
+  9: from .exceptions import TemplateSyntaxError
+
+notes • codes/python/code-hub/django/django/template/loader_tags.py:
+  6: from .base import (
+  9: from .library import Library
+
+notes • codes/python/code-hub/django/django/template/loader.py:
+  1: from . import engines
+  2: from .exceptions import TemplateDoesNotExist
+
+notes • codes/python/code-hub/django/django/template/response.py:
+  3: from .loader import get_template, select_template
+
+notes • codes/python/code-hub/django/django/template/backends/django.py:
+  11: from .base import BaseEngine
+
+notes • codes/python/code-hub/django/django/template/backends/dummy.py:
+  8: from .base import BaseEngine
+  9: from .utils import csrf_input_lazy, csrf_token_lazy
+
+notes • codes/python/code-hub/django/django/template/backends/jinja2.py:
+   8: from .base import BaseEngine
+  62:         from .utils import csrf_input_lazy, csrf_token_lazy
+
+notes • codes/python/code-hub/django/django/template/loaders/app_directories.py:
+  8: from .filesystem import Loader as FilesystemLoader
+
+notes • codes/python/code-hub/django/django/template/loaders/cached.py:
+  11: from .base import Loader as BaseLoader
+
+notes • codes/python/code-hub/django/django/template/loaders/filesystem.py:
+  9: from .base import Loader as BaseLoader
+
+notes • codes/python/code-hub/django/django/template/loaders/locmem.py:
+  7: from .base import Loader as BaseLoader
+
+notes • codes/python/code-hub/django/django/urls/__init__.py:
+   1: from .base import (
+   6: from .conf import include, path, re_path
+   7: from .converters import register_converter
+   8: from .exceptions import NoReverseMatch, Resolver404
+   9: from .resolvers import (
+  13: from .utils import get_callable, get_mod_func
+
+notes • codes/python/code-hub/django/django/urls/base.py:
+   9: from .exceptions import NoReverseMatch, Resolver404
+  10: from .resolvers import _get_cached_resolver, get_ns_resolver, get_resolver
+  11: from .utils import get_callable
+
+notes • codes/python/code-hub/django/django/urls/conf.py:
+  7: from .resolvers import (
+
+notes • codes/python/code-hub/django/django/urls/resolvers.py:
+  27: from .converters import get_converter
+  28: from .exceptions import NoReverseMatch, Resolver404
+  29: from .utils import get_callable
+
+notes • codes/python/code-hub/django/django/utils/translation/__init__.py:
+  301:     from .template import templatize
+
+notes • codes/python/code-hub/django/django/utils/translation/template.py:
+  7: from . import TranslatorCommentWarning, trim_whitespace
+
+notes • codes/python/code-hub/django/django/utils/translation/trans_real.py:
+  19: from . import to_language, to_locale
+
+notes • codes/python/code-hub/flask/src/flask/__init__.py:
+  19: from . import json
+  20: from ._compat import json_available
+  21: from .app import Flask
+  22: from .app import Request
+  23: from .app import Response
+  24: from .blueprints import Blueprint
+  25: from .config import Config
+  26: from .ctx import after_this_request
+  27: from .ctx import copy_current_request_context
+  28: from .ctx import has_app_context
+  29: from .ctx import has_request_context
+  30: from .globals import _app_ctx_stack
+  31: from .globals import _request_ctx_stack
+  32: from .globals import current_app
+  33: from .globals import g
+  34: from .globals import request
+  35: from .globals import session
+  36: from .helpers import flash
+  37: from .helpers import get_flashed_messages
+  38: from .helpers import get_template_attribute
+  39: from .helpers import make_response
+  40: from .helpers import safe_join
+  41: from .helpers import send_file
+  42: from .helpers import send_from_directory
+  43: from .helpers import stream_with_context
+  44: from .helpers import url_for
+  45: from .json import jsonify
+  46: from .signals import appcontext_popped
+  47: from .signals import appcontext_pushed
+  48: from .signals import appcontext_tearing_down
+  49: from .signals import before_render_template
+  50: from .signals import got_request_exception
+  51: from .signals import message_flashed
+  52: from .signals import request_finished
+  53: from .signals import request_started
+  54: from .signals import request_tearing_down
+  55: from .signals import signals_available
+  56: from .signals import template_rendered
+  57: from .templating import render_template
+  58: from .templating import render_template_string
+
+notes • codes/python/code-hub/flask/src/flask/__main__.py:
+  13:     from .cli import main
+
+notes • codes/python/code-hub/flask/src/flask/app.py:
+    34: from . import cli
+    35: from . import json
+    36: from ._compat import integer_types
+    37: from ._compat import reraise
+    38: from ._compat import string_types
+    39: from ._compat import text_type
+    40: from .config import Config
+    41: from .config import ConfigAttribute
+    42: from .ctx import _AppCtxGlobals
+    43: from .ctx import AppContext
+    44: from .ctx import RequestContext
+    45: from .globals import _request_ctx_stack
+    46: from .globals import g
+    47: from .globals import request
+    48: from .globals import session
+    49: from .helpers import _endpoint_from_view_func
+    50: from .helpers import _PackageBoundObject
+    51: from .helpers import find_package
+    52: from .helpers import get_debug_flag
+    53: from .helpers import get_env
+    54: from .helpers import get_flashed_messages
+    55: from .helpers import get_load_dotenv
+    56: from .helpers import locked_cached_property
+    57: from .helpers import url_for
+    58: from .json import jsonify
+    59: from .logging import create_logger
+    60: from .sessions import SecureCookieSessionInterface
+    61: from .signals import appcontext_tearing_down
+    62: from .signals import got_request_exception
+    63: from .signals import request_finished
+    64: from .signals import request_started
+    65: from .signals import request_tearing_down
+    66: from .templating import _default_template_ctx_processor
+    67: from .templating import DispatchingJinjaLoader
+    68: from .templating import Environment
+    69: from .wrappers import Request
+    70: from .wrappers import Response
+   950:             from .debughelpers import explain_ignored_app_run
+  1050:             from .testing import FlaskClient as cls
+  1066:             from .testing import FlaskCliRunner as cls
+  1910:         from .debughelpers import FormDataRoutingRedirect
+  2408:         from .testing import EnvironBuilder
+
+notes • codes/python/code-hub/flask/src/flask/blueprints.py:
+  14: from .helpers import _endpoint_from_view_func
+  15: from .helpers import _PackageBoundObject
+
+notes • codes/python/code-hub/flask/src/flask/cli.py:
+   28: from ._compat import getargspec
+   29: from ._compat import itervalues
+   30: from ._compat import reraise
+   31: from ._compat import text_type
+   32: from .globals import current_app
+   33: from .helpers import get_debug_flag
+   34: from .helpers import get_env
+   35: from .helpers import get_load_dotenv
+   56:     from . import Flask
+  154:     from . import Flask
+  267:     from . import __version__
+  875:     from .globals import _app_ctx_stack
+
+notes • codes/python/code-hub/flask/src/flask/config.py:
+  17: from . import json
+  18: from ._compat import iteritems
+  19: from ._compat import string_types
+
+notes • codes/python/code-hub/flask/src/flask/ctx.py:
+  16: from ._compat import BROKEN_PYPY_CTXMGR_EXIT
+  17: from ._compat import reraise
+  18: from .globals import _app_ctx_stack
+  19: from .globals import _request_ctx_stack
+  20: from .signals import appcontext_popped
+  21: from .signals import appcontext_pushed
+
+notes • codes/python/code-hub/flask/src/flask/debughelpers.py:
+  14: from ._compat import implements_to_string
+  15: from ._compat import text_type
+  16: from .app import Flask
+  17: from .blueprints import Blueprint
+  18: from .globals import _request_ctx_stack
+
+notes • codes/python/code-hub/flask/src/flask/helpers.py:
+   33: from ._compat import fspath
+   34: from ._compat import PY2
+   35: from ._compat import string_types
+   36: from ._compat import text_type
+   37: from .globals import _app_ctx_stack
+   38: from .globals import _request_ctx_stack
+   39: from .globals import current_app
+   40: from .globals import request
+   41: from .globals import session
+   42: from .signals import message_flashed
+  987:         from .cli import AppGroup
+
+notes • codes/python/code-hub/flask/src/flask/logging.py:
+  17: from .globals import request
+
+notes • codes/python/code-hub/flask/src/flask/sessions.py:
+  19: from ._compat import collections_abc
+  20: from .helpers import is_ip
+  21: from .helpers import total_seconds
+  22: from .json.tag import TaggedJSONSerializer
+
+notes • codes/python/code-hub/flask/src/flask/templating.py:
+  15: from .globals import _app_ctx_stack
+  16: from .globals import _request_ctx_stack
+  17: from .signals import before_render_template
+  18: from .signals import template_rendered
+  75:         from .debughelpers import explain_template_loading_attempts
+
+notes • codes/python/code-hub/flask/src/flask/views.py:
+  11: from ._compat import with_metaclass
+  12: from .globals import request
+
+notes • codes/python/code-hub/flask/src/flask/wrappers.py:
+  16: from . import json
+  17: from .globals import current_app
+  98:             from .debughelpers import attach_enctype_error_multidict
+
+notes • codes/python/code-hub/flask/src/flask/json/__init__.py:
+  19: from .._compat import PY2
+  20: from .._compat import text_type
+  21: from ..globals import current_app
+  22: from ..globals import request
+
+notes • codes/python/code-hub/flask/src/flask/json/tag.py:
+  53: from .._compat import iteritems
+  54: from .._compat import text_type
+  55: from ..json import dumps
+  56: from ..json import loads
+
+notes • codes/python/code-hub/tensorflow/tensorflow/api_template_v1.__init__.py:
+  79:   from .python.keras.api._v1 import keras
+
+notes • codes/python/code-hub/tensorflow/tensorflow/api_template.__init__.py:
+  83:   from .python.keras.api._v2 import keras
+
+notes • codes/python/code-hub/tensorflow/tensorflow/python/tpu/client/__init__.py:
+  21: from .version import __version__
+
+notes • codes/python/code-hub/tensorflow/tensorflow/python/training/tracking/data_structures.py:
+  30:   from .....third_party import wrapt
+
+notes • codes/python/code-hub/tensorflow/tensorflow/python/util/tf_stack.py:
+  27: # TODO(b/138203821): change to from ...util import ... once the bug is fixed.
+
+notes • codes/python/code-hub/tensorflow/tensorflow/python/util/protobuf/compare.py:
+  74: from ..compat import collections_abc
