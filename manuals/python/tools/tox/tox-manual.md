@@ -2,13 +2,13 @@
 # Tox Manual
 
 - [Install](#install)
-- [Config](#config)
+- [Repos](#repos)
+- [Docs](#docs)
+- [Configs](#configs)
 - [Commands](#commands)
 - [Examples](#examples)
 
-<https://github.com/tox-dev/tox>
-
-<https://tox.readthedocs.io/en/latest/>
+<https://sourcegraph.com/github.com/tox-dev/tox>
 
 ## Install
 
@@ -20,7 +20,15 @@ pip install tox
 
 > It is fine to install tox itself into a virtualenv environment.
 
-## Config
+## Repos
+
+<https://github.com/tox-dev/tox>
+
+## Docs
+
+<https://tox.readthedocs.io/en/latest/>
+
+## Configs
 
 [`manuals/python/tools/tox/tox-config.md`](/manuals/python/tools/tox/tox-config.md)
 

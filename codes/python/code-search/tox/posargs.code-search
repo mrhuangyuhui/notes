@@ -1,0 +1,20 @@
+# Query: posargs
+# Flags: CaseSensitive WordMatch RegExp IgnoreExcludeSettings
+# Including: tox.ini
+
+7 results - 4 files
+
+notes • codes/python/code-hub/ansible/test/lib/ansible_test/_data/tox.ini:
+  7: commands = {posargs}
+
+notes • codes/python/code-hub/django/tox.ini:
+  30:     {envpython} runtests.py {posargs}
+
+notes • codes/python/code-hub/flask/tox.ini:
+  37:     coverage run -p -m pytest --tb=short -Werror {posargs:tests examples}
+
+notes • codes/python/code-hub/scrapy/tox.ini:
+  24:     py.test --cov=scrapy --cov-report= {posargs:--durations=10 docs scrapy tests}
+  31:     bandit -r -c .bandit.yml {posargs:scrapy}
+  39:     py.test --flake8 {posargs:docs scrapy tests}
+  44:     py.test {posargs:--durations=10 docs scrapy tests}
