@@ -20,4 +20,3 @@ API
 
 - [`Object`](https://ruby-doc.org/core-2.7.1/Object.html)
 - [`BasicObject`](https://ruby-doc.org/core-2.7.1/BasicObject.html)
-
