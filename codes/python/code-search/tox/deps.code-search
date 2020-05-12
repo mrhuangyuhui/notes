@@ -1,0 +1,38 @@
+# Query: deps
+# Flags: CaseSensitive WordMatch RegExp IgnoreExcludeSettings
+# Including: tox.ini
+
+30 results - 4 files
+
+code-hub/ansible/test/lib/ansible_test/_data/tox.ini:
+  10: deps = setuptools == 35.0.2
+
+code-hub/django/tox.ini:
+  23: deps =
+  35: deps = flake8
+  44: deps =
+  55: deps = isort
+  61: deps =
+
+code-hub/flask/tox.ini:
+  11: deps =
+  46: deps = pre-commit
+  51: deps =
+  56: deps = coverage
+  64: deps = coverage
+
+code-hub/scrapy/tox.ini:
+   11: deps =
+   28: deps =
+   35: deps =
+   36:     {[testenv]deps}
+   48: deps =
+   67: [testenv:extra-deps]
+   68: deps =
+   69:     {[testenv]deps}
+   75: deps =
+   84: deps = {[docs]deps}
+   92: deps = {[docs]deps}
+  100: deps = {[docs]deps}
+  111: deps = {[testenv]deps}
+  116: deps = {[testenv]deps}

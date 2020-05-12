@@ -1,0 +1,36 @@
+# Query: commands
+# Flags: CaseSensitive WordMatch RegExp IgnoreExcludeSettings
+# Including: tox.ini
+
+25 results - 4 files
+
+notes • codes/python/code-hub/ansible/test/lib/ansible_test/_data/tox.ini:
+  7: commands = {posargs}
+
+notes • codes/python/code-hub/django/tox.ini:
+  29: commands =
+  37: commands = flake8 .
+  49: commands =
+  57: commands = isort --recursive --check-only --diff django tests scripts
+  64: commands =
+
+notes • codes/python/code-hub/flask/tox.ini:
+  31: commands =
+  42: commands =
+  48: commands = pre-commit run --all-files --show-diff-on-failure
+  53: commands = sphinx-build -W -b html -d {envtmpdir}/doctrees docs {envtmpdir}/html
+  58: commands =
+  66: commands =
+
+notes • codes/python/code-hub/scrapy/tox.ini:
+   23: commands =
+   30: commands =
+   38: commands =
+   43: commands =
+   86: commands =
+   94: commands =
+  102: commands =
+  106: commands =
+  107:     {[testenv]commands} --reactor=asyncio
+  112: commands = {[asyncio]commands}
+  117: commands = {[asyncio]commands}

@@ -1,0 +1,14 @@
+# Query: envlist
+# Flags: CaseSensitive WordMatch RegExp IgnoreExcludeSettings
+# Including: tox.ini
+
+3 results - 3 files
+
+code-hub/django/tox.ini:
+  8: envlist =
+
+code-hub/flask/tox.ini:
+  2: envlist =
+
+code-hub/scrapy/tox.ini:
+  7: envlist = security,flake8,py3

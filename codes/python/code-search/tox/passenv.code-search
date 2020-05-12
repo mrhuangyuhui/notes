@@ -1,0 +1,17 @@
+# Query: passenv
+# Flags: CaseSensitive WordMatch RegExp IgnoreExcludeSettings
+# Including: tox.ini
+
+4 results - 4 files
+
+code-hub/ansible/test/lib/ansible_test/_data/tox.ini:
+  8: passenv = HOME LC_ALL SHIPPABLE* ANSIBLE_KEEP_REMOTE_FILES LDFLAGS CFLAGS
+
+code-hub/django/tox.ini:
+  20: passenv = DJANGO_SETTINGS_MODULE PYTHONPATH HOME DISPLAY
+
+code-hub/flask/tox.ini:
+  10: passenv = LANG
+
+code-hub/scrapy/tox.ini:
+  17: passenv =
