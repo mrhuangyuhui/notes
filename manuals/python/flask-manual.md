@@ -2,18 +2,13 @@
 
 - [Flask Manual](#flask-manual)
   - [Install](#install)
+  - [Repos](#repos)
   - [Docs](#docs)
     - [API](#api)
   - [Tutorials](#tutorials)
   - [IDEs](#ides)
 
 <https://flask.palletsprojects.com>
-
-<https://github.com/pallets/flask/>
-
-<https://gitee.com/mrhuangyuhui/flask>
-
-<https://flask.palletsprojects.com/en/1.1.x/api/>
 
 ## Install
 
@@ -64,6 +59,12 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, World!'
 ```
+
+## Repos
+
+<https://github.com/pallets/flask/>
+
+<https://gitee.com/mrhuangyuhui/flask>
 
 ## Docs
 
