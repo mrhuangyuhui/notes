@@ -187,6 +187,10 @@ irb
 
 [Ruby 电子书](http://mrhuangyuhui.gitee.io/ruby-books/)
 
+[Ruby 基础教程（第 5 版）| 京东图书](https://item.jd.com/12239070.html)
+
+[Ruby 基础教程（第 5 版）| 图灵社区](https://www.ituring.com.cn/book/1843)
+
 [Ruby 基础教程（第 4 版）](/tutorials/ruby/ruby-programming-4/README.md)
 
 [“笨办法”学 Ruby（第 3 版）](/tutorials/ruby/learn-ruby-the-hard-way-3/README.md)
