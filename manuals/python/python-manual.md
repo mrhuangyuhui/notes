@@ -60,6 +60,10 @@
 
 [Python Tutorial (W3Schools)](https://www.w3schools.com/python/default.asp)
 
+[Python 学习手册（原书第 4 版）| 微信读书](https://weread.qq.com/web/reader/c5832200597ce0c58bdd1a9)
+
+[Python 学习手册（原书第 4 版）| 京东图书](https://item.jd.com/12452929.html)
+
 ## Tools
 
 [`manuals/python/tools/pip-manual.md`](/manuals/python/tools/pip-manual.md)
