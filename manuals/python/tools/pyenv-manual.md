@@ -4,23 +4,23 @@
 
 - [Install](#install)
   - [Mac](#mac)
-  - [CentOS](#centos)
-  - [Ubuntu](#ubuntu)
-  - [Plugins](#plugins)
+  - [CentOS & Ubuntu](#centos--ubuntu)
 - [Commands](#commands)
-  - [`pyenv install`](#pyenv-install)
   - [`pyenv global`](#pyenv-global)
+  - [`pyenv install`](#pyenv-install)
   - [`pyenv local`](#pyenv-local)
   - [`pyenv uninstall`](#pyenv-uninstall)
   - [`pyenv version`](#pyenv-version)
+  - [`pyenv versions`](#pyenv-versions)
+- [Plugins](#plugins)
 
 <https://github.com/pyenv/pyenv>
 
 ## Install
 
-[自动安装工具](https://github.com/pyenv/pyenv-installer)
+<https://github.com/pyenv/pyenv-installer>
 
-[依赖软件列表](https://github.com/pyenv/pyenv/wiki/Common-build-problems)
+[Prerequisites](https://github.com/pyenv/pyenv/wiki/Common-build-problems#prerequisites)
 
 ### Mac
 
@@ -50,58 +50,46 @@ source ~/.bash_profile
 pyenv
 ```
 
-### CentOS
+### CentOS & Ubuntu
+
+安装依赖
 
 ```bash
-# 安装依赖
-yum install @development zlib-devel bzip2 bzip2-devel readline-devel sqlite \
+# CentOS
+sudo yum install @development zlib-devel bzip2 bzip2-devel readline-devel sqlite \
 sqlite-devel openssl-devel xz xz-devel libffi-devel findutils
 
-# 安装 pyenv
-curl https://pyenv.run | bash
-
-# 设置路径
-echo 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.bashrc
-
-echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-
-echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
-
-source ~/.bashrc
-
-# 检查安装结果
-pyenv
-```
-
-### Ubuntu
-
-```bash
-# 安装依赖
-sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
+# Ubuntu
+sudo apt-get install -y build-essential libssl-dev zlib1g-dev libbz2-dev \
 libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
 xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
-
-# 安装 pyenv
-curl https://pyenv.run | bash
-
-# 设置路径
-echo 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.bashrc
-
-echo 'eval "$(pyenv init -)"' >> ~/.bashrc
-
-echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
-
-source ~/.bashrc
-
-# 检查安装结果
-pyenv
 ```
 
-### Plugins
+安装 pyenv
 
-[pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
+```bash
+curl https://pyenv.run | bash
+```
 
-[pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper)
+配置
+
+```bash
+cat >> ~/.bashrc << EOF
+# Pyenv BEGIN
+export PATH="\$HOME/.pyenv/bin:\$PATH"
+eval "\$(pyenv init -)"
+eval "\$(pyenv virtualenv-init -)"
+# Pyenv END
+EOF
+```
+
+验证安装结果
+
+```bash
+tail -5 ~/.bashrc
+source ~/.bashrc
+pyenv
+```
 
 ## Commands
 
@@ -113,8 +101,6 @@ pyenv -h
 pyenv --help
 pyenv help
 
-pyenv install
-pyenv install -h
 pyenv install --help
 pyenv help install
 ```
@@ -142,6 +128,34 @@ pyenv install 3.6.5 -v
 pyenv versions
 ```
 
+### `pyenv global`
+
+查看或设置全局 Python 版本
+
+> 注意：可以同时设置多个全局版本！
+
+<https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-global>
+
+```bash
+pyenv help global
+pyenv global --help
+```
+
+设置全局版本
+
+```bash
+pyenv global 3.6.1
+
+# 同时设置多个
+pyenv global 3.6.1 3.7.0
+```
+
+列出所有全局版本
+
+```bash
+pyenv global
+```
+
 ### `pyenv install`
 
 <https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-install>
@@ -166,31 +180,22 @@ pyenv install --list
 pyenv install 3.6.5 -v
 ```
 
-### `pyenv global`
-
-设置或查看全局 Python 版本
-
-<https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-global>
-
-```bash
-# 设置全局版本
-pyenv global 3.6.1
-
-# 查看全局版本
-pyenv global
-```
-
 ### `pyenv local`
 
-Set or show the local application-specific Python version
-```
-$ pyenv local 3.4.6
-$ pyenv local
+在当前终端设置指定的 Python 版本
+
+```bash
+pyenv local 3.4.6
 ```
 
-Unset the local version
+```bash
+pyenv local
 ```
-$ pyenv local --unset
+
+取消设置
+
+```bash
+pyenv local --unset
 ```
 
 ### `pyenv uninstall`
@@ -208,3 +213,23 @@ pyenv uninstall 3.6.1
 ```bash
 pyenv version
 ```
+
+### `pyenv versions`
+
+列出所有可用的 Python 版本
+
+```bash
+pyenv versions -h
+pyenv versions --help
+pyenv help versions
+```
+
+```bash
+pyenv versions
+```
+
+## Plugins
+
+[pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
+
+[pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper)
