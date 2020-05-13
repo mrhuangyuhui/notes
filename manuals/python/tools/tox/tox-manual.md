@@ -8,7 +8,11 @@
 - [Commands](#commands)
 - [Examples](#examples)
 
-<https://sourcegraph.com/github.com/tox-dev/tox>
+<https://tox.readthedocs.io/en/latest/>
+
+tox workflow diagram
+
+[![img](https://tox.readthedocs.io/en/latest/_images/tox_flow.png)](https://tox.readthedocs.io/en/latest/index.html#system-overview)
 
 ## Install
 
@@ -24,6 +28,8 @@ pip install tox
 
 <https://github.com/tox-dev/tox>
 
+<https://sourcegraph.com/github.com/tox-dev/tox>
+
 ## Docs
 
 <https://tox.readthedocs.io/en/latest/>
@@ -33,6 +39,8 @@ pip install tox
 [`manuals/python/tools/tox/tox-config.md`](/manuals/python/tools/tox/tox-config.md)
 
 ## Commands
+
+<https://tox.readthedocs.io/en/latest/config.html#cli>
 
 ```bash
 tox -h
@@ -56,6 +64,4 @@ tox -l
 
 ## Examples
 
-[tox configuration and usage examples](https://tox.readthedocs.io/en/latest/examples.html)
-
-[Basic example](https://tox.readthedocs.io/en/latest/index.html#basic-example)
+[`manuals/python/tools/tox/tox-example.md`](/manuals/python/tools/tox/tox-example.md)

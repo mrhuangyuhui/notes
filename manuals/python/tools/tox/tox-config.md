@@ -66,3 +66,14 @@ commands = pytest
 ```
 
 [Generative envlist](https://tox.readthedocs.io/en/latest/config.html#generative-envlist)
+
+[Factors and factor-conditional settings](https://tox.readthedocs.io/en/latest/config.html#factors-and-factor-conditional-settings)
+
+```ini
+[testenv]
+deps =
+    pytest
+    django15: Django>=1.5,<1.6
+    django16: Django>=1.6,<1.7
+    py36: unittest2
+```
