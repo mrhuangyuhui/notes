@@ -1,5 +1,14 @@
-<!-- #man-pages -->
-# man-pages
+# Man-Pages Manual
+
+Sections
+
+- 1: User commands; man-pages includes a very few Section 1 pages that document programs supplied by the GNU C library.
+- 2: System calls documents the system calls provided by the Linux kernel.
+- 3: Library functions documents the functions provided by the standard C library.
+- 4: Devices documents details of various devices, most of which reside in /dev.
+- 5: Files describes various file formats, and includes proc(5), which documents the /proc file system.
+- 7: Overviews, conventions, and miscellaneous.
+- 8: Superuser and system administration commands; man-pages includes a very few Section 8 pages that document programs supplied by the GNU C library.
 
 [Unix & Linux Commands - Man Page Repository](https://www.unix.com/man-page-repository.php)
 
