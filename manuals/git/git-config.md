@@ -1,4 +1,6 @@
-# `git config`
+# `git-config`
+
+<https://git-scm.com/docs/git-config>
 
 全局设置
 
