@@ -12,7 +12,8 @@
   - [`pyenv uninstall`](#pyenv-uninstall)
   - [`pyenv version`](#pyenv-version)
   - [`pyenv versions`](#pyenv-versions)
-- [Plugins](#plugins)
+- [virtualenv](#virtualenv)
+- [virtualenvwrapper](#virtualenvwrapper)
 
 <https://github.com/pyenv/pyenv>
 
@@ -52,7 +53,7 @@ pyenv
 
 ### CentOS & Ubuntu
 
-安装依赖
+[安装依赖](https://github.com/pyenv/pyenv/wiki/Common-build-problems#prerequisites)
 
 ```bash
 # CentOS
@@ -101,8 +102,8 @@ pyenv -h
 pyenv --help
 pyenv help
 
-pyenv install --help
 pyenv help install
+pyenv install --help
 ```
 
 ```bash
@@ -119,6 +120,7 @@ pyenv install --list
 安装指定的 Python 版本
 
 ```bash
+# -v 表示打印安装过程
 pyenv install 3.6.5 -v
 ```
 
@@ -132,8 +134,6 @@ pyenv versions
 
 查看或设置全局 Python 版本
 
-> 注意：可以同时设置多个全局版本！
-
 <https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-global>
 
 ```bash
@@ -146,7 +146,7 @@ pyenv global --help
 ```bash
 pyenv global 3.6.1
 
-# 同时设置多个
+# 提示：可以同时设置多个版本
 pyenv global 3.6.1 3.7.0
 ```
 
@@ -158,13 +158,13 @@ pyenv global
 
 ### `pyenv install`
 
+安装
+
 <https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-install>
 
 ```bash
-pyenv install
-pyenv install -h
-pyenv install --help
 pyenv help install
+pyenv install --help
 ```
 
 列出可安装的 Python 版本
@@ -182,17 +182,36 @@ pyenv install 3.6.5 -v
 
 ### `pyenv local`
 
-在当前终端设置指定的 Python 版本
+设置或查看在当前目录（一般是项目目录）使用的 Python 版本
 
 ```bash
-pyenv local 3.4.6
+pyenv help local
+pyenv local --help
 ```
+
+设置 Python 版本
+
+> 提示：会在当前目录创建文件 `.python-version`
+
+```bash
+pyenv local 3.8.2
+
+$ cat .python-version
+3.8.2
+
+# 提示：可以指定多个版本
+pyenv local 3.7.0 2.7.15
+```
+
+查看 Python 版本
 
 ```bash
 pyenv local
 ```
 
 取消设置
+
+> 提示：会在当前目录删除文件 `.python-version`
 
 ```bash
 pyenv local --unset
@@ -203,12 +222,22 @@ pyenv local --unset
 卸载
 
 ```bash
+pyenv help uninstall
+pyenv uninstall --help
+```
+
+```bash
 pyenv uninstall 3.6.1
 ```
 
 ### `pyenv version`
 
-查看当前终端的 Python 版本
+查看当前使用的 Python 版本
+
+```bash
+pyenv help version
+pyenv version --help
+```
 
 ```bash
 pyenv version
@@ -219,17 +248,44 @@ pyenv version
 列出所有可用的 Python 版本
 
 ```bash
-pyenv versions -h
-pyenv versions --help
 pyenv help versions
+pyenv versions --help
 ```
 
 ```bash
 pyenv versions
 ```
 
-## Plugins
+## virtualenv
 
-[pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
+<https://github.com/pyenv/pyenv-virtualenv>
+
+[`manuals/python/tools/virtualenv-manual.md`](/manuals/python/tools/virtualenv-manual.md)
+
+> 提示：安装 pyenv 会自动安装插件 virtualenv
+
+手动安装
+
+> 注意：必须先安装 pyenv
+
+```bash
+# 直接把 pyenv-virtualenv 下载到 pyenv 的子目录
+git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+
+echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile
+
+source ~/.bash_profile
+```
+
+```bash
+pyenv help virtualenv
+pyenv virtualenv --help
+```
+
+```bash
+pyenv virtualenv --version
+```
+
+## virtualenvwrapper
 
 [pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper)
