@@ -264,7 +264,7 @@ pyenv versions
 
 > 提示：安装 pyenv 会自动安装插件 virtualenv
 
-手动安装
+[手动安装](https://github.com/pyenv/pyenv-virtualenv#installation)
 
 > 注意：必须先安装 pyenv
 
@@ -276,6 +276,8 @@ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile
 
 source ~/.bash_profile
 ```
+
+[常用命令](https://github.com/pyenv/pyenv-virtualenv#usage)
 
 ```bash
 pyenv help virtualenv
