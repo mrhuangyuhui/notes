@@ -1,0 +1,12 @@
+# Query: ^export.*show.*;$
+# Flags: CaseSensitive WordMatch RegExp
+# Including: lib/**/*.dart
+
+3 results - 2 files
+
+notes • codes/dart/code-hub/http/lib/browser_client.dart:
+  5: export 'src/browser_client.dart' show BrowserClient;
+
+notes • codes/dart/code-hub/http/lib/io_client.dart:
+  5: export 'src/io_client.dart' show IOClient;
+  6: export 'src/io_streamed_response.dart' show IOStreamedResponse;

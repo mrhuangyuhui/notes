@@ -1,0 +1,20 @@
+# Query: ^import\\s+'package:.*';$
+# Flags: CaseSensitive WordMatch RegExp
+# Including: lib/**/*.dart
+
+5 results - 5 files
+
+notes • codes/dart/code-hub/http/lib/src/multipart_file_io.dart:
+  8: import 'package:http_parser/http_parser.dart';
+
+notes • codes/dart/code-hub/http/lib/src/multipart_file_stub.dart:
+  7: import 'package:http_parser/http_parser.dart';
+
+notes • codes/dart/code-hub/http/lib/src/multipart_file.dart:
+  8: import 'package:http_parser/http_parser.dart';
+
+notes • codes/dart/code-hub/http/lib/src/request.dart:
+  8: import 'package:http_parser/http_parser.dart';
+
+notes • codes/dart/code-hub/http/lib/src/response.dart:
+  9: import 'package:http_parser/http_parser.dart';

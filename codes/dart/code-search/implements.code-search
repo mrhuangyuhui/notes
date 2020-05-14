@@ -1,0 +1,11 @@
+# Query: implements
+# Flags: CaseSensitive WordMatch RegExp
+# Including: lib/**/*.dart
+
+2 results - 2 files
+
+notes • codes/dart/code-hub/http/lib/src/base_client.dart:
+  20: abstract class BaseClient implements Client {
+
+notes • codes/dart/code-hub/http/lib/src/exception.dart:
+  6: class ClientException implements Exception {

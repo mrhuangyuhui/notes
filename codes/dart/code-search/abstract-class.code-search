@@ -1,0 +1,17 @@
+# Query: ^abstract class
+# Flags: CaseSensitive WordMatch RegExp
+# Including: lib/**/*.dart
+
+4 results - 4 files
+
+notes • codes/dart/code-hub/http/lib/src/base_client.dart:
+  20: abstract class BaseClient implements Client {
+
+notes • codes/dart/code-hub/http/lib/src/base_request.dart:
+  19: abstract class BaseRequest {
+
+notes • codes/dart/code-hub/http/lib/src/base_response.dart:
+  11: abstract class BaseResponse {
+
+notes • codes/dart/code-hub/http/lib/src/client.dart:
+  30: abstract class Client {
