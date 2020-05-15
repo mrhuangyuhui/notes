@@ -165,14 +165,14 @@ irb
 <!-- #ruby-api -->
 ## API
 
+[Index of Files, Classes & Methods in Ruby 2.7.1 (Ruby 2.7.1)](https://ruby-doc.org/core-2.7.1/)
+
 [Official API Documentation](https://docs.ruby-lang.org/en/)
 
 [Ruby-Doc.org: Documenting the Ruby Language](https://ruby-doc.org/)
 
 - [Ruby Core Reference](http://www.ruby-doc.org/core)
 - [Ruby Standard Library Reference](http://www.ruby-doc.org/stdlib)
-
-<https://ruby-doc.org/core-2.6.3/>
 
 <https://ruby-doc.com/search.html>
 
