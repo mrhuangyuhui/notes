@@ -20,6 +20,14 @@
 git push https://github.com/mrhuangyuhui/notes.git
 ```
 
+<https://github.com/sindresorhus/awesome>
+
+<https://github.com/topics/awesome-list>
+
+<https://www.30secondsofcode.org/>
+
+<https://github.com/30-seconds/30-seconds-of-code>
+
 ## Codes
 
 开源代码

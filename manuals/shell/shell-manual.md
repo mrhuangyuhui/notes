@@ -7,8 +7,11 @@
 - [Snippets](#snippets)
 - [Examples](#examples)
 - [Tutorials](#tutorials)
+- [Tools](#tools)
 
 <https://github.com/topics/shell>
+
+<https://github.com/alebcay/awesome-shell>
 
 http://www.freeos.com/guides/lsst/
 
@@ -72,3 +75,7 @@ http://svn.apache.org/repos/asf/subversion/trunk/get-deps.sh
 ## Tutorials
 
 [Shell 从入门到精通](/tutorials/shell/Shell%20%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A/README.md)
+
+## Tools
+
+<https://github.com/koalaman/shellcheck>
