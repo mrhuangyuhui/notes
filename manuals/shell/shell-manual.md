@@ -5,8 +5,10 @@
 - [Commands](#commands)
 - [References](#references)
 - [Snippets](#snippets)
-- [Samples](#samples)
+- [Examples](#examples)
 - [Tutorials](#tutorials)
+
+<https://github.com/topics/shell>
 
 http://www.freeos.com/guides/lsst/
 
@@ -42,13 +44,21 @@ https://github.com/learnbyexample/Command-line-text-processing
 
 ## Snippets
 
+<https://github.com/dylanaraps/pure-bash-bible>
+
+<https://github.com/dylanaraps/pure-sh-bible>
+
 [Shell Snippets](/snippets/shell/README.md)
 
 检查 Linux 发行版本和包管理方式
 
 https://github.com/mrhuangyuhui/shell/blob/snippets/check_sys.sh
 
-## Samples
+## Examples
+
+<https://github.com/dylanaraps/pure-bash-bible>
+
+<https://github.com/dylanaraps/pure-sh-bible>
 
 <https://github.com/antirez/redis/blob/3.0/utils/install_server.sh>
 
