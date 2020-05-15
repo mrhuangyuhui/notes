@@ -7,6 +7,8 @@
   - [RVM](#rvm)
 - [API 文档](#api-%e6%96%87%e6%a1%a3)
 
+<https://rubyjichujiaocheng.github.io/>
+
 ## 环境搭建
 
 <!-- #ruby-docker #docker-example -->
