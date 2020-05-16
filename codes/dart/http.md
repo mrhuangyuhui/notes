@@ -2,6 +2,8 @@
 
 <https://pub.dev/packages/http>
 
+<https://pub.flutter-io.cn/packages/http>
+
 ## Repos
 
 <https://github.com/dart-lang/http>
@@ -13,3 +15,5 @@
 ## API
 
 <https://pub.dev/documentation/http/latest/>
+
+<https://pub.flutter-io.cn/documentation/http/latest/>
