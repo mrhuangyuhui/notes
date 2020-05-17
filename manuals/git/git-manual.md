@@ -16,7 +16,7 @@
   - [`ssh-keygen`](#ssh-keygen)
   - [`submodule`](#submodule)
   - [`git remote`](#git-remote)
-- [References](#references)
+- [Docs](#docs)
   - [Cheat-sheets](#cheat-sheets)
 - [Tutorials](#tutorials)
 - [Servers](#servers)
@@ -188,8 +188,7 @@ git remote -h
 git remote -v
 ```
 
-<!-- #git-ref -->
-## References
+## Docs
 
 <https://git-scm.com/docs>
 
