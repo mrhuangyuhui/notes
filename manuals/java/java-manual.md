@@ -1,6 +1,7 @@
 <!-- omit in toc -->
 # Java Manual
 
+- [Language Reference](#language-reference)
 - [Java SE](#java-se)
 - [Java EE](#java-ee)
 - [Docs](#docs)
@@ -11,6 +12,10 @@
 <https://www.oracle.com/java/>
 
 <https://github.com/topics/java>
+
+## Language Reference
+
+[`langs/java/java-lang.md`](/langs/java/java-lang.md)
 
 ## Java SE
 
@@ -26,11 +31,7 @@
 
 ## Tutorials
 
-<https://docs.oracle.com/javase/tutorial/>
-
-[JDBC Database Access](https://docs.oracle.com/javase/tutorial/jdbc/index.html)
-
-[The Reflection API](https://docs.oracle.com/javase/tutorial/reflect/index.html)
+[The Java™ Tutorials](https://docs.oracle.com/javase/tutorial/)
 
 ## Examples
 
