@@ -1,8 +1,24 @@
+<!-- omit in toc -->
 # Java Manual
+
+- [Installation](#installation)
+  - [Linux >>](#linux)
+    - [SDKMAN](#sdkman)
+    - [RPM](#rpm)
+    - [Binary](#binary)
+  - [Windows >>](#windows)
+- [Commands](#commands)
+- [References](#references)
+- [Tutorials](#tutorials)
+  - [The Java Tutorials](#the-java-tutorials)
+- [Examples](#examples)
+- [Tools](#tools)
 
 http://www.oracle.com/technetwork/java/javase/
 
 http://docs.oracle.com/javase/8/
+
+<https://github.com/topics/java>
 
 ## Installation
 
