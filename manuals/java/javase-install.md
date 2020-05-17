@@ -1,8 +1,10 @@
-# Java - Install
+# Java SE - Install
 
 [Java Platform, Standard Edition Installation Guide](http://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html)
 
 [Java SE Development Kit 8 Downloads](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
+[Installation Guide - Java SE 14](https://docs.oracle.com/en/java/javase/14/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A)
 
 ## SDKMAN
 

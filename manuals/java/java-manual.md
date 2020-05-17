@@ -1,39 +1,32 @@
 <!-- omit in toc -->
 # Java Manual
 
-- [Install](#install)
-- [Commands](#commands)
-- [References](#references)
+- [Java SE](#java-se)
+- [Java EE](#java-ee)
+- [Docs](#docs)
 - [Tutorials](#tutorials)
-  - [The Java Tutorials](#the-java-tutorials)
 - [Examples](#examples)
 - [Tools](#tools)
 
-http://www.oracle.com/technetwork/java/javase/
-
-http://docs.oracle.com/javase/8/
+<https://www.oracle.com/java/>
 
 <https://github.com/topics/java>
 
-## Install
+## Java SE
 
-[`manuals/java/java-install.md`](/manuals/java/java-install.md)
+[`manuals/java/javase-install.md`](/manuals/java/javase-install.md)
 
-## Commands
+## Java EE
 
-```bash
-# 查看 JDK 版本
-java -version
-```
+[`manuals/java/javaee-manual.md`](/manuals/java/javaee-manual.md)
 
-## References
+## Docs
 
-[Java SE API Documentation](https://docs.oracle.com/javase/8/docs/api/index.html)
+[Java Documentation](https://docs.oracle.com/en/java/index.html)
 
 ## Tutorials
 
-### The Java Tutorials
-https://docs.oracle.com/javase/tutorial/
+<https://docs.oracle.com/javase/tutorial/>
 
 [JDBC Database Access](https://docs.oracle.com/javase/tutorial/jdbc/index.html)
 
@@ -41,7 +34,7 @@ https://docs.oracle.com/javase/tutorial/
 
 ## Examples
 
-https://www.programcreek.com/java-api-examples/
+<https://www.programcreek.com/java-api-examples/>
 
 ## Tools
 
