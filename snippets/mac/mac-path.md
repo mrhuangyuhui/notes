@@ -53,3 +53,17 @@ EOF
 
 source ~/.bash_profile
 ```
+
+## Maven
+
+```bash
+cat >> ~/.bash_profile << EOF
+
+# Maven
+export MAVEN_HOME=\$HOME/maven/current
+export PATH=\$PATH:\$MAVEN_HOME/bin
+
+EOF
+
+source ~/.bash_profile
+```

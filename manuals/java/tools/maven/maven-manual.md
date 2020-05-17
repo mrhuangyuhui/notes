@@ -1,6 +1,30 @@
+<!-- omit in toc -->
 # Maven Manual
 
+- [Install](#install)
+  - [Mac](#mac)
+  - [SDKMAN](#sdkman)
+  - [Package Manager](#package-manager)
+  - [Linux](#linux)
+  - [Windows](#windows)
+- [Downloads](#downloads)
+- [Commands](#commands)
+- [Configurations](#configurations)
+- [References](#references)
+  - [POM](#pom)
+  - [Plugins](#plugins)
+  - [Profiles](#profiles)
+- [Tutorials](#tutorials)
+  - [Maven Documentation](#maven-documentation)
+    - [Getting Started with Maven](#getting-started-with-maven)
+    - [Introductions](#introductions)
+    - [Guides](#guides)
+  - [Learn Maven](#learn-maven)
+- [Archetype](#archetype)
+
 <https://maven.apache.org/>
+
+[Maven Releases History](https://maven.apache.org/docs/history.html)
 
 <http://search.maven.org/>
 
@@ -9,6 +33,85 @@
 官方仓库 <http://central.maven.org/maven2/>
 
 阿里云仓库 <http://maven.aliyun.com/nexus/content/groups/public/>
+
+## Install
+
+<https://maven.apache.org/install.html>
+
+### Mac
+
+下载并解压安装包到目录 `~/maven`
+
+创建符号链接
+
+```bash
+cd ~/maven
+
+ln -s apache-maven-3.6.3 current
+```
+
+配置环境变量
+
+```bash
+cat >> ~/.bash_profile << EOF
+
+# Maven
+export MAVEN_HOME=\$HOME/maven/current
+export PATH=\$PATH:\$MAVEN_HOME/bin
+
+EOF
+
+source ~/.bash_profile
+```
+
+验证安装结果
+
+```bash
+tail -n 5 ~/.bash_profile
+mvn -version
+```
+
+### SDKMAN
+
+```bash
+sdk list maven
+sdk install maven 3.5.0
+```
+
+### Package Manager
+
+```bash
+## APT ##
+sudo apt update
+apt show maven
+sudo apt install maven -y
+```
+
+```bash
+## YUM ##
+yum info maven
+sudo yum install maven -y
+```
+
+### Linux
+
+[install-maven-bin.sh](https://github.com/mrhuangyuhui/maven/blob/master/install-maven-bin.sh)
+
+```bash
+sudo curl -L https://github.com/mrhuangyuhui/maven/raw/master/install-maven-bin.sh | sh
+```
+
+### Windows
+
+Adding to `PATH`: Add the unpacked distribution’s bin directory to your user `PATH` environment variable by opening up the system properties (WinKey + Pause), selecting the “Advanced” tab, and the “Environment Variables” button, then adding or selecting the `PATH` variable in the user variables with the value `C:\Program Files\apache-maven-3.5.2\bin`. The same dialog can be used to set `JAVA_HOME` to the location of your JDK, e.g. `C:\Program Files\Java\jdk1.7.0_51`
+
+```bash
+mvn -v
+```
+
+## Downloads
+
+<https://maven.apache.org/download.cgi>
 
 ## Commands
 
@@ -98,52 +201,6 @@ mvn archetype:generate -B \
 ### Profiles
 
 [Introduction to Build Profiles](https://maven.apache.org/guides/introduction/introduction-to-profiles.html)
-
-## [Installation](https://maven.apache.org/install.html)
-
-[Download](https://maven.apache.org/download.html) \
-[Maven Releases History](https://maven.apache.org/docs/history.html)
-
-### Linux
-
-https://maven.apache.org/download.cgi
-
-- #### [Binary](https://maven.apache.org/install.html)
-
-[install-maven-bin.sh](https://github.com/mrhuangyuhui/maven/blob/master/install-maven-bin.sh)
-```bash
-sudo curl -L https://github.com/mrhuangyuhui/maven/raw/master/install-maven-bin.sh | sh
-```
-
-#### [SDKMAN](https://github.com/mrhuangyuhui/sdkman)
-```bash
-sdk list maven
-sdk install maven 3.5.0
-```
-
-#### Package Manager
-```bash
-## APT ##
-sudo apt update
-apt show maven
-sudo apt install maven -y
-```
-
-```bash
-## YUM ##
-yum info maven
-sudo yum install maven -y
-```
-
-### Windows
-
-https://maven.apache.org/download.cgi
-
-Adding to `PATH`: Add the unpacked distribution’s bin directory to your user `PATH` environment variable by opening up the system properties (WinKey + Pause), selecting the “Advanced” tab, and the “Environment Variables” button, then adding or selecting the `PATH` variable in the user variables with the value `C:\Program Files\apache-maven-3.5.2\bin`. The same dialog can be used to set `JAVA_HOME` to the location of your JDK, e.g. `C:\Program Files\Java\jdk1.7.0_51`
-
-```bash
-mvn -v
-```
 
 ## Tutorials
 
