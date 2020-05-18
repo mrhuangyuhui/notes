@@ -1,4 +1,9 @@
+<!-- omit in toc -->
 # fastjson
+
+- [Repos](#repos)
+- [API](#api)
+- [Guides](#guides)
 
 <https://mvnrepository.com/artifact/com.alibaba/fastjson> | [1.2.68](https://repo1.maven.org/maven2/com/alibaba/fastjson/1.2.68/)
 
