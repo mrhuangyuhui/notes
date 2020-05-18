@@ -1,4 +1,8 @@
+<!-- omit in toc -->
 # Maven - Commands
+
+- [`help:describe`](#helpdescribe)
+- [`archetype:generate`](#archetypegenerate)
 
 [Maven CLI Options Reference](https://maven.apache.org/ref/3.6.3/maven-embedder/cli.html)
 
@@ -12,11 +16,13 @@ mvn -v
 mvn --version
 ```
 
-Help
+## `help:describe`
 
 ```bash
 mvn help:describe -Dplugin=org.apache.maven.plugins:maven-help-plugin
 ```
+
+## `archetype:generate`
 
 Generate project
 
@@ -46,4 +52,19 @@ mvn archetype:generate -B \
 -DartifactId=project \
 -Dversion=1.0-SNAPSHOT \
 -Dpackage=com.company.project
+```
+
+<https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html>
+
+```bash
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+```
+
+<https://maven.apache.org/guides/getting-started/index.html>
+
+```bash
+mvn -B archetype:generate \
+  -DarchetypeGroupId=org.apache.maven.archetypes \
+  -DgroupId=com.mycompany.app \
+  -DartifactId=my-app
 ```

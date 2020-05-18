@@ -5,13 +5,14 @@
 - [Install](#install)
 - [Downloads](#downloads)
 - [Commands](#commands)
+- [Repos](#repos)
 - [Docs](#docs)
-- [Configurations](#configurations)
+  - [References](#references)
 - [Tutorials](#tutorials)
 
 <https://maven.apache.org/>
 
-[Maven Releases History](https://maven.apache.org/docs/history.html)
+<https://github.com/apache/maven>
 
 <http://search.maven.org/>
 
@@ -27,7 +28,7 @@
 
 ## Install
 
-[`manuals/java/tools/maven/maven-install.md`](/manuals/java/tools/maven/maven-install.md)
+[`maven-install.md`](maven-install.md)
 
 ## Downloads
 
@@ -35,18 +36,34 @@
 
 ## Commands
 
-[`manuals/java/tools/maven/maven-cmd.md`](/manuals/java/tools/maven/maven-cmd.md)
+[`maven-cmd.md`](maven-cmd.md)
+
+## Repos
+
+<https://github.com/apache/maven>
 
 ## Docs
 
 <https://maven.apache.org/guides/index.html>
 
-## Configurations
+<https://maven.apache.org/docs/history.html>
 
-[阿里云仓库](https://gitee.com/mrhuangyuhui/notes/blob/master/snippets/maven/maven-aliyun.md)
+### References
+
+[POM Reference](https://maven.apache.org/pom.html)
+
+[Settings Reference](https://maven.apache.org/settings.html)
+
+[Core Plug-ins List](https://maven.apache.org/plugins/index.html)
+
+[Maven Archetypes](https://maven.apache.org/archetypes/)
+
+[Maven Quick Reference Card - PDF](https://maven.apache.org/guides/MavenQuickReferenceCard.pdf)
 
 ## Tutorials
 
 [Getting Started in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
 
 [Getting Started in 30 Minutes](https://maven.apache.org/guides/getting-started/index.html)
+
+[Maven Tutorial - Tutorialspoint](https://www.tutorialspoint.com/maven/index.htm)
