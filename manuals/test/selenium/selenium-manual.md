@@ -2,29 +2,20 @@
 # Selenium Manual
 
 - [The Internet](#the-internet)
+- [Quick Start](#quick-start)
 - [Install](#install)
   - [WebDriver binaries](#webdriver-binaries)
   - [Selenium libraries](#selenium-libraries)
-- [Ruby](#ruby)
-  - [Ruby Library](#ruby-library)
-  - [Ruby API](#ruby-api)
-- [Python](#python)
-  - [Python Library](#python-library)
-  - [Python API](#python-api)
+- [Repos](#repos)
 - [Docker](#docker)
-- [References](#references)
+- [Docs](#docs)
+  - [API](#api)
+  - [Python API](#python-api)
+  - [Ruby API](#ruby-api)
 - [Selenium IDE](#selenium-ide)
 - [Tutorials](#tutorials)
 
 <https://www.selenium.dev/>
-
-<https://www.selenium.dev/documentation/en/>
-
-<https://github.com/SeleniumHQ/selenium>
-
-<https://github.com/SeleniumHQ/seleniumhq.github.io>
-
-[Getting started](https://www.selenium.dev/documentation/en/getting_started/quick/)
 
 > 提示：浏览中文文档请把 URL 中的 `en` 改为 `zh-cn`
 
@@ -37,6 +28,10 @@
 <https://github.com/tourdedave/the-internet>
 
 <https://hub.docker.com/r/gprestes/the-internet/>
+
+## Quick Start
+
+<https://www.selenium.dev/documentation/en/getting_started/quick/>
 
 ## Install
 
@@ -54,45 +49,31 @@
 
 <https://www.selenium.dev/documentation/en/selenium_installation/installing_selenium_libraries/>
 
-[Ruby library](#ruby-library)
+## Repos
 
-[Python library](#python-library)
+<https://github.com/SeleniumHQ/selenium>
 
-<!-- #selenium-ruby -->
-## Ruby
+<https://github.com/SeleniumHQ/seleniumhq.github.io>
 
-<https://github.com/SeleniumHQ/selenium/tree/master/rb>
+## Docker
 
-### Ruby Library
+<https://hub.docker.com/u/selenium>
 
-> 提示：因网络问题，需要配置国内 Gem 源，请查看笔记 [Gem Manual](/manuals/ruby/gem-manual.md#mirrors)。
+<!-- #selenium-doc -->
+## Docs
 
-<http://rubygems.org/gems/selenium-webdriver>
+<https://www.selenium.dev/documentation/en/>
 
-```bash
-gem install selenium-webdriver
-```
+<!-- #selenium-api -->
+### API
 
-### Ruby API
-
-<https://www.selenium.dev/selenium/docs/api/rb/>
-
-<https://www.selenium.dev/selenium/docs/api/rb/method_list.html>
-
-<http://seleniumhq.github.io/selenium/docs/api/rb/index.html>
-
-<!-- #selenium-python -->
-## Python
+### Python API
 
 <https://github.com/SeleniumHQ/selenium/tree/master/py>
-
-### Python Library
 
 ```bash
 pip install -U selenium
 ```
-
-### Python API
 
 <https://www.selenium.dev/selenium/docs/api/py/index.html>
 
@@ -104,16 +85,23 @@ pip install -U selenium
 
 <https://pypi.org/project/selenium/>
 
-## Docker
+### Ruby API
 
-<https://hub.docker.com/u/selenium>
+<https://github.com/SeleniumHQ/selenium/tree/master/rb>
 
-<!-- #selenium-ref -->
-## References
+> 提示：因网络问题，需要配置国内 Gem 源，请查看笔记 [Gem Manual](/manuals/ruby/gem-manual.md#mirrors)。
 
-[Ruby API](#ruby-api)
+<http://rubygems.org/gems/selenium-webdriver>
 
-[Python API](#python-api)
+```bash
+gem install selenium-webdriver
+```
+
+<https://www.selenium.dev/selenium/docs/api/rb/>
+
+<https://www.selenium.dev/selenium/docs/api/rb/method_list.html>
+
+<http://seleniumhq.github.io/selenium/docs/api/rb/index.html>
 
 ## Selenium IDE
 

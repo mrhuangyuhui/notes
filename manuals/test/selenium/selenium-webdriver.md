@@ -1,20 +1,21 @@
+<!-- omit in toc -->
 # Selenium WebDriver
+
+- [Quick Start](#quick-start)
+- [Install](#install)
+  - [Chrome](#chrome)
 
 <https://www.selenium.dev/documentation/en/webdriver/>
 
+## Quick Start
+
 [Understanding the components](https://www.selenium.dev/documentation/en/webdriver/understanding_the_components/)
 
+<!-- #selenium-install -->
 ## Install
 
-<https://www.selenium.dev/documentation/en/selenium_installation/installing_webdriver_binaries/>
+[Driver requirements](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/)
 
-<https://www.selenium.dev/documentation/en/webdriver/driver_requirements/>
-
-<!-- #selenium-chrome -->
 ### Chrome
 
-[ChromeDriver](/manuals/test/chromedriver.md#install)
-
-## Browser manipulation
-
-<https://www.selenium.dev/documentation/en/webdriver/browser_manipulation/>
+[ChromeDriver](chromedriver-manual.md)
