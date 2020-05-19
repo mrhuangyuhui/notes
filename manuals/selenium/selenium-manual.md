@@ -53,6 +53,10 @@
 
 <https://github.com/SeleniumHQ/selenium>
 
+<https://gitee.com/mrhuangyuhui/selenium>
+
+<https://sourcegraph.com/github.com/SeleniumHQ/selenium>
+
 <https://github.com/SeleniumHQ/seleniumhq.github.io>
 
 ## Docker

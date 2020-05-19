@@ -4,6 +4,7 @@
 - [Quick Start](#quick-start)
 - [Install](#install)
   - [Chrome](#chrome)
+  - [Firefox](#firefox)
 
 <https://www.selenium.dev/documentation/en/webdriver/>
 
@@ -18,4 +19,8 @@
 
 ### Chrome
 
-[ChromeDriver](chromedriver-manual.md)
+[`chromedriver-manual.md`](/manuals/selenium/drivers/chromedriver-manual.md)
+
+### Firefox
+
+[`geckodriver-manual.md`](/manuals/selenium/drivers/geckodriver-manual.md)
