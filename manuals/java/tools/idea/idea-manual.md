@@ -1,14 +1,18 @@
+<!-- omit in toc -->
 # IDEA Manual
+
+- [Keymap](#keymap)
+- [Documentation](#documentation)
+- [Maven](#maven)
+- [Tomcat](#tomcat)
+- [Plugins](#plugins)
+- [Icon](#icon)
 
 <https://www.jetbrains.com/idea/>
 
 <https://www.jetbrains.com/idea/documentation/>
 
 <https://plugins.jetbrains.com/>
-
----
-
-[TOC]
 
 ## Keymap
 
@@ -43,3 +47,7 @@
 序列化 <https://plugins.jetbrains.com/plugin/185-generateserialversionuid>
 
 ![IDEA 序列化](https://img.mukewang.com/szimg/5ccffe9a0001b26519201080.jpg)
+
+## Icon
+
+<https://www.jetbrains.com/help/idea/symbols.html>
