@@ -1,4 +1,16 @@
+<!-- omit in toc -->
 # Dart - Packages
+
+- [How to use packages](#how-to-use-packages)
+- [Commonly used packages](#commonly-used-packages)
+- [Creating packages](#creating-packages)
+  - [What makes a library package](#what-makes-a-library-package)
+  - [Organizing a library package](#organizing-a-library-package)
+  - [Importing library files](#importing-library-files)
+  - [Conditionally importing and exporting library files](#conditionally-importing-and-exporting-library-files)
+- [Publishing packages](#publishing-packages)
+- [`pubspec.yaml`](#pubspecyaml)
+- [Examples](#examples)
 
 <https://pub.dev/> | [CN](https://pub.flutter-io.cn/)
 
@@ -6,17 +18,23 @@
 
 [Library package | Glossary of package terms](https://dart.dev/tools/pub/glossary#library-package)
 
-[How to use packages](https://dart.dev/guides/packages) | [如何使用 package](https://dart.cn/guides/packages)
+## How to use packages
 
-[Commonly used packages](https://dart.dev/guides/libraries/useful-libraries) | [常用 package 介绍](https://dart.cn/guides/libraries/useful-libraries)
+<https://dart.dev/guides/packages>
 
-[Creating packages](https://dart.dev/guides/libraries/create-library-packages) | [创建 package](https://dart.cn/guides/libraries/create-library-packages)
+## Commonly used packages
 
-- What makes a library package
+<https://dart.dev/guides/libraries/useful-libraries>
+
+## Creating packages
+
+<https://dart.dev/guides/libraries/create-library-packages>
+
+### What makes a library package
 
 > As you might expect, the library code lives under the `lib` directory and is public to other packages. You can create any hierarchy under `lib`, as needed. By convention, implementation code is placed under `lib/src`. Code under `lib/src` is considered private; other packages should never need to import `src/...`. To make APIs under `lib/src` public, you can export `lib/src` files from a file that’s directly under `lib`.
 
-- Organizing a library package
+### Organizing a library package
 
 > Library packages are easiest to maintain, extend, and test when you create small, individual libraries, referred to as mini libraries. In most cases, **each class should be in its own mini library**, unless you have a situation where two classes are tightly coupled.
 >
@@ -24,17 +42,19 @@
 >
 > Create a “main” library file directly under `lib`, `lib/<package-name>.dart`, that exports all of the public APIs. This allows the user to get all of a library’s functionality by importing a single file.
 
-- Importing library files
+### Importing library files
 
 > You can import a library using a relative path when both files are inside of `lib`, or when both files are outside of `lib`. However, you must use `package:` when importing a file that reaches inside, or outside, of `lib`. When in doubt, use the `package:` directive; it works in all cases.
 
-[Publishing packages](https://dart.dev/tools/pub/publishing) | [发布 package](https://dart.cn/tools/pub/publishing)
+### Conditionally importing and exporting library files
 
-[Package dependencies](https://dart.dev/tools/pub/dependencies) | [Package 依赖](https://dart.cn/tools/pub/dependencies)
+[`langs/dart/keywords/dart-import-if.md`](/langs/dart/keywords/dart-import-if.md)
 
-## Commands
+## Publishing packages
 
+<https://dart.dev/tools/pub/publishing>
 
+[Package dependencies](https://dart.dev/tools/pub/dependencies)
 
 ## `pubspec.yaml`
 
