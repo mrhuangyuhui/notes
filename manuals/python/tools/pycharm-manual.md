@@ -17,3 +17,7 @@
 [Testing frameworks - Help | PyCharm](https://www.jetbrains.com/help/pycharm/testing-frameworks.html)
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/pycharm/pycharm-test-1.jpg)
+
+## Symbols
+
+<https://www.jetbrains.com/help/pycharm/symbols.html>
