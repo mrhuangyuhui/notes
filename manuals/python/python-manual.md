@@ -56,7 +56,7 @@
 
 [Intermediate Python](https://github.com/yasoob/intermediatePython)
 
-[Python 教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1016959663602400)
+[Python 3 教程 | 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1016959663602400)
 
 [Python Tutorial (W3Schools)](https://www.w3schools.com/python/default.asp)
 
