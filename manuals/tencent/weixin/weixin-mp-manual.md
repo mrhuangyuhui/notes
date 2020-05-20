@@ -4,11 +4,14 @@
 - [Quick Start](#quick-start)
 - [Downloads](#downloads)
 - [Repos](#repos)
-- [Codes](#codes)
 - [Docs](#docs)
+  - [Guides](#guides)
+  - [Configs](#configs)
   - [API](#api)
 - [Examples](#examples)
+- [Tutorials](#tutorials)
 - [Tools](#tools)
+- [Cloud Base](#cloud-base)
 
 <https://mp.weixin.qq.com/>
 
@@ -34,19 +37,37 @@
 
 <https://gitee.com/mrhuangyuhui/miniprogram-demo>
 
-## Codes
-
-<https://developers.weixin.qq.com/miniprogram/dev/devtools/minicode.html>
-
 ## Docs
 
 [框架](https://mp.weixin.qq.com/debug/wxadoc/dev/framework/MINA.html)
 
 [组件](https://mp.weixin.qq.com/debug/wxadoc/dev/component/)
 
+### Guides
+
+[小程序代码构成](https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/code.html)
+
+[目录结构](https://developers.weixin.qq.com/miniprogram/dev/framework/structure.html)
+
+### Configs
+
+<https://developers.weixin.qq.com/miniprogram/dev/framework/config.html>
+
+[全局配置 | `app.json`](https://developers.weixin.qq.com/miniprogram/dev/reference/configuration/app.html)
+
+[项目配置文件 | `project.config.json`](https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html)
+
+[页面配置 | `<page>.json`](https://developers.weixin.qq.com/miniprogram/dev/reference/configuration/page.html)
+
 ### API
 
 <https://mp.weixin.qq.com/debug/wxadoc/dev/api/>
+
+[WXML 语法参考](https://developers.weixin.qq.com/miniprogram/dev/reference/wxml/)
+
+[WXS 语法参考](https://developers.weixin.qq.com/miniprogram/dev/reference/wxs/)
+
+[微信 API](https://developers.weixin.qq.com/miniprogram/dev/api/)
 
 ## Examples
 
@@ -56,8 +77,16 @@
 
 ![img](https://res.wx.qq.com/wxdoc/dist/assets/img/demo.ef5c5bef.jpg)
 
+## Tutorials
+
+[小程序开发指南](https://developers.weixin.qq.com/ebook?action=get_post_info&docid=0008aeea9a8978ab0086a685851c0a)
+
 ## Tools
 
 <https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html>
 
 [代码片段](https://developers.weixin.qq.com/miniprogram/dev/devtools/minicode.html)
+
+## Cloud Base
+
+[`weixin-mp-cloud-base.md`](weixin-mp-cloud-base.md)
