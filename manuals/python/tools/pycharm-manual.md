@@ -18,6 +18,8 @@
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/pycharm/pycharm-test-1.jpg)
 
-## Symbols
+## Symbols & Icons
 
 <https://www.jetbrains.com/help/pycharm/symbols.html>
+
+<https://www.jetbrains.com/help/pycharm/settings-gutter-icons.html>
