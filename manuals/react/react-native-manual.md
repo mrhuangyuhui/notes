@@ -1,4 +1,4 @@
-# React Native
+# React Native Manual
 
 http://facebook.github.io/react-native/
 
@@ -7,6 +7,12 @@ https://github.com/facebook/react-native
 https://github.com/facebook/react-native/releases
 
 https://www.npmjs.com/search?q=react-native&page=1&ranking=optimal
+
+<https://github.com/topics/react-native>
+
+<https://github.com/jondot/awesome-react-native>
+
+<https://github.com/react-native-elements/react-native-elements>
 
 ## [Quick Start](http://facebook.github.io/react-native/docs/getting-started.html)
 

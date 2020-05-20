@@ -4,6 +4,10 @@
 
 <https://github.com/facebook/react>
 
+<https://github.com/enaqx/awesome-react>
+
+<https://github.com/NervJS/taro>
+
 [create-react-app](https://github.com/facebookincubator/create-react-app)
 
 ## Installation
