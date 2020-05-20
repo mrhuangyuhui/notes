@@ -17,6 +17,8 @@
 
 <http://awesomeios.com/>
 
+<https://github.com/dkhamsing/open-source-ios-apps>
+
 [Objective-C Manual](/manuals/objc/objc-manual.md)
 
 ## UIUE
