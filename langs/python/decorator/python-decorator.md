@@ -16,8 +16,8 @@
 
 ## Examples
 
+[`@property`](https://docs.python.org/3/library/functions.html#property)
+
 [`@staticmethod`](https://docs.python.org/3/library/functions.html#staticmethod)
 
 [`@classmethod`](https://docs.python.org/3/library/functions.html#classmethod)
-
-[`@property`](https://docs.python.org/3/library/functions.html#property)
