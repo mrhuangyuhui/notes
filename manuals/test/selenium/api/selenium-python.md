@@ -19,3 +19,7 @@ pip install -U selenium
 ## API
 
 <https://www.selenium.dev/selenium/docs/api/py/api.html>
+
+## Tools
+
+<https://pypi.org/project/ddt/>

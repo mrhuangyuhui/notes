@@ -119,3 +119,7 @@ gem install selenium-webdriver
 [Selenium Tutorial](/tutorials/selenium/selenium-tutorial/README.md)
 
 <http://elementalselenium.com/tips>
+
+[Selenium WebDriver 自动化测试完全指南 | 微信读书](https://weread.qq.com/web/reader/c0f3282071db56fec0f0455)
+
+[Python 自动化测试实战 | 微信读书](https://weread.qq.com/web/reader/51f32ee07184553651ffe52)
