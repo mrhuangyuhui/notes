@@ -202,112 +202,16 @@ flutter pub get
 <!-- #flutter-ios -->
 ### iOS
 
-[iOS setup](https://flutter.dev/docs/get-started/install/macos#ios-setup)
+[`manuals/flutter/flutter-ios.md`](/manuals/flutter/flutter-ios.md)
 
-- [Set up the iOS simulator](https://flutter.dev/docs/get-started/install/macos#set-up-the-ios-simulator)
-- [Deploy to iOS devices](https://flutter.dev/docs/get-started/install/macos#deploy-to-ios-devices)
-
-<!-- #flutter-mac -->
 ### Desktop
 
-> **This page covers desktop support for macOS which is available as an alpha release as of 1.13.** This page does not cover Windows or Linux platforms, which are in technical preview.
-
-<https://flutter.dev/desktop>
-
-> 注意：如果是用 Gitee 或其他方式同步 GitHub 上的 Fluttr 仓库，请确保同步是最新的！
-
-```bash
-$ git remote get-url origin
-git@gitee.com:mrhuangyuhui/flutter.git
-```
-
-初始化
-
-```bash
-flutter channel master
-
-flutter upgrade
-
-flutter config --enable-macos-desktop
-```
-
-验证初始化结果
-
-```bash
-$ cat ~/.flutter_settings
-{
-  "enable-macos-desktop": true
-}
-
-$ flutter devices
-macOS
-```
-
-运行项目
-
-```bash
-flutter run -d macOS
-```
-
-Samples
-
-- [Flutter Gallery](https://github.com/flutter/samples/tree/master/gallery)
-- [Photo Search app](https://github.com/flutter/samples/tree/master/experimental/desktop_photo_search)
-
-> [关注桌面平台的开发进展](https://github.com/flutter/flutter/wiki/Desktop-shells)
+[`manuals/flutter/flutter-desktop.md`](/manuals/flutter/flutter-desktop.md)
 
 <!-- #flutter-web -->
 ### Web
 
-> As of 1.12, Flutter has early support for running web applications, but you need to be running the **beta** channel of Flutter at present.
-
-[Building a web application with Flutter](https://flutter.dev/docs/get-started/web) | [使用 Flutter 构建 Web 应用](https://flutter.cn/docs/get-started/web)
-
-> 注意：如果是用 Gitee 或其他方式同步 GitHub 上的 Fluttr 仓库，请确保同步是最新的！
-
-```bash
-$ git remote get-url origin
-git@gitee.com:mrhuangyuhui/flutter.git
-```
-
-初始化
-
-```bash
-# 切换到 beta 分支
-flutter channel beta
-# 或 切换到 master 分支
-flutter channel master
-
-flutter upgrade
-
-flutter config --enable-web
-```
-
-验证初始化结果
-
-```bash
-$ cat ~/.flutter_settings
-{
-  "enable-web": true,
-}
-
-$ flutter devices
-Chrome
-```
-
-运行项目
-
-```bash
-flutter run -d chrome
-```
-
-构建项目（输出文件在 `build/web` 目录下）
-
-```bash
-flutter build web
-# 或
-flutter run --release
-```
+[`manuals/flutter/flutter-web.md`](/manuals/flutter/flutter-web.md)
 
 <!-- #flutter-guide -->
 ## Guides
