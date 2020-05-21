@@ -5,7 +5,7 @@
 - [Install](#install)
 - [Downloads](#downloads)
 - [Mirrors](#mirrors)
-- [Repos & Codes](#repos--codes)
+- [Repos](#repos)
 - [Commands](#commands)
   - [`flutter create`](#flutter-create)
   - [`flutter devices`](#flutter-devices)
@@ -75,10 +75,8 @@ export FLUTTER_STORAGE_BASE_URL=https://mirrors.tuna.tsinghua.edu.cn/flutter
 EOF
 ```
 
-<!-- #flutter-repo #flutter-code -->
-## Repos & Codes
-
-> 相关笔记：[Dart Codes](https://gitee.com/mrhuangyuhui/dart-codes)
+<!-- #flutter-repo -->
+## Repos
 
 [flutter/flutter](https://github.com/flutter/flutter) | [Gitee](https://gitee.com/mrhuangyuhui/flutter)
 
