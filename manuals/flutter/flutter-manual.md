@@ -55,25 +55,7 @@
 <!-- #flutter-mirror -->
 ## Mirrors
 
-[Using Flutter in China](https://flutter.dev/community/china) | [在中国网络环境下使用 Flutter](https://flutter.cn/community/china)
-
-Flutter 社区
-
-```bash
-cat >> ~/.bash_profile << EOF
-export PUB_HOSTED_URL=https://pub.flutter-io.cn
-export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
-EOF
-```
-
-清华大学 TUNA 协会
-
-```bash
-cat >> ~/.bash_profile << EOF
-export PUB_HOSTED_URL=https://mirrors.tuna.tsinghua.edu.cn/dart-pub
-export FLUTTER_STORAGE_BASE_URL=https://mirrors.tuna.tsinghua.edu.cn/flutter
-EOF
-```
+[`manuals/flutter/flutter-mirror.md`](/manuals/flutter/flutter-mirror.md)
 
 <!-- #flutter-repo -->
 ## Repos
