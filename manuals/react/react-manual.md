@@ -51,6 +51,16 @@ npm start
 
 <https://github.com/facebook/react>
 
+```bash
+git clone https://github.com/facebook/react.git
+```
+
+<https://gitee.com/mrhuangyuhui/react>
+
+```bash
+git clone git@gitee.com:mrhuangyuhui/react.git
+```
+
 ## Documentation
 
 <https://reactjs.org/docs/>
