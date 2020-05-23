@@ -1,8 +1,19 @@
+<!-- omit in toc -->
 # React Manual
 
-<https://reactjs.org/>
+- [Quick Start](#quick-start)
+- [Install](#install)
+- [Repos](#repos)
+- [Documentation](#documentation)
+- [Tutorials](#tutorials)
+- [References](#references)
+- [Examples](#examples)
+- [Tools](#tools)
+- [IDE](#ide)
+  - [WebStorm](#webstorm)
+  - [VS Code](#vs-code)
 
-<https://github.com/facebook/react>
+<https://reactjs.org/> | [zh-cn](https://zh-hans.reactjs.org/)
 
 <https://github.com/enaqx/awesome-react>
 
@@ -10,7 +21,15 @@
 
 [create-react-app](https://github.com/facebookincubator/create-react-app)
 
-## Installation
+## Quick Start
+
+[Getting Started](https://reactjs.org/docs/getting-started.html) | [zh-cn](https://zh-hans.reactjs.org/docs/getting-started.html)
+
+[Hello World](https://reactjs.org/docs/hello-world.html) | [zh-cn](https://zh-hans.reactjs.org/docs/hello-world.html)
+
+## Install
+
+<https://zh-hans.reactjs.org/versions/>
 
 [Try React](https://reactjs.org/docs/try-react.html)
 
@@ -28,6 +47,10 @@ cd my-app
 npm start
 ```
 
+## Repos
+
+<https://github.com/facebook/react>
+
 ## Documentation
 
 <https://reactjs.org/docs/>
@@ -38,13 +61,15 @@ npm start
 
 ## Tutorials
 
-[Quick Start](https://reactjs.org/docs/hello-world.html)
+<https://zh-hans.reactjs.org/docs/hello-world.html>
 
-[Tutorial](https://reactjs.org/tutorial/tutorial.html)
+[Tutorial](https://reactjs.org/tutorial/tutorial.html) | [zh-cn](https://zh-hans.reactjs.org/tutorial/tutorial.html)
 
 [Advanced Guides](https://reactjs.org/docs/jsx-in-depth.html)
 
 [ReactJS Tutorial](https://www.tutorialspoint.com/reactjs/)
+
+<https://www.taniarascia.com/getting-started-with-react/>
 
 [React 教程](http://www.runoob.com/react/react-tutorial.html)
 
@@ -62,7 +87,11 @@ npm start
 
 <https://reactjs.org/community/examples.html>
 
+<https://zh-hans.reactjs.org/community/examples.html>
+
 ## Tools
+
+<https://zh-hans.reactjs.org/docs/create-a-new-react-app.html>
 
 <https://reactjs.org/community/debugging-tools.html>
 
