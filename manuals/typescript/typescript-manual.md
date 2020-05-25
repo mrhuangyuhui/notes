@@ -7,6 +7,7 @@
 - [Repos](#repos)
 - [Dos](#dos)
 - [Tools](#tools)
+- [Tutorials](#tutorials)
 
 <https://www.typescriptlang.org/>
 
@@ -37,3 +38,13 @@ npm install -g typescript
 ## Tools
 
 <https://www.typescriptlang.org/play/index.html>
+
+## Tutorials
+
+<https://typescript.bootcss.com/>
+
+<https://github.com/zhongsp/TypeScript>
+
+<https://github.com/xcatliu/typescript-tutorial>
+
+<https://www.tutorialspoint.com/typescript/index.htm>
