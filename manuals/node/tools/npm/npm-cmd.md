@@ -8,8 +8,6 @@
 
 <https://docs.npmjs.com/cli-documentation/cli>
 
-查看帮助
-
 ```bash
 npm
 npm -h
