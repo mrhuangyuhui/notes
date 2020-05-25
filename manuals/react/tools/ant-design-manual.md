@@ -2,6 +2,8 @@
 
 <https://ant.design/>
 
+<https://ant-design.gitee.io/>
+
 ## Repos
 
 <https://github.com/ant-design/ant-design>
