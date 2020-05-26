@@ -1,6 +1,8 @@
 <!-- omit in toc -->
 # iOS Manual
 
+- [Quick Start](#quick-start)
+- [Downloads](#downloads)
 - [UIUE](#uiue)
 - [Docs](#docs)
   - [UIKit](#uikit)
@@ -21,6 +23,14 @@
 
 [Objective-C Manual](/manuals/objc/objc-manual.md)
 
+## Quick Start
+
+[About App Development with UIKit](https://developer.apple.com/documentation/uikit/about_app_development_with_uikit?language=objc)
+
+## Downloads
+
+<!--  -->
+
 ## UIUE
 
 <https://www.cocoacontrols.com/>
@@ -28,6 +38,8 @@
 <http://www.code4app.com/>
 
 ## Docs
+
+<https://developer.apple.com/documentation>
 
 ### [UIKit](https://developer.apple.com/documentation/uikit)
 
