@@ -1,3 +1,3 @@
 # TypeScript 语言参考
 
-[TypeScript: Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
+[TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/)

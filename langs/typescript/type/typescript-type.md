@@ -1,3 +1,3 @@
-# # TypeScript - Types
+# TypeScript - Types
 
 [TypeScript: Handbook - Basic Types](https://www.typescriptlang.org/docs/handbook/basic-types.html)

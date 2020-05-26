@@ -13,7 +13,9 @@
 
 ## Language Reference
 
-<https://www.typescriptlang.org/docs/handbook/basic-types.html>
+[TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/)
+
+[`langs/typescript/typescript-lang.md`](/langs/typescript/typescript-lang.md)
 
 ## Quick Start
 
@@ -40,6 +42,8 @@ npm install -g typescript
 <https://www.typescriptlang.org/play/index.html>
 
 ## Tutorials
+
+[TypeScript 入门教程](https://ts.xcatliu.com/) ([GitHub](https://github.com/xcatliu/typescript-tutorial))
 
 <https://typescript.bootcss.com/>
 
