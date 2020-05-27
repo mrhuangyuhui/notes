@@ -11,3 +11,5 @@
 The core app objects
 
 ![img](https://docs-assets.developer.apple.com/published/4e7c26b6ad/ff7aa08f-4857-44ce-88d5-7dacbef84509.png)
+
+> The `UIApplication` object runs your app’s main event loop and manages your app’s overall life cycle.
