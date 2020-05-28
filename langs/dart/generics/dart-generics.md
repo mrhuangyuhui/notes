@@ -1,4 +1,4 @@
-# Dart - Generic
+# Dart - Generics
 
 [Generics | Language tour | Dart](https://dart.dev/guides/language/language-tour#generics)
 
