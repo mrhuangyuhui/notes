@@ -7,3 +7,5 @@
 ## Demos
 
 <https://gitee.com/mrhuangyuhui/ShareSDK-for-iOS>
+
+<https://sourcegraph.com/github.com/MobClub/ShareSDK-for-iOS>
