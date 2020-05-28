@@ -11,6 +11,8 @@
 
 <https://www.typescriptlang.org/>
 
+[TypeScript - 知乎](https://www.zhihu.com/topic/19766226/hot)
+
 ## Language Reference
 
 [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/)
