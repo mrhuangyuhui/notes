@@ -1,4 +1,4 @@
-# Line SDK Manual
+# Line Manual
 
 <https://developers.line.biz/en/>
 
@@ -13,6 +13,10 @@
 <https://developers.line.biz/en/docs/line-login/>
 
 <https://github.com/line/line-sdk-ios-swift>
+
+## Share
+
+<https://developers.line.biz/en/docs/messaging-api/using-line-url-scheme/>
 
 ## Demos
 
