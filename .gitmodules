@@ -20,10 +20,6 @@
 	path = codes/js-codes
 	url = git@gitee.com:mrhuangyuhui/js-codes.git
 	ignore = dirty
-[submodule "codes/objc-codes"]
-	path = codes/objc-codes
-	url = git@gitee.com:mrhuangyuhui/objc-codes.git
-	ignore = dirty
 [submodule "codes/docker-repos"]
 	path = codes/docker-repos
 	url = git@gitee.com:mrhuangyuhui/docker-repos.git
