@@ -17,8 +17,6 @@
 
 配置 RubyGems 国内镜像 <https://gems.ruby-china.com/>
 
-> 提示：[点击查看 `gem sources` 的详细用法](#gem-sources)
-
 ```bash
 $ gem update --system # 这里请翻墙一下
 $ gem -v

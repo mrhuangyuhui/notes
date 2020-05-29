@@ -7,10 +7,6 @@
 - [Mirrors](#mirrors)
 - [Repos](#repos)
 - [Commands](#commands)
-  - [`flutter create`](#flutter-create)
-  - [`flutter devices`](#flutter-devices)
-  - [`flutter run`](#flutter-run)
-  - [`flutter pub`](#flutter-pub)
 - [IDE](#ide)
   - [VSCode](#vscode)
   - [IDEA](#idea)
@@ -50,7 +46,7 @@
 
 [Flutter 版本说明](https://github.com/flutter/flutter/wiki/Flutter-build-release-channels)
 
-[Flutter SDK releases](https://flutter.dev/docs/development/tools/sdk/releases) | [Flutter SDK 版本列表](https://flutter.cn/docs/development/tools/sdk/releases)
+[Flutter SDK releases](https://flutter.dev/docs/development/tools/sdk/releases) ([CN](https://flutter.cn/docs/development/tools/sdk/releases))
 
 <!-- #flutter-mirror -->
 ## Mirrors
@@ -77,64 +73,7 @@
 <!-- #flutter-cmd -->
 ## Commands
 
-```bash
-flutter
-flutter -h
-flutter --help
-flutter help
-
-flutter create -h
-flutter create --help
-flutter help create
-```
-
-```bash
-flutter --version
-```
-
-检查环境配置
-
-```bash
-flutter doctor
-```
-
-### `flutter create`
-
-创建项目
-
-```bash
-flutter create -h
-flutter create --help
-flutter help create
-```
-
-```bash
-flutter create myapp
-```
-
-### `flutter devices`
-
-列出所有已连接的设备
-
-```bash
-flutter devices
-```
-
-### `flutter run`
-
-运行项目
-
-```bash
-flutter run
-```
-
-### `flutter pub`
-
-安装依赖包
-
-```bash
-flutter pub get
-```
+[`flutter-cmd.md`](flutter-cmd.md)
 
 <!-- #flutter-ide -->
 ## IDE
@@ -205,7 +144,9 @@ flutter pub get
 <!-- #flutter-api -->
 ## API
 
-[Flutter API](https://api.flutter-io.cn/)
+<https://api.flutter.dev/>
+
+<https://api.flutter-io.cn/>
 
 <!-- #flutter-tutorial -->
 ## Tutorials
