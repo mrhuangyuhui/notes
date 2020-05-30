@@ -1,3 +1,5 @@
 # Dart 语言参考
 
-[`langs/dart/dart-lang.md`](/langs/dart/dart-lang.md)
+[A tour of the Dart language](https://dart.dev/guides/language/language-tour)
+
+[Dart language specification](https://dart.dev/guides/language/spec)

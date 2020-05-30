@@ -16,6 +16,7 @@
   - [Web](#web)
 - [Guides](#guides)
 - [API](#api)
+- [Packages](#packages)
 - [Tutorials](#tutorials)
 
 <https://flutter.dev/> | [GitHub](https://github.com/flutter/website) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-website)
@@ -147,6 +148,12 @@
 <https://api.flutter.dev/>
 
 <https://api.flutter-io.cn/>
+
+[`api/flutter/README.md`](/api/flutter/README.md)
+
+## Packages
+
+<https://pub.flutter-io.cn/flutter/packages>
 
 <!-- #flutter-tutorial -->
 ## Tutorials
