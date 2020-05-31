@@ -1,0 +1,24 @@
+# Query: FadeTransition
+# Flags: CaseSensitive WordMatch RegExp
+# Including: lib/**/*.dart
+
+11 results - 4 files
+
+code-hub/flutter-gallery/lib/codeviewer/code_segments.dart:
+  1955:       TextSpan(style: codeStyle.classStyle, text: 'FadeTransition'),
+  2454:       TextSpan(style: codeStyle.classStyle, text: 'FadeTransition'),
+  2465:       TextSpan(style: codeStyle.classStyle, text: 'FadeTransition'),
+
+code-hub/flutter-gallery/lib/demos/material/bottom_navigation_demo.dart:
+   87:     final transitions = <FadeTransition>[];
+  175:   FadeTransition transition(BuildContext context) {
+  176:     return FadeTransition(
+
+code-hub/flutter-gallery/lib/studies/rally/home.dart:
+  303:           FadeTransition(
+  308:           FadeTransition(
+  334:           FadeTransition(
+  341:           FadeTransition(
+
+code-hub/flutter-gallery/lib/studies/shrine/expanding_bottom_sheet.dart:
+  743:     return FadeTransition(
