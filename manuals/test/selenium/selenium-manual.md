@@ -1,53 +1,57 @@
 <!-- omit in toc -->
 # Selenium Manual
 
-- [The Internet](#the-internet)
 - [Quick Start](#quick-start)
 - [Install](#install)
-  - [WebDriver binaries](#webdriver-binaries)
-  - [Selenium libraries](#selenium-libraries)
+- [Downloads](#downloads)
 - [Repos](#repos)
 - [Docker](#docker)
 - [Docs](#docs)
   - [API](#api)
-  - [Python API](#python-api)
-  - [Ruby API](#ruby-api)
-- [Selenium IDE](#selenium-ide)
 - [Tutorials](#tutorials)
 
-<https://www.selenium.dev/>
+<https://www.selenium.dev/> ([GitHub](https://github.com/SeleniumHQ/seleniumhq.github.io))
 
-> 提示：浏览中文文档请把 URL 中的 `en` 改为 `zh-cn`
+三大组件
 
-## The Internet
+- WebDriver [`selenium-webdriver.md`](selenium-webdriver.md)
+- IDE [`selenium-ide.md`](selenium-ide.md)
+- Grid [`selenium-grid.md`](selenium-grid.md)
 
-测试网站
-
-<http://the-internet.herokuapp.com/>
-
-<https://github.com/tourdedave/the-internet>
-
-<https://hub.docker.com/r/gprestes/the-internet/>
+> 测试网站 <http://the-internet.herokuapp.com/> ([GitHub](https://github.com/tourdedave/the-internet), [Docker](https://hub.docker.com/r/gprestes/the-internet/))
 
 ## Quick Start
 
-<https://www.selenium.dev/documentation/en/getting_started/quick/>
+[Quick tour](https://www.selenium.dev/documentation/en/getting_started/quick/)
 
 ## Install
 
-<https://www.selenium.dev/documentation/en/selenium_installation/>
+[Selenium Installation](https://www.selenium.dev/documentation/en/selenium_installation/)
+
+安装浏览器驱动
+
+[Installing WebDriver binaries](https://www.selenium.dev/documentation/en/selenium_installation/installing_webdriver_binaries/)
+
+[Driver requirements](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/)
+
+- Chrome [`chromedriver-manual.md`](/manuals/test/selenium/drivers/chromedriver-manual.md)
+- Firefox [`geckodriver-manual.md`](/manuals/test/selenium/drivers/geckodriver-manual.md)
+
+安装不同编程语言的开发库
+
+[Installing Selenium libraries](https://www.selenium.dev/documentation/en/selenium_installation/installing_selenium_libraries/)
+
+- [`selenium-python.md`](/manuals/test/selenium/api/selenium-python.md)
+- [`selenium-ruby.md`](/manuals/test/selenium/api/selenium-ruby.md)
+- [`selenium-javascript.md`](/manuals/test/selenium/api/selenium-javascript.md)
+
+安装浏览器插件
+
+[`selenium-ide.md`](selenium-ide.md)
+
+## Downloads
 
 <https://www.selenium.dev/downloads/>
-
-> 注意：一定要先安装浏览器驱动！！！
-
-### WebDriver binaries
-
-[Selenium WebDriver](selenium-webdriver.md#install)
-
-### Selenium libraries
-
-<https://www.selenium.dev/documentation/en/selenium_installation/installing_selenium_libraries/>
 
 ## Repos
 
@@ -55,61 +59,31 @@
 
 <https://gitee.com/mrhuangyuhui/selenium>
 
-<https://sourcegraph.com/github.com/SeleniumHQ/selenium>
-
 <https://github.com/SeleniumHQ/seleniumhq.github.io>
+
+<https://github.com/tourdedave/the-internet>
 
 ## Docker
 
 <https://hub.docker.com/u/selenium>
+
+<https://hub.docker.com/r/gprestes/the-internet/>
 
 <!-- #selenium-doc -->
 ## Docs
 
 <https://www.selenium.dev/documentation/en/>
 
+<https://www.selenium.dev/documentation/zh-cn/>
+
 <!-- #selenium-api -->
 ### API
 
-### Python API
+[`selenium-python.md`](/manuals/test/selenium/api/selenium-python.md)
 
-<https://github.com/SeleniumHQ/selenium/tree/master/py>
+[`selenium-ruby.md`](/manuals/test/selenium/api/selenium-ruby.md)
 
-```bash
-pip install -U selenium
-```
-
-<https://www.selenium.dev/selenium/docs/api/py/index.html>
-
-<https://www.selenium.dev/selenium/docs/api/py/genindex.html>
-
-<https://www.selenium.dev/selenium/docs/api/py/py-modindex.html>
-
-<https://seleniumhq.github.io/selenium/docs/api/py/api.html>
-
-<https://pypi.org/project/selenium/>
-
-### Ruby API
-
-<https://github.com/SeleniumHQ/selenium/tree/master/rb>
-
-> 提示：因网络问题，需要配置国内 Gem 源，请查看笔记 [Gem Manual](/manuals/ruby/gem-manual.md#mirrors)。
-
-<http://rubygems.org/gems/selenium-webdriver>
-
-```bash
-gem install selenium-webdriver
-```
-
-<https://www.selenium.dev/selenium/docs/api/rb/>
-
-<https://www.selenium.dev/selenium/docs/api/rb/method_list.html>
-
-<http://seleniumhq.github.io/selenium/docs/api/rb/index.html>
-
-## Selenium IDE
-
-[Selenium IDE](selenium-ide.md)
+[`selenium-javascript.md`](/manuals/test/selenium/api/selenium-javascript.md)
 
 <!-- #selenium-tutorial -->
 ## Tutorials

@@ -1,8 +1,14 @@
+<!-- omit in toc -->
 # Selenium - Python
 
-<https://www.selenium.dev/selenium/docs/api/py/>
+- [Install](#install)
+- [Repos](#repos)
+- [API](#api)
+- [Tools](#tools)
 
 <https://pypi.org/project/selenium/>
+
+<https://www.selenium.dev/selenium/docs/api/py/>
 
 ## Install
 
@@ -19,6 +25,10 @@ pip install -U selenium
 ## API
 
 <https://www.selenium.dev/selenium/docs/api/py/api.html>
+
+<https://www.selenium.dev/selenium/docs/api/py/genindex.html>
+
+<https://www.selenium.dev/selenium/docs/api/py/py-modindex.html>
 
 ## Tools
 
