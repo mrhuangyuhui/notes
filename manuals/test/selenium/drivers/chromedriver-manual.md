@@ -5,6 +5,7 @@
 - [Install](#install)
   - [Mac](#mac)
 - [Downloads](#downloads)
+- [Commands](#commands)
 
 <http://chromedriver.chromium.org/>
 
@@ -42,7 +43,7 @@ source ~/.bash_profile
 验证安装结果
 
 ```bash
-chromedriver
+chromedriver --version
 ```
 
 ## Downloads
@@ -50,3 +51,15 @@ chromedriver
 <http://chromedriver.chromium.org/downloads>
 
 <https://chromedriver.storage.googleapis.com/index.html>
+
+## Commands
+
+```bash
+chromedriver -h
+chromedriver --help
+```
+
+```bash
+chromedriver -v
+chromedriver --version
+```

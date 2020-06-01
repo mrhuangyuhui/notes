@@ -36,9 +36,21 @@ source ~/.bash_profile
 验证安装结果
 
 ```bash
-geckodriver
+geckodriver --version
 ```
 
 ## Downloads
 
 <https://github.com/mozilla/geckodriver/releases>
+
+## Commands
+
+```bash
+geckodriver -h
+geckodriver --help
+```
+
+```bash
+geckodriver -V
+geckodriver --version
+```
