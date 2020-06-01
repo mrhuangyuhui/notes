@@ -1,4 +1,4 @@
-# Dart - Abstract Class
+# Dart - Abstract classes
 
 [Interfaces and abstract classes - Language samples | Dart](https://dart.dev/samples#interfaces-and-abstract-classes)
 
