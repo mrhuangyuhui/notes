@@ -3,8 +3,6 @@
 
 - [Quick Start](#quick-start)
 - [Install](#install)
-  - [Chrome](#chrome)
-  - [Firefox](#firefox)
 
 <https://www.selenium.dev/documentation/en/webdriver/>
 
@@ -15,12 +13,8 @@
 <!-- #selenium-install -->
 ## Install
 
-[Driver requirements](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/)
+[Installing Selenium libraries](https://www.selenium.dev/documentation/en/selenium_installation/installing_selenium_libraries/)
 
-### Chrome
-
-[`chromedriver-manual.md`](/manuals/selenium/drivers/chromedriver-manual.md)
-
-### Firefox
-
-[`geckodriver-manual.md`](/manuals/selenium/drivers/geckodriver-manual.md)
+- [`selenium-python.md`](/manuals/test/selenium/api/selenium-python.md)
+- [`selenium-ruby.md`](/manuals/test/selenium/api/selenium-ruby.md)
+- [`selenium-javascript.md`](/manuals/test/selenium/api/selenium-javascript.md)

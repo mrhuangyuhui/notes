@@ -39,11 +39,7 @@
 
 安装不同编程语言的开发库
 
-[Installing Selenium libraries](https://www.selenium.dev/documentation/en/selenium_installation/installing_selenium_libraries/)
-
-- [`selenium-python.md`](/manuals/test/selenium/api/selenium-python.md)
-- [`selenium-ruby.md`](/manuals/test/selenium/api/selenium-ruby.md)
-- [`selenium-javascript.md`](/manuals/test/selenium/api/selenium-javascript.md)
+[`selenium-webdriver.md`](selenium-webdriver.md#install)
 
 安装浏览器插件
 
