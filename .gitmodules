@@ -21,10 +21,6 @@
 	path = tools/homestead
 	url = git@gitee.com:mrhuangyuhui/homestead.git
 	ignore = dirty
-[submodule "books/ruby-books"]
-	path = books/ruby-books
-	url = git@gitee.com:mrhuangyuhui/ruby-books.git
-	ignore = dirty
 [submodule "tools/gitignore"]
 	path = tools/gitignore
 	url = git@gitee.com:mrhuangyuhui/gitignore.git
