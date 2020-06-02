@@ -5,7 +5,7 @@
 - [Quick Start](#quick-start)
 - [Install](#install)
 - [Repos](#repos)
-- [Dos](#dos)
+- [Docs](#docs)
 - [Declaration Files](#declaration-files)
 - [Tools](#tools)
 - [Tutorials](#tutorials)
@@ -16,7 +16,7 @@
 
 ## Language Reference
 
-[TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/)
+[TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
 
 [`langs/typescript/typescript-lang.md`](/langs/typescript/typescript-lang.md)
 
@@ -36,13 +36,17 @@ npm install -g typescript
 
 <https://github.com/topics/typescript>
 
-## Dos
+## Docs
 
 <https://www.typescriptlang.org/docs/home.html>
 
 ## Declaration Files
 
+<https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html>
+
 <https://github.com/DefinitelyTyped/DefinitelyTyped>
+
+<https://www.npmjs.com/~types>
 
 ## Tools
 
