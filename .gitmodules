@@ -6,10 +6,6 @@
 	path = tutorials/mongodb/mongodb-24h/codes
 	url = git@gitee.com:mrhuangyuhui/mongodb-24h.git
 	ignore = dirty
-[submodule "codes/js-codes"]
-	path = codes/js-codes
-	url = git@gitee.com:mrhuangyuhui/js-codes.git
-	ignore = dirty
 [submodule "codes/docker-repos"]
 	path = codes/docker-repos
 	url = git@gitee.com:mrhuangyuhui/docker-repos.git
