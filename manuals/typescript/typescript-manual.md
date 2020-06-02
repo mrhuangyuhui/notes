@@ -6,6 +6,7 @@
 - [Install](#install)
 - [Repos](#repos)
 - [Dos](#dos)
+- [Declaration Files](#declaration-files)
 - [Tools](#tools)
 - [Tutorials](#tutorials)
 
@@ -38,6 +39,10 @@ npm install -g typescript
 ## Dos
 
 <https://www.typescriptlang.org/docs/home.html>
+
+## Declaration Files
+
+<<https://github.com/DefinitelyTyped/DefinitelyTyped>>
 
 ## Tools
 
