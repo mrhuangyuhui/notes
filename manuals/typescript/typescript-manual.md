@@ -42,7 +42,7 @@ npm install -g typescript
 
 ## Declaration Files
 
-<<https://github.com/DefinitelyTyped/DefinitelyTyped>>
+<https://github.com/DefinitelyTyped/DefinitelyTyped>
 
 ## Tools
 
