@@ -1,6 +1,20 @@
-[toc]
+<!-- omit in toc -->
+# Class 的基本语法
 
-# Class 的基本语法 [>>](http://es6.ruanyifeng.com/#docs/class)
+- [简介](#简介)
+- [严格模式](#严格模式)
+- [constructor 方法](#constructor-方法)
+- [类的实例对象](#类的实例对象)
+- [Class 表达式](#class-表达式)
+- [不存在变量提升](#不存在变量提升)
+- [私有方法和私有属性](#私有方法和私有属性)
+- [this 的指向](#this-的指向)
+- [name 属性](#name-属性)
+- [Class 的取值函数（getter）和存值函数（setter）](#class-的取值函数getter和存值函数setter)
+- [Class 的 Generator 方法](#class-的-generator-方法)
+- [Class 的静态方法](#class-的静态方法)
+
+<https://es6.ruanyifeng.com/#docs/class>
 
 ## 简介
 
@@ -703,5 +717,3 @@ class Bar extends Foo {
 
 console.log(Bar.classMethod()); // "hello, too"
 ```
-
-# 学习到这
