@@ -1,4 +1,11 @@
+<!-- omit in toc -->
 # JavaScript Manual
+
+- [Language Reference](#language-reference)
+- [Tutorials](#tutorials)
+- [Documentation](#documentation)
+- [Blogs](#blogs)
+- [Tools](#tools)
 
 <https://javascript.info/>
 
@@ -20,7 +27,7 @@ http://ejs.co/
 
 <https://github.com/topics/javascript>
 
-## References
+## Language Reference
 
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference>
 
