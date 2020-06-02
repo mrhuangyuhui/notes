@@ -1,6 +1,3 @@
-[submodule "tutorials/js/javascript-tutorial"]
-	path = tutorials/js/javascript-tutorial
-	url = git@gitee.com:mrhuangyuhui/javascript-tutorial.git
 [submodule "codes/swift"]
 	path = codes/swift
 	url = git@gitee.com:mrhuangyuhui/swift.git
