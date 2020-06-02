@@ -16,6 +16,8 @@
 
 ## Repos
 
+<https://github.com/eggjs/egg>
+
 <https://github.com/eggjs/examples>
 
 <https://gitee.com/mrhuangyuhui/egg-examples>
