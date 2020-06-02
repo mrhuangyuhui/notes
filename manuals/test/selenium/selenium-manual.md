@@ -3,14 +3,14 @@
 
 - [Quick Start](#quick-start)
 - [Install](#install)
+- [Docker](#docker)
 - [Downloads](#downloads)
 - [Repos](#repos)
-- [Docker](#docker)
 - [Docs](#docs)
-  - [API](#api)
+- [API](#api)
 - [Tutorials](#tutorials)
 
-<https://www.selenium.dev/> ([GitHub](https://github.com/SeleniumHQ/seleniumhq.github.io))
+<https://www.selenium.dev/> | [GitHub](https://github.com/SeleniumHQ/seleniumhq.github.io)
 
 三大组件
 
@@ -18,7 +18,7 @@
 - IDE [`selenium-ide.md`](selenium-ide.md)
 - Grid [`selenium-grid.md`](selenium-grid.md)
 
-> 测试网站 <http://the-internet.herokuapp.com/> ([GitHub](https://github.com/tourdedave/the-internet), [Docker](https://hub.docker.com/r/gprestes/the-internet/))
+> 测试网站 <http://the-internet.herokuapp.com/> | [GitHub](https://github.com/tourdedave/the-internet) | [Docker](https://hub.docker.com/r/gprestes/the-internet/)
 
 ## Quick Start
 
@@ -34,8 +34,9 @@
 
 [Driver requirements](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/)
 
-- Chrome [`chromedriver-manual.md`](/manuals/test/selenium/drivers/chromedriver-manual.md)
-- Firefox [`geckodriver-manual.md`](/manuals/test/selenium/drivers/geckodriver-manual.md)
+Chrome [`chromedriver-manual.md`](/manuals/test/selenium/drivers/chromedriver-manual.md)
+
+Firefox [`geckodriver-manual.md`](/manuals/test/selenium/drivers/geckodriver-manual.md)
 
 安装不同编程语言的开发库
 
@@ -45,35 +46,31 @@
 
 [`selenium-ide.md`](selenium-ide.md)
 
-## Downloads
-
-<https://www.selenium.dev/downloads/>
-
-## Repos
-
-<https://github.com/SeleniumHQ/selenium>
-
-<https://gitee.com/mrhuangyuhui/selenium>
-
-<https://github.com/SeleniumHQ/seleniumhq.github.io>
-
-<https://github.com/tourdedave/the-internet>
-
 ## Docker
 
 <https://hub.docker.com/u/selenium>
 
 <https://hub.docker.com/r/gprestes/the-internet/>
 
+## Downloads
+
+<https://www.selenium.dev/downloads/>
+
+## Repos
+
+<https://github.com/SeleniumHQ/selenium> | [Gitee](https://gitee.com/mrhuangyuhui/selenium)
+
+<https://github.com/SeleniumHQ/seleniumhq.github.io>
+
+<https://github.com/tourdedave/the-internet>
+
 <!-- #selenium-doc -->
 ## Docs
 
-<https://www.selenium.dev/documentation/en/>
-
-<https://www.selenium.dev/documentation/zh-cn/>
+<https://www.selenium.dev/documentation/en/> | [zh-cn](https://www.selenium.dev/documentation/zh-cn/)
 
 <!-- #selenium-api -->
-### API
+## API
 
 [`selenium-python.md`](/manuals/test/selenium/api/selenium-python.md)
 
