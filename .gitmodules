@@ -1,6 +1,3 @@
-[submodule "codes/swift"]
-	path = codes/swift
-	url = git@gitee.com:mrhuangyuhui/swift.git
 [submodule "docs"]
 	path = docs
 	url = git@gitee.com:mrhuangyuhui/docs.git
