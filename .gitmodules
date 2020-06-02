@@ -2,19 +2,7 @@
 	path = docs
 	url = git@gitee.com:mrhuangyuhui/docs.git
 	ignore = dirty
-[submodule "tutorials/mongodb/mongodb-24h/codes"]
-	path = tutorials/mongodb/mongodb-24h/codes
-	url = git@gitee.com:mrhuangyuhui/mongodb-24h.git
-	ignore = dirty
-[submodule "codes/docker-repos"]
-	path = codes/docker-repos
-	url = git@gitee.com:mrhuangyuhui/docker-repos.git
-	ignore = dirty
 [submodule "tools/homestead"]
 	path = tools/homestead
 	url = git@gitee.com:mrhuangyuhui/homestead.git
-	ignore = dirty
-[submodule "tutorials/python/pythonds/codes"]
-	path = tutorials/python/pythonds/codes
-	url = git@gitee.com:mrhuangyuhui/pythonds.git
 	ignore = dirty
