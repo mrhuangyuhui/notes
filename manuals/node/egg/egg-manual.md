@@ -10,6 +10,8 @@
 
 <https://eggjs.org/> | [zh-cn](https://eggjs.org/zh-cn/)
 
+<https://github.com/eggjs>
+
 ## Quick Start
 
 <https://eggjs.org/zh-cn/intro/quickstart.html>

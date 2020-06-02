@@ -10,9 +10,9 @@
 - [GitHub](#github)
 - [Tools](#tools)
   - [RegExp](#regexp)
-- [网络](#%e7%bd%91%e7%bb%9c)
-- [软件下载](#%e8%bd%af%e4%bb%b6%e4%b8%8b%e8%bd%bd)
-- [其他](#%e5%85%b6%e4%bb%96)
+- [网络](#网络)
+- [软件下载](#软件下载)
+- [其他](#其他)
 
 同步到 GitHub
 
@@ -111,6 +111,8 @@ HTTP 请求 <https://httpbin.org/>
 <https://docschina.org/>
 
 [语雀 - 专业的云端知识库](https://www.yuque.com/)
+
+<http://www.modulecounts.com/>
 
 <!-- #regexp-tool -->
 ### RegExp
