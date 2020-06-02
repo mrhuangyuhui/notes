@@ -2,7 +2,3 @@
 	path = docs
 	url = git@gitee.com:mrhuangyuhui/docs.git
 	ignore = dirty
-[submodule "tools/homestead"]
-	path = tools/homestead
-	url = git@gitee.com:mrhuangyuhui/homestead.git
-	ignore = dirty
