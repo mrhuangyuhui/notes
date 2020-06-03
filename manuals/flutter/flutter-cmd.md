@@ -1,4 +1,10 @@
+<!-- omit in toc -->
 # Flutter - Commands
+
+- [`flutter create`](#flutter-create)
+- [`flutter devices`](#flutter-devices)
+- [`flutter run`](#flutter-run)
+- [`flutter pub`](#flutter-pub)
 
 ```bash
 flutter
@@ -21,7 +27,7 @@ flutter --version
 flutter doctor
 ```
 
-### `flutter create`
+## `flutter create`
 
 创建项目
 
@@ -35,7 +41,7 @@ flutter help create
 flutter create myapp
 ```
 
-### `flutter devices`
+## `flutter devices`
 
 列出所有已连接的设备
 
@@ -43,7 +49,7 @@ flutter create myapp
 flutter devices
 ```
 
-### `flutter run`
+## `flutter run`
 
 运行项目
 
@@ -51,7 +57,7 @@ flutter devices
 flutter run
 ```
 
-### `flutter pub`
+## `flutter pub`
 
 安装依赖包
 
