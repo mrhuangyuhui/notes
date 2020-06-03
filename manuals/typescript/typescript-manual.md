@@ -6,7 +6,6 @@
 - [Install](#install)
 - [Repos](#repos)
 - [Docs](#docs)
-- [Declaration Files](#declaration-files)
 - [Tools](#tools)
 - [Tutorials](#tutorials)
 
@@ -39,14 +38,6 @@ npm install -g typescript
 ## Docs
 
 <https://www.typescriptlang.org/docs/home.html>
-
-## Declaration Files
-
-<https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html>
-
-<https://github.com/DefinitelyTyped/DefinitelyTyped>
-
-<https://www.npmjs.com/~types>
 
 ## Tools
 

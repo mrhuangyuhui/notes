@@ -1,7 +1,5 @@
 # Node - Module
 
-<https://nodejs.org/api/modules.html>
+<http://javascript.ruanyifeng.com/nodejs/module.html> | [GitHub](https://github.com/ruanyf/jstutorial/blob/gh-pages/nodejs/module.md)
 
-<http://javascript.ruanyifeng.com/nodejs/module.html>
-
-[Node.js Modules](https://www.w3schools.com/nodejs/nodejs_modules.asp)
+[`javascript-module.md`](/langs/javascript/javascript-module.md)
