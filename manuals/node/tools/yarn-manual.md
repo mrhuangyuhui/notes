@@ -1,16 +1,16 @@
+<!-- omit in toc -->
 # Yarn Manual
+
+- [Install](#install)
+  - [Mac](#mac)
+  - [Debian / Ubuntu](#debian--ubuntu)
+- [Mirrors](#mirrors)
 
 <https://yarnpkg.com/>
 
-## [Installation](https://yarnpkg.com/en/docs/install)
+## Install
 
-### Debian / Ubuntu
-
-```bash
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-```
+<https://yarnpkg.com/en/docs/install>
 
 ### Mac
 
@@ -18,6 +18,14 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 curl -o- -L https://yarnpkg.com/install.sh | bash
 
 echo 'export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"' >> ~/.bash_profile
+```
+
+### Debian / Ubuntu
+
+```bash
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 ```
 
 ## Mirrors
