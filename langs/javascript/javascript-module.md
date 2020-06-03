@@ -1,5 +1,7 @@
 # JavaScript - Module
 
-<https://es6.ruanyifeng.com/#docs/module>
+> [`node-module.md`](/topics/node/node-module.md)
 
-[`node-module.md`](/topics/node/node-module.md)
+[Module 的语法 - ECMAScript 6入门](https://es6.ruanyifeng.com/#docs/module)
+
+[Module 的加载实现 - ECMAScript 6入门](https://es6.ruanyifeng.com/#docs/module-loader)
