@@ -3,6 +3,8 @@
 
 - [Quick Start](#quick-start)
 - [Install](#install)
+- [Repos](#repos)
+- [Commands](#commands)
 - [Guides](#guides)
 - [Examples](#examples)
 
@@ -48,28 +50,80 @@ pip install git+https://github.com/HttpRunner/HttpRunner.git@master
 hrun -V
 ```
 
+## Repos
+
+<https://github.com/httprunner>
+
+<https://github.com/httprunner/httprunner>
+
+<https://github.com/httprunner/har2case>
+
+<https://github.com/httprunner/docs>
+
+<https://github.com/httprunner/demo-mubu>
+
+## Commands
+
+<https://docs.httprunner.org/run-tests/cli/>
+
+```bash
+hrun -h
+hrun --help
+```
+
+```bash
+hrun -V
+hrun --version
+```
+
+测试单个测试用例
+
+```bash
+hrun filepath/testcase.yml
+```
+
+测试整个测试用例集
+
+```bash
+hrun testcases_folder_path
+```
+
+创建项目骨架
+
+```bash
+hrun --startproject demo
+```
+
 ## Guides
 
-- [录制生成用例](https://docs.httprunner.org/prepare/record/)
+[录制生成用例](https://docs.httprunner.org/prepare/record/)
 
-- [项目文件组织](https://docs.httprunner.org/prepare/project-structure/)
+[项目文件组织](https://docs.httprunner.org/prepare/project-structure/)
 
 > 文件 `debugtalk.py` 存在时，将作为项目根目录定位标记，其所在目录即被视为项目工程根目录。
 
-推荐的项目文件目录结构示例如下：
+[测试用例组织](https://docs.httprunner.org/prepare/testcase-structure/)
 
-```bash
-$ tree demo -a
-demo
-├── .env
-├── debugtalk.py
-├── reports
-├── testcase1.yml
-└── testcase2.json
-```
+[hook 机制](https://docs.httprunner.org/prepare/request-hook/)
+
+[环境变量](https://docs.httprunner.org/prepare/dot-env/)
+
+[测试用例分层](https://docs.httprunner.org/prepare/testcase-layer/)
+
+[参数化数据驱动](https://docs.httprunner.org/prepare/parameters/)
+
+[文件上传场景](https://docs.httprunner.org/prepare/upload-case/)
+
+[测试报告](https://docs.httprunner.org/run-tests/report/)
+
+[性能测试](https://docs.httprunner.org/run-tests/load-test/)
 
 ## Examples
 
 <https://docs.httprunner.org/examples/testerhome-login/>
 
 <https://docs.httprunner.org/examples/demo-klook/>
+
+<https://github.com/httprunner/demo-mubu>
+
+<https://github.com/httprunner/httprunner/tree/master/examples>
