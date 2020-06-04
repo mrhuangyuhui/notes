@@ -1,4 +1,4 @@
-# Sphinx
+# Sphinx Manual
 
 <http://www.sphinx-doc.org>
 
