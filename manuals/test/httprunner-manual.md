@@ -1,4 +1,10 @@
+<!-- omit in toc -->
 # HttpRunner Manual
+
+- [Quick Start](#quick-start)
+- [Install](#install)
+- [Guides](#guides)
+- [Examples](#examples)
 
 <https://docs.httprunner.org/>
 
@@ -61,8 +67,6 @@ demo
 ├── testcase1.yml
 └── testcase2.json
 ```
-
-- [名词解释](https://docs.httprunner.org/concept/nominal/)
 
 ## Examples
 
