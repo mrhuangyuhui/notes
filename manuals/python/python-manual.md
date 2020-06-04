@@ -6,7 +6,7 @@
 - [Downloads](#downloads)
 - [Commands](#commands)
 - [Docs](#docs)
-  - [API](#api)
+- [API](#api)
 - [Tutorials](#tutorials)
 - [Tools](#tools)
 
@@ -38,9 +38,11 @@
 
 <https://docs.python.org/2.7/>
 
-### API
+## API
 
-[The Python Standard Library — Python 3.7](https://docs.python.org/3.7/library/index.html)
+> [`api/python`](/api/python/README.md)
+
+[The Python Standar Library — Python 3.7](https://docs.python.org/3.7/library/index.html)
 
 [Index — Python 3.7](https://docs.python.org/3.7/genindex.html)
 
