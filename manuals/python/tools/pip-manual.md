@@ -1,14 +1,14 @@
 <!-- omit in toc -->
 # PIP Manual
 
+- [Quickstart](#quickstart)
 - [Install](#install)
   - [`get-pip.py`](#get-pippy)
   - [Package Managers](#package-managers)
 - [Mirrors](#mirrors)
-- [Cmds](#cmds)
-- [Quickstart](#quickstart)
-- [User Guide](#user-guide)
-- [Reference Guide](#reference-guide)
+- [Commands](#commands)
+  - [`pip install`](#pip-install)
+- [Guides](#guides)
 
 <https://pip.pypa.io/en/stable/>
 
@@ -27,7 +27,32 @@ python setup.py build
 python setup.py install
 ```
 
-## [Install](https://pip.pypa.io/en/stable/installing/)
+## Quickstart
+
+<https://pip.pypa.io/en/stable/quickstart/>
+
+Install a package from PyPI
+
+```
+$ pip install SomePackage
+  [...]
+  Successfully installed SomePackage
+```
+
+Show what files were installed
+```
+$ pip show --files SomePackage
+  Name: SomePackage
+  Version: 1.0
+  Location: /my/env/lib/pythonx.x/site-packages
+  Files:
+   ../somepackage/__init__.py
+   [...]
+```
+
+## Install
+
+<https://pip.pypa.io/en/stable/installing/>
 
 ### `get-pip.py`
 
@@ -36,7 +61,9 @@ sudo wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
 ```
 
-### [Package Managers](https://packaging.python.org/guides/installing-using-linux-tools/#installing-pip-setuptools-wheel-with-linux-package-managers)
+### Package Managers
+
+<https://packaging.python.org/guides/installing-using-linux-tools/#installing-pip-setuptools-wheel-with-linux-package-managers>
 
 ```bash
 sudo yum install python-pip
@@ -63,16 +90,23 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 trusted-host = https://pypi.tuna.tsinghua.edu.cn
 ```
 
-## Cmds
+## Commands
 
-查看帮助
+<https://pip.pypa.io/en/stable/reference/>
 
 ```bash
 pip
 pip -h
 pip --help
-# 查看子命令帮助
+
 pip help install
+pip install -h
+pip install --help
+```
+
+```bash
+pip -V
+pip --version
 ```
 
 安装依赖包
@@ -93,44 +127,26 @@ pip list
 pip show virtualenv
 ```
 
-升级 `pip`
+升级已安装的包
 
 ```bash
-pip install -U pip
+pip install -U virtualenv
 ```
 
-## [Quickstart](https://pip.pypa.io/en/stable/quickstart/)
+### `pip install`
 
-Install a package from PyPI
-```
-$ pip install SomePackage
-  [...]
-  Successfully installed SomePackage
-```
+安装
 
-Show what files were installed
-```
-$ pip show --files SomePackage
-  Name: SomePackage
-  Version: 1.0
-  Location: /my/env/lib/pythonx.x/site-packages
-  Files:
-   ../somepackage/__init__.py
-   [...]
+```bash
+pip install virtualenv
 ```
 
-## [User Guide](https://pip.pypa.io/en/stable/user_guide/)
+升级
 
-- ### [Installing Packages](https://pip.pypa.io/en/stable/user_guide/#installing-packages)
+```bash
+pip install -U virtualenv
+```
 
-- ### [Listing Packages](https://pip.pypa.io/en/stable/user_guide/#listing-packages)
+## Guides
 
-- ### [Searching for Packages](https://pip.pypa.io/en/stable/user_guide/#searching-for-packages)
-
-## [Reference Guide](https://pip.pypa.io/en/stable/reference/)
-
-- ### [pip install](https://pip.pypa.io/en/stable/reference/pip_install/)
-
-- ### [pip list](https://pip.pypa.io/en/stable/reference/pip_list/)
-
-- ### [pip show](https://pip.pypa.io/en/stable/reference/pip_show/)
+<https://pip.pypa.io/en/stable/user_guide/>
