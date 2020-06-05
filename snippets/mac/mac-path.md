@@ -67,3 +67,17 @@ EOF
 
 source ~/.bash_profile
 ```
+
+## JMeter
+
+```bash
+cat >> ~/.bash_profile << EOF
+# JMeter
+export JMETER_HOME=\$HOME/jmeter/current
+export PATH=\${PATH}:\${JMETER_HOME}/bin
+EOF
+
+tail -n 3 ~/.bash_profile
+
+source ~/.bash_profile
+```
