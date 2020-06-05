@@ -1,10 +1,23 @@
+<!-- omit in toc -->
 # Poetry Manual
+
+- [Quick Start](#quick-start)
+- [Install](#install)
+- [Upgrade](#upgrade)
+- [Repos](#repos)
+- [Commands](#commands)
+  - [`poetry install`](#poetry-install)
+  - [`poetry new`](#poetry-new)
+  - [`poetry add`](#poetry-add)
+- [Docs](#docs)
 
 <https://python-poetry.org/>
 
 ## Quick Start
 
 <https://rootnroll.com/d/poetry/>
+
+<https://python-poetry.org/docs/basic-usage/>
 
 ## Install
 
@@ -15,6 +28,12 @@
 ```bash
 curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
 ```
+
+```bash
+source $HOME/.poetry/env
+```
+
+自动补全
 
 ```bash
 # Bash
@@ -47,6 +66,45 @@ poetry self update
 ## Commands
 
 <https://python-poetry.org/docs/cli/>
+
+```bash
+poetry -h
+poetry --help
+poetry help
+
+poetry help install
+poetry install -h
+poetry install --help
+```
+
+```bash
+poetry -V
+poetry --version
+```
+
+### `poetry install`
+
+安装依赖
+
+```bash
+poetry install
+```
+
+### `poetry new`
+
+创建项目
+
+```bash
+poetry new poetry-demo
+```
+
+### `poetry add`
+
+添加依赖
+
+```bash
+poetry add pendulum
+```
 
 ## Docs
 
