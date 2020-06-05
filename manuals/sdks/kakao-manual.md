@@ -1,8 +1,18 @@
+<!-- omit in toc -->
 # Kakao Manual
+
+- [Repos](#repos)
+- [Examples](#examples)
+- [Login](#login)
+- [Message](#message)
 
 <https://developers.kakao.com/docs/latest/ko/getting-started/sdk-ios-v1>
 
-## Demos
+## Repos
+
+<https://github.com/KakaoAd/kakao-ad-ios> | [Gitee](https://gitee.com/mrhuangyuhui/kakao-ad-ios)
+
+## Examples
 
 <https://developers.kakao.com/docs/latest/ko/sdk-download/ios-v1>
 
@@ -76,3 +86,4 @@
     NSLog(@"failed request - error: %@", error);
 }];
 ```
+
