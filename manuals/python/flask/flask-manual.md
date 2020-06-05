@@ -72,6 +72,10 @@ pip install Flask
 
 [Flask Tutorial](https://www.tutorialspoint.com/flask/index.htm)
 
+<http://helloflask.com/>
+
+<https://zhuanlan.zhihu.com/flask>
+
 ## IDE
 
 <https://www.jetbrains.com/pycharm/>

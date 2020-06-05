@@ -90,6 +90,8 @@ index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 trusted-host = https://pypi.tuna.tsinghua.edu.cn
 ```
 
+[从国内的 PyPI 镜像（源）安装 Python 包](http://greyli.com/set-custom-pypi-mirror-url-for-pip-pipenv-poetry-and-flit/)
+
 ## Commands
 
 <https://pip.pypa.io/en/stable/reference/>
