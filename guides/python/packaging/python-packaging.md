@@ -2,9 +2,13 @@
 
 [Python Packaging User Guide](https://packaging.python.org/) | [GitHub](https://github.com/pypa/packaging.python.org)
 
+[Installing Packages](https://packaging.python.org/tutorials/installing-packages/)
+
 [Software Packaging and Distribution](https://docs.python.org/3.7/library/distribution.html)
 
 [Packaging and distributing projects](https://packaging.python.org/guides/distributing-packages-using-setuptools/)
+
+<https://packaging.python.org/glossary/>
 
 ## Quick Start
 
@@ -50,8 +54,14 @@ python3 -m pip install --user --upgrade twine
 上传
 
 ```bash
-python3 -m twine upload --repository testpypi dist/*
+python3 -m twine upload dist/*
+# 或
+twine upload dist/*
 ```
+
+## Examples
+
+<https://github.com/pypa/sampleproject>
 
 ## Tools
 
