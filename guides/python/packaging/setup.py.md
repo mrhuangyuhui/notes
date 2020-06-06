@@ -8,10 +8,10 @@
 
 ## Commands
 
-查看 `setup.py` 所支持的命令
-
 ```bash
 python setup.py --help-commands
+python setup.py --help sdist
+python setup.py sdist --help
 ```
 
 ## Examples
