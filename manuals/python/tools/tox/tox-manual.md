@@ -36,7 +36,9 @@ pip install tox
 
 ## Configs
 
-[`manuals/python/tools/tox/tox-config.md`](/manuals/python/tools/tox/tox-config.md)
+[tox-configs.md](/manuals/python/tools/tox/tox-configs.md)
+
+[xtox.ini.md]tox.ini.md)
 
 ## Commands
 
@@ -60,6 +62,12 @@ tox --version
 
 ```bash
 tox -l
+```
+
+在指定的环境测试
+
+```bash
+tox -e py35
 ```
 
 ## Examples

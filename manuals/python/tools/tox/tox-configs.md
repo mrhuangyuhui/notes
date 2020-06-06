@@ -13,7 +13,6 @@
 
 <https://tox.readthedocs.io/en/latest/config.html#tox-global-settings>
 
-- [`envlist`](https://tox.readthedocs.io/en/latest/config.html#conf-envlist)
 - [`skip_missing_interpreters`](https://tox.readthedocs.io/en/latest/config.html#conf-skip_missing_interpreters)
 
 ## tox environments
@@ -33,7 +32,6 @@ commands = ...
 <https://tox.readthedocs.io/en/latest/config.html#tox-environment-settings>
 
 - `basepython`
-- [`commands`](https://tox.readthedocs.io/en/latest/config.html#conf-commands)
 - [`deps`](https://tox.readthedocs.io/en/latest/config.html#conf-deps)
 - [`ignore_outcome`](https://tox.readthedocs.io/en/latest/config.html#conf-ignore_outcome)
 - [`passenv`](https://tox.readthedocs.io/en/latest/config.html#conf-passenv)

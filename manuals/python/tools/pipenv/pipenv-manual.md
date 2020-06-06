@@ -86,7 +86,7 @@ pipenv shell
 
 ### `pipenv run`
 
-执行 Python 命令
+在虚拟环境执行 Python 命令
 
 ```bash
 pipenv run python main.py

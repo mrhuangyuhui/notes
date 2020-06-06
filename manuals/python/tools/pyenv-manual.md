@@ -12,6 +12,9 @@
   - [`pyenv uninstall`](#pyenv-uninstall)
   - [`pyenv version`](#pyenv-version)
   - [`pyenv versions`](#pyenv-versions)
+  - [`pyenv shell`](#pyenv-shell)
+- [Environment Variables](#environment-variables)
+  - [`PYENV_VERSION`](#pyenv_version)
 - [virtualenv](#virtualenv)
 - [virtualenvwrapper](#virtualenvwrapper)
 
@@ -132,9 +135,11 @@ pyenv versions
 
 ### `pyenv global`
 
-查看或设置全局 Python 版本
+设置或查看全局 Python 版本
 
-<https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-global>
+[COMMANDS.md#pyenv-global](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-global)
+
+> Sets the global version of Python to be used in all shells by writing the version name to the `~/.pyenv/version` file. This version can be overridden by an application-specific `.python-version` file, or by setting the `PYENV_VERSION` environment variable.
 
 ```bash
 pyenv help global
@@ -148,6 +153,10 @@ pyenv global 3.6.1
 
 # 提示：可以同时设置多个版本
 pyenv global 3.6.1 3.7.0
+
+# 通过环境变量设置
+$ echo $PYENV_VERSION
+3.8.2:2.7.17
 ```
 
 列出所有全局版本
@@ -158,9 +167,9 @@ pyenv global
 
 ### `pyenv install`
 
-安装
+安装一个 Python 版本
 
-<https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-install>
+[COMMANDS.md#pyenv-install](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-install)
 
 ```bash
 pyenv help install
@@ -254,6 +263,34 @@ pyenv versions --help
 
 ```bash
 pyenv versions
+```
+
+### `pyenv shell`
+
+设置当前 Shell 的 Python 版本
+
+[COMMANDS.md#pyenv-shell](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-shell)
+
+```bash
+pyenv shell 2.7.6
+
+# 可以同时设置多个版本
+pyenv shell 2.7.6 3.3.3
+```
+
+> 提示：也可以通过环境变量 `PYENV_VERSION` 来设置
+
+## Environment Variables
+
+<https://github.com/pyenv/pyenv#environment-variables>
+
+### `PYENV_VERSION`
+
+设置使用的 Python 版本
+
+```bash
+$ echo $PYENV_VERSION
+3.8.2:2.7.17
 ```
 
 ## virtualenv
