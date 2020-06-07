@@ -6,6 +6,18 @@
 
 [Packaging and distributing projects](https://packaging.python.org/guides/distributing-packages-using-setuptools/)
 
+[Single-sourcing the package version](https://packaging.python.org/guides/single-sourcing-package-version/)
+
+[Dropping support for older Python versions](https://packaging.python.org/guides/dropping-older-python-versions/)
+
+[Packaging namespace packages](https://packaging.python.org/guides/packaging-namespace-packages/)
+
+[Creating and discovering plugins](https://packaging.python.org/guides/creating-and-discovering-plugins/)
+
+[Making a PyPI-friendly README](https://packaging.python.org/guides/making-a-pypi-friendly-readme/)
+
+[Publishing package distribution releases using GitHub Actions CI/CD workflows](https://packaging.python.org/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/)
+
 <https://packaging.python.org/glossary/>
 
 ## Quick Start
@@ -62,5 +74,7 @@ twine upload dist/*
 ## Tools
 
 <https://packaging.python.org/key_projects/>
+
+[Installing pip/setuptools/wheel with Linux Package Managers](https://packaging.python.org/guides/installing-using-linux-tools/)
 
 > [setuptools.md](/manuals/python/tools/setuptools.md), [wheel.md](/manuals/python/tools/wheel.md), [twine.md](/manuals/python/tools/twine.md)

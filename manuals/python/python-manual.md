@@ -56,4 +56,8 @@
 
 ## Tools
 
-[`manuals/python/tools/pip-manual.md`](/manuals/python/tools/pip-manual.md)
+> [python/tools](/manuals/python/tools/README.md)
+
+[Tool recommendations](https://packaging.python.org/guides/tool-recommendations/)
+
+[Supporting multiple Python versions](https://packaging.python.org/guides/supporting-multiple-python-versions/)
