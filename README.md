@@ -68,6 +68,10 @@ git push https://github.com/mrhuangyuhui/notes.git
 
 <https://github.com/justjavac/free-programming-books-zh_CN>
 
+<https://github.com/OpenTechSchool>
+
+<https://learn.opentechschool.org/>
+
 ## Mirrors
 
 [清华大学开源软件镜像站](https://mirror.tuna.tsinghua.edu.cn/)

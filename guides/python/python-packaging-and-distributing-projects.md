@@ -1,8 +1,6 @@
-# Python - Packaging
+# Python - Packaging Python Projects
 
 [Python Packaging User Guide](https://packaging.python.org/) | [GitHub](https://github.com/pypa/packaging.python.org)
-
-[Installing Packages](https://packaging.python.org/tutorials/installing-packages/)
 
 [Software Packaging and Distribution](https://docs.python.org/3.7/library/distribution.html)
 
@@ -31,7 +29,7 @@ packaging_tutorial
 安装打包工具
 
 ```bash
-python3 -m pip install --user --upgrade setuptools wheel
+pip3 install setuptools wheel
 ```
 
 打包
@@ -48,14 +46,12 @@ dist/
 安装上传工具
 
 ```bash
-python3 -m pip install --user --upgrade twine
+pips install twine
 ```
 
 上传
 
 ```bash
-python3 -m twine upload dist/*
-# 或
 twine upload dist/*
 ```
 
@@ -67,8 +63,4 @@ twine upload dist/*
 
 <https://packaging.python.org/key_projects/>
 
-[setuptools.md](/manuals/python/tools/setuptools.md)
-
-[wheel.md](/manuals/python/tools/wheel.md)
-
-[twine.md](/manuals/python/tools/twine.md)
+> [setuptools.md](/manuals/python/tools/setuptools.md), [wheel.md](/manuals/python/tools/wheel.md), [twine.md](/manuals/python/tools/twine.md)
