@@ -50,6 +50,10 @@ pipenv shell
 
 <https://github.com/psf/requests> | [Gitpod](https://gitpod.io/#https://github.com/psf/requests)
 
+```bash
+git clone https://github.com/psf/requests.git
+```
+
 ## Docs
 
 <https://requests.readthedocs.io/en/latest/>
