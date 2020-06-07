@@ -4,7 +4,8 @@
 
 - [Install](#install)
   - [Mac](#mac)
-  - [CentOS & Ubuntu](#centos--ubuntu)
+  - [pyenv-installer](#pyenv-installer)
+- [Uninstall](#uninstall)
 - [Commands](#commands)
   - [`pyenv global`](#pyenv-global)
   - [`pyenv install`](#pyenv-install)
@@ -13,6 +14,7 @@
   - [`pyenv version`](#pyenv-version)
   - [`pyenv versions`](#pyenv-versions)
   - [`pyenv shell`](#pyenv-shell)
+- [Configs](#configs)
 - [Environment Variables](#environment-variables)
   - [`PYENV_VERSION`](#pyenv_version)
 - [virtualenv](#virtualenv)
@@ -22,13 +24,32 @@
 
 ## Install
 
-<https://github.com/pyenv/pyenv-installer>
+<https://github.com/pyenv/pyenv#installation>
 
-[Prerequisites](https://github.com/pyenv/pyenv/wiki/Common-build-problems#prerequisites)
+> 注意：编译 Python 需要安装以下依赖！
+
+[Common-build-problems#prerequisites](https://github.com/pyenv/pyenv/wiki/Common-build-problems#prerequisites)
+
+Ubuntu
+
+```bash
+sudo apt-get install -y build-essential libssl-dev zlib1g-dev libbz2-dev \
+libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
+xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
+
+# Alternative of libreadline-dev
+sudo apt install libedit-dev
+```
+
+Mac
+
+```bash
+brew install readline xz
+```
 
 ### Mac
 
-<https://github.com/pyenv/pyenv#homebrew-on-macos>
+[homebrew-on-macos](https://github.com/pyenv/pyenv#homebrew-on-macos)
 
 <https://formulae.brew.sh/formula/pyenv>
 
@@ -51,48 +72,50 @@ source ~/.bash_profile
 验证安装结果
 
 ```bash
-pyenv
+pyenv --version
 ```
 
-### CentOS & Ubuntu
+### pyenv-installer
 
-[安装依赖](https://github.com/pyenv/pyenv/wiki/Common-build-problems#prerequisites)
-
-```bash
-# CentOS
-sudo yum install @development zlib-devel bzip2 bzip2-devel readline-devel sqlite \
-sqlite-devel openssl-devel xz xz-devel libffi-devel findutils
-
-# Ubuntu
-sudo apt-get install -y build-essential libssl-dev zlib1g-dev libbz2-dev \
-libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
-xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
-```
-
-安装 pyenv
+<https://github.com/pyenv/pyenv-installer>
 
 ```bash
 curl https://pyenv.run | bash
+# 或
+curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
 ```
 
-配置
+配置环境变量
 
 ```bash
+# Ubuntu
 cat >> ~/.bashrc << EOF
-# Pyenv BEGIN
+# Pyenv
 export PATH="\$HOME/.pyenv/bin:\$PATH"
 eval "\$(pyenv init -)"
 eval "\$(pyenv virtualenv-init -)"
-# Pyenv END
 EOF
 ```
 
 验证安装结果
 
 ```bash
-tail -5 ~/.bashrc
+# Ubuntu
+tail -4 ~/.bashrc
 source ~/.bashrc
-pyenv
+# 或
+exec "$SHELL"
+pyenv --version
+```
+
+## Uninstall
+
+Mac
+
+```bash
+rm -rf $(pyenv root)
+brew uninstall pyenv
+# 删除 .bash_profile 上的相关配置
 ```
 
 ## Commands
@@ -279,6 +302,19 @@ pyenv shell 2.7.6 3.3.3
 ```
 
 > 提示：也可以通过环境变量 `PYENV_VERSION` 来设置
+
+## Configs
+
+`~/.pyenv/version`
+
+全局使用的 Python 版本
+
+```bash
+# 执行命令 `pyenv global 3.8.3 3.7.7`
+$ cat ~/.pyenv/version
+3.8.3
+3.7.7
+```
 
 ## Environment Variables
 

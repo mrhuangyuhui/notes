@@ -4,6 +4,7 @@
 - [Quick Start](#quick-start)
 - [Install](#install)
   - [Mac](#mac)
+  - [PIP](#pip)
 - [Repos](#repos)
 - [Commands](#commands)
   - [`pipenv install`](#pipenv-install)
@@ -22,14 +23,35 @@
 
 ## Install
 
-```bash
-pip install pipenv
-```
+<https://pipenv.pypa.io/en/latest/install/#installing-pipenv>
 
 ### Mac
 
 ```bash
 brew install pipenv
+```
+
+验证安装结果
+
+```bash
+pipenv --version
+```
+
+### PIP
+
+[pragmatic-installation-of-pipenv](https://pipenv.pypa.io/en/latest/install/#pragmatic-installation-of-pipenv)
+
+```bash
+pip install --user pipenv
+```
+
+验证安装结果
+
+```bash
+pipenv --version
+
+$ which pipenv
+/home/ubuntu/.local/bin/pipenv
 ```
 
 ## Repos
