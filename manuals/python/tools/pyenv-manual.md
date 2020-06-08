@@ -8,18 +8,19 @@
   - [Homebrew](#homebrew)
 - [Uninstall](#uninstall)
 - [Commands](#commands)
-  - [`pyenv global`](#pyenv-global)
   - [`pyenv install`](#pyenv-install)
+  - [`pyenv global`](#pyenv-global)
   - [`pyenv local`](#pyenv-local)
-  - [`pyenv uninstall`](#pyenv-uninstall)
-  - [`pyenv version`](#pyenv-version)
   - [`pyenv versions`](#pyenv-versions)
+  - [`pyenv version`](#pyenv-version)
+  - [`pyenv uninstall`](#pyenv-uninstall)
   - [`pyenv shell`](#pyenv-shell)
 - [Configs](#configs)
 - [Environment Variables](#environment-variables)
   - [`PYENV_VERSION`](#pyenv_version)
-- [virtualenv](#virtualenv)
-- [virtualenvwrapper](#virtualenvwrapper)
+- [Plugins](#plugins)
+  - [virtualenv](#virtualenv)
+  - [virtualenvwrapper](#virtualenvwrapper)
 
 <https://github.com/pyenv/pyenv>
 
@@ -177,6 +178,30 @@ pyenv install 3.6.5 -v
 pyenv versions
 ```
 
+### `pyenv install`
+
+安装一个 Python 版本
+
+[COMMANDS.md#pyenv-install](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-install)
+
+```bash
+pyenv help install
+pyenv install --help
+```
+
+列出可安装的 Python 版本
+
+```bash
+pyenv install -l
+pyenv install --list
+```
+
+安装指定的 Python 版本
+
+```bash
+pyenv install 3.6.5 -v
+```
+
 ### `pyenv global`
 
 设置或查看全局 Python 版本
@@ -207,30 +232,6 @@ $ echo $PYENV_VERSION
 
 ```bash
 pyenv global
-```
-
-### `pyenv install`
-
-安装一个 Python 版本
-
-[COMMANDS.md#pyenv-install](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-install)
-
-```bash
-pyenv help install
-pyenv install --help
-```
-
-列出可安装的 Python 版本
-
-```bash
-pyenv install -l
-pyenv install --list
-```
-
-安装指定的 Python 版本
-
-```bash
-pyenv install 3.6.5 -v
 ```
 
 ### `pyenv local`
@@ -270,17 +271,17 @@ pyenv local
 pyenv local --unset
 ```
 
-### `pyenv uninstall`
+### `pyenv versions`
 
-卸载
+列出所有可用的 Python 版本
 
 ```bash
-pyenv help uninstall
-pyenv uninstall --help
+pyenv help versions
+pyenv versions --help
 ```
 
 ```bash
-pyenv uninstall 3.6.1
+pyenv versions
 ```
 
 ### `pyenv version`
@@ -296,17 +297,17 @@ pyenv version --help
 pyenv version
 ```
 
-### `pyenv versions`
+### `pyenv uninstall`
 
-列出所有可用的 Python 版本
+卸载
 
 ```bash
-pyenv help versions
-pyenv versions --help
+pyenv help uninstall
+pyenv uninstall --help
 ```
 
 ```bash
-pyenv versions
+pyenv uninstall 3.6.1
 ```
 
 ### `pyenv shell`
@@ -350,13 +351,15 @@ $ echo $PYENV_VERSION
 3.8.2:2.7.17
 ```
 
-## virtualenv
+## Plugins
+
+### virtualenv
+
+> [virtualenv-manual.md](/manuals/python/tools/virtualenv-manual.md)
 
 <https://github.com/pyenv/pyenv-virtualenv>
 
-[`manuals/python/tools/virtualenv-manual.md`](/manuals/python/tools/virtualenv-manual.md)
-
-> 提示：安装 pyenv 会自动安装插件 virtualenv
+自动安装：使用 pyenv-installer 安装 pyenv 会自动安装插件 virtualenv
 
 [手动安装](https://github.com/pyenv/pyenv-virtualenv#installation)
 
@@ -382,6 +385,6 @@ pyenv virtualenv --help
 pyenv virtualenv --version
 ```
 
-## virtualenvwrapper
+### virtualenvwrapper
 
 [pyenv-virtualenvwrapper](https://github.com/pyenv/pyenv-virtualenvwrapper)
