@@ -3,7 +3,7 @@
 
 - [Quick Start](#quick-start)
 - [Install](#install)
-  - [Mac](#mac)
+  - [Homebrew](#homebrew)
   - [PIP](#pip)
 - [Repos](#repos)
 - [Commands](#commands)
@@ -25,7 +25,7 @@
 
 <https://pipenv.pypa.io/en/latest/install/#installing-pipenv>
 
-### Mac
+### Homebrew
 
 ```bash
 brew install pipenv
