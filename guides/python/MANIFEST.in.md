@@ -1,8 +1,8 @@
 # `MANIFEST.in`
 
-<https://packaging.python.org/guides/distributing-packages-using-setuptools/#manifest-in>
-
 [Including files in source distributions with `MANIFEST.in`](https://packaging.python.org/guides/using-manifest-in/)
+
+[Packaging and distributing projects](https://packaging.python.org/guides/distributing-packages-using-setuptools/#manifest-in)
 
 ## Examples
 

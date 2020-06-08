@@ -4,6 +4,8 @@
 
 [What is setup.py?](https://stackoverflow.com/questions/1471994/what-is-setup-py)
 
+[Pipfile vs setup.py](https://pipenv.pypa.io/en/latest/advanced/#pipfile-vs-setuppy)
+
 <https://packaging.python.org/guides/distributing-packages-using-setuptools/#setup-args>
 
 ## Commands

@@ -4,6 +4,10 @@
 
 > `setup.cfg` is an ini file that contains option defaults for `setup.py` commands.
 
+## `metadata`
+
+[Including license files in the generated wheel file](https://wheel.readthedocs.io/en/stable/user_guide.html#including-license-files-in-the-generated-wheel-file)
+
 ## Examples
 
 [`setup.cfg`](https://github.com/psf/requests/blob/master/setup.cfg)

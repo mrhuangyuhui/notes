@@ -1,4 +1,10 @@
+<!-- omit in toc -->
 # Requests
+
+- [Repos](#repos)
+- [Docs](#docs)
+- [API](#api)
+- [Tutorials](#tutorials)
 
 <https://requests.readthedocs.io/en/master/>
 
@@ -57,6 +63,10 @@ git clone https://github.com/psf/requests.git
 ## Docs
 
 <https://requests.readthedocs.io/en/latest/>
+
+## API
+
+<!-- api -->
 
 ## Tutorials
 
