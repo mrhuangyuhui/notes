@@ -1,4 +1,11 @@
-# Python Search
+<!-- omit in toc -->
+# Python Searches
+
+- [Sourcegraph](#sourcegraph)
+- [Chrome](#chrome)
+- [Alfred](#alfred)
+- [GitHub](#github)
+- [PyPI](#pypi)
 
 ## Sourcegraph
 
@@ -36,3 +43,7 @@ pallets/flask,django/django,scrapy/scrapy,ansible/ansible,tensorflow/tensorflow
 ```
 
 <https://github.com/search?l=&q=example+repo%3Apallets%2Fflask+repo%3Adjango%2Fdjango+repo%3Ascrapy%2Fscrapy+repo%3Aansible%2Fansible+repo%3Atensorflow%2Ftensorflow&type=Code>
+
+## PyPI
+
+<https://pypi.org/search/?q=detox>
