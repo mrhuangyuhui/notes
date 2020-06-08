@@ -3,8 +3,9 @@
 # Pyenv Manual
 
 - [Install](#install)
-  - [Mac](#mac)
-  - [pyenv-installer](#pyenv-installer)
+  - [The automatic installer](#the-automatic-installer)
+  - [Basic GitHub Checkout](#basic-github-checkout)
+  - [Homebrew](#homebrew)
 - [Uninstall](#uninstall)
 - [Commands](#commands)
   - [`pyenv global`](#pyenv-global)
@@ -36,9 +37,6 @@ Ubuntu
 sudo apt-get install -y build-essential libssl-dev zlib1g-dev libbz2-dev \
 libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
 xz-utils tk-dev libffi-dev liblzma-dev python-openssl git
-
-# Alternative of libreadline-dev
-sudo apt install libedit-dev
 ```
 
 Mac
@@ -47,48 +45,17 @@ Mac
 brew install readline xz
 ```
 
-### Mac
-
-[homebrew-on-macos](https://github.com/pyenv/pyenv#homebrew-on-macos)
-
-<https://formulae.brew.sh/formula/pyenv>
-
-安装
-
-```bash
-brew update
-
-brew install pyenv
-```
-
-配置
-
-```bash
-echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile
-
-source ~/.bash_profile
-```
-
-验证安装结果
-
-```bash
-pyenv --version
-```
-
-### pyenv-installer
+### The automatic installer
 
 <https://github.com/pyenv/pyenv-installer>
 
 ```bash
 curl https://pyenv.run | bash
-# 或
-curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
 ```
 
 配置环境变量
 
 ```bash
-# Ubuntu
 cat >> ~/.bashrc << EOF
 # Pyenv
 export PATH="\$HOME/.pyenv/bin:\$PATH"
@@ -100,22 +67,76 @@ EOF
 验证安装结果
 
 ```bash
-# Ubuntu
-tail -4 ~/.bashrc
-source ~/.bashrc
-# 或
+exec "$SHELL"
+pyenv --version
+```
+
+### Basic GitHub Checkout
+
+<https://github.com/pyenv/pyenv#basic-github-checkout>
+
+```bash
+git clone git@gitee.com:mrhuangyuhui/pyenv.git ~/.pyenv
+```
+
+配置环境变量
+
+```bash
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
+
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile
+```
+
+验证安装结果
+
+```bash
+exec "$SHELL"
+pyenv --version
+```
+
+### Homebrew
+
+<https://github.com/pyenv/pyenv#homebrew-on-macos>
+
+<https://formulae.brew.sh/formula/pyenv>
+
+```bash
+brew update
+
+brew install pyenv
+```
+
+配置环境变量
+
+```bash
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.bash_profile
+```
+
+验证安装结果
+
+```bash
 exec "$SHELL"
 pyenv --version
 ```
 
 ## Uninstall
 
-Mac
+<https://github.com/pyenv/pyenv#uninstalling-pyenv>
+
+从 `.bashrc` 或 `.bash_profile` 上删除 `PATH` 配置
+
+删除安装目录
 
 ```bash
 rm -rf $(pyenv root)
+```
+
+Homebrew
+
+```bash
 brew uninstall pyenv
-# 删除 .bash_profile 上的相关配置
 ```
 
 ## Commands
