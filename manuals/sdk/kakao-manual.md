@@ -3,12 +3,18 @@
 
 - [Repos](#repos)
 - [Examples](#examples)
-- [Login](#login)
-- [Message](#message)
+- [API](#api)
+- [注册程序](#注册程序)
+- [配置参数](#配置参数)
+- [登录授权](#登录授权)
+- [用户信息](#用户信息)
+- [分享信息](#分享信息)
 
 <https://developers.kakao.com/docs/latest/ko/getting-started/sdk-ios-v1>
 
 ## Repos
+
+<https://gitee.com/mrhuangyuhui/kakao-samples>
 
 <https://github.com/KakaoAd/kakao-ad-ios> | [Gitee](https://gitee.com/mrhuangyuhui/kakao-ad-ios)
 
@@ -16,17 +22,104 @@
 
 <https://developers.kakao.com/docs/latest/ko/sdk-download/ios-v1>
 
-## Login
+## API
+
+<https://developers.kakao.com/sdk/reference/ios-legacy/release/index.html>
+
+## 注册程序
+
+<https://developers.kakao.com/docs/latest/ko/getting-started/app>
+
+## 配置参数
+
+<https://developers.kakao.com/docs/latest/ko/getting-started/sdk-ios-v1>
+
+[`CFBundleURLTypes`](https://gitee.com/mrhuangyuhui/kakao-samples/blob/master/KakaoOpenSDK-1.23.1/samples/objc/KakaoSample/KakaoSample/Info.plist#L28)
+
+[`KAKAO_APP_KEY`](https://gitee.com/mrhuangyuhui/kakao-samples/blob/master/KakaoOpenSDK-1.23.1/samples/objc/KakaoSample/KakaoSample/Info.plist#L35)
+
+[`LSApplicationQueriesSchemes`](https://gitee.com/mrhuangyuhui/kakao-samples/blob/master/KakaoOpenSDK-1.23.1/samples/objc/KakaoSample/KakaoSample/Info.plist#L38)
+
+## 登录授权
+
+<https://developers.kakao.com/docs/latest/ko/kakaologin/common>
 
 <https://developers.kakao.com/docs/latest/ko/kakaologin/ios>
 
+[`AppDelegate.m`](https://gitee.com/mrhuangyuhui/kakao-samples/blob/master/KakaoOpenSDK-1.23.1/samples/objc/KakaoSample/KakaoSample/AppDelegate.m#L74)
+
 ```objc
-[[KOSession sharedSession] openWithCompletionHandler:^(NSError *error) {
-    ...
-} authType:(KOAuthType)KOAuthTypeTalk, nil]];
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    if ([KOSession handleOpenURL:url]) {
+        return YES;
+    }
+    return NO;
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options {
+    if ([KOSession handleOpenURL:url]) {
+        return YES;
+    }
+    return NO;
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+    [KOSession handleDidEnterBackground];
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+    [KOSession handleDidBecomeActive];
+}
 ```
 
-## Message
+[`LoginViewController.m`](https://gitee.com/mrhuangyuhui/kakao-samples/blob/master/KakaoOpenSDK-1.23.1/samples/objc/KakaoSample/KakaoSample/LoginViewController.m#L24)
+
+```objc
+- (IBAction)login:(id)sender {
+    KOSession *session = [KOSession sharedSession];
+
+    if (session.isOpen) {
+        [session close];
+    }
+
+    [session openWithCompletionHandler:^(NSError *error) {
+        if (!session.isOpen) {
+            switch (error.code) {
+                case KOErrorCancelled:
+                    break;
+                default:
+                    [UIAlertController showMessage:error.description];
+                    break;
+            }
+        }
+    }];
+}
+```
+
+## 用户信息
+
+<https://developers.kakao.com/docs/latest/ko/user-mgmt/common>
+
+<https://developers.kakao.com/docs/latest/ko/user-mgmt/ios>
+
+[`UserMgmtViewController.m`](https://gitee.com/mrhuangyuhui/kakao-samples/blob/master/KakaoOpenSDK-1.23.1/samples/objc/KakaoSample/KakaoSample/UserMgmtViewController.m#L62)
+
+```objc
+[KOSessionTask userMeTaskWithCompletion:^(NSError *error, KOUserMe *me) {
+    if (error) {
+        NSLog(@"사용자 정보 요청 실패: %@", error);
+    }
+    else {
+        NSLog(@"사용자 정보: %@", me);
+    }
+}];
+```
+
+API
+
+[KOUserMe Class Reference](https://developers.kakao.com/sdk/reference/ios-legacy/release/Classes/KOUserMe.html)
+
+## 分享信息
 
 <https://developers.kakao.com/docs/latest/ko/message/ios>
 
@@ -86,4 +179,3 @@
     NSLog(@"failed request - error: %@", error);
 }];
 ```
-
