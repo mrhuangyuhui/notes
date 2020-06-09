@@ -9,6 +9,7 @@
 - [登录授权](#登录授权)
 - [用户信息](#用户信息)
 - [分享信息](#分享信息)
+- [打点](#打点)
 
 <https://developers.kakao.com/docs/latest/ko/getting-started/sdk-ios-v1>
 
@@ -121,9 +122,26 @@ API
 
 ## 分享信息
 
+<https://developers.kakao.com/docs/latest/ko/message/common>
+
 <https://developers.kakao.com/docs/latest/ko/message/ios>
 
+[`AppDelegate.m`](https://gitee.com/mrhuangyuhui/kakao-samples/blob/master/KakaoOpenSDK-1.23.1/samples/objc/LinkSample/LinkSample/AppDelegate.m)
+
+```objc
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    if ([[KLKTalkLinkCenter sharedCenter] isTalkLinkCallback:url]) {
+        NSString *params = url.query;
+        [UIAlertController showMessage:[NSString stringWithFormat:@"카카오링크 메시지 액션\n%@", params]];
+        return YES;
+    }
+    return NO;
+}
+```
+
 配置消息样式
+
+[ViewController.m](https://gitee.com/mrhuangyuhui/kakao-samples/blob/master/KakaoOpenSDK-1.23.1/samples/objc/LinkSample/LinkSample/ViewController.m)
 
 ```objc
 // 기본 템플릿 - feed 템플릿 생성 예제
@@ -179,3 +197,19 @@ API
     NSLog(@"failed request - error: %@", error);
 }];
 ```
+
+## 打点
+
+<https://developers.kakao.com/docs/latest/ko/kakaomoment/common>
+
+<https://moment.kakao.com/>
+
+<https://github.com/KakaoAd/kakao-ad-ios> | [Gitee](https://gitee.com/mrhuangyuhui/kakao-ad-ios)
+
+接入配置
+
+<https://kakaoad.github.io/kakao-ad-ios/install-sdk.html>
+
+<https://kakaoad.github.io/kakao-ad-ios/project-setting.html>
+
+API <https://kakaoad.github.io/kakao-ad-ios/>
