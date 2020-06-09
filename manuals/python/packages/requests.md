@@ -46,6 +46,8 @@ pyenv local 3.8.2 3.7.7 3.6.10 3.5.9 2.7.17
 
 ```bash
 pipenv install -d
+# 使用清华镜像
+pipenv install -d --pypi-mirror https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 ```bash

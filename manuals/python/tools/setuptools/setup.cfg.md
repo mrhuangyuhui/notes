@@ -1,4 +1,10 @@
+<!-- omit in toc -->
 # `setup.cfg`
+
+- [`metadata`](#metadata)
+- [Examples](#examples)
+
+[Configuring `setup()` using `setup.cfg` files](https://setuptools.readthedocs.io/en/latest/setuptools.html#configuring-setup-using-setup-cfg-files)
 
 <https://packaging.python.org/guides/distributing-packages-using-setuptools/#setup-cfg>
 

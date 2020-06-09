@@ -16,6 +16,14 @@ python setup.py --help sdist
 python setup.py sdist --help
 ```
 
+## API
+
+`setup()`
+
+[New and Changed `setup()` Keywords](https://setuptools.readthedocs.io/en/latest/setuptools.html#new-and-changed-setup-keywords)
+
+[`setup()`](https://sourcegraph.com/github.com/pypa/setuptools/-/blob/setuptools/__init__.py#L158)
+
 ## Examples
 
 <https://github.com/navdeep-G/setup.py>
