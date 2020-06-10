@@ -10,7 +10,6 @@
   - [`pipenv`](#pipenv)
   - [`pipenv install`](#pipenv-install)
   - [`pipenv shell`](#pipenv-shell)
-- [PyCharm](#pycharm)
 
 <https://pipenv.pypa.io/>
 
@@ -116,7 +115,3 @@ pipenv install requests
 ```bash
 pipenv shell
 ```
-
-## PyCharm
-
-![img](https://gitee.com/mrhuangyuhui/images/raw/master/pycharm/pycharm-pipenv-1.jpg)

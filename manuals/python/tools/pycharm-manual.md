@@ -1,4 +1,11 @@
+<!-- omit in toc -->
 # PyCharm Manual
+
+- [Interpreter](#interpreter)
+  - [Virtualenv](#virtualenv)
+  - [Pipenv](#pipenv)
+- [Testing](#testing)
+- [Symbols & Icons](#symbols--icons)
 
 ## Interpreter
 
@@ -6,11 +13,15 @@
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/pycharm/pycharm-interpreter-2.png)
 
-[`manuals/python/tools/virtualenv-manual.md`](/manuals/python/tools/virtualenv-manual.md)
+### Virtualenv
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/pycharm/pycharm-interpreter-3.png)
 
-## Test
+### Pipenv
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/pycharm/pycharm-pipenv-1.jpg)
+
+## Testing
 
 [Choosing Your Testing Framework - Help | PyCharm](https://www.jetbrains.com/help/pycharm/choosing-your-testing-framework.html)
 
