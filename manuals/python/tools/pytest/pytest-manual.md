@@ -6,7 +6,7 @@
 
 ## Quick Start
 
-<https://docs.pytest.org/en/stable/getting-started.html>
+[Installation and Getting Started](https://docs.pytest.org/en/stable/getting-started.html)
 
 ## Install
 

@@ -1,16 +1,19 @@
 <!-- omit in toc -->
 # `setup.cfg`
 
-- [`metadata`](#metadata)
+- [API](#api)
+  - [`metadata`](#metadata)
 - [Examples](#examples)
 
 [Configuring `setup()` using `setup.cfg` files](https://setuptools.readthedocs.io/en/latest/setuptools.html#configuring-setup-using-setup-cfg-files)
 
-<https://packaging.python.org/guides/distributing-packages-using-setuptools/#setup-cfg>
+[`setup.cfg` - Packaging and distributing projects](https://packaging.python.org/guides/distributing-packages-using-setuptools/#setup-cfg)
 
 > `setup.cfg` is an ini file that contains option defaults for `setup.py` commands.
 
-## `metadata`
+## API
+
+### `metadata`
 
 [Including license files in the generated wheel file](https://wheel.readthedocs.io/en/stable/user_guide.html#including-license-files-in-the-generated-wheel-file)
 
