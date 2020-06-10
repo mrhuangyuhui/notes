@@ -7,11 +7,10 @@
   - [PIP](#pip)
 - [Repos](#repos)
 - [Commands](#commands)
+  - [`pipenv`](#pipenv)
   - [`pipenv install`](#pipenv-install)
-  - [`pipenv uninstall`](#pipenv-uninstall)
-  - [`pipenv lock`](#pipenv-lock)
   - [`pipenv shell`](#pipenv-shell)
-  - [`pipenv run`](#pipenv-run)
+- [PyCharm](#pycharm)
 
 <https://pipenv.pypa.io/>
 
@@ -66,10 +65,25 @@ $ which pipenv
 pipenv
 pipenv -h
 pipenv --help
+pipenv --man
 ```
 
 ```bash
 pipenv --version
+```
+
+### `pipenv`
+
+Output virtualenv information.
+
+```bash
+pipenv --venv
+```
+
+Remove the virtualenv.
+
+```bash
+pipenv --rm
 ```
 
 ### `pipenv install`
@@ -79,24 +93,21 @@ pipenv --version
 安装项目依赖
 
 ```bash
-pipenv install
-
 # Install both develop and default packages
 pipenv install -d
-
 # Specify a PyPI mirror
+pipenv install -d --pypi-mirror https://pypi.tuna.tsinghua.edu.cn/simple
+
+# 不安装开发环境的依赖包
+pipenv install
 pipenv install --pypi-mirror https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-安装软件包
+安装指定依赖包
 
 ```bash
 pipenv install requests
 ```
-
-### `pipenv uninstall`
-
-### `pipenv lock`
 
 ### `pipenv shell`
 
@@ -106,10 +117,6 @@ pipenv install requests
 pipenv shell
 ```
 
-### `pipenv run`
+## PyCharm
 
-在虚拟环境执行 Python 命令
-
-```bash
-pipenv run python main.py
-```
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/pycharm/pycharm-pipenv-1.jpg)
