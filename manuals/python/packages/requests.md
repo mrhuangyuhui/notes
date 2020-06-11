@@ -58,6 +58,8 @@ pipenv shell
 
 <https://github.com/psf/requests> | [Gitpod](https://gitpod.io/#https://github.com/psf/requests)
 
+<https://github.com/psf/requests/tree/v2.23.0>
+
 ```bash
 git clone https://github.com/psf/requests.git
 ```

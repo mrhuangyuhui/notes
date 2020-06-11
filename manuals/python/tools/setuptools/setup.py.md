@@ -7,6 +7,8 @@
     - [`install_requires`](#install_requires)
     - [`extras_require`](#extras_require)
     - [`include_package_data`, `package_data`, `exclude_package_data`](#include_package_data-package_data-exclude_package_data)
+    - [`entry_points`](#entry_points)
+    - [`cmdclass`](#cmdclass)
 - [Examples](#examples)
 
 > [python-packaging.md](/guides/python/packaging/python-packaging.md)
@@ -44,6 +46,20 @@ python setup.py sdist --help
 #### `include_package_data`, `package_data`, `exclude_package_data`
 
 [Including Data Files](https://setuptools.readthedocs.io/en/latest/setuptools.html#including-data-files)
+
+#### `entry_points`
+
+[Automatic Script Creation](https://setuptools.readthedocs.io/en/latest/setuptools.html#automatic-script-creation)
+
+#### `cmdclass`
+
+A dictionary providing a mapping of command names to `Command` subclasses.
+
+自定义 `setup.py` 命令的实现
+
+<https://github.com/psf/requests/blob/c7e0fc087ceeadb8b4c84a0953a422c474093d6d/setup.py#L102>
+
+<https://jichu4n.com/posts/how-to-add-custom-build-steps-and-commands-to-setuppy/>
 
 ## Examples
 
