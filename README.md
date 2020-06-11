@@ -28,6 +28,10 @@ git push https://github.com/mrhuangyuhui/notes.git
 
 <https://github.com/30-seconds/30-seconds-of-code>
 
+[Backus–Naur form - Wikipedia](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
+
+[巴科斯范式 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E5%B7%B4%E7%A7%91%E6%96%AF%E8%8C%83%E5%BC%8F)
+
 ## Codes
 
 开源代码

@@ -4,8 +4,12 @@
 
 [The Python Language Reference — Python 3.7](https://docs.python.org/3.7/reference/index.html)
 
+- [10. Full Grammar specification](https://docs.python.org/3.7/reference/grammar.html)
+
 [The Python Language Reference — Python 2.7](https://docs.python.org/2.7/reference/index.html)
 
 [Glossary — Python 3.8.3 documentation](https://docs.python.org/3/glossary.html)
 
 [Built-in Functions — Python 3.8.3 documentation](https://docs.python.org/3/library/functions.html)
+
+> [bnf-manual.md](/manuals/bnf-manual.md)
