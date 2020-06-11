@@ -116,6 +116,8 @@ HTTP 请求 <https://httpbin.org/>
 
 [语雀 - 专业的云端知识库](https://www.yuque.com/)
 
+[蓝湖 - 高效的产品设计协作平台](https://lanhuapp.com/)
+
 <http://www.modulecounts.com/>
 
 <https://welcome.rootnroll.com/>
