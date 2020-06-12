@@ -3,6 +3,7 @@
 
 - [Install](#install)
   - [Docker](#docker)
+- [Repos](#repos)
 - [Commands](#commands)
   - [`rails new`](#rails-new)
 - [References](#references)
@@ -14,10 +15,6 @@
 [Getting Started with Rails](https://guides.rubyonrails.org/getting_started.html)
 
 [Ruby on Rails API](https://api.rubyonrails.org/)
-
-<https://github.com/rails/rails>
-
-<https://github.com/rails/homepage>
 
 ## Install
 
@@ -57,7 +54,15 @@ rails new -h
 
 <https://github.com/bitnami/bitnami-docker-rails>
 
-## [Commands](https://guides.rubyonrails.org/command_line.html)
+## Repos
+
+<https://github.com/rails/rails>
+
+<https://github.com/rails/homepage>
+
+## Commands
+
+<https://guides.rubyonrails.org/command_line.html>
 
 ### [`rails new`](https://guides.rubyonrails.org/command_line.html#rails-new)
 
