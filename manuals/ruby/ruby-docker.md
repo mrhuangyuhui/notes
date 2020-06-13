@@ -1,5 +1,5 @@
 <!-- #docker-ruby #ruby-docker -->
-# docker-ruby
+# Ruby - Docker
 
 <https://hub.docker.com/_/ruby>
 

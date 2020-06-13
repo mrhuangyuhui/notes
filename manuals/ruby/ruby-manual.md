@@ -1,6 +1,7 @@
 <!-- omit in toc -->
 # Ruby Manual
 
+- [Development Environments](#development-environments)
 - [Language Reference](#language-reference)
 - [Install](#install)
   - [Docker](#docker)
@@ -39,6 +40,12 @@
 相关笔记：
 
 - [`rubygems-manual.md`](rubygems-manual.md)
+
+## Development Environments
+
+[rvm-manual.md](/manuals/ruby/tools/rvm-manual.md)
+
+[gitpod-manual.md#ruby](/manuals/ide/gitpod-manual.md#ruby)
 
 ## Language Reference
 
