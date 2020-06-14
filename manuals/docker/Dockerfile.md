@@ -1,10 +1,6 @@
-# `docker build`
+# `Dockerfile`
 
-<https://docs.docker.com/engine/reference/commandline/build/>
-
-```bash
-docker build --help
-```
+[Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
 
 [`.dockerignore` file](https://docs.docker.com/engine/reference/builder/#dockerignore-file)
 

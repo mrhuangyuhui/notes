@@ -3,9 +3,8 @@
 
 - [Install](#install)
   - [Basic GitHub Checkout](#basic-github-checkout)
+  - [Homebrew](#homebrew)
   - [rbenv-installer](#rbenv-installer)
-  - [CentOS](#centos)
-  - [Mac](#mac)
 - [Uninstall](#uninstall)
 - [Commands](#commands)
   - [`rbenv install`](#rbenv-install)
@@ -57,6 +56,24 @@ git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-b
 curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
 ```
 
+### Homebrew
+
+```bash
+brew install rbenv
+
+rbenv init
+
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+
+source ~/.bash_profile
+```
+
+验证安装和配置结果
+
+```bash
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
+```
+
 ### rbenv-installer
 
 <https://github.com/rbenv/rbenv-installer>
@@ -67,29 +84,6 @@ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-install
 
 # alternatively, with wget
 wget -q https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer -O- | bash
-```
-
-### CentOS
-
-```bash
-yum group install -y 'Development Tools'
-```
-
-### Mac
-
-```bash
-brew install rbenv
-
-# 初始化配置
-rbenv init
-
-# 添加 eval "$(rbenv init -)" 到文件 .bash_profile
-echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
-
-# 另开一个终端，配置生效。
-
-# 验证安装和配置结果
-curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
 ```
 
 ## Uninstall
