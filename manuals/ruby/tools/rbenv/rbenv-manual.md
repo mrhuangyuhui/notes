@@ -2,9 +2,9 @@
 # Rbenv Manual
 
 - [Install](#install)
+  - [rbenv-installer](#rbenv-installer)
   - [Basic GitHub Checkout](#basic-github-checkout)
   - [Homebrew](#homebrew)
-  - [rbenv-installer](#rbenv-installer)
   - [Docker](#docker)
 - [Uninstall](#uninstall)
 - [Commands](#commands)
@@ -17,6 +17,37 @@
 ## Install
 
 <https://github.com/rbenv/rbenv#installation>
+
+### rbenv-installer
+
+<https://github.com/rbenv/rbenv-installer>
+
+```bash
+# with curl
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash
+
+# alternatively, with wget
+wget -q https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer -O- | bash
+```
+
+配置
+
+```bash
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+
+~/.rbenv/bin/rbenv init
+
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+
+source ~/.bash_profile
+```
+
+验证安装结果
+
+```bash
+rbenv
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
+```
 
 ### Basic GitHub Checkout
 
@@ -69,27 +100,66 @@ echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
-验证安装和配置结果
+验证安装结果
 
 ```bash
 curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
 ```
 
-### rbenv-installer
-
-<https://github.com/rbenv/rbenv-installer>
-
-```bash
-# with curl
-curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash
-
-# alternatively, with wget
-wget -q https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer -O- | bash
-```
-
 ### Docker
 
 <https://hub.docker.com/r/mrhuangyuhui/rbenv>
+
+运行 Docker 基础镜像
+
+```bash
+docker pull ruby:2.7.1-buster
+
+docker run -it ruby:2.7.1-buster bash
+```
+
+安装 rbenv 和 ruby-build
+
+```bash
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash
+```
+
+配置
+
+```bash
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+
+~/.rbenv/bin/rbenv init
+
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+
+source ~/.bashrc
+```
+
+验证安装结果
+
+```bash
+rbenv
+
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
+```
+
+创建 rbenv 镜像
+
+```bash
+docker commit bdead9415952 mrhuangyuhui/rbenv:buster
+docker login
+docker push mrhuangyuhui/rbenv:buster
+
+docker tag mrhuangyuhui/rbenv:buster mrhuangyuhui/rbenv:latest
+docker push mrhuangyuhui/rbenv:latest
+```
+
+验证创建结果
+
+```bash
+docker run -it --rm mrhuangyuhui/rbenv bash
+```
 
 ## Uninstall
 

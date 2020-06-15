@@ -1,5 +1,7 @@
 # Ubuntu Manual
 
+<https://www.apt-browse.org/>
+
 查看版本信息
 
 ```bash
