@@ -1,4 +1,4 @@
-# Webpack Practice
+# Webpack Manual
 
 https://webpack.js.org/
 
