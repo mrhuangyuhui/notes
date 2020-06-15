@@ -5,6 +5,7 @@
   - [Basic GitHub Checkout](#basic-github-checkout)
   - [Homebrew](#homebrew)
   - [rbenv-installer](#rbenv-installer)
+  - [Docker](#docker)
 - [Uninstall](#uninstall)
 - [Commands](#commands)
   - [`rbenv install`](#rbenv-install)
@@ -85,6 +86,10 @@ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-install
 # alternatively, with wget
 wget -q https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer -O- | bash
 ```
+
+### Docker
+
+<https://hub.docker.com/r/mrhuangyuhui/rbenv>
 
 ## Uninstall
 
