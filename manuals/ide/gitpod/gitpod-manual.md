@@ -6,7 +6,6 @@
 - [Commands](#commands)
 - [Configs](#configs)
   - [`.gitpod.yml`](#gitpodyml)
-  - [Docker Configuration](#docker-configuration)
 - [Docs](#docs)
 - [Guides](#guides)
 - [Languages & Frameworks](#languages--frameworks)
@@ -40,36 +39,7 @@ gp init
 
 ### `.gitpod.yml`
 
-<https://www.gitpod.io/docs/config-gitpod-file/>
-
-<https://github.com/gitpod-io/definitely-gp>
-
-创建配置文件
-
-```bash
-gp init
-```
-
-[Start Tasks](https://www.gitpod.io/docs/config-start-tasks/)
-
-### Docker Configuration
-
-<https://www.gitpod.io/docs/config-docker/>
-
-```yml
-image: node:alpine
-```
-
-```yml
-image:
-  file: .gitpod.Dockerfile
-```
-
-> Note: Currently, Gitpod only supports Debian/Ubuntu or Alpine based images.
-
-<https://hub.docker.com/u/gitpod> | [GitHub](https://github.com/gitpod-io/workspace-images)
-
-<https://hub.docker.com/r/gitpod/workspace-full> | [GitHub](https://github.com/gitpod-io/workspace-images/tree/master/full)
+[.gitpod.yml.md](.gitpod.yml.md)
 
 ## Docs
 
