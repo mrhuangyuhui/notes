@@ -3,7 +3,7 @@
 # Pyenv Manual
 
 - [Install](#install)
-  - [The automatic installer](#the-automatic-installer)
+  - [pyenv-installer](#pyenv-installer)
   - [Basic GitHub Checkout](#basic-github-checkout)
   - [Homebrew](#homebrew)
 - [Uninstall](#uninstall)
@@ -46,7 +46,7 @@ Mac
 brew install readline xz
 ```
 
-### The automatic installer
+### pyenv-installer
 
 <https://github.com/pyenv/pyenv-installer>
 
