@@ -9,6 +9,7 @@
 - [API](#api)
 - [Tutorials](#tutorials)
 - [Tools](#tools)
+- [Algorithms](#algorithms)
 
 <https://www.python.org>
 
@@ -61,3 +62,7 @@
 [Tool recommendations](https://packaging.python.org/guides/tool-recommendations/)
 
 [Supporting multiple Python versions](https://packaging.python.org/guides/supporting-multiple-python-versions/)
+
+## Algorithms
+
+<https://github.com/TheAlgorithms/Python>
