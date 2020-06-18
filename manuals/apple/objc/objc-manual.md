@@ -16,11 +16,7 @@
 <!-- #objc-tutorial -->
 ## Tutorials
 
-<https://nshipster.com/>
-
-<https://github.com/NSHipster/articles>
-
-<https://github.com/NSHipster/nshipster.com>
+[NSHipster.md](/manuals/github/users/NSHipster.md)
 
 <https://www.raywenderlich.com/ios>
 

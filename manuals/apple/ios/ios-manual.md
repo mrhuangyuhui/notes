@@ -60,7 +60,7 @@
 <!-- #ios-tutorial -->
 ## Tutorials
 
-<<https://nshipster.com/>>
+[NSHipster.md](/manuals/github/users/NSHipster.md)
 
 <https://github.com/vsouza/awesome-ios>
 
