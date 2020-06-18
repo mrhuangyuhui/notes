@@ -2,9 +2,11 @@
 # Rbenv - Commands
 
 - [`rbenv install`](#rbenv-install)
+- [`rbenv versions`](#rbenv-versions)
+- [`rbenv version`](#rbenv-version)
 - [`rbenv global`](#rbenv-global)
 - [`rbenv local`](#rbenv-local)
-- [`rbenv versions`](#rbenv-versions)
+- [`rbenv which`](#rbenv-which)
 
 <https://github.com/rbenv/rbenv#command-reference>
 
@@ -40,6 +42,33 @@ rbenv install -l
 rbenv install 2.7.1 -v
 ```
 
+## `rbenv versions`
+
+<https://github.com/rbenv/rbenv#rbenv-versions>
+
+Lists all Ruby versions known to rbenv, and shows an asterisk next to the currently active version.
+
+```bash
+rbenv versions -h
+rbenv versions --help
+rbenv help versions
+```
+
+```bash
+rbenv versions
+```
+
+## `rbenv version`
+
+<https://github.com/rbenv/rbenv#rbenv-version>
+
+Displays the currently active Ruby version, along with information on how it was set.
+
+```bash
+$ rbenv version
+1.9.3-p327 (set by /Users/sam/.rbenv/version)
+```
+
 ## `rbenv global`
 
 <https://github.com/rbenv/rbenv#rbenv-global>
@@ -71,30 +100,28 @@ Sets a local application-specific Ruby version by writing the version name to a 
 rbenv local 1.9.3-p327
 ```
 
-查看本地版本
+查看当前目录的版本配置
 
 ```bash
 rbenv local
 ```
 
-删除本地版本配置
+删除当前目录的版本配置
 
 ```bash
 rbenv local --unset
 ```
 
-## `rbenv versions`
+## `rbenv which`
 
-<https://github.com/rbenv/rbenv#rbenv-versions>
+<https://github.com/rbenv/rbenv#rbenv-which>
 
-Lists all Ruby versions known to rbenv, and shows an asterisk next to the currently active version.
-
-```bash
-rbenv versions -h
-rbenv versions --help
-rbenv help versions
-```
+Displays the full path to the executable that rbenv will invoke when you run the given command.
 
 ```bash
-rbenv versions
+$ rbenv which ruby
+/home/ubuntu/.rbenv/versions/2.7.1/bin/ruby
+
+$ rbenv which irb
+/home/ubuntu/.rbenv/versions/2.7.1/bin/irb
 ```

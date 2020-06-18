@@ -16,8 +16,8 @@ docker pull ruby:2.7.1-alpine3.12
 
 ## 2.7.1-buster
 
+[Dockerfile](https://github.com/docker-library/ruby/blob/master/2.7/buster/Dockerfile)
+
 ```bash
 docker pull ruby:2.7.1-buster
 ```
-
-<https://github.com/docker-library/ruby/blob/master/2.7/buster/Dockerfile>

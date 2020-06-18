@@ -41,6 +41,15 @@
 rvm implode
 ```
 
+根据提示，删除相关文件和配置：
+
+```
+Note you may need to manually remove /etc/rvmrc and ~/.rvmrc if they exist still.
+Please check all .bashrc .bash_profile .profile and .zshrc for RVM source lines and delete or comment out if this was a Per-User installation.
+Also make sure to remove `rvm` group if this was a system installation.
+Finally it might help to relogin / restart if you want to have fresh environment (like for installing RVM again).
+```
+
 <!-- #rvm-cmd #rvm-example -->
 ## Commands
 

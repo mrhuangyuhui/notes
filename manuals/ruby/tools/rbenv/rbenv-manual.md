@@ -1,3 +1,4 @@
+<!-- #ruby-install -->
 <!-- omit in toc -->
 # Rbenv Manual
 
@@ -15,7 +16,26 @@
 
 ## Uninstall
 
-[Uninstalling rbenv](https://github.com/rbenv/rbenv#uninstalling-rbenv)
+<https://github.com/rbenv/rbenv#uninstalling-rbenv>
+
+删除安装目录
+
+```bash
+rm -rf `rbenv root`
+```
+
+检查以下文件并删除相关配置
+
+- `~/.bashrc`
+- `~/.bash_profile`
+- `~/.profile`
+- `~/.zshrc`
+
+如果是用 Homebrew 安装的，执行卸载操作。
+
+```bash
+brew uninstall rbenv
+```
 
 ## Docker
 
