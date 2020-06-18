@@ -1,4 +1,9 @@
+<!-- omit in toc -->
 # Searches
+
+- [GitHub](#github)
+  - [Issues](#issues)
+- [Python](#python)
 
 <https://www.google.com.hk/advanced_search>
 
@@ -8,6 +13,14 @@
 
 <https://sourcegraph.com/search/query-builder>
 
-## Issues
+## GitHub
+
+### Issues
 
 <https://github.com/search?q=example&type=Issues>
+
+## Python
+
+```
+keyword site:docs.python.org
+```
