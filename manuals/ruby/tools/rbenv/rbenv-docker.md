@@ -1,19 +1,23 @@
 <!-- omit in toc -->
 # Rbenv - Docker
 
-- [Build](#build)
 - [Run](#run)
+- [Build](#build)
 
 <https://hub.docker.com/r/mrhuangyuhui/rbenv>
 
-## Build
-
-运行 Docker 基础镜像
+## Run
 
 ```bash
-docker pull ruby:2.7.1-buster
+docker run -it mrhuangyuhui/rbenv bash
+```
 
-docker run -it ruby:2.7.1-buster bash
+## Build
+
+运行基础镜像
+
+```bash
+docker run -it buildpack-deps:buster bash
 ```
 
 安装 rbenv 和 ruby-build
@@ -27,13 +31,14 @@ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-install
 ```bash
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 
+# 因为这条语句在 Dockerfile 执行会失败，所以暂时通过容器来创建镜像。
 ~/.rbenv/bin/rbenv init
 
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 
-source ~/.bashrc
-
 echo 'if [ -f ~/.bashrc ]; then . ~/.bashrc; fi' >> ~/.bash_profile
+
+source ~/.bash_profile
 ```
 
 验证安装结果
@@ -47,7 +52,8 @@ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor 
 创建 rbenv 镜像
 
 ```bash
-docker commit bdead9415952 mrhuangyuhui/rbenv:buster
+# 4f0232e1b02b 是容器 ID
+docker commit 4f0232e1b02b mrhuangyuhui/rbenv:buster
 
 docker tag mrhuangyuhui/rbenv:buster mrhuangyuhui/rbenv:latest
 
@@ -62,10 +68,4 @@ docker push mrhuangyuhui/rbenv:latest
 
 ```bash
 docker run -it --rm mrhuangyuhui/rbenv bash
-```
-
-## Run
-
-```bash
-docker run -it mrhuangyuhui/rbenv bash
 ```
