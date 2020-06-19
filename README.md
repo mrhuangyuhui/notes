@@ -126,6 +126,10 @@ HTTP 请求 <https://httpbin.org/>
 
 <https://welcome.rootnroll.com/>
 
+[Loco - Translation Management System](https://localise.biz/)
+
+[A Localization and Translation Software Tool | Lokalise](https://lokalise.com/)
+
 <!-- #regexp-tool -->
 ### RegExp
 
