@@ -16,21 +16,45 @@
 
 <https://docs.httprunner.org/quickstart/>
 
-安装 HttpRunner
-
-> 提示：为了避免错误，HttpRunner 的版本要与文档中的保持一致！
+<https://gitpod.io/#https://github.com/mrhuangyuhui/httprunner-quick-start>
 
 ```bash
-pip install httprunner==2.4.1
+# 安装 Python 依赖
+pipenv install
+
+# 激活 Python 虚拟环境
+pipenv shell
+
+# 启动用于测试的后端程序
+export FLASK_APP=docs/data/api_server.py && \
+export FLASK_ENV=development && \
+flask run
 ```
 
-安装 Flask
+启动另一个终端，按学习步骤执行以下命令。
+
+```bash
+# 启动新终端后，注意要激活 Python 虚拟环境
+pipenv shell
+
+hrun docs/data/demo-quickstart-0.yml
+
+hrun docs/data/demo-quickstart-1.yml
+
+hrun docs/data/demo-quickstart-2.yml
+
+hrun docs/data/demo-quickstart-3.yml
+
+hrun docs/data/demo-quickstart-4.yml
+
+hrun docs/data/demo-quickstart-5.yml
+
+hrun docs/data/demo-quickstart-6.yml
+
+hrun docs/data/demo-quickstart-7.yml
+```
 
 > 提示：每次修改测试文件后，需要重启 Flask！
-
-```bash
-pip install Flask
-```
 
 ## Install
 
@@ -76,6 +100,18 @@ hrun -V
 hrun --version
 ```
 
+创建项目骨架
+
+```bash
+hrun --startproject demo
+```
+
+将抓包数据转化为 YAML 格式的测试用例
+
+```bash
+har2case docs/data/demo-quickstart.har -2y
+```
+
 测试单个测试用例
 
 ```bash
@@ -86,12 +122,6 @@ hrun filepath/testcase.yml
 
 ```bash
 hrun testcases_folder_path
-```
-
-创建项目骨架
-
-```bash
-hrun --startproject demo
 ```
 
 ## Guides

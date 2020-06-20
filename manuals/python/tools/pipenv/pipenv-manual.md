@@ -96,10 +96,6 @@ pipenv --rm
 pipenv install -d
 # Specify a PyPI mirror
 pipenv install -d --pypi-mirror https://pypi.tuna.tsinghua.edu.cn/simple
-
-# 不安装开发环境的依赖包
-pipenv install
-pipenv install --pypi-mirror https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 安装指定依赖包
@@ -109,6 +105,8 @@ pipenv install requests
 ```
 
 ### `pipenv shell`
+
+<https://pipenv.pypa.io/en/latest/cli/#pipenv-shell>
 
 激活 Python 虚拟环境
 
