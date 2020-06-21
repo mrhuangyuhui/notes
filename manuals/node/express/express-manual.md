@@ -2,7 +2,8 @@
 # Express Manual
 
 - [Install](#install)
-  - [Express Generator](#express-generator)
+- [Express Generator](#express-generator)
+- [Repos](#repos)
 - [Commands](#commands)
 - [References](#references)
 - [Routing](#routing)
@@ -13,27 +14,11 @@
 - [Tools](#tools)
 - [Misc](#misc)
 
-<http://expressjs.com/>
-
-<http://expressjs.com/zh-cn/>
-
-<https://www.npmjs.com/package/express>
-
-<https://github.com/expressjs/express/>
-
-<https://github.com/expressjs/generator>
-
-<https://github.com/expressjs/expressjs.com>
+<http://expressjs.com/> | [zh-cn](http://expressjs.com/zh-cn/)
 
 <https://github.com/topics/express>
 
-<https://sourcegraph.com/github.com/expressjs/expressjs.com>
-
-<https://sourcegraph.com/github.com/expressjs/express>
-
-<https://gitee.com/mrhuangyuhui/express>
-
-[Express 源码阅读笔记](https://gitee.com/mrhuangyuhui/js/blob/feature/2020-03-12/express-notes.md)
+<https://www.npmjs.com/package/express>
 
 ## Install
 
@@ -87,7 +72,7 @@ nodemon app.js # 自动监控文件变更并重启服务
 curl localhost:3000
 ```
 
-### Express Generator
+## Express Generator
 
 <https://expressjs.com/en/starter/generator.html>
 
@@ -116,6 +101,14 @@ DEBUG=myapp:* npm start
 # 发起请求
 curl localhost:3000
 ```
+
+## Repos
+
+<https://github.com/expressjs/express/> | [Gitee](https://gitee.com/mrhuangyuhui/express) | [Sourcegraph](https://sourcegraph.com/github.com/expressjs/express)
+
+<https://github.com/expressjs/generator>
+
+<https://github.com/expressjs/expressjs.com> | [Sourcegraph](https://sourcegraph.com/github.com/expressjs/expressjs.com)
 
 <!-- #express-cmd -->
 ## Commands
