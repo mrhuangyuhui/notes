@@ -1,6 +1,7 @@
-# Alias Practice
+# alias
 
-**.bash_aliases**
+`.bash_aliases`
+
 ```bash
 alias ls='ls --color=auto -F'
 alias grep='grep --color=auto'

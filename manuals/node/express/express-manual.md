@@ -168,6 +168,8 @@ express --view=pug myapp
 <!-- #express-example -->
 ## Examples
 
+<https://github.com/expressjs/express/tree/master/examples>
+
 <https://github.com/vuejs/vue-router/blob/dev/examples/server.js>
 
 <https://github.com/bailicangdu/node-elm>
