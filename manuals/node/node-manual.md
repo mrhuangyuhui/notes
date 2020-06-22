@@ -10,6 +10,7 @@
 - [Tutorials](#tutorials)
 - [Tools](#tools)
 - [Test](#test)
+- [Debugging](#debugging)
 
 <https://nodejs.org/en/>
 
@@ -71,3 +72,8 @@
 ## Test
 
 <https://mochajs.org/>
+
+<!-- #node-debug -->
+## Debugging
+
+[node-debug.md](node-debug.md)

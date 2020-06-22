@@ -8,6 +8,7 @@
 - [Docs](#docs)
 - [Examples](#examples)
 - [WebStorm](#webstorm)
+- [Debugging](#debugging)
 
 <https://mochajs.org/>
 
@@ -85,10 +86,6 @@ npm install --save-dev mocha
 ```bash
 mocha -h
 mocha --help
-
-Test Filters
-  --fgrep, -f   Only run tests containing this string                   [string]
-  --grep, -g    Only run tests matching this string or regexp           [string]
 ```
 
 ```bash
@@ -102,12 +99,28 @@ mocha --version
 alias mocha='./node_modules/mocha/bin/mocha'
 ```
 
-执行指定的测试用例
+```bash
+Positional Arguments
+  spec  One or more files, directories, or globs to test
+                                                     [array] [default: ["test"]]
+```
 
-<https://github.com/expressjs/express/blob/4.17.1/test/app.js#L13>
+只执行某一个测试文件
 
 ```bash
-mocha -g 'should be callable'
+mocha test/app.js
+```
+
+```bash
+Test Filters
+  --fgrep, -f   Only run tests containing this string                   [string]
+  --grep, -g    Only run tests matching this string or regexp           [string]
+```
+
+只执行某一个测试用例
+
+```bash
+mocha -g 'should be callable' test/app.js
 ```
 
 ## Docs
@@ -125,3 +138,8 @@ mocha -g 'should be callable'
 ## WebStorm
 
 <https://mochajs.org/#jetbrains>
+
+<!-- #mocha-debug -->
+## Debugging
+
+[mocha-debug.md](mocha-debug.md)

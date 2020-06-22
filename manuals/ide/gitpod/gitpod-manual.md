@@ -10,6 +10,7 @@
 - [Guides](#guides)
 - [Languages & Frameworks](#languages--frameworks)
   - [Ruby](#ruby)
+- [Debugging](#debugging)
 
 <https://www.gitpod.io/>
 
@@ -56,3 +57,7 @@ gp init
 ### Ruby
 
 <https://www.gitpod.io/docs/languages/ruby/>
+
+## Debugging
+
+[Debugging Node.js applications in Theia](https://medium.com/gitpod/debugging-node-js-applications-in-theia-76c94c76f0a1)
