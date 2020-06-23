@@ -1,4 +1,4 @@
-# Firebase
+# Firebase Manual
 
 <https://firebase.google.com/>
 

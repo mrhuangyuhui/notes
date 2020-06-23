@@ -1,4 +1,4 @@
-# Bugly
+# Bugly Manual
 
 <https://bugly.qq.com/v2/index>
 
