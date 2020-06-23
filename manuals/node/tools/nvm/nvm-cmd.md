@@ -4,10 +4,11 @@
 - [`nvm ls-remote`](#nvm-ls-remote)
 - [`nvm install`](#nvm-install)
 - [`nvm uninstall`](#nvm-uninstall)
-- [`nvm list`](#nvm-list)
+- [`nvm ls`](#nvm-ls)
 - [`nvm use`](#nvm-use)
 - [`nvm current`](#nvm-current)
 - [`nvm alias`](#nvm-alias)
+  - [`nvm alias default`](#nvm-alias-default)
 - [`nvm deactivate`](#nvm-deactivate)
 - [`nvm which`](#nvm-which)
 
@@ -64,12 +65,14 @@ nvm install 6.14.4 # or 10.10.0, 8.9.1, etc
 nvm uninstall 10.19.0
 ```
 
-## `nvm list`
+## `nvm ls`
+
+<https://github.com/nvm-sh/nvm#listing-versions>
 
 列出已安装的版本
 
 ```bash
-nvm list
+nvm ls
 ```
 
 ## `nvm use`
@@ -97,6 +100,8 @@ nvm alias
 ```
 
 设置别名
+
+### `nvm alias default`
 
 ```bash
 # 设置默认 Node 版本
