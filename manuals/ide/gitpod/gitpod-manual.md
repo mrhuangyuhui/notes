@@ -2,6 +2,7 @@
 # Gitpod Manual
 
 - [Quick Start](#quick-start)
+- [Install](#install)
 - [Repos](#repos)
 - [Commands](#commands)
 - [Configs](#configs)
@@ -19,6 +20,10 @@
 ## Quick Start
 
 <https://www.gitpod.io/features/>
+
+## Install
+
+[Gitpod - Dev Environments in a Browser Tab](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki)
 
 ## Repos
 
