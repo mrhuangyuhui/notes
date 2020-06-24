@@ -1,4 +1,8 @@
+<!-- omit in toc -->
 # NVM - Install
+
+- [Install & Update Script](#install--update-script)
+- [Git Install](#git-install)
 
 <https://github.com/nvm-sh/nvm#installation-and-update>
 
