@@ -1,11 +1,19 @@
 <!-- omit in toc -->
 # VSCode Manual
 
+- [Extensions](#extensions)
 - [Repos](#repos)
 - [References](#references)
 - [Debugging](#debugging)
 
 [Advanced search options](https://code.visualstudio.com/docs/editor/codebasics#_advanced-search-options)
+
+## Extensions
+
+<!-- #markdown-tool -->
+[Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+
+[markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
 ## Repos
 
