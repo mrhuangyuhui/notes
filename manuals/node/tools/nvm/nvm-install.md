@@ -4,13 +4,11 @@
 - [Install & Update Script](#install--update-script)
 - [Git Install](#git-install)
 
-<https://github.com/nvm-sh/nvm#installation-and-update>
+[Installing and Updating](https://github.com/nvm-sh/nvm#installation-and-update)
 
 ## Install & Update Script
 
 <https://github.com/nvm-sh/nvm#install--update-script>
-
-> 提示：网络出现问题可选择 [Git Install](#git-install)
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
@@ -18,9 +16,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ```
 
-在安装过程中，一般会自动添加以下环境配置到相关文件，如果没有，可手动添加。
-
-`~/.bash_profile`, `~/.zshrc`, `~/.profile`, or `~/.bashrc`
+在安装过程中，一般会自动添加以下配置到文件 `~/.bashrc`，如果没有，则手动添加：
 
 ```bash
 export NVM_DIR="$HOME/.nvm"
@@ -28,12 +24,28 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 ```
 
-> 提示：在 Mac 中，以上配置一般会在安装过程中自动添加到文件 `~/.bashrc` 中，如果 `nvm` 命令没有生效，请在文件 `~/.bash_profile` 的第一行加入 `source ~/.bashrc`。
+检查 `~/.bash_profile` 的第一行是否有以下命令，如果没有，则手动添加：
+
+```bash
+if [ -f ~/.bashrc ]; then . ~/.bashrc; fi
+```
+
+激活配置
+
+```bash
+source ~/.bash_profile
+```
 
 验证安装结果
 
 ```bash
 command -v nvm
+
+nvm
+
+nvm --version
+
+nvm --help
 ```
 
 > which should output 'nvm' if the installation was successful. Please note that `which nvm` will not work, since `nvm` is a sourced shell function, not an executable binary.

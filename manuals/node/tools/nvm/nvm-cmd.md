@@ -34,14 +34,14 @@ nvm alias default 12.16.2
 # 列出所有版本
 nvm ls-remote
 
-# 只列出 LTS 版本
+# 列出所有 LTS 版本
 nvm ls-remote --lts
 
-# 只列出指定版本号的版本
+# 只列出指定版本
 nvm ls-remote 8
 nvm ls-remote 8.9
 
-# 只列出指定版本号的 LTS 版本
+# 只列出指定 LTS 版本
 nvm ls-remote 8.9 --lts
 ```
 
@@ -57,6 +57,12 @@ To install a specific version of node:
 
 ```bash
 nvm install 6.14.4 # or 10.10.0, 8.9.1, etc
+```
+
+安装 LTS 版本
+
+```bash
+nvm install --lts 10
 ```
 
 ## `nvm uninstall`
@@ -121,14 +127,23 @@ $ node -v
 
 ## `nvm which`
 
-查看指定版本 Node 的安装路径
+查看指定版本的安装路径
 
 ```bash
 nvm which 5.0
 ```
 
-查看当前版本
+当前版本
 
 ```bash
 nvm which current
+```
+
+版本别名
+
+```bash
+nvm which node
+nvm which stable
+nvm which default
+nvm which system
 ```
