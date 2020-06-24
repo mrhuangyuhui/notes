@@ -1,4 +1,4 @@
-# `.bashrc`
+# `$HOME/.bash_profile`
 
 <https://blog.csdn.net/sch0120/article/details/70256318>
 
@@ -12,11 +12,4 @@ if [ -f ~/.bashrc ]; then . ~/.bashrc; fi
 
 ```bash
 echo 'if [ -f ~/.bashrc ]; then . ~/.bashrc; fi' >> ~/.bash_profile
-```
-
-[gitpod-io/workspace-images/blob/master/full/Dockerfile](https://github.com/gitpod-io/workspace-images/blob/c024b68b7f8c5c69b143c7e5429c18e7027915b4/full/Dockerfile#L48)
-
-```bash
-mkdir $HOME/.bashrc.d && \
-(echo; echo "for i in \$(ls \$HOME/.bashrc.d/*); do source \$i; done"; echo) >> $HOME/.bashrc
 ```

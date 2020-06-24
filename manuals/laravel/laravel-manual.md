@@ -5,7 +5,7 @@
 - [Repos](#repos)
 - [Commands](#commands)
 - [Docs](#docs)
-  - [API](#api)
+- [API](#api)
 - [Tutorials](#tutorials)
 - [Plugins](#plugins)
 - [Tools](#tools)
@@ -17,11 +17,7 @@
 
 ## Install
 
-创建项目
-
-```bash
-composer create-project laravel/laravel laravel54 5.4.*
-```
+[laravel-install.md](laravel-install.md)
 
 ## Repos
 
@@ -39,11 +35,9 @@ composer create-project laravel/laravel laravel54 5.4.*
 
 ## Docs
 
-<https://laravel.com/docs/5.8>
+[laravel-docs.md](laravel-docs.md)
 
-[`manuals/laravel/laravel-docs.md`](/manuals/laravel/laravel-docs.md)
-
-### API
+## API
 
 <https://laravel.com/api/5.8/index.html>
 

@@ -1,5 +1,13 @@
 # Laravel Docs
 
+<https://laravel.com/docs>
+
+<https://laravel.com/docs/master>
+
+<https://laravel.com/docs/7.x>
+
+<https://laravel.com/docs/6.x>
+
 <https://www.golaravel.com/>
 
 [Laravel 入门指南](https://laravel-china.org/topics/7227/laravel-introductory-guide)
