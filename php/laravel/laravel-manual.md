@@ -4,6 +4,7 @@
 - [Install](#install)
 - [Repos](#repos)
 - [Commands](#commands)
+- [Configs](#configs)
 - [Docs](#docs)
 - [API](#api)
 - [Tutorials](#tutorials)
@@ -21,17 +22,21 @@
 
 ## Repos
 
-[laravel/laravel](https://github.com/laravel/laravel) | [Gitee](https://gitee.com/mrhuangyuhui/laravel)
+<https://github.com/laravel/laravel> | [Gitee](https://gitee.com/mrhuangyuhui/laravel)
 
-[laravel/framework](https://github.com/laravel/framework) | [Gitee](https://gitee.com/mrhuangyuhui/laravel-framework)
-
-默认提示信息多语言版本翻译
+<https://github.com/laravel/framework> | [Gitee](https://gitee.com/mrhuangyuhui/laravel-framework)
 
 <https://github.com/overtrue/laravel-lang/>
+
+<https://github.com/mrhuangyuhui/laravel-playground>
 
 ## Commands
 
 [`manuals/laravel/laravel-cmd.md`](/manuals/laravel/laravel-cmd.md)
+
+## Configs
+
+[laravel-configs.md](laravel-configs.md)
 
 ## Docs
 

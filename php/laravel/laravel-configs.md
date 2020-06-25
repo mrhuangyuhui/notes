@@ -2,21 +2,20 @@
 <!-- omit in toc -->
 # Laravel Configs
 
-- [Docs](#docs)
-- [Codes](#codes)
+- [Examples](#examples)
 
 [php/laravel/guides/configuration.md](/php/laravel/guides/configuration.md)
 
-## Docs
+<https://laravel.com/docs/7.x/installation#configuration>
 
-[Configuration - Installation - Laravel - The PHP Framework For Web Artisans](https://laravel.com/docs/7.x/installation#configuration)
+<https://laravel.com/docs/7.x/installation#web-server-configuration>
 
-[Web Server Configuration - Installation - Laravel - The PHP Framework For Web Artisans](https://laravel.com/docs/7.x/installation#web-server-configuration)
+## Examples
 
+<https://github.com/laravel/laravel/blob/v7.12.0/.env.example>
 
+<https://github.com/laravel/laravel/tree/v7.12.0/config>
 
-## Codes
+<https://github.com/mrhuangyuhui/laravel-playground/blob/master/7.x/blog/.env.example>
 
-[`.env`](https://github.com/laravel/laravel/blob/v7.12.0/.env.example)
-
-[config/](https://github.com/laravel/laravel/tree/v7.12.0/config)
+<https://github.com/mrhuangyuhui/laravel-playground/tree/master/7.x/blog/config>

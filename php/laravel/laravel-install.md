@@ -9,16 +9,21 @@
 
 <https://laravel.com/docs/5.8/installation>
 
+<https://github.com/mrhuangyuhui/laravel-playground>
+
 ## Composer Create-Project
 
 ```bash
 # 安装最新稳定版
 composer create-project --prefer-dist laravel/laravel blog
 
-# 指定版本 5.8
+# 指定版本 7.x
+composer create-project --prefer-dist laravel/laravel blog 7.*
+
+# 5.8.x
 composer create-project --prefer-dist laravel/laravel blog 5.8.*
 
-# 指定版本 5.8.35
+# 5.8.35
 composer create-project --prefer-dist laravel/laravel blog 5.8.35
 ```
 
