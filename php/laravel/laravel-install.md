@@ -1,3 +1,4 @@
+<!-- #laravel-install -->
 <!-- omit in toc -->
 # Laravel - Install
 
