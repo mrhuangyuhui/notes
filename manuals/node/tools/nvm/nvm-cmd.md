@@ -3,7 +3,6 @@
 
 - [`nvm ls-remote`](#nvm-ls-remote)
 - [`nvm install`](#nvm-install)
-- [`nvm uninstall`](#nvm-uninstall)
 - [`nvm ls`](#nvm-ls)
 - [`nvm use`](#nvm-use)
 - [`nvm current`](#nvm-current)
@@ -11,6 +10,8 @@
   - [`nvm alias default`](#nvm-alias-default)
 - [`nvm deactivate`](#nvm-deactivate)
 - [`nvm which`](#nvm-which)
+- [`nvm version`](#nvm-version)
+- [`nvm uninstall`](#nvm-uninstall)
 
 <https://github.com/nvm-sh/nvm#usage>
 
@@ -20,7 +21,7 @@ nvm -h
 nvm --help
 ```
 
-设置默认 Node 版本
+设置默认版本
 
 ```bash
 nvm alias default 12.16.2
@@ -31,18 +32,25 @@ nvm alias default 12.16.2
 列出可安装的版本
 
 ```bash
-# 列出所有版本
+# 所有版本
 nvm ls-remote
+```
 
-# 列出所有 LTS 版本
+列出 LTS 版本
+
+```bash
+# 所有 LTS 版本
 nvm ls-remote --lts
 
-# 只列出指定版本
+# 指定 LTS 版本
+nvm ls-remote 8.9 --lts
+```
+
+列出指定版本
+
+```bash
 nvm ls-remote 8
 nvm ls-remote 8.9
-
-# 只列出指定 LTS 版本
-nvm ls-remote 8.9 --lts
 ```
 
 ## `nvm install`
@@ -62,13 +70,11 @@ nvm install 6.14.4 # or 10.10.0, 8.9.1, etc
 安装 LTS 版本
 
 ```bash
+# 最新版
+nvm install --lts node
+
+# 指定版本
 nvm install --lts 10
-```
-
-## `nvm uninstall`
-
-```bash
-nvm uninstall 10.19.0
 ```
 
 ## `nvm ls`
@@ -146,4 +152,21 @@ nvm which node
 nvm which stable
 nvm which default
 nvm which system
+```
+
+## `nvm version`
+
+Resolve the given description to a single local version
+
+```bash
+nvm version node
+nvm version stable
+nvm version default
+nvm version system
+```
+
+## `nvm uninstall`
+
+```bash
+nvm uninstall 10.19.0
 ```

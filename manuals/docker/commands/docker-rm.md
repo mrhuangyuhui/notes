@@ -21,3 +21,10 @@ docker rm `docker ps -a -q`
 ```bash
 docker rm -f `docker ps -a -q`
 ```
+
+相关命令：
+
+```bash
+# 删除所有未挂载的镜像
+docker image prune -a
+```
