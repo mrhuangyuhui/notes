@@ -17,7 +17,7 @@
   - [`submodule`](#submodule)
   - [`git remote`](#git-remote)
 - [Docs](#docs)
-  - [Cheat-sheets](#cheat-sheets)
+- [Cheat-sheets](#cheat-sheets)
 - [Tutorials](#tutorials)
 - [Servers](#servers)
 
@@ -79,6 +79,8 @@ make install install-doc install-html install-info
 
 <!-- #git-cmd -->
 ## Commands
+
+<https://git-scm.com/docs>
 
 快速帮助
 
@@ -193,7 +195,7 @@ git remote -v
 <https://git-scm.com/docs>
 
 <!-- #git-cheat -->
-### Cheat-sheets
+## Cheat-sheets
 
 <https://www.git-tower.com/blog/git-cheat-sheet-cn/>
 

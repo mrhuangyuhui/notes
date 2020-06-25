@@ -1,4 +1,4 @@
-# `git-submodule`
+# `git submodule`
 
 <https://git-scm.com/docs/git-submodule>
 
@@ -7,10 +7,11 @@
 [Handling Dependencies with Submodules and Subtrees - GitHub Cheatsheets](https://github.github.com/training-kit/downloads/submodule-vs-subtree-cheat-sheet/)
 
 ```bash
+git submodule -h
+
 man git-submodule
 git help submodule
 git submodule --help
-git submodule -h
 ```
 
 添加子模块
