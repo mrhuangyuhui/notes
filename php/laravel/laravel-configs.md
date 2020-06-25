@@ -5,15 +5,15 @@
 - [Docs](#docs)
 - [Codes](#codes)
 
+[php/laravel/guides/configuration.md](/php/laravel/guides/configuration.md)
+
 ## Docs
 
 [Configuration - Installation - Laravel - The PHP Framework For Web Artisans](https://laravel.com/docs/7.x/installation#configuration)
 
 [Web Server Configuration - Installation - Laravel - The PHP Framework For Web Artisans](https://laravel.com/docs/7.x/installation#web-server-configuration)
 
-[Configuration - Laravel - The PHP Framework For Web Artisans](https://laravel.com/docs/7.x/configuration)
 
-> Any variable in your `.env` file can be overridden by external environment variables such as server-level or system-level environment variables.
 
 ## Codes
 
