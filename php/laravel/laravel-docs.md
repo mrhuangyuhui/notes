@@ -8,6 +8,8 @@
 
 <https://laravel.com/docs/6.x>
 
+<<https://github.com/laravel/docs>>
+
 <https://www.golaravel.com/>
 
 [Laravel 入门指南](https://laravel-china.org/topics/7227/laravel-introductory-guide)

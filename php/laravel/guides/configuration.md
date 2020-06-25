@@ -22,7 +22,7 @@ APP_NAME="My Application"
 
 - All of the variables listed in this file will be loaded into the `$_ENV` PHP super-global when your application receives a request. However, you may use the `env` helper to retrieve values from these variables in your configuration files.
 
-```
+```php
 'debug' => env('APP_DEBUG', false),
 ```
 
@@ -32,7 +32,7 @@ APP_NAME="My Application"
 $environment = App::environment();
 ```
 
-- You may also pass arguments to the environment method to check if the environment matches a given value. 
+- You may also pass arguments to the environment method to check if the environment matches a given value.
 
 ```php
 if (App::environment('local')) {
