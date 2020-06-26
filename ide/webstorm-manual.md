@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# WebStorm
+# WebStorm Manual
 
 - [Docker](#docker)
 - [Debug](#debug)
