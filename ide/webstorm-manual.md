@@ -2,9 +2,7 @@
 # WebStorm Manual
 
 - [Docker](#docker)
-- [Debug](#debug)
-- [Test](#test)
-  - [Mocha](#mocha)
+- [Mocha](#mocha)
 - [HTTP Client](#http-client)
 - [NVM](#nvm)
 
@@ -32,19 +30,21 @@
 
 [Node.js with Docker](https://www.jetbrains.com/help/webstorm/node-with-docker.html)
 
-## Debug
-
-## Test
-
-### Mocha
+## Mocha
 
 <https://mochajs.org/#jetbrains>
 
-![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/mocha/webstorm-mocha-1.jpg)
+Test File 测试文件
 
-![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/mocha/webstorm-mocha-2.jpg)
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/mocha/webstorm-mocha-test-file.png)
 
-![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/mocha/webstorm-mocha-3.jpg)
+Suite 测试集合
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/mocha/webstorm-mocha-test-suite.png)
+
+Test 测试用例
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/mocha/webstorm-mocha-test-case.png)
 
 ## HTTP Client
 

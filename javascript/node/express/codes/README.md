@@ -2,7 +2,7 @@
 <!-- omit in toc -->
 # Express 源码阅读笔记
 
-- [Development Environments](#development-environments)
+- [Environments](#environments)
 - [Versions](#versions)
   - [4.17.1](#4171)
 - [Q&A](#qa)
@@ -13,12 +13,28 @@
 
 <https://github.com/mrhuangyuhui/express/tree/mrhuangyuhui/gitpod-setup>
 
-## Development Environments
+## Environments
 
 [webstorm-manual.md#nvm](/ide/webstorm-manual.md)
 
+[webstorm-manual.md#mocha](/ide/webstorm-manual.md#mocha)
+
+安装依赖
+
 ```bash
 npm install
+```
+
+运行例子
+
+```bash
+node examples/content-negotiation
+```
+
+运行测试
+
+```bash
+npm test
 ```
 
 ## Versions
