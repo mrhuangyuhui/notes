@@ -52,8 +52,9 @@
 
 [HTTP Response handling API reference](https://www.jetbrains.com/help/webstorm/http-response-handling-api-reference.html)
 
+<!-- #webstorm-nvm -->
 ## NVM
 
-[`nvm-manual.md`](/manuals/node/nvm-manual.md)
-
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/webstorm-nvm-1.png)
+
+![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/webstorm-nvm-2.png)

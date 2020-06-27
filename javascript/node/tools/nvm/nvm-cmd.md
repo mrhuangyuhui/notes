@@ -167,6 +167,8 @@ nvm version system
 
 ## `nvm uninstall`
 
+Uninstall a version
+
 ```bash
 nvm uninstall 10.19.0
 ```
