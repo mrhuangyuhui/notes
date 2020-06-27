@@ -1,6 +1,6 @@
-# JavaScript - Module
+# Module - JavaScript
 
-> [`node-module.md`](/topics/node/node-module.md)
+[`node-module.md`](/javascript/node/topics/node-module.md)
 
 [Module 的语法 - ECMAScript 6入门](https://es6.ruanyifeng.com/#docs/module)
 
