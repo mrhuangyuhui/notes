@@ -4,8 +4,8 @@
 - [Install](#install)
 - [Mirrors](#mirrors)
 - [Commands](#commands)
-- [Files](#files)
-  - [`npmrc`](#npmrc)
+- [Configs](#configs)
+- [`package.json`](#packagejson)
 - [References](#references)
 - [Tutorials](#tutorials)
 
@@ -42,11 +42,17 @@ npm install npm@latest -g
 
 [`npm-cmd.md`](npm-cmd.md)
 
-## Files
+## Configs
+
+<https://docs.npmjs.com/misc/config>
+
+Run npm `config ls -l` to see a set of configuration parameters that are internal to npm, and are defaults if nothing else is specified.
+
+[`.npmrc`](npmrc.md)
+
+## `package.json`
 
 [`package.json`](/manuals/node/tools/npm/package.json.md)
-
-### [`npmrc`](https://docs.npmjs.com/files/npmrc)
 
 ## References
 

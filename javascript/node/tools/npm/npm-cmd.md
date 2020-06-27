@@ -2,9 +2,10 @@
 # NPM - Commands
 
 - [`npm install`](#npm-install)
-- [`init`](#init)
-- [`ls`](#ls)
+- [`npm init`](#npm-init)
+- [`npm ls`](#npm-ls)
 - [`npm run`](#npm-run)
+- [`npm config`](#npm-config)
 
 <https://docs.npmjs.com/cli-documentation/cli>
 
@@ -28,7 +29,9 @@ npm -l
 npm help npm
 ```
 
-## [`npm install`](https://docs.npmjs.com/cli/install)
+## `npm install`
+
+<https://docs.npmjs.com/cli/install>
 
 安装
 
@@ -48,7 +51,9 @@ npm install -g jshint
 
 [Installing npm packages globally](https://docs.npmjs.com/getting-started/installing-npm-packages-globally)
 
-## [`init`](https://docs.npmjs.com/cli/init)
+## `npm init`
+
+<https://docs.npmjs.com/cli/init>
 
 创建 `package.json`
 
@@ -60,7 +65,7 @@ npm init -y
 
 [Using a `package.json`](https://docs.npmjs.com/getting-started/using-a-package.json)
 
-## `ls`
+## `npm ls`
 
 <https://docs.npmjs.com/cli/ls>
 
@@ -77,4 +82,22 @@ npm ls mongodb -g
 
 ```bash
 npm run watch-poll
+```
+
+## `npm config`
+
+<https://docs.npmjs.com/cli/config>
+
+Manage the npm configuration files
+
+```bash
+npm help config
+npm config -h
+npm config --help
+```
+
+Show all the config settings. Use `-l` to also show defaults.
+
+```bash
+npm config ls -l
 ```

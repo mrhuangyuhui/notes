@@ -57,4 +57,6 @@
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/webstorm-nvm-1.png)
 
+[使用符号链接](/javascript/node/tools/nvm/nvm-manual.md#nvm_symlink_current)
+
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/webstorm-nvm-2.png)

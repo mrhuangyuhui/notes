@@ -2,6 +2,7 @@
 <!-- omit in toc -->
 # Express 源码阅读笔记
 
+- [Development Environments](#development-environments)
 - [Versions](#versions)
   - [4.17.1](#4171)
 - [Q&A](#qa)
@@ -11,6 +12,14 @@
 <https://github.com/expressjs/express> | [Fork](https://github.com/mrhuangyuhui/express) | [Sourcegraph](https://sourcegraph.com/github.com/expressjs/express)
 
 <https://github.com/mrhuangyuhui/express/tree/mrhuangyuhui/gitpod-setup>
+
+## Development Environments
+
+[webstorm-manual.md#nvm](/ide/webstorm-manual.md)
+
+```bash
+npm install
+```
 
 ## Versions
 

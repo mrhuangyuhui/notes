@@ -2,14 +2,18 @@
 <!-- omit in toc -->
 # NPM - Mirrors
 
-- [CPM](#cpm)
+- [Taobao](#taobao)
 - [mirror-config-china](#mirror-config-china)
 
 查看当前仓库配置
 
 ```bash
 npm config get registry
+# 或
+npm config ls -l | grep registry
 ```
+
+## Taobao
 
 配置淘宝镜像
 
@@ -17,7 +21,11 @@ npm config get registry
 npm config set registry https://registry.npm.taobao.org -g
 ```
 
-## CPM
+写入配置文件
+
+```bash
+echo 'registry = "https://registry.npm.taobao.org/"' >> ~/.npmrc
+```
 
 安装 [`cnpm`](https://npm.taobao.org/)
 
