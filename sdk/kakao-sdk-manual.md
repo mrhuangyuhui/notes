@@ -1,6 +1,7 @@
 <!-- omit in toc -->
-# Kakao Manual
+# Kakao SDK Manual
 
+- [Downlaods](#downlaods)
 - [Repos](#repos)
 - [Examples](#examples)
 - [API](#api)
@@ -9,9 +10,19 @@
 - [登录授权](#登录授权)
 - [用户信息](#用户信息)
 - [分享信息](#分享信息)
-- [打点](#打点)
+- [KakaoAd](#kakaoad)
 
 <https://developers.kakao.com/docs/latest/ko/getting-started/sdk-ios-v1>
+
+<https://developers.kakao.com/docs/latest/ko/sdk-download/ios-v1>
+
+`KakaoOpenSDK.framework/Headers/KakaoOpenSDK.h`
+
+```objc
+#define KAKAO_SDK_IOS_VERSION_STRING    @"1.23.1"
+```
+
+## Downlaods
 
 ## Repos
 
@@ -198,13 +209,15 @@ API
 }];
 ```
 
-## 打点
+## KakaoAd
+
+<https://github.com/KakaoAd/kakao-ad-ios> | [Gitee](https://gitee.com/mrhuangyuhui/kakao-ad-ios)
+
+<https://github.com/KakaoAd/kakao-ad-ios/releases>
 
 <https://developers.kakao.com/docs/latest/ko/kakaomoment/common>
 
 <https://moment.kakao.com/>
-
-<https://github.com/KakaoAd/kakao-ad-ios> | [Gitee](https://gitee.com/mrhuangyuhui/kakao-ad-ios)
 
 接入配置
 
