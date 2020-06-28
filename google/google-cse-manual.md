@@ -1,6 +1,6 @@
 # Google Manual
 
-## CSE
+## Google CSE
 
 https://cse.google.com/
 
