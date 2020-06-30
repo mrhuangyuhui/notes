@@ -4,6 +4,7 @@
 
 - [Install](#install)
 - [Uninstall](#uninstall)
+- [Docker](#docker)
 - [Commands](#commands)
 - [`.nvmrc`](#nvmrc)
 - [Environment Variables](#environment-variables)
@@ -37,6 +38,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 [[ -r $NVM_DIR/bash_completion ]] && \. $NVM_DIR/bash_completion
 ```
+
+## Docker
+
+[nvm-docker](nvm-docker.md)
 
 <!-- #nvm-cmd -->
 ## Commands

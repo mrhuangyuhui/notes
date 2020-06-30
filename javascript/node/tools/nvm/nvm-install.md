@@ -3,6 +3,7 @@
 
 - [Install & Update Script](#install--update-script)
 - [Git Install](#git-install)
+- [Manual Install](#manual-install)
 
 [Installing and Updating](https://github.com/nvm-sh/nvm#installation-and-update)
 
@@ -54,15 +55,15 @@ nvm --help
 
 <https://github.com/nvm-sh/nvm#git-install>
 
-> 提示：网络出现问题可选择这种方式
-
 ```bash
-cd ~/ && git clone git@gitee.com:mrhuangyuhui/nvm.git .nvm
+cd ~/ && git clone https://github.com/nvm-sh/nvm.git .nvm
+
 cd ~/.nvm && git checkout v0.35.3
+
 . nvm.sh
 ```
 
-添加以下环境配置到相关文件
+手动添加以下环境配置到相关文件
 
 `~/.bash_profile`, `~/.zshrc`, `~/.profile`, or `~/.bashrc`
 
@@ -71,3 +72,33 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 ```
+
+或
+
+```bash
+curl https://raw.githubusercontent.com/mrhuangyuhui/bashrc/master/nvm >> ~/.bashrc
+
+curl https://raw.githubusercontent.com/mrhuangyuhui/bashrc/master/nvm >> ~/.bash_profile
+```
+
+激活环境配置
+
+```bash
+source ~/.bashrc
+
+source ~/.bash_profile
+```
+
+## Manual Install
+
+<https://github.com/nvm-sh/nvm#manual-install>
+
+```bash
+export NVM_DIR="$HOME/.nvm" && (
+  git clone https://github.com/nvm-sh/nvm.git "$NVM_DIR"
+  cd "$NVM_DIR"
+  git checkout `git describe --abbrev=0 --tags --match "v[0-9]*" $(git rev-list --tags --max-count=1)`
+) && \. "$NVM_DIR/nvm.sh"
+```
+
+环境配置同上

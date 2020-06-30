@@ -4,7 +4,15 @@
 - [Build](#build)
 - [Run](#run)
 
+<https://github.com/mrhuangyuhui/nvm-playground>
+
 <https://hub.docker.com/r/mrhuangyuhui/nvm-playground>
+
+基础镜像
+
+```bash
+docker run -it buildpack-deps:stretch bash
+```
 
 ## Build
 
