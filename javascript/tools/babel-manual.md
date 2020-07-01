@@ -1,6 +1,14 @@
-[TOC]
-
+<!-- omit in toc -->
 # Babel Manual
+
+- [Documentation](#documentation)
+  - [Packages](#packages)
+    - [babel-polyfill](#babel-polyfill)
+  - [Usage](#usage)
+- [Tools](#tools)
+  - [babel-cli](#babel-cli)
+  - [babel-node](#babel-node)
+- [Blogs](#blogs)
 
 https://babeljs.io/
 

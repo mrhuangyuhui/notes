@@ -2,6 +2,7 @@
 # JavaScript Manual
 
 - [Language Reference](#language-reference)
+- [ECMAScript 6](#ecmascript-6)
 - [Docs](#docs)
 - [Tutorials](#tutorials)
 - [Blogs](#blogs)
@@ -31,6 +32,10 @@ http://ejs.co/
 
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference>
 
+## ECMAScript 6
+
+[javascript-es6.md](javascript-es6.md)
+
 ## Docs
 
 [All pages index](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Index)
@@ -38,16 +43,6 @@ http://ejs.co/
 ## Tutorials
 
 [javascript/tutorials](/javascript/tutorials/README.md)
-
-<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Tutorials>
-
-阮一峰系列教程
-
-- [JavaScript 教程 - 阮一峰](https://wangdoc.com/javascript/index.html) | [GitHub](https://github.com/wangdoc/javascript-tutorial) | [Gitee](https://gitee.com/mrhuangyuhui/javascript-tutorial)
-- [JavaScript 标准参考教程 - 阮一峰](https://javascript.ruanyifeng.com/) | [GitHub](https://github.com/ruanyf/jstutorial)
-- [ECMAScript 6 入门 - 阮一峰](https://es6.ruanyifeng.com/) | [GitHub](https://github.com/ruanyf/es6tutorial/) | [Gitee](https://gitee.com/mrhuangyuhui/es6tutorial)
-
-[Learn ES2015](http://babeljs.io/learn-es2015/)
 
 ## Blogs
 
