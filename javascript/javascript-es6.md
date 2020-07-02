@@ -1,4 +1,4 @@
-# ECMAScript - JavaScript
+# JavaScript - ES6
 
 <https://repl.it/languages/babel>
 
