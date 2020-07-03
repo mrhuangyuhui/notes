@@ -62,4 +62,6 @@ A regexp pattern string that is matched against all tests paths before executing
 
 ## WebStorm
 
-<https://www.jetbrains.com/help/webstorm/running-unit-tests-on-jest.html>
+[Jest - Help | WebStorm](https://www.jetbrains.com/help/webstorm/running-unit-tests-on-jest.html)
+
+[Run/Debug Configuration: Jest - Help | WebStorm](https://www.jetbrains.com/help/webstorm/run-debug-configuration-jest.html)
