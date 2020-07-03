@@ -3,7 +3,7 @@
 
 - [Quick Start](#quick-start)
 - [Repos](#repos)
-- [CLI](#cli)
+- [Commands](#commands)
 - [Guides](#guides)
 - [WebStorm](#webstorm)
 
@@ -19,9 +19,40 @@
 
 <https://github.com/facebook/jest>
 
-## CLI
+## Commands
 
 <https://jestjs.io/docs/en/cli>
+
+```bash
+jest -h
+jest --help
+```
+
+```bash
+jest -v
+jest --version
+```
+
+Run all tests (default):
+
+```bash
+jest
+```
+
+Run only the tests that were specified with a pattern or filename:
+
+```bash
+jest my-test #or
+jest path/to/my-test.js
+```
+
+[`--testNamePattern=<regex>`](https://jestjs.io/docs/en/cli#--testnamepatternregex)
+
+Run only tests with a name that matches the regex.
+
+[`--testPathPattern=<regex>`](https://jestjs.io/docs/en/cli#--testnamepatternregex)
+
+A regexp pattern string that is matched against all tests paths before executing the test.
 
 ## Guides
 
