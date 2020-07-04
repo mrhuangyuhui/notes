@@ -2,6 +2,7 @@
 <!-- omit in toc -->
 # Node Manual
 
+- [Quick Start](#quick-start)
 - [Install](#install)
 - [Downloads](#downloads)
 - [Docs](#docs)
@@ -25,6 +26,10 @@
 <https://npm.runkit.com/>
 
 <https://github.com/node-modules>
+
+## Quick Start
+
+[Usage & Example | Node.js v12.18.2 Documentation](https://nodejs.org/docs/latest-v12.x/api/synopsis.html)
 
 <!-- #node-install -->
 ## Install
