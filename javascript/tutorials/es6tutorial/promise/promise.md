@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# [`Promise` 对象](http://es6.ruanyifeng.com/#docs/promise)
+# `Promise` 对象
 
 - [`Promise` 的含义](#promise-的含义)
 - [基本用法](#基本用法)
@@ -13,166 +13,42 @@
 - [应用](#应用)
 - [Promise.try()](#promisetry)
 
+<http://es6.ruanyifeng.com/#docs/promise>
+
 ## `Promise` 的含义
 
-`Promise` 是异步编程的一种解决方案，比传统的解决方案——回调函数和事件——更合理和更强大。
+`Promise` 是异步编程的一种解决方案
 
 所谓 `Promise`，简单说就是一个容器，里面保存着某个未来才会结束的事件（通常是一个异步操作）的结果。
 
 `Promise` 对象有以下两个特点：
 
-- 对象的状态不受外界影响。`Promise` 对象代表一个异步操作，有三种状态：`pending`（进行中）、`fulfilled`（已成功）和`rejected`（已失败）。只有异步操作的结果，可以决定当前是哪一种状态，任何其他操作都无法改变这个状态；
-- 一旦状态改变，就不会再变，任何时候都可以得到这个结果。`Promise` 对象的状态改变，只有两种可能：从 `pending` 变为 `fulfilled` 和从 `pending` 变为 `rejected`。只要这两种情况发生，状态就凝固了，不会再变了，会一直保持这个结果，这时就称为 resolved（已定型）。如果改变已经发生了，你再对 `Promise` 对象添加回调函数，也会立即得到这个结果。这与事件（Event）完全不同，事件的特点是，如果你错过了它，再去监听，是得不到结果的。
+- 对象的状态不受外界影响。`Promise` 对象代表一个异步操作，有三种状态：`pending`（进行中）、`fulfilled`（已成功）和 `rejected`（已失败）。只有异步操作的结果，可以决定当前是哪一种状态，任何其他操作都无法改变这个状态；
+- 一旦状态改变，就不会再变，任何时候都可以得到这个结果。`Promise` 对象的状态改变，只有两种可能：从 `pending` 变为 `fulfilled` 和从 `pending` 变为 `rejected`。只要这两种情况发生，状态就凝固了，不会再变了，会一直保持这个结果，这时就称为 resolved（已定型）。如果改变已经发生了，你再对 `Promise` 对象添加回调函数，也会立即得到这个结果。
 
 ## 基本用法
 
-下面是一个 `Promise` 对象的简单例子。
+[promise-example-10.js](promise-example-10.js)
 
-```js
-function timeout(ms) {
-    return new Promise((resolve, reject) => {
-        setTimeout(resolve, ms, 'done');
-    });
-}
+[promise-example-20.js](promise-example-20.js)
 
-// 2000 毫秒后执行一个回调函数
-timeout(2000).then((value) => {
-    console.log(value);
-});
-```
+[promise-example-30.js](promise-example-30.js)
 
-`Promise` 新建后就会立即执行。
+[promise-example-40.js](promise-example-40.js)
 
-```js
-let promise = new Promise(function (resolve, reject) {
-    console.log('Promise');
-    resolve();
-});
-
-promise.then(function () {
-    console.log('resolved.');
-});
-
-console.log('Hi!');
-```
-
-输出结果
-
-```bash
-Promise
-Hi!
-resolved.
-```
-
-下面是一个用 `Promise` 对象实现的 Ajax 操作的例子。
-
-```js
-const getJSON = function (url) {
-    const promise = new Promise(function (resolve, reject) {
-        const handler = function () {
-            if (this.readyState !== 4) {
-                return;
-            }
-            if (this.status === 200) {
-                resolve(this.response);
-            } else {
-                reject(new Error(this.statusText));
-            }
-        };
-        const client = new XMLHttpRequest();
-        client.open("GET", url);
-        client.onreadystatechange = handler;
-        client.responseType = "json";
-        client.setRequestHeader("Accept", "application/json");
-        client.send();
-
-    });
-
-    return promise;
-};
-
-getJSON("/posts.json").then(function (json) {
-    console.log('Contents: ' + json);
-}, function (error) {
-    console.error('出错了', error);
-});
-```
-
-```js
-const p1 = new Promise(function (resolve, reject) {
-    console.log("p1 开始");
-    setTimeout(() => {
-        console.log("p1 定时器结束");
-        reject(new Error('fail'));
-    }, 3000);
-});
-
-const p2 = new Promise(function (resolve, reject) {
-    console.log("p2 开始");
-    setTimeout(() => {
-        console.log("p2 定时器结束");
-        resolve(p1);
-    }, 1000);
-});
-
-p2.then(result => console.log(result))
-    .catch(error => console.log(error));
-```
-
-输出结果
-
-```bash
-p1 开始
-p2 开始
-p2 定时器结束
-p1 定时器结束
-Error: fail
-```
-
-> 注意：调用 `resolve` 或 `reject` 并不会终结 `Promise` 的参数函数的执行。
-
-```js
-new Promise((resolve, reject) => {
-    // // 立即 resolved 的 Promise 是在本轮事件循环的末尾执行，总是晚于本轮循环的同步任务。
-    resolve(1);
-    console.log(2);
-}).then(r => {
-    console.log(r);
-});
-```
-
-输出结果
-
-```bash
-2
-1
-```
-
-一般来说，调用 `resolve` 或 `reject` 以后，`Promise` 的使命就完成了，后继操作应该放到 `then` 方法里面，而不应该直接写在 `resolve` 或 `reject` 的后面。所以，最好在它们前面加上 `return` 语句，这样就不会有意外。
-
-```js
-new Promise((resolve, reject) => {
-    return resolve(1);
-    // 后面的语句不会执行
-    console.log(2);
-});
-```
+[promise-example-50.js](promise-example-50.js)
 
 ## `Promise.prototype.then()`
 
+`Promise` 实例具有 `then` 方法，它的作用是为 `Promise` 实例添加状态改变时的回调函数。
+
 `then` 方法返回的是一个新的 `Promise` 实例（注意，不是原来那个 `Promise` 实例）。因此可以采用链式写法，即 `then` 方法后面再调用另一个 `then` 方法。
 
-```js
-new Promise((resolve, reject) => {
-    setTimeout(() => resolve("dog"), 2);
-}).then(a => {
-    return a + ", cat";
-}).then(b => {
-    console.log(b + ", tiger");
-});
+[promise-example-60.js](promise-example-60.js)
 
-// dog, cat, tiger
-```
+[promise-example-70.js](promise-example-70.js)
+
+[promise-example-80.js](promise-example-80.js)
 
 ## `Promise.prototype.catch()`
 
