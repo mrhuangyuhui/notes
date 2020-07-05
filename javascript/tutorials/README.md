@@ -9,3 +9,5 @@
 - [ECMAScript 6 入门 - 阮一峰](https://es6.ruanyifeng.com/) | [GitHub](https://github.com/ruanyf/es6tutorial/) | [Fork](https://github.com/mrhuangyuhui/es6tutorial) | [Gitee](https://gitee.com/mrhuangyuhui/es6tutorial)
 
 [Learn ES2015](http://babeljs.io/learn-es2015/)
+
+[Eloquent JavaScript](https://eloquentjavascript.net/)
