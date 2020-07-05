@@ -52,101 +52,15 @@
 
 ## `Promise.prototype.catch()`
 
-`Promise.prototype.catch` 方法是 `.then(null, rejection)` 的别名，用于指定发生错误时的回调函数。
+[promise-example-90.js](promise-example-90.js)
 
-```js
-const promise = new Promise((resolve, reject) => {
-    throw new Error('test error');
-});
+[promise-example-100.js](promise-example-100.js)
 
-promise.then((val) => console.log(val))
-    .catch((err) => console.log(err));
+[promise-example-110.js](promise-example-110.js)
 
-// 等同于
-// promise.then((val) => console.log(val))
-//     .then(null, (err) => console.log(err));
+[promise-example-120.js](promise-example-120.js)
 
-// Error: test error
-```
-
-以下三种写法是等价的。
-
-```js
-const promise = new Promise(function (resolve, reject) {
-    throw new Error('test error');
-});
-promise.catch(function (error) {
-    console.log(error);
-});
-// Error: test error
-```
-
-```js
-const promise = new Promise(function (resolve, reject) {
-    try {
-        throw new Error('test error');
-    } catch (e) {
-        reject(e);
-    }
-});
-promise.catch(function (error) {
-    console.log(error);
-});
-// Error: test error
-```
-
-```js
-const promise = new Promise(function (resolve, reject) {
-    reject(new Error('test error'));
-});
-promise.catch(function (error) {
-    console.log(error);
-});
-// Error: test error
-```
-
-比较上面三种写法，可以发现 `reject` 方法的作用，等同于抛出错误。
-
-如果 `Promise` 状态已经变成 `resolved`，再抛出错误是无效的。
-
-```js
-const promise = new Promise(function (resolve, reject) {
-    resolve('test resolve');
-    throw new Error('test error');
-});
-promise.then(function (value) { console.log(value) })
-    .catch(function (error) { console.log(error) });
-
-// test resolve
-```
-
-`Promise` 对象的错误具有“冒泡”性质，会一直向后传递，直到被捕获为止。也就是说，错误总是会被下一个 `catch` 语句捕获。
-
-```js
-new Promise((resolve, reject) => {
-    console.log("p1");
-    resolve();
-}).then(() => {
-    console.log("then 1")
-    return new Promise((resolve, reject) => {
-        console.log("p2")
-        throw new Error();
-    });
-}).then(() => {
-    console.log("then 2")
-}).catch(() => {
-    console.log("catch")
-});
-```
-
-输出结果
-
-```bash
-p1
-then 1
-p2
-catch
-```
+[promise-example-130.js](promise-example-130.js)
 
 一般来说，不要在 `then` 方法里面定义 `Reject` 状态的回调函数（即 `then` 的第二个参数），总是使用 `catch` 方法。
 
@@ -205,7 +119,13 @@ rejections that are not handled will terminate the Node.js process with a non-ze
 
 ## `Promise.resolve()`
 
-已学习
+`Promise.resolve()` 等价于下面的写法。
+
+```js
+Promise.resolve('foo')
+// 等价于
+new Promise(resolve => resolve('foo'))
+```
 
 ## `Promise.reject()`
 
