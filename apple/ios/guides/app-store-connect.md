@@ -1,4 +1,6 @@
-# App Store
+# App Store Connect 帮助
+
+<https://help.apple.com/app-store-connect/>
 
 [App Store Connect](https://appstoreconnect.apple.com/)
 
