@@ -8,7 +8,7 @@
 - [Docs](#docs)
 - [Examples](#examples)
 - [WebStorm](#webstorm)
-- [Debugging](#debugging)
+- [Debug](#debug)
 
 <https://mochajs.org/>
 
@@ -140,6 +140,6 @@ mocha -g 'should be callable' test/app.js
 <https://mochajs.org/#jetbrains>
 
 <!-- #mocha-debug -->
-## Debugging
+## Debug
 
 [mocha-debug.md](mocha-debug.md)
