@@ -1,8 +1,8 @@
 # Xcode Manual
 
-<https://developer.apple.com/xcode/>
-
 <https://help.apple.com/xcode/mac/current/>
+
+<https://developer.apple.com/xcode/>
 
 <https://developer.apple.com/documentation/xcode/>
 

@@ -13,6 +13,8 @@
 
 [iOS 预审](https://wetest.qq.com/product/ios)
 
+<https://developer.apple.com/support/>
+
 <https://github.com/topics/ios>
 
 <https://github.com/vsouza/awesome-ios>
@@ -20,6 +22,15 @@
 <http://awesomeios.com/>
 
 <https://github.com/dkhamsing/open-source-ios-apps>
+
+<https://developer.apple.com/documentation>
+
+<https://developer.apple.com/library/archive/navigation/>
+
+<https://github.com/opensource-apple>
+
+<https://opensource.apple.com/>
+
 
 [Objective-C Manual](/manuals/objc/objc-manual.md)
 
