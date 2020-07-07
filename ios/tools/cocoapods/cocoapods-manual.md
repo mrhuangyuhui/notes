@@ -53,7 +53,7 @@ sudo gem install cocoapods -n /usr/local/bin
 
 ## Podfile
 
-<https://guides.cocoapods.org/syntax/podfile.html>
+[Podfile.md](Podfile.md)
 
 ## Mirrors
 
