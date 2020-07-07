@@ -32,6 +32,13 @@ rvm help
 rvm help install
 ```
 
+列出已安装的 Ruby
+
+```bash
+rvm list
+rvm list rubies
+```
+
 ## ruby installation
 
 ### `rvm install`
@@ -58,6 +65,11 @@ rvm install 2.1
 
 ```bash
 rvm help list
+rvm list help
+
+# 不可用
+# rvm list -h
+# rvm list --help
 ```
 
 To list all *known* RVM installable Rubies
@@ -69,6 +81,7 @@ rvm list known
 To list all installed rubies
 
 ```bash
+rvm list
 rvm list rubies
 ```
 

@@ -2,7 +2,6 @@
 # CocoaPods Manual
 
 - [Install](#install)
-  - [Mac](#mac)
   - [Docker](#docker)
 - [Commands](#commands)
 - [Mirrors](#mirrors)
@@ -17,11 +16,11 @@
 
 <https://guides.cocoapods.org/using/getting-started.html>
 
-### Mac
-
-安装 Ruby 请参考笔记 [RVM Manual](/manuals/ruby/rvm-manual.md)
+安装 Ruby 请参考笔记 [RVM Manual](/ruby/tools/rvm/rvm-manual.md)
 
 ```bash
+gem install cocoapods
+# 使用系统 Ruby，需要加 sudo。
 sudo gem install cocoapods
 ```
 
