@@ -1,11 +1,10 @@
 <!-- omit in toc -->
 # Rails Manual
 
+- [Quick Start](#quick-start)
 - [Install](#install)
-  - [Docker](#docker)
 - [Repos](#repos)
 - [Commands](#commands)
-  - [`rails new`](#rails-new)
 - [References](#references)
 
 <https://rubyonrails.org/>
@@ -16,43 +15,13 @@
 
 [Ruby on Rails API](https://api.rubyonrails.org/)
 
+## Quick Start
+
+<https://guides.rubyonrails.org/getting_started.html>
+
 ## Install
 
-<https://guides.rubyonrails.org/getting_started.html#installing-rails>
-
-> 注意：要求先安装 Ruby 2.5.0 以上版本和 sqlite3
-
-```bash
-ruby -v
-sqlite3 --version
-```
-
-安装 `rails`
-
-```bash
-gem install rails
-```
-
-检查安装结果
-
-```bash
-rails --version
-```
-
-创建项目
-
-```bash
-rails new blog
-
-# 查看创建命令的帮助
-rails new -h
-```
-
-### Docker
-
-<https://hub.docker.com/r/bitnami/rails>
-
-<https://github.com/bitnami/bitnami-docker-rails>
+[rails-install.md](rails-install.md)
 
 ## Repos
 
@@ -60,18 +29,11 @@ rails new -h
 
 <https://github.com/rails/homepage>
 
+<https://github.com/mrhuangyuhui/rails-playground> | [Gitpod](https://gitpod.io/#https://github.com/mrhuangyuhui/rails-playground)
+
 ## Commands
 
-<https://guides.rubyonrails.org/command_line.html>
-
-### [`rails new`](https://guides.rubyonrails.org/command_line.html#rails-new)
-
-查看帮助
-
-```bash
-rails new -h
-rails new --help
-```
+[rails-cmd.md](rails-cmd.md)
 
 ## References
 
