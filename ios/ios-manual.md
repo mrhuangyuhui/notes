@@ -5,8 +5,6 @@
 - [Downloads](#downloads)
 - [UIUE](#uiue)
 - [Docs](#docs)
-  - [UIKit](#uikit)
-    - [Images and PDF](#images-and-pdf)
 - [Examples](#examples)
 - [Tools](#tools)
 - [Tutorials](#tutorials)
@@ -23,14 +21,9 @@
 
 <https://github.com/dkhamsing/open-source-ios-apps>
 
-<https://developer.apple.com/documentation>
-
-<https://developer.apple.com/library/archive/navigation/>
-
 <https://github.com/opensource-apple>
 
 <https://opensource.apple.com/>
-
 
 [Objective-C Manual](/manuals/objc/objc-manual.md)
 
@@ -39,8 +32,6 @@
 [About App Development with UIKit](https://developer.apple.com/documentation/uikit/about_app_development_with_uikit?language=objc)
 
 ## Downloads
-
-<!--  -->
 
 ## UIUE
 
@@ -52,13 +43,7 @@
 
 <https://developer.apple.com/documentation>
 
-### [UIKit](https://developer.apple.com/documentation/uikit)
-
-#### [Images and PDF](https://developer.apple.com/documentation/uikit/images_and_pdf)
-
-[UIImage](https://developer.apple.com/documentation/uikit/uiimage)
-
-[Core Image](https://developer.apple.com/documentation/coreimage)
+<https://developer.apple.com/library/archive/navigation/>
 
 ## Examples
 
@@ -71,7 +56,7 @@
 <!-- #ios-tutorial -->
 ## Tutorials
 
-[NSHipster.md](/manuals/github/users/NSHipster.md)
+<https://nshipster.com/>
 
 <https://github.com/vsouza/awesome-ios>
 
