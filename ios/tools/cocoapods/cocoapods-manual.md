@@ -2,13 +2,12 @@
 # CocoaPods Manual
 
 - [Install](#install)
-  - [Docker](#docker)
+- [Repos](#repos)
 - [Commands](#commands)
+- [Podfile](#podfile)
 - [Mirrors](#mirrors)
 
 <https://cocoapods.org/>
-
-<https://github.com/CocoaPods/CocoaPods>
 
 > 提示：遇到问题请看 <https://guides.cocoapods.org/using/troubleshooting>
 
@@ -33,27 +32,27 @@ sudo gem install cocoapods -n /usr/local/bin
 
 桌面客户端 <https://cocoapods.org/app>
 
-### Docker
+## Repos
 
-[docker-cocoapods](docker-cocoapods/Dockerfile)
+<https://github.com/CocoaPods>
 
-```bash
-cd docker-cocoapods
-docker build -t cocoapods .
-```
+<https://github.com/CocoaPods/CocoaPods>
 
-```bash
-docker run -it --rm -v `pwd`:/usr/src/myapp -w /usr/src/myapp cocoapods pod init
-```
-
-```bash
-docker run -it --rm -v `pwd`:/usr/src/myapp -w /usr/src/myapp cocoapods pod install
-```
+<https://github.com/CocoaPods/Specs>
 
 ## Commands
 
+<https://guides.cocoapods.org/terminal/commands.html>
+
 ```bash
+pod
 pod --help
+
+# 不可用
+# pod -h
+```
+
+```bash
 pod --version
 ```
 
@@ -68,6 +67,10 @@ pod init
 ```bash
 pod install
 ```
+
+## Podfile
+
+<https://guides.cocoapods.org/syntax/podfile.html>
 
 ## Mirrors
 
