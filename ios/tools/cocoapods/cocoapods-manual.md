@@ -23,6 +23,13 @@ gem install cocoapods
 sudo gem install cocoapods
 ```
 
+验证安装结果
+
+```bash
+pod --version
+which pod
+```
+
 > 提示：安装过程中遇到 Ruby 或 Gem 的错误，尝试以下命令。
 
 ```bash
@@ -42,31 +49,7 @@ sudo gem install cocoapods -n /usr/local/bin
 
 ## Commands
 
-<https://guides.cocoapods.org/terminal/commands.html>
-
-```bash
-pod
-pod --help
-
-# 不可用
-# pod -h
-```
-
-```bash
-pod --version
-```
-
-初始化 `Podfile` 文件
-
-```bash
-pod init
-```
-
-安装依赖库
-
-```bash
-pod install
-```
+[cocoapods-cmd.md](cocoapods-cmd.md)
 
 ## Podfile
 
@@ -80,7 +63,9 @@ pod install
 
 ```bash
 pod repo remove master
+
 pod repo add master https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git
+
 pod repo update
 ```
 
