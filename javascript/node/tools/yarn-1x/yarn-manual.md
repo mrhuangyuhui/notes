@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Yarn Manual
+# Yarn 1.x Manual
 
 - [Quick Start](#quick-start)
 - [Install](#install)
@@ -9,11 +9,11 @@
 - [Docs](#docs)
 - [Mirrors](#mirrors)
 
-<https://yarnpkg.com/> | [1.x](https://classic.yarnpkg.com/en/)
+<https://classic.yarnpkg.com/en/>
 
 ## Quick Start
 
-<https://yarnpkg.com/getting-started>
+<https://classic.yarnpkg.com/en/docs/getting-started>
 
 ## Install
 
@@ -23,9 +23,7 @@
 
 <https://github.com/yarnpkg>
 
-1.x <https://github.com/yarnpkg/yarn>
-
-2.x <https://github.com/yarnpkg/berry>
+<https://github.com/yarnpkg/yarn>
 
 <https://github.com/mrhuangyuhui/yarn-playground>
 
@@ -39,11 +37,9 @@
 
 ## Docs
 
-1.x <https://classic.yarnpkg.com/en/docs>
+<https://classic.yarnpkg.com/en/docs>
 
 ## Mirrors
-
-1.x
 
 ```bash
 # 查看源地址

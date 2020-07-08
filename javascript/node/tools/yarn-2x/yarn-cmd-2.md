@@ -1,15 +1,12 @@
 <!-- omit in toc -->
-# Yarn Commands
+# Yarn Commands - 2.x
 
 - [`yarn install`](#yarn-install)
 - [`yarn config`](#yarn-config)
-- [`yarn config get`](#yarn-config-get)
 
 <https://yarnpkg.com/getting-started/usage>
 
 <https://yarnpkg.com/cli>
-
-1.x <https://classic.yarnpkg.com/en/docs/cli/>
 
 ```bash
 yarn -h
@@ -64,22 +61,20 @@ yarn install
 
 ## `yarn config`
 
-<https://yarnpkg.com/cli/config>
-
-Display the current configuration.
+2.x <https://yarnpkg.com/cli/config>
 
 ```bash
 yarn config -h
 yarn config --help
 ```
 
+Displays the current configuration.
+
 ```bash
 yarn config
 ```
 
-## `yarn config get`
-
-<https://yarnpkg.com/cli/config/get>
+2.x <https://yarnpkg.com/cli/config/get>
 
 Read a configuration settings.
 
