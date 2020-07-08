@@ -14,3 +14,5 @@
 - [ ] [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
 
 <https://github.com/bang590/JSPatch>
+
+<https://github.com/google/promises>
