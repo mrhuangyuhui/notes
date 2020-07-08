@@ -11,7 +11,7 @@
 - [Tutorials](#tutorials)
 - [Tools](#tools)
 - [Test](#test)
-- [Debugging](#debugging)
+- [Debug](#debug)
 
 <https://nodejs.org/en/>
 
@@ -26,6 +26,8 @@
 <https://npm.runkit.com/>
 
 <https://github.com/node-modules>
+
+[npms - A better and open source search for node packages](https://npms.io/)
 
 ## Quick Start
 
@@ -79,6 +81,6 @@
 <https://mochajs.org/>
 
 <!-- #node-debug -->
-## Debugging
+## Debug
 
 [node-debug.md](node-debug.md)

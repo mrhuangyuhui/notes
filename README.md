@@ -1,9 +1,6 @@
 <!-- omit in toc -->
 # Notes
 
-- [Codes](#codes)
-  - [C](#c)
-  - [PHP](#php)
 - [Tutorials](#tutorials)
 - [Mirrors](#mirrors)
 - [API](#api)
@@ -31,24 +28,6 @@ git push https://github.com/mrhuangyuhui/notes.git
 [Backus–Naur form - Wikipedia](https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form)
 
 [巴科斯范式 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/%E5%B7%B4%E7%A7%91%E6%96%AF%E8%8C%83%E5%BC%8F)
-
-## Codes
-
-开源代码
-
-### C
-
-- [ ] [nginx](https://github.com/nginx/nginx)
-
-[JavaScript 开源代码](https://gitee.com/mrhuangyuhui/js-codes)
-
-[Objective-C 开源代码](https://gitee.com/mrhuangyuhui/objc-codes)
-
-### PHP
-
-<https://github.com/laravel/laravel>
-
-<https://github.com/laravel/framework>
 
 ## Tutorials
 

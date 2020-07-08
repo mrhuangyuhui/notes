@@ -19,7 +19,7 @@
 
 <https://npm.runkit.com/>
 
-<https://npms.io/>
+[npms - A better and open source search for node packages](https://npms.io/)
 
 ## Install
 
