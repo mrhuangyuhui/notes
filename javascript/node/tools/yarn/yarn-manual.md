@@ -5,6 +5,8 @@
 - [Install](#install)
 - [Repos](#repos)
 - [Commands](#commands)
+- [Configs](#configs)
+- [Docs](#docs)
 - [Mirrors](#mirrors)
 
 <https://yarnpkg.com/> | [1.x](https://classic.yarnpkg.com/en/)
@@ -15,72 +17,38 @@
 
 ## Install
 
-<https://yarnpkg.com/getting-started/install>
-
-Global Install
-
-```bash
-npm install -g yarn
-```
-
-Per-project install
-
-```bash
-cd ~/path/to/project
-
-yarn policies set-version berry # below v1.22
-
-yarn set version berry          # on v1.22+
-```
-
-验证安装结果
-
-```bash
-yarn --version
-```
-
-1.x <https://classic.yarnpkg.com/en/docs/install>
+[yarn-install.md](yarn-install.md)
 
 ## Repos
 
 <https://github.com/yarnpkg>
 
-<https://github.com/yarnpkg/yarn>
+1.x <https://github.com/yarnpkg/yarn>
 
-<https://github.com/yarnpkg/berry>
+2.x <https://github.com/yarnpkg/berry>
 
 <https://github.com/mrhuangyuhui/yarn-playground>
 
 ## Commands
 
-<https://yarnpkg.com/getting-started/usage>
+[yarn-cmd.md](yarn-cmd.md)
 
-<https://yarnpkg.com/cli>
+## Configs
 
-```bash
-yarn -h
-yarn --help
-yarn help
+[yarn-configs.md](yarn-configs.md)
 
-yarn install -h
-yarn install --help
-```
+## Docs
 
-```bash
-yarn -v
-yarn --version
-```
+1.x <https://classic.yarnpkg.com/en/docs>
 
 ## Mirrors
 
-查看源地址
+1.x
 
 ```bash
+# 查看源地址
 yarn config get registry
-```
 
-修改源地址
-
-```bash
+# 修改源地址
 yarn config set registry https://registry.npm.taobao.org/
 ```
