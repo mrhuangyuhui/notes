@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Yarn Commands - 1.x
+# Yarn 1.x Commands
 
 - [`yarn install`](#yarn-install)
 - [`yarn add`](#yarn-add)
