@@ -3,11 +3,12 @@
 
 - [Quick Start](#quick-start)
 - [Install](#install)
+- [Mirrors](#mirrors)
 - [Repos](#repos)
 - [Commands](#commands)
 - [Configs](#configs)
 - [Docs](#docs)
-- [Mirrors](#mirrors)
+- [Guides](#guides)
 
 <https://classic.yarnpkg.com/en/>
 
@@ -18,6 +19,16 @@
 ## Install
 
 [yarn-install.md](yarn-install.md)
+
+## Mirrors
+
+```bash
+# 查看源地址
+yarn config get registry
+
+# 修改源地址
+yarn config set registry https://registry.npm.taobao.org/
+```
 
 ## Repos
 
@@ -33,18 +44,16 @@
 
 ## Configs
 
-[yarn-configs.md](yarn-configs.md)
+[Yarn Configs](configs/README.md)
 
 ## Docs
 
 <https://classic.yarnpkg.com/en/docs>
 
-## Mirrors
+## Guides
 
-```bash
-# 查看源地址
-yarn config get registry
+[The Yarn Workflow | Yarn](https://classic.yarnpkg.com/en/docs/yarn-workflow)
 
-# 修改源地址
-yarn config set registry https://registry.npm.taobao.org/
-```
+[Migrating from npm | Yarn](https://classic.yarnpkg.com/en/docs/migrating-from-npm)
+
+[Creating a Package | Yarn](https://classic.yarnpkg.com/en/docs/creating-a-package)
