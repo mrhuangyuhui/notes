@@ -12,15 +12,11 @@
 
 <https://github.com/topics/swift>
 
-## Refrences
-
-<https://developer.apple.com/documentation/swift>
+## Language Reference
 
 [Swift Standard Library](https://developer.apple.com/documentation/swift/swift_standard_library)
 
 ## Tutorials
-
-<https://docs.swift.org/swift-book/>
 
 <https://www.raywenderlich.com/ios>
 
