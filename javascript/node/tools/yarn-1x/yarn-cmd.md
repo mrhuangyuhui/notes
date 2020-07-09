@@ -23,6 +23,11 @@ yarn -h
 yarn --help
 yarn help
 
+Options:
+--registry <url>                    override configuration registry
+```
+
+```bash
 yarn install -h
 yarn install --help
 yarn help install
