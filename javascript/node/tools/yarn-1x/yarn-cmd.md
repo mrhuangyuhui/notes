@@ -38,6 +38,7 @@ yarn --version
 ```bash
 yarn
 yarn install
+yarn install --registry https://registry.npm.taobao.org/
 ```
 
 ## `yarn install`
@@ -207,6 +208,12 @@ yarn policies set-version # will download the latest stable release
 yarn policies set-version --rc # will download the latest rc release
 yarn policies set-version 1.13.0 # will download a specific version
 yarn policies set-version '^1.12.0' # will download the latest minor
+```
+
+`.yarnrc`
+
+```
+yarn-path ".yarn/releases/yarn-1.22.4.js"
 ```
 
 ## `yarn test`
