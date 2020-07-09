@@ -11,6 +11,8 @@
 
 <https://console.firebase.google.com/>
 
+[Firebase iOS Release Notes](https://firebase.google.com/support/release-notes/ios)
+
 ## Repos
 
 <https://github.com/firebase/>

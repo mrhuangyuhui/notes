@@ -1,4 +1,4 @@
-# AppsFlyer SDK
+# AppsFlyer
 
 [我的应用程序](https://hq1.appsflyer.com/apps/myapps)
 
@@ -9,3 +9,7 @@
 [测试 SDK 集成](https://support.appsflyer.com/hc/zh-cn/articles/115000262823-Testing-iOS-SDK-Integration)
 
 [添加测试设备至白名单](https://support.appsflyer.com/hc/zh-cn/articles/207031996--Whitelisting-a-Test-Device)
+
+## Repos
+
+<https://github.com/AppsFlyerSDK/AppsFlyerFramework>
