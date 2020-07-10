@@ -1,5 +1,7 @@
 # Swift Manual
 
+<https://swift.org/>
+
 <https://developer.apple.com/swift/>
 
 <https://developer.apple.com/documentation/swift>
