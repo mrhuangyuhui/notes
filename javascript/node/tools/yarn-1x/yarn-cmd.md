@@ -10,9 +10,9 @@
 - [`yarn policies`](#yarn-policies)
 - [`yarn test`](#yarn-test)
 - [`yarn list`](#yarn-list)
+- [`yarn bin`](#yarn-bin)
 - [`yarn info`](#yarn-info)
 - [`yarn init`](#yarn-init)
-- [`yarn bin`](#yarn-bin)
 
 <https://classic.yarnpkg.com/en/docs/usage>
 
@@ -256,38 +256,6 @@ yarn help list
 yarn list
 ```
 
-## `yarn info`
-
-<https://classic.yarnpkg.com/en/docs/cli/info>
-
-Show information about a package.
-
-```bash
-yarn info -h
-yarn info --help
-yarn help info
-```
-
-```bash
-yarn info react
-```
-
-## `yarn init`
-
-<https://classic.yarnpkg.com/en/docs/cli/init>
-
-Interactively creates or updates a `package.json` file.
-
-```bash
-yarn init -h
-yarn init --help
-yarn help init
-```
-
-```bash
-yarn init
-```
-
 ## `yarn bin`
 
 <https://classic.yarnpkg.com/en/docs/cli/bin>
@@ -310,3 +278,36 @@ $ yarn bin jest
 /workspace/formidable/node_modules/.bin/jest
 ```
 
+## `yarn info`
+
+<https://classic.yarnpkg.com/en/docs/cli/info>
+
+Show information about a package.
+
+```bash
+yarn info -h
+yarn info --help
+yarn help info
+```
+
+```bash
+yarn info react
+yarn info react@15.3.0
+yarn info react versions
+```
+
+## `yarn init`
+
+<https://classic.yarnpkg.com/en/docs/cli/init>
+
+Interactively creates or updates a `package.json` file.
+
+```bash
+yarn init -h
+yarn init --help
+yarn help init
+```
+
+```bash
+yarn init
+```
