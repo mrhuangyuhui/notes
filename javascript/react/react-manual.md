@@ -9,9 +9,6 @@
 - [References](#references)
 - [Examples](#examples)
 - [Tools](#tools)
-- [IDE](#ide)
-  - [WebStorm](#webstorm)
-  - [VS Code](#vs-code)
 
 <https://reactjs.org/> | [zh-cn](https://zh-hans.reactjs.org/)
 
@@ -81,12 +78,6 @@
 
 <http://babeljs.io/docs/editors>
 
-## IDE
-
-### [WebStorm](https://www.jetbrains.com/webstorm/)
-
-<https://www.jetbrains.com/help/webstorm/meet-webstorm.html>
-
-### [VS Code](https://code.visualstudio.com/)
+[React Developer Tools - Chrome Web Store](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 
 <https://code.visualstudio.com/docs/nodejs/reactjs-tutorial>

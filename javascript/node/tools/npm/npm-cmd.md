@@ -65,6 +65,13 @@ npm init -y
 
 [Using a `package.json`](https://docs.npmjs.com/getting-started/using-a-package.json)
 
+<!-- #todo -->
+`npm init <initializer>` is available in npm 6+
+
+```bash
+npm init react-app my-app
+```
+
 ## `npm ls`
 
 <https://docs.npmjs.com/cli/ls>
