@@ -4,9 +4,9 @@
 
 <https://developer.apple.com/swift/>
 
-<https://developer.apple.com/documentation/swift>
+<https://developer.apple.com/swift/resources/>
 
-<https://docs.swift.org/swift-book/>
+<https://developer.apple.com/documentation/swift>
 
 <https://swift.org/download/>
 
@@ -15,6 +15,8 @@
 <https://github.com/topics/swift>
 
 ## Language Reference
+
+<https://docs.swift.org/swift-book/>
 
 [Swift Standard Library](https://developer.apple.com/documentation/swift/swift_standard_library)
 
