@@ -4,7 +4,7 @@
 - [Quick Start](#quick-start)
 - [Install](#install)
 - [Repos](#repos)
-- [Documentation](#documentation)
+- [Docs](#docs)
 - [Tutorials](#tutorials)
 - [References](#references)
 - [Examples](#examples)
@@ -15,11 +15,11 @@
 
 <https://reactjs.org/> | [zh-cn](https://zh-hans.reactjs.org/)
 
+<https://github.com/topics/react>
+
 <https://github.com/enaqx/awesome-react>
 
 <https://github.com/NervJS/taro>
-
-[create-react-app](https://github.com/facebookincubator/create-react-app)
 
 ## Quick Start
 
@@ -28,6 +28,8 @@
 [Hello World](https://reactjs.org/docs/hello-world.html) | [zh-cn](https://zh-hans.reactjs.org/docs/hello-world.html)
 
 ## Install
+
+[create-react-app.md](tools/create-react-app.md)
 
 <https://zh-hans.reactjs.org/versions/>
 
@@ -39,29 +41,13 @@
 
 [CDN Links](https://reactjs.org/docs/cdn-links.html)
 
-[create-react-app](https://github.com/facebookincubator/create-react-app)
-
-```bash
-npx create-react-app my-app
-cd my-app
-npm start
-```
-
 ## Repos
 
-<https://github.com/facebook/react>
+<https://github.com/facebook/react> | [Gitee](https://gitee.com/mrhuangyuhui/react)
 
-```bash
-git clone https://github.com/facebook/react.git
-```
+<https://github.com/mrhuangyuhui/react-playground>
 
-<https://gitee.com/mrhuangyuhui/react>
-
-```bash
-git clone git@gitee.com:mrhuangyuhui/react.git
-```
-
-## Documentation
+## Docs
 
 <https://reactjs.org/docs/>
 
@@ -71,23 +57,7 @@ git clone git@gitee.com:mrhuangyuhui/react.git
 
 ## Tutorials
 
-<https://www.w3schools.com/react/default.asp>
-
-<https://zh-hans.reactjs.org/docs/hello-world.html>
-
-[Tutorial](https://reactjs.org/tutorial/tutorial.html) | [zh-cn](https://zh-hans.reactjs.org/tutorial/tutorial.html)
-
-[Advanced Guides](https://reactjs.org/docs/jsx-in-depth.html)
-
-[ReactJS Tutorial](https://www.tutorialspoint.com/reactjs/)
-
-<https://www.taniarascia.com/getting-started-with-react/>
-
-[React 教程](http://www.runoob.com/react/react-tutorial.html)
-
-[React 技术栈系列教程](http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html)
-
-<https://github.com/markerikson/react-redux-links>
+[react/tutorials](tutorials/README.md)
 
 ## References
 
