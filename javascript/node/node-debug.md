@@ -1,5 +1,7 @@
 <!-- #node-debug -->
-# Node Debugging
+# Node Debug
+
+[Debugging - Getting Started | Node.js](https://nodejs.org/en/docs/guides/debugging-getting-started/)
 
 ## VSCode
 
