@@ -5,9 +5,9 @@
 - [Install](#install)
 - [Repos](#repos)
 - [Docs](#docs)
-- [Tutorials](#tutorials)
 - [References](#references)
 - [Examples](#examples)
+- [Tutorials](#tutorials)
 - [Tools](#tools)
 
 <https://reactjs.org/> | [zh-cn](https://zh-hans.reactjs.org/)
@@ -52,10 +52,6 @@
 
 <http://facebook.github.io/jsx/>
 
-## Tutorials
-
-[react/tutorials](tutorials/README.md)
-
 ## References
 
 <https://reactjs.org/docs/react-api.html>
@@ -67,6 +63,10 @@
 <https://reactjs.org/community/examples.html>
 
 <https://zh-hans.reactjs.org/community/examples.html>
+
+## Tutorials
+
+[react/tutorials](tutorials/README.md)
 
 ## Tools
 
