@@ -60,9 +60,7 @@
 
 ## Examples
 
-<https://reactjs.org/community/examples.html>
-
-<https://zh-hans.reactjs.org/community/examples.html>
+<https://reactjs.org/community/examples.html> | [zh-cn](https://zh-hans.reactjs.org/community/examples.html)
 
 ## Tutorials
 
