@@ -66,7 +66,7 @@
 
 ## Tutorials
 
-[react/tutorials](tutorials/README.md)
+[react-tutorials.md](react-tutorials.md)
 
 ## Tools
 
