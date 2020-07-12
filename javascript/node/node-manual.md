@@ -27,6 +27,8 @@
 
 [Usage & Example | Node.js v12.18.2 Documentation](https://nodejs.org/docs/latest-v12.x/api/synopsis.html)
 
+[Introduction to Node.js](https://nodejs.dev/learn/introduction-to-nodejs)
+
 <!-- #node-install -->
 ## Install
 
@@ -42,11 +44,11 @@
 
 ## Repos
 
-<https://github.com/nodejs/node>
-
-<https://gitee.com/mrhuangyuhui/node>
+<https://github.com/nodejs/node> | [Gitee](https://gitee.com/mrhuangyuhui/node)
 
 <https://github.com/node-modules>
+
+<https://github.com/nodejs/nodejs.dev>
 
 ## Docs
 
@@ -55,6 +57,8 @@
 ## Guides
 
 <https://nodejs.org/en/docs/guides/>
+
+[Differences between Node.js and the Browser](https://nodejs.dev/learn/differences-between-nodejs-and-the-browser)
 
 ## API
 
@@ -67,7 +71,7 @@
 <!-- #node-tutorial -->
 ## Tutorials
 
-<https://nodejs.dev/learn>
+<https://nodejs.dev/learn> | [GitHub](https://github.com/nodejs/nodejs.dev)
 
 [Learn Node.js (tutorialspoint)](https://www.tutorialspoint.com/nodejs/index.htm)
 

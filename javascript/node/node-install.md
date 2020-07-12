@@ -12,6 +12,8 @@
 
 <https://nodejs.org/en/download/releases/>
 
+[How to install Node.js](https://nodejs.dev/learn/how-to-install-nodejs)
+
 <!-- #node-docker -->
 ## Docker
 
