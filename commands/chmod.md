@@ -1,5 +1,9 @@
 # `chmod`
 
+```bash
+man chmod
+```
+
 用数字修改文件的权限
 
 ```bash
