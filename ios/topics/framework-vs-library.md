@@ -1,4 +1,4 @@
-# iOS - Frameworks
+# Framework vs Library
 
 <https://www.jianshu.com/p/0b00d27ed2f5>
 
@@ -17,3 +17,7 @@
 删除 `Current Library Version` 的值
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/ios/ios-frameworks-3.jpg)
+
+[Framework vs Library (Cocoa, iOS) – Knowledge Stack](http://www.knowstack.com/framework-vs-library-cocoa-ios/)
+
+[How to Create a Framework for iOS | raywenderlich.com](https://www.raywenderlich.com/2430-how-to-create-a-framework-for-ios)
