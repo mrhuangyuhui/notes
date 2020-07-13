@@ -60,7 +60,7 @@
 
 ## Examples
 
-<https://reactjs.org/community/examples.html> | [zh-cn](https://zh-hans.reactjs.org/community/examples.html)
+[react-examples.md](react-examples.md)
 
 ## Tutorials
 
