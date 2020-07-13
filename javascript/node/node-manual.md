@@ -17,6 +17,8 @@
 
 <https://nodejs.org/en/>
 
+<https://github.com/sindresorhus/awesome-nodejs>
+
 [Node.js Frameworks and Tools](https://nodejs.dev/learn#nodejs-frameworks-and-tools)
 
 [npms - A better and open source search for node packages](https://npms.io/)
