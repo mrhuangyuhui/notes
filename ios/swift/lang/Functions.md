@@ -14,6 +14,10 @@
   - [Omitting Argument Labels](#omitting-argument-labels)
   - [Default Parameter Values](#default-parameter-values)
   - [Variadic Parameters](#variadic-parameters)
+- [Function Types](#function-types)
+  - [Using Function Types](#using-function-types)
+  - [Function Types as Parameter Types](#function-types-as-parameter-types)
+  - [Function Types as Return Types](#function-types-as-return-types)
 
 ## Defining and Calling Functions
 
@@ -148,3 +152,48 @@ arithmeticMean(1, 2, 3, 4, 5)
 > NOTE
 >
 > A function may have at most one variadic parameter.
+
+## [Function Types](https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID174)
+
+```swift
+func addTwoInts(_ a: Int, _ b: Int) -> Int {
+    return a + b
+}
+func multiplyTwoInts(_ a: Int, _ b: Int) -> Int {
+    return a * b
+}
+```
+
+### Using Function Types
+
+```swift
+var mathFunction: (Int, Int) -> Int = addTwoInts
+print("Result: \(mathFunction(2, 3))")
+
+mathFunction = multiplyTwoInts
+print("Result: \(mathFunction(2, 3))")
+```
+
+### Function Types as Parameter Types
+
+```swift
+func printMathResult(_ mathFunction: (Int, Int) -> Int, _ a: Int, _ b: Int) {
+    print("Result: \(mathFunction(a, b))")
+}
+printMathResult(addTwoInts, 3, 5)
+```
+
+### Function Types as Return Types
+
+```swift
+func stepForward(_ input: Int) -> Int {
+    return input + 1
+}
+func stepBackward(_ input: Int) -> Int {
+    return input - 1
+}
+
+func chooseStepFunction(backward: Bool) -> (Int) -> Int {
+    return backward ? stepBackward : stepForward
+}
+```

@@ -1,4 +1,9 @@
+<!-- omit in toc -->
 # Properties
+
+- [Stored Properties](#stored-properties)
+- [Computed Properties](#computed-properties)
+- [Type Properties](#type-properties)
 
 <https://docs.swift.org/swift-book/LanguageGuide/Properties.html>
 
@@ -11,6 +16,8 @@ Computed properties are provided by classes, structures, and enumerations. Store
 [Assigning Constant Properties During Initialization](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID212)
 
 ## [Computed Properties](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID259)
+
+In addition to stored properties, classes, structures, and enumerations can define computed properties, which do not actually store a value. Instead, they provide a getter and an optional setter to retrieve and set other properties and values indirectly.
 
 ```swift
 struct Point {
