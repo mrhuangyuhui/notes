@@ -16,6 +16,7 @@
 - [ ] <https://nodejs.org/en/docs/guides/>
 - [ ] <https://nodejs.dev/learn#nodejs-frameworks-and-tools>
 - [ ] <https://eslint.org/docs/user-guide/configuring>
+- [ ] delegates
 
 ## IDE
 

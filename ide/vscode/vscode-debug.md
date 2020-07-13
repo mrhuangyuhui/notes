@@ -1,9 +1,11 @@
 <!-- #vscode-debug -->
 <!-- omit in toc -->
-# VSCode Debugging
+# VSCode Debug
 
-- [Python](#python)
+- [Mocha](#mocha)
+- [Node](#node)
 - [PHP](#php)
+- [Python](#python)
 
 <https://github.com/microsoft/vscode-recipes>
 
@@ -11,9 +13,13 @@
 
 [Debugger for Chrome - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 
-## Python
+## Mocha
 
-[Python - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+[mocha-debug.md](/javascript/node/tools/mocha/mocha-debug.md)
+
+## Node
+
+[node-debug.md](/javascript/node/node-debug.md)
 
 ## PHP
 
@@ -26,3 +32,7 @@
 [Debugging: Configure Xdebug + Laravel Homestead + VS Code + PHPUnit](https://tighten.co/blog/debugging-configure-xdebug-and-laravel-homestead-and-vs-code-and-phpunit/)
 
 [Debugging: Configure VS Code + XDebug + PHPUnit](https://tighten.co/blog/configure-vscode-to-debug-phpunit-tests-with-xdebug/)
+
+## Python
+
+[Python - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
