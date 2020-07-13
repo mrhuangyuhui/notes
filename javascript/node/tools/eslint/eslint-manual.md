@@ -13,3 +13,7 @@
 ## Commands
 
 <https://eslint.org/docs/user-guide/command-line-interface>
+
+## Examples
+
+<https://github.com/node-formidable/formidable/blob/master/.eslintrc.js>
