@@ -9,6 +9,7 @@
 - [Examples](#examples)
 - [Tutorials](#tutorials)
 - [Tools](#tools)
+- [Debug](#debug)
 
 <https://reactjs.org/> | [zh-cn](https://zh-hans.reactjs.org/)
 
@@ -79,3 +80,7 @@
 [React Developer Tools - Chrome Web Store](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 
 <https://code.visualstudio.com/docs/nodejs/reactjs-tutorial>
+
+## Debug
+
+[react-debug.md](react-debug.md)

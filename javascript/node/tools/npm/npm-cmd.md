@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# NPM - Commands
+# NPM Commands
 
 - [`npm install`](#npm-install)
 - [`npm init`](#npm-init)
@@ -13,7 +13,7 @@
 npm
 npm -h
 npm help
-# 查看子命令帮助
+
 npm install -h
 ```
 
@@ -33,17 +33,33 @@ npm help npm
 
 <https://docs.npmjs.com/cli/install>
 
-安装
+Install a package
 
 ```bash
-# 安装 package.json 列出的包
+npm help install
+npm install -h
+npm install --help
+```
+
+安装项目依赖
+
+```bash
 npm install
-# 局部安装指定包
+```
+
+安装指定包
+
+```bash
 npm install jshint
-# 安装并保存到 package.json
+
+# 保存到 package.json
 npm install jshint --save
 npm install jshint --save-dev
-# 全局安装指定包
+```
+
+全局安装
+
+```bash
 npm install -g jshint
 ```
 

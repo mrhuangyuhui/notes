@@ -6,6 +6,7 @@
 - [Node](#node)
 - [PHP](#php)
 - [Python](#python)
+- [React](#react)
 
 <https://github.com/microsoft/vscode-recipes>
 
@@ -36,3 +37,7 @@
 ## Python
 
 [Python - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
+## React
+
+[react-vscode.md](/javascript/react/react-vscode.md)
