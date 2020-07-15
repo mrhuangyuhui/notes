@@ -9,7 +9,7 @@
 - [Examples](#examples)
 - [Tutorials](#tutorials)
 - [Tools](#tools)
-- [Debug](#debug)
+- [IDE](#ide)
 
 <https://reactjs.org/> | [zh-cn](https://zh-hans.reactjs.org/)
 
@@ -81,6 +81,6 @@
 
 <https://code.visualstudio.com/docs/nodejs/reactjs-tutorial>
 
-## Debug
+## IDE
 
-[react-debug.md](react-debug.md)
+[react-webstorm.md](/javascript/react/ide/react-webstorm.md)
