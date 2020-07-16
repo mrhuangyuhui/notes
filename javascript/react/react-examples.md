@@ -4,3 +4,4 @@
 
 - [ ] <https://github.com/arnab-datta/counter-app>
 - [ ] <https://github.com/ahfarmer/calculator>
+- [ ] <https://github.com/ahfarmer/emoji-search>
