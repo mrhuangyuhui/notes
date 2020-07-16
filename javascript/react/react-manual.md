@@ -5,6 +5,7 @@
 - [Install](#install)
 - [Repos](#repos)
 - [Docs](#docs)
+- [Guides](#guides)
 - [References](#references)
 - [Examples](#examples)
 - [Tutorials](#tutorials)
@@ -52,6 +53,10 @@
 <https://doc.react-china.org/>
 
 <http://facebook.github.io/jsx/>
+
+## Guides
+
+[React Guides](/javascript/react/guides/README.md)
 
 ## References
 
