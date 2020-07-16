@@ -1,6 +1,16 @@
-# Closures
+<!-- omit in toc -->
+# [Closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
 
-<https://docs.swift.org/swift-book/LanguageGuide/Closures.html>
+- [Closure Expressions](#closure-expressions)
+  - [Closure Expression Syntax](#closure-expression-syntax)
+  - [Inferring Type From Context](#inferring-type-from-context)
+  - [Implicit Returns from Single-Expression Closures](#implicit-returns-from-single-expression-closures)
+  - [Shorthand Argument Names](#shorthand-argument-names)
+  - [Operator Methods](#operator-methods)
+- [Trailing Closures](#trailing-closures)
+- [Capturing Values](#capturing-values)
+- [Escaping Closures](#escaping-closures)
+- [Autoclosures](#autoclosures)
 
 ## [Closure Expressions](https://docs.swift.org/swift-book/LanguageGuide/Closures.html#ID95)
 
@@ -129,4 +139,58 @@ let incrementBySeven = makeIncrementer(forIncrement: 7)
 
 incrementBySeven()
 // returns a value of 7
+```
+
+## [Escaping Closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html#ID546)
+
+A closure is said to escape a function when the closure is passed as an argument to the function, but is called after the function returns.
+
+```swift
+var completionHandlers = [() -> Void]()
+func someFunctionWithEscapingClosure(completionHandler: @escaping () -> Void) {
+    completionHandlers.append(completionHandler)
+}
+```
+
+## [Autoclosures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html#ID543)
+
+An autoclosure is a closure that is automatically created to wrap an expression that’s being passed as an argument to a function. It doesn’t take any arguments, and when it’s called, it returns the value of the expression that’s wrapped inside of it.
+
+An autoclosure lets you delay evaluation, because the code inside isn’t run until you call the closure.
+
+```swift
+var customersInLine = ["Chris", "Alex", "Ewa", "Barry", "Daniella"]
+print(customersInLine.count)
+// Prints "5"
+
+let customerProvider = { customersInLine.remove(at: 0) }
+print(customersInLine.count)
+// Prints "5"
+
+print("Now serving \(customerProvider())!")
+// Prints "Now serving Chris!"
+print(customersInLine.count)
+// Prints "4"
+```
+
+You get the same behavior of delayed evaluation when you pass a closure as an argument to a function.
+
+```swift
+// customersInLine is ["Alex", "Ewa", "Barry", "Daniella"]
+func serve(customer customerProvider: () -> String) {
+    print("Now serving \(customerProvider())!")
+}
+serve(customer: { customersInLine.remove(at: 0) } )
+// Prints "Now serving Alex!"
+```
+
+The version of serve(customer:) below performs the same operation but, instead of taking an explicit closure, it takes an autoclosure by marking its parameter’s type with the `@autoclosure` attribute.
+
+```swift
+// customersInLine is ["Ewa", "Barry", "Daniella"]
+func serve(customer customerProvider: @autoclosure () -> String) {
+    print("Now serving \(customerProvider())!")
+}
+serve(customer: customersInLine.remove(at: 0))
+// Prints "Now serving Ewa!"
 ```
