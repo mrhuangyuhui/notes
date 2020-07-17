@@ -26,6 +26,8 @@
 
 [Hello World](https://reactjs.org/docs/hello-world.html) | [zh-cn](https://zh-hans.reactjs.org/docs/hello-world.html)
 
+[初识 React](https://weread.qq.com/web/reader/b7e3278071db56f8b7ed9c4kc20321001cc20ad4d76f5ae)
+
 ## Install
 
 [create-react-app.md](tools/create-react-app.md)
