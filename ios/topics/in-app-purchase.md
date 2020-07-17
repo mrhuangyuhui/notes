@@ -1,4 +1,10 @@
-# iOS - In-App Purchase
+# In-App Purchase
+
+[测试 App 内购买项目 - App Store Connect 帮助](https://help.apple.com/app-store-connect/#/dev7e89e149d)
+
+[Testing In-App Purchases with Sandbox | Apple Developer Documentation](https://developer.apple.com/documentation/storekit/in-app_purchase/testing_in-app_purchases_with_sandbox)
+
+[In-App Purchase | Apple Developer Documentation](https://developer.apple.com/documentation/storekit/in-app_purchase)
 
 <!-- 退款 -->
 ## Refund
