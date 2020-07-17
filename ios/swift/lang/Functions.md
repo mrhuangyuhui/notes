@@ -14,6 +14,7 @@
   - [Omitting Argument Labels](#omitting-argument-labels)
   - [Default Parameter Values](#default-parameter-values)
   - [Variadic Parameters](#variadic-parameters)
+  - [In-Out Parameters](#in-out-parameters)
 - [Function Types](#function-types)
   - [Using Function Types](#using-function-types)
   - [Function Types as Parameter Types](#function-types-as-parameter-types)
@@ -152,6 +153,26 @@ arithmeticMean(1, 2, 3, 4, 5)
 > NOTE
 >
 > A function may have at most one variadic parameter.
+
+### In-Out Parameters
+
+> NOTE
+>
+> In-out parameters cannot have default values, and variadic parameters cannot be marked as inout.
+
+```swift
+func swapTwoInts(_ a: inout Int, _ b: inout Int) {
+    let temporaryA = a
+    a = b
+    b = temporaryA
+}
+
+var someInt = 3
+var anotherInt = 107
+swapTwoInts(&someInt, &anotherInt)
+print("someInt is now \(someInt), and anotherInt is now \(anotherInt)")
+// Prints "someInt is now 107, and anotherInt is now 3"
+```
 
 ## [Function Types](https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID174)
 
