@@ -1,8 +1,6 @@
 # Snap Shot
 
-<https://github.com/Yog9/SnapShot>
-
-<https://github.com/Yog9/SnapShot>
+<https://github.com/Yog9/SnapShot> | [Gitee](https://gitee.com/mrhuangyuhui/SnapShot)
 
 ```bash
 yarn install

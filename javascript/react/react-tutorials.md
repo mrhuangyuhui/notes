@@ -16,7 +16,7 @@
 
 [React 教程](http://www.runoob.com/react/react-tutorial.html)
 
-[React 技术栈系列教程](http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html)
+[React 技术栈系列教程 | 阮一峰](http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html)
 
 <https://github.com/markerikson/react-redux-links>
 
