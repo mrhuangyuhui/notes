@@ -1,10 +1,17 @@
-# HTML Practice
+<!-- omit in toc -->
+# HTML Manual
 
-https://developer.mozilla.org/en-US/docs/Web/HTML
+- [References](#references)
+- [Tutorials](#tutorials)
+- [Tools](#tools)
 
-## [HTML reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference)
+<https://developer.mozilla.org/en-US/docs/Web/HTML>
 
-[HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+## References
+
+[HTML reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference)
+
+[HTML elements reference - HTML: Hypertext Markup Language | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
 [HTML attribute reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 
