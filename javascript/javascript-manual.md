@@ -30,7 +30,7 @@ http://ejs.co/
 
 ## Language Reference
 
-<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference>
+[javascript-lang.md](javascript-lang.md)
 
 ## ECMAScript 6
 
