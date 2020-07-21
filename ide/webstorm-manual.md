@@ -16,6 +16,8 @@
 
 [HTTP client in WebStorm code editor](https://www.jetbrains.com/help/webstorm/http-client-in-product-code-editor.html)
 
+[Icon reference - Help | IntelliJ IDEA](https://www.jetbrains.com/help/idea/symbols.html)
+
 ## [Docker](https://www.jetbrains.com/help/webstorm/docker.html)
 
 ![img](https://gitee.com/mrhuangyuhui/images/raw/master/webstorm/webstorm-docker-1.jpg)
