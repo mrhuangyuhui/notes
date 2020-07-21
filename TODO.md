@@ -6,6 +6,7 @@
 - [Meteor](#meteor)
 - [Node](#node)
 - [IDE](#ide)
+- [Python](#python)
 - [React](#react)
 
 Angular
@@ -35,6 +36,10 @@ Ember
 ## IDE
 
 - [ ] <https://glitch.com/>
+
+## Python
+
+- [ ] <https://github.com/jakubroztocil/httpie>
 
 ## React
 
