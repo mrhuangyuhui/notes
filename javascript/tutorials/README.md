@@ -4,6 +4,10 @@
 
 <https://github.com/mdn/learning-area>
 
+<https://github.com/getify/You-Dont-Know-JS>
+
+[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+
 阮一峰系列教程
 
 - [JavaScript 教程 - 阮一峰](https://wangdoc.com/javascript/index.html) | [GitHub](https://github.com/wangdoc/javascript-tutorial) | [Gitee](https://gitee.com/mrhuangyuhui/javascript-tutorial)
