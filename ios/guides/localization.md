@@ -14,6 +14,8 @@ With iOS 13 and iPadOS 13, users can select their preferred language for your ap
 
 [Internationalizing Your iOS App: Getting Started | raywenderlich.com](https://www.raywenderlich.com/250-internationalizing-your-ios-app-getting-started)
 
+[String Resources](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/LoadingResources/Strings/Strings.html)
+
 ## API
 
 [localizedStringForKey:value:table: | Apple Developer Documentation](https://developer.apple.com/documentation/foundation/nsbundle/1417694-localizedstringforkey)
