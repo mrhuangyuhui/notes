@@ -6,7 +6,7 @@
 - [Repos](#repos)
 - [Docs](#docs)
 - [Guides](#guides)
-- [References](#references)
+- [API](#api)
 - [Examples](#examples)
 - [Tutorials](#tutorials)
 - [Tools](#tools)
@@ -60,11 +60,9 @@
 
 [React Guides](/javascript/react/guides/README.md)
 
-## References
+## API
 
-<https://reactjs.org/docs/react-api.html>
-
-<https://reactjs.org/docs/react-component.html>
+[react-api.md](react-api.md)
 
 ## Examples
 
