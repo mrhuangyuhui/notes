@@ -1,3 +1,5 @@
 # Java 语言参考
 
-[`langs/java/java-lang.md`](/langs/java/java-lang.md)
+[The Java™ Tutorials](https://docs.oracle.com/javase/tutorial/)
+
+[Learning the Java Language](https://docs.oracle.com/javase/tutorial/java/index.html)

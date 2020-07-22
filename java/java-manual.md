@@ -5,6 +5,7 @@
 - [Java SE](#java-se)
 - [Java EE](#java-ee)
 - [Docs](#docs)
+- [API](#api)
 - [Tutorials](#tutorials)
 - [Examples](#examples)
 - [Tools](#tools)
@@ -12,6 +13,8 @@
 <https://www.oracle.com/java/>
 
 <https://github.com/topics/java>
+
+<https://github.com/akullpp/awesome-java>
 
 ## Language Reference
 
@@ -29,9 +32,13 @@
 
 [Java Documentation](https://docs.oracle.com/en/java/index.html)
 
+## API
+
+[java-api.md](java-api.md)
+
 ## Tutorials
 
-[The Java™ Tutorials](https://docs.oracle.com/javase/tutorial/)
+[Java Tutorials](/java/tutorials/README.md)
 
 ## Examples
 
