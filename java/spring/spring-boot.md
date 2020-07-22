@@ -1,4 +1,17 @@
+<!-- omit in toc -->
 # Spring Boot Manual
+
+- [References](#references)
+  - [Common application properties](#common-application-properties)
+  - [Spring Boot Docs 1.5.10.RELEASE API](#spring-boot-docs-1510release-api)
+- [Maven installation](#maven-installation)
+- [Installing the Spring Boot CLI](#installing-the-spring-boot-cli)
+  - [Installation with SDKMAN!](#installation-with-sdkman)
+  - [Command-line completion](#command-line-completion)
+  - [Manual installation](#manual-installation)
+- [Documentation](#documentation)
+- [Samples](#samples)
+- [Examples](#examples)
 
 https://projects.spring.io/spring-boot/
 
@@ -116,4 +129,6 @@ $ spring <HIT TAB HERE>
 
 https://github.com/spring-projects/spring-boot/tree/v1.5.10.RELEASE/spring-boot-samples
 
+## Examples
 
+<https://github.com/macrozheng/mall>
