@@ -3,17 +3,23 @@
 
 - [Install](#install)
 - [Debug](#debug)
+- [Repos](#repos)
+- [Docs](#docs)
 - [`user-customizations.sh`](#user-customizationssh)
+- [Settler](#settler)
+- [Articles](#articles)
 
-<https://laravel.com/docs/5.8/homestead>
+<https://laravel.com/docs/homestead>
 
 <https://app.vagrantup.com/laravel/boxes/homestead>
 
-<https://github.com/laravel/homestead>
+Homestead Repo、Homestead Box、Settler Repo 三者简介：
 
-<https://gitee.com/mrhuangyuhui/laravel-homestead>
+- [Homestead Repo](https://github.com/laravel/homestead)：存放运行 Homestead 虚拟机时配置各种环境的脚本，主要是 [`Homestead.yaml`](https://github.com/laravel/homestead/blob/master/Homestead.yaml.example)；
+- [Homestead Box](https://app.vagrantup.com/laravel/boxes/homestead)：Homestead 虚拟机；
+- [Settler Repo](https://github.com/laravel/settler)：存放创建 Homestead 虚拟机时安装各种软件的脚本，主要是 [`provision.sh`](https://github.com/laravel/settler/blob/master/scripts/provision.sh)。
 
-<https://gitee.com/mrhuangyuhui/summerblue-homestead>
+> 提示：Homestead Box 的版本与 Settler Repo 的版本一一对应，例如：<https://github.com/laravel/settler/releases/tag/v9.4.0> 和 <https://app.vagrantup.com/laravel/boxes/homestead/versions/9.4.0>。
 
 ## Install
 
@@ -111,6 +117,20 @@ sudo phpdismod xdebug
 php --version | grep Xdebug
 ```
 
+## Repos
+
+<https://github.com/laravel/homestead>
+
+<https://github.com/laravel/settler>
+
+<https://gitee.com/mrhuangyuhui/laravel-homestead>
+
+<https://gitee.com/mrhuangyuhui/summerblue-homestead>
+
+## Docs
+
+<https://laravel.com/docs/homestead>
+
 ## `user-customizations.sh`
 
 自定义配置脚本
@@ -136,3 +156,11 @@ composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 # 启用调试模块
 sudo phpenmod xdebug
 ```
+
+## Settler
+
+<https://github.com/laravel/settler>
+
+## Articles
+
+[Explaining Laravel Settler](https://joeferguson.me/explaining-laravel-settler/)
