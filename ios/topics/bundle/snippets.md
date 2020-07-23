@@ -1,4 +1,4 @@
-# iOS - Bundle
+# Bundle Snippets
 
 ```objc
 - (instancetype)init {
@@ -19,7 +19,3 @@
     return self;
 }
 ```
-
----
-
-> Tags: resource, bundle
