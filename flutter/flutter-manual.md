@@ -10,8 +10,9 @@
 - [IDE](#ide)
 - [Platforms](#platforms)
 - [Docs](#docs)
-  - [Guides](#guides)
-  - [API](#api)
+- [Guides](#guides)
+- [API](#api)
+- [Examples](#examples)
 - [Tutorials](#tutorials)
 - [Packages](#packages)
 
@@ -55,14 +56,6 @@
 
 [flutter/flutter](https://github.com/flutter/flutter) | [Gitee](https://gitee.com/mrhuangyuhui/flutter)
 
-[flutter/flutter > examples](https://github.com/flutter/flutter/tree/master/examples) | [Gitee](https://gitee.com/mrhuangyuhui/flutter/tree/master/examples)
-
-[flutter/gallery](https://github.com/flutter/gallery) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-gallery)
-
-[flutter/samples](https://github.com/flutter/samples) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-samples)
-
-[nisrulz/flutter-examples](https://github.com/nisrulz/flutter-examples) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-examples)
-
 [flutter/website](https://github.com/flutter/website) | [Gitee](https://gitee.com/mrhuangyuhui/flutter-website)
 
 [cfug/flutter.cn](https://github.com/cfug/flutter.cn)
@@ -92,20 +85,20 @@
 [Flutter Documentation](https://flutter.dev/docs)
 
 <!-- #flutter-guide -->
-### Guides
+## Guides
 
 <https://flutter.dev/docs/development>
 
 [Writing custom platform-specific code](https://flutter.dev/docs/development/platform-integration/platform-channels)
 
 <!-- #flutter-api -->
-### API
+## API
 
-<https://api.flutter.dev/>
+[flutter-api.md](flutter-api.md)
 
-<https://api.flutter-io.cn/>
+## Examples
 
-[`api/flutter/README.md`](/api/flutter/README.md)
+[flutter-examples.md](flutter-examples.md)
 
 <!-- #flutter-tutorial -->
 ## Tutorials
