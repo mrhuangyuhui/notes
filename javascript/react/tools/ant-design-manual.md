@@ -10,6 +10,10 @@
 
 <https://gitee.com/mrhuangyuhui/ant-design> | [4.2.4](https://gitee.com/mrhuangyuhui/ant-design/tree/4.2.4/)
 
+<https://gitee.com/ant-design/ant-design-pro> 开箱即用的中台前端/设计解决方案。
+
+<https://gitee.com/ant-design-vue/ant-design-vue>
+
 ## Dev
 
 <https://github.com/ant-design/ant-design/wiki/Development>
