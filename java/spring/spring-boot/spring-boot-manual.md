@@ -132,3 +132,6 @@ https://github.com/spring-projects/spring-boot/tree/v1.5.10.RELEASE/spring-boot-
 ## Examples
 
 <https://github.com/macrozheng/mall>
+
+[SpringBoot全家桶：23篇博客加23个可运行项目让你对它了如指掌](https://mp.weixin.qq.com/s/0-qL3Sxnjb5Ch8ijDEZW1w)
+

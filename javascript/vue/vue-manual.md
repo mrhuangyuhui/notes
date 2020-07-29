@@ -1,4 +1,19 @@
+<!-- omit in toc -->
 # Vue Manual
+
+- [Installation](#installation)
+  - [CDN](#cdn)
+  - [NPM](#npm)
+  - [CLI](#cli)
+- [References](#references)
+- [Tools](#tools)
+  - [vue-cli](#vue-cli)
+  - [vue-devtools](#vue-devtools)
+  - [vue-router](#vue-router)
+  - [vuex](#vuex)
+  - [vue-loader](#vue-loader)
+- [Tutorials](#tutorials)
+- [Examples](#examples)
 
 <https://vuejs.org/>
 
@@ -109,14 +124,6 @@ https://www.tutorialspoint.com/vuejs/
 
 [V01 Vue.js 实战教程 - 基础篇](https://learnku.com/courses/vuejs-essential)
 
-## Samples
+## Examples
 
-https://github.com/bailicangdu/vue2-elm
-
-https://github.com/opendigg/awesome-github-vue
-
-## 学习到这
-
-## 复习到这
-
-https://cn.vuejs.org/v2/guide/events.html
+[vue-examples.md](vue-examples.md)

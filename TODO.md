@@ -11,8 +11,6 @@
 - [React](#react)
 - [Others](#others)
 
-[SpringBoot全家桶：23篇博客加23个可运行项目让你对它了如指掌](https://mp.weixin.qq.com/s/0-qL3Sxnjb5Ch8ijDEZW1w)
-
 Angular
 
 Ember
