@@ -2,6 +2,7 @@
 # NPM Commands
 
 - [`npm install`](#npm-install)
+- [`npm uninstall`](#npm-uninstall)
 - [`npm init`](#npm-init)
 - [`npm ls`](#npm-ls)
 - [`npm run`](#npm-run)
@@ -66,6 +67,16 @@ npm install -g jshint
 [Installing npm packages locally](https://docs.npmjs.com/getting-started/installing-npm-packages-locally)
 
 [Installing npm packages globally](https://docs.npmjs.com/getting-started/installing-npm-packages-globally)
+
+## `npm uninstall`
+
+<https://docs.npmjs.com/cli/uninstall.html>
+
+Remove a package
+
+```bash
+npm uninstall gitbook-cli -g
+```
 
 ## `npm init`
 
