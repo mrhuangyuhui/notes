@@ -122,6 +122,10 @@ npm run watch-poll
 
 <https://docs.npmjs.com/cli/config>
 
+<https://docs.npmjs.com/misc/config>
+
+[npmrc.md](npmrc.md)
+
 Manage the npm configuration files
 
 ```bash
