@@ -9,7 +9,6 @@
 - [References](#references)
 - [Guides](#guides)
   - [Configs](#configs)
-  - [Dockerfiles](#dockerfiles)
   - [Secrets](#secrets)
   - [Volumes](#volumes)
 - [Tutorials](#tutorials)
@@ -83,16 +82,6 @@
 ### Configs
 
 [Store configuration data using Docker Configs](https://docs.docker.com/engine/swarm/configs/)
-
-### Dockerfiles
-
-[Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
-
-[Use multi-stage builds](https://docs.docker.com/develop/develop-images/multistage-build/)
-
-[Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
-
-[Builder pattern vs. Multi-stage builds in Docker](https://blog.alexellis.io/mutli-stage-docker-builds/)
 
 ### Secrets
 
