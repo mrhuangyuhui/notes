@@ -54,3 +54,9 @@ docker run alpine echo "hello from alpine"
 # -it 交互终端
 docker run -it alpine /bin/sh
 ```
+
+映射多个端口
+
+```bash
+docker run -it -v `pwd`:/mybook -w /mybook -p 4000:4000 -p 35729:35279 mrhuangyuhui/gitbook sh
+```

@@ -11,6 +11,12 @@
 
 [Dockerizing a Node.js web app](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
 
+[node.js - Docker-compose: node_modules not present in a volume after npm install succeeds - Stack Overflow](https://stackoverflow.com/questions/30043872/docker-compose-node-modules-not-present-in-a-volume-after-npm-install-succeeds)
+
+[Using Docker Compose for NodeJS Development - via @codeship](https://rollout.io/blog/using-docker-compose-for-nodejs-development/)
+
+[Using Docker for Node.js in Development and Production - DEV](https://dev.to/alex_barashkov/using-docker-for-nodejs-in-development-and-production-3cgp)
+
 ## 12-stretch
 
 <https://github.com/nodejs/docker-node/tree/master/12/stretch>

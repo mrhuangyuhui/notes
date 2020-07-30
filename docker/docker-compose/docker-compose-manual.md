@@ -1,13 +1,11 @@
 <!-- omit in toc -->
-# Docker Compose
+# Docker Compose Manual
 
 - [Install](#install)
 - [Commands](#commands)
   - [`docker-compose run`](#docker-compose-run)
   - [`docker-compose up`](#docker-compose-up)
 - [References](#references)
-  - [Docker Compose CLI reference](#docker-compose-cli-reference)
-  - [Compose file reference](#compose-file-reference)
 - [Examples](#examples)
 
 <https://docs.docker.com/compose/>
@@ -90,13 +88,7 @@ docker-compose stop
 
 ## References
 
-### Docker Compose CLI reference
-
-<https://docs.docker.com/compose/reference/overview/>
-
-### Compose file reference
-
-<https://docs.docker.com/compose/compose-file/>
+[docker-compose.yml.md](docker-compose.yml.md)
 
 ## Examples
 
