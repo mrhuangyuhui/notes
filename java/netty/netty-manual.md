@@ -4,6 +4,8 @@
 
 <https://github.com/netty/netty>
 
+<https://gitee.com/mrhuangyuhui/netty>
+
 <http://mvnrepository.com/artifact/io.netty/netty-all>
 
 <https://legacy.gitbook.com/book/waylau/netty-4-user-guide/details>
