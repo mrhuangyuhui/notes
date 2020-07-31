@@ -23,7 +23,7 @@
 
 <https://github.com/vuejs/vue>
 
-[Dockerize Vue.js App](https://vuejs.org/v2/cookbook/dockerize-vuejs-app.html)
+<https://juejin.im/frontend/Vue.js>
 
 ## [Installation](https://cn.vuejs.org/v2/guide/installation.html)
 

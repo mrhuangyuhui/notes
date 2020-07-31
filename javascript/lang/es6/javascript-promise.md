@@ -5,3 +5,5 @@
 [Promise 对象 - ECMAScript 6入门](https://es6.ruanyifeng.com/#docs/promise)
 
 [Using Promises - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
+
+<https://juejin.im/frontend/Promise>

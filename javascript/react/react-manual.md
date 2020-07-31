@@ -12,11 +12,13 @@
 - [Tools](#tools)
 - [IDE](#ide)
 
-<https://reactjs.org/> | [zh-cn](https://zh-hans.reactjs.org/)
+<https://reactjs.org/> | [zh-hans](https://zh-hans.reactjs.org/)
 
 <https://github.com/topics/react>
 
 <https://github.com/enaqx/awesome-react>
+
+<https://juejin.im/frontend/React.js>
 
 <https://github.com/NervJS/taro>
 

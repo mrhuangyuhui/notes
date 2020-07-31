@@ -20,6 +20,8 @@
 
 <https://flutter.cn> | [GitHub](https://github.com/cfug/flutter.cn)
 
+<https://juejin.im/frontend/Flutter>
+
 > 提示：`flutter.dev` 对应的中文域名是 `flutter.cn`
 
 相关笔记：
