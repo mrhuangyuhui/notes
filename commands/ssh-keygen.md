@@ -7,7 +7,5 @@ cd ~
 
 ssh-keygen
 
-cd ~/.ssh/
-
-cat id_rsa.pub
+cat ~/.ssh/id_rsa.pub
 ```
