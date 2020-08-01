@@ -6,10 +6,10 @@
   - [NPM](#npm)
   - [CLI](#cli)
 - [Repos](#repos)
-- [References](#references)
+- [Guides](#guides)
+- [API](#api)
 - [Tools](#tools)
   - [vue-cli](#vue-cli)
-  - [vue-devtools](#vue-devtools)
   - [vue-router](#vue-router)
   - [vuex](#vuex)
   - [vue-loader](#vue-loader)
@@ -81,11 +81,13 @@ $ npm run dev
 
 <https://github.com/vuejs/vue> | [Gitee](https://gitee.com/mrhuangyuhui/vue)
 
-## References
+## Guides
+
+<https://vuejs.org/v2/guide/>
+
+## API
 
 <https://vuejs.org/v2/api/>
-
-<https://v1.vuejs.org/api/>
 
 ## Tools
 
@@ -96,10 +98,6 @@ $ npm run dev
 <https://cli.vuejs.org/>
 
 <https://github.com/vuejs/vue-cli>
-
-### vue-devtools
-
-<https://github.com/vuejs/vue-devtools>
 
 ### vue-router
 
@@ -114,8 +112,6 @@ $ npm run dev
 <http://vue-loader.vuejs.org/>
 
 ## Tutorials
-
-https://vuejs.org/v2/guide/
 
 <https://scrimba.com/g/gvuedocs>
 
