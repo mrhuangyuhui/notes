@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  gitbook:
+    build: .
+    command: gitbook serve
+    volumes:
+      - .:/mybook
+      - node_modules:/mybook/node_modules
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+
+volumes:
+  node_modules:
