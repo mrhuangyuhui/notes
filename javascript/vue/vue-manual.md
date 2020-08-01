@@ -1,10 +1,11 @@
 <!-- omit in toc -->
 # Vue Manual
 
-- [Installation](#installation)
+- [Install](#install)
   - [CDN](#cdn)
   - [NPM](#npm)
   - [CLI](#cli)
+- [Repos](#repos)
 - [References](#references)
 - [Tools](#tools)
   - [vue-cli](#vue-cli)
@@ -15,17 +16,15 @@
 - [Tutorials](#tutorials)
 - [Examples](#examples)
 
-<https://vuejs.org/>
+<https://vuejs.org/> | [cn](https://cn.vuejs.org/)
 
-<https://cn.vuejs.org/>
-
-<https://github.com/vuejs>
-
-<https://github.com/vuejs/vue>
+<https://github.com/vuejs/awesome-vue>
 
 <https://juejin.im/frontend/Vue.js>
 
-## [Installation](https://cn.vuejs.org/v2/guide/installation.html)
+## Install
+
+<https://cn.vuejs.org/v2/guide/installation.html>
 
 ### [CDN](https://cn.vuejs.org/v2/guide/installation.html#CDN)
 
@@ -75,6 +74,12 @@ $ cd my-project
 $ npm install
 $ npm run dev
 ```
+
+## Repos
+
+<https://github.com/vuejs>
+
+<https://github.com/vuejs/vue> | [Gitee](https://gitee.com/mrhuangyuhui/vue)
 
 ## References
 
