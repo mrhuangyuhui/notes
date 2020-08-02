@@ -315,4 +315,7 @@ yarn help init
 
 ```bash
 yarn init
+
+# 使用默认配置
+yarn init -y
 ```
