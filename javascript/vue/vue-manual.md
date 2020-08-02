@@ -10,7 +10,6 @@
 - [API](#api)
 - [Tools](#tools)
   - [vue-cli](#vue-cli)
-  - [vue-router](#vue-router)
   - [vuex](#vuex)
   - [vue-loader](#vue-loader)
 - [Tutorials](#tutorials)
@@ -98,10 +97,6 @@ $ npm run dev
 <https://cli.vuejs.org/>
 
 <https://github.com/vuejs/vue-cli>
-
-### vue-router
-
-<http://router.vuejs.org/>
 
 ### vuex
 

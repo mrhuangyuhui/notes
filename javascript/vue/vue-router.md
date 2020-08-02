@@ -1,10 +1,18 @@
-# Vue-router Practice
+<!-- omit in toc -->
+# Vue Router
 
-https://router.vuejs.org/
+<https://router.vuejs.org/> | [zh](https://router.vuejs.org/zh/)
 
-https://github.com/vuejs/vue-router
+- [Install](#install)
+  - [CDN](#cdn)
+  - [NPM](#npm)
+- [Repos](#repos)
+- [API](#api)
+- [Examples](#examples)
 
-## [Installation](https://router.vuejs.org/en/installation.html)
+## Install
+
+<https://router.vuejs.org/en/installation.html>
 
 ### CDN
 
@@ -26,31 +34,26 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 ```
 
-## [Examples](https://github.com/vuejs/vue-router/tree/dev/examples)
+## Repos
+
+<https://github.com/vuejs/vue-router>
+
+## API
+
+<https://router.vuejs.org/api/>
+
+## Examples
+
+<https://github.com/vuejs/vue-router/tree/dev/examples>
 
 ```bash
-# install deps
 npm install
 
-# serve examples at localhost:8080
 npm run dev
 ```
 
 如果安装 [`chromedriver`](https://www.npmjs.com/package/chromedriver) 报错，请使用以下安装方式：
+
 ```bash
 npm install chromedriver --chromedriver_cdnurl=https://npm.taobao.org/mirrors/chromedriver
 ```
-
-## API Reference
-
-### [Router Construction Options](https://router.vuejs.org/en/api/options.html)
-
-[routes](https://router.vuejs.org/en/api/options.html#routes) \
-[mode](https://router.vuejs.org/zh-cn/api/options.html#mode) \
-[base](https://router.vuejs.org/en/api/options.html#base)
-
-### [The Route Object](https://router.vuejs.org/en/api/route-object.html)
-
----
-
-Tags: `vue-addons`
