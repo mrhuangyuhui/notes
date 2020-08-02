@@ -8,14 +8,12 @@
 - [Repos](#repos)
 - [Guides](#guides)
 - [API](#api)
-- [Tools](#tools)
-  - [vue-cli](#vue-cli)
-  - [vuex](#vuex)
-  - [vue-loader](#vue-loader)
-- [Tutorials](#tutorials)
 - [Examples](#examples)
+- [Tutorials](#tutorials)
 
 <https://vuejs.org/> | [cn](https://cn.vuejs.org/)
+
+<https://github.com/topics/vue>
 
 <https://github.com/vuejs/awesome-vue>
 
@@ -80,6 +78,8 @@ $ npm run dev
 
 <https://github.com/vuejs/vue> | [Gitee](https://gitee.com/mrhuangyuhui/vue)
 
+<https://github.com/mrhuangyuhui/vue-playground>
+
 ## Guides
 
 <https://vuejs.org/v2/guide/>
@@ -88,23 +88,9 @@ $ npm run dev
 
 <https://vuejs.org/v2/api/>
 
-## Tools
+## Examples
 
-<https://jsfiddle.net/>
-
-### vue-cli
-
-<https://cli.vuejs.org/>
-
-<https://github.com/vuejs/vue-cli>
-
-### vuex
-
-<http://vuex.vuejs.org/>
-
-### vue-loader
-
-<http://vue-loader.vuejs.org/>
+[Vue Examples](/javascript/vue/examples/README.md)
 
 ## Tutorials
 
@@ -119,7 +105,3 @@ https://www.tutorialspoint.com/vuejs/
 <https://learnku.com/vuejs/courses>
 
 [V01 Vue.js 实战教程 - 基础篇](https://learnku.com/courses/vuejs-essential)
-
-## Examples
-
-[vue-examples.md](vue-examples.md)

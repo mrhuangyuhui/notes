@@ -2,7 +2,7 @@
 
 <https://github.com/vuejs/vue/tree/dev/examples>
 
-- [x] [todomvc](https://github.com/vuejs/vue/tree/v2.6.11/examples/todomvc)
+<https://github.com/tastejs/todomvc/tree/master/examples/vue>
 
 <https://cn.vuejs.org/v2/examples/>
 
