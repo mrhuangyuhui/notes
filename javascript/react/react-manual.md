@@ -68,7 +68,7 @@
 
 ## Examples
 
-[react-examples.md](react-examples.md)
+[React Examples](examples/README.md)
 
 ## Tutorials
 

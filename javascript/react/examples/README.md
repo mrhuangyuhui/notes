@@ -4,4 +4,5 @@
 
 - [x] <https://github.com/arnab-datta/counter-app>
 - [x] <https://github.com/ahfarmer/calculator>
-- [ ] <https://github.com/ahfarmer/emoji-search>
+- [x] <https://github.com/ahfarmer/emoji-search>
+- [x] <https://github.com/Yog9/SnapShot>
