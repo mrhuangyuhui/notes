@@ -24,7 +24,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.25.5/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-检查安装结果
+验证安装结果
 
 ```bash
 docker-compose --version
