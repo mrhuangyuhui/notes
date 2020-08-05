@@ -8,7 +8,7 @@
 
 <https://github.com/chasseurmic/TWRBorderedView>
 
-<https://github.com/lukagabric/LBorderView> 支持虚线
+<https://github.com/lukagabric/LBorderView> 支持虚线、不支持 Masonry
 
 <https://github.com/jzcruiser/JZBorderedView> 支持 Storyboard
 
