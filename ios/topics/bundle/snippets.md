@@ -1,4 +1,8 @@
-# Bundle Snippets
+# Snippets
+
+```objc
+[NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"SDKDemoBundle" withExtension:@"bundle"]]
+```
 
 ```objc
 - (instancetype)init {
