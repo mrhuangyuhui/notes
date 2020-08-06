@@ -10,14 +10,12 @@
   - [`config`](#config)
   - [`pull`](#pull)
   - [`checkout`](#checkout)
-  - [`brance`](#brance)
   - [`git log`](#git-log)
   - [`git reset`](#git-reset)
   - [`ssh-keygen`](#ssh-keygen)
   - [`submodule`](#submodule)
   - [`git remote`](#git-remote)
 - [Docs](#docs)
-- [Cheat-sheets](#cheat-sheets)
 - [Tutorials](#tutorials)
 - [Servers](#servers)
 
@@ -132,17 +130,6 @@ git pull
 git checkout develop
 ```
 
-### `brance`
-
-```bash
-# 列出本地分支
-git branch
-# 列出远程分支
-git branch -r
-# 列出所有分支，包括本地和远程。
-git branch -a
-```
-
 ### `git log`
 
 ```bash
@@ -193,15 +180,6 @@ git remote -v
 ## Docs
 
 <https://git-scm.com/docs>
-
-<!-- #git-cheat -->
-## Cheat-sheets
-
-<https://www.git-tower.com/blog/git-cheat-sheet-cn/>
-
-[English](https://services.github.com/on-demand/downloads/github-git-cheat-sheet/)
-
-[中文](https://services.github.com/on-demand/downloads/zh_CN/github-git-cheat-sheet/)
 
 忽略配置
 

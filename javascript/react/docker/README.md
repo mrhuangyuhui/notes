@@ -1,4 +1,13 @@
+<!-- omit in toc -->
 # React Docker
+
+- [Repos](#repos)
+- [Articles](#articles)
+- [Issues](#issues)
+
+## Repos
+
+<https://github.com/dashsaurabh/docker-react-application>
 
 <https://github.com/StephenGrider/docker-react>
 
@@ -6,11 +15,17 @@
 
 <https://github.com/switch120/sample-react-docker>
 
-[Dockerizing a React App](https://mherman.org/blog/dockerizing-a-react-app/)
+## Articles
+
+[Docker Local Development Workflow for React Application](http://progressivecoder.com/docker-local-development-workflow-for-react-application/)
+
+[Docker Multi Stage Build for running React Application on Nginx Server](http://progressivecoder.com/docker-multi-stage-build-for-running-react-application-on-nginx-server/)
 
 [How to Docker with create-react-app - RWieruch](https://www.robinwieruch.de/docker-create-react-app-development)
 
 [How to Docker Compose - RWieruch](https://www.robinwieruch.de/docker-compose)
+
+[Dockerizing a React App](https://mherman.org/blog/dockerizing-a-react-app/)
 
 [React + Docker with Security in 10 Minutes ― Scotch.io](https://scotch.io/tutorials/react-docker-with-security-in-10-minutes)
 
